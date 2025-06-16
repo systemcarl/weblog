@@ -105,9 +105,6 @@
     - I was reluctant to learn about web application, not knowing anything about
         HTML, CSS, or JavaScript.
     - But I realized it is powerful & accessible technology.
-- My entire [portfolio] is available online.
-    - Most projects are described in detail here in my [portfolio].
-    - All the code is available on [my GitHub profile].
 - Recently, I have been working on the [MRKTBOX e-commerce web application].
     - The project was conceived in late 2020, and I worked on it off and on, for
         the 5 years.
@@ -178,6 +175,9 @@
         in the future.
     - If you have any questions, comments, or suggestions, please feel free to
         [reach out to me].
+- My entire [portfolio] is available online.
+    - Most projects are described in detail here in my [portfolio].
+    - All the code is available on [my GitHub profile].
 
 #### <a id='thanks-&-follow'></a>Keep in Touch
 - Follow my work [here] or on [GitHub].
