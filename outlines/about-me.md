@@ -41,6 +41,36 @@
     - Academia is a natural environment for sharing knowledge.
     - All of my professional work has involved training and mentoring.
 
+### Philosophy of Science
+- The definition of scientific process is a method of inquiry that is
+    systematic, empirical, and reproducible.
+    - Science is not just a body of knowledge or a collection of disciplines.
+    - Understanding and applying the scientific method helps us establish
+        objective facts about the world.
+    - Without science, conclusions are biased but individual observations.
+- Scientific literacy is important for everyone, not just academics.
+    - I've committed a significant amount of time to learning and teaching
+        within the scientific community.
+    - A scientific approach to problem solving provides a reliable framework for
+        finding objective solutions to complex problems.
+- Currently, I am working on a M.Sc. thesis in Psychology
+    - My research is centered around understanding the spatial characteristics
+        of [vesper bat] echolocation.
+    - Much of the work is focused on audio signal analysis and computational
+        modelling.
+    - My study has taught me the nuance of statistical analysis and scientific
+        writing.
+- I plan to continue my research between the fields of computer science,
+    psychology, and physics.
+    - Over the last few decades the primary goal of information technology has
+        been to build systems and interfaces that are approachable and intuitive
+        to the human user.
+    - Recent goals of computer science are to perceive and react to the real
+        physical world.
+    - Ultimately, there is much to be learned still across all these fields,
+        especially their intersections.
+    - My priority is primarily to build technology, but I hope that effort will
+        also contribute to the scientific community.
 
 ### Modern, Accessible Technology
 - My time over the last 5 years has been spent writing software and building web
@@ -79,37 +109,6 @@
             - and free from monopolistic control.
     - Moving forward, I want to continue to build open-source technology that
         promotes these values.
-
-### Philosophy of Science
-- The definition of scientific process is a method of inquiry that is
-    systematic, empirical, and reproducible.
-    - Science is not just a body of knowledge or a collection of disciplines.
-    - Understanding and applying the scientific method helps us establish
-        objective facts about the world.
-    - Without science, conclusions are biased but individual observations.
-- Scientific literacy is important for everyone, not just academics.
-    - I've committed a significant amount of time to learning and teaching
-        within the scientific community.
-    - A scientific approach to problem solving provides a reliable framework for
-        finding objective solutions to complex problems.
-- Currently, I am working on a M.Sc. thesis in Psychology
-    - My research is centered around understanding the spatial characteristics
-        of [vesper bat] echolocation.
-    - Much of the work is focused on audio signal analysis and computational
-        modelling.
-    - My study has taught me the nuance of statistical analysis and scientific
-        writing.
-- I plan to continue my research between the fields of computer science,
-    psychology, and physics.
-    - Over the last few decades the primary goal of information technology has
-        been to build systems and interfaces that are approachable and intuitive
-        to the human user.
-    - Recent goals of computer science are to perceive and react to the real
-        physical world.
-    - Ultimately, there is much to be learned still across all these fields,
-        especially their intersections.
-    - My priority is primarily to build technology, but I hope that effort will
-        also contribute to the scientific community.
 
 ### The Best Way to Learn
 - There's nothing that I value more than learning.
