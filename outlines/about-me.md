@@ -14,6 +14,13 @@
     - This also serves as a personal introduction to my work, and (hopefully) a
         way to connect with with the online community.
     - It will be a good opportunity to reflect on past successes and failures.
+<!-- - In this article, I will reflect on my journey, thus far. -->
+    <!-- - I will also discuss past projects, current work, and future interests in
+        science, technology, & education. -->
+    <!-- - Itemized lists of my work, my [resume]() and [curriculum vita]() are both
+        available. -->
+    <!-- - All of these documents are living records, and I plan to update them
+        regularly. -->
 
 ## A Journey So Far
 - I have always loved science and computers.
@@ -146,7 +153,10 @@
         [reach out to me].
 
 #### <a id='thanks-&-follow'></a>Keep in Touch
-- Follow my work [here] or on [GitHub].
+- Follow my work [here] by:
+    - [subscribing] for updates,
+    - following me on [BlueSky](),
+    - or checking in on [my GitHub profile](https://github.com/icarlthiscode).
 
 [my writing]: https://carledwardlyons.ca/articles/
 [my projects]: https://carledwardlyons.ca/articles/projects/
