@@ -97,30 +97,42 @@
         education.
 
 ### Modern, Accessible Technology
-- My time over the last 5 years has been spent writing software and building web
+- For a long time, I did not consider a career in software development.
+    - I am mostly self taught.
+    - I have only taken few formal Python & C++ classes.
+        - During my undergraduate studies, I took some courses about simulation,
+            computational mathematics, and modelling.
+    - It wasn't until after working in electrical engineering that I realized
+        software development could be viable career.
+    - Not knowing anything about HTML, CSS, or JavaScript, I was reluctant to
+        learn about web application.
+        - I realized the power & accessibility of the technology after building
+            a web application myself.
+
+#### Recent Projects
+- Over the last 5 years I have also been writing software and building web
     applications.
-    - Mostly self taught, with only a few formal Python & C++ classes in my
-        undergraduate studies, I didn't consider a career in software until
-        a few years after graduating.
-    - I was reluctant to learn about web application, not knowing anything about
-        HTML, CSS, or JavaScript.
-    - But I realized it is powerful & accessible technology.
-- Recently, I have been working on the [MRKTBOX e-commerce web application].
-    - The project was conceived in late 2020, and I worked on it off and on, for
-        the 5 years.
-    - The scope of the project changed over time.
-    - The goal was to create a multi-channel e-commerce application the
+    - Much of my software development work happened concurrently with my
+        graduate studies.
+    - From 2020 to 2025, I worked on the [MRKTBOX e-commerce web application] on
+        and off.
+    - The goal was to create a multi-channel e-commerce application that
         intuitively supported cafe, catering, home delivery and other special
         offerings.
     - The application comprises a custom back-end service with using a
         [re-written OpenTender front-end application].
     - The details of the [MRKTBOX project] are in my [portfolio].
     - The open source code-base is available on [MRKTBOX's GitHub repository].
-- Since then, I've been working on [this weblog].
-    - The goal is to create an open-source, self-hosted, modular, and extensible
-        blogging service that is easy to use and maintain.
-    - My priority is to create modern, accessible technology that is easy to use
-        and maintain.
+- Since finishing the MRKTBOX project, I have been working on [this weblog].
+    - Primarily, I am building a platform for sharing guides, professional tips,
+        and other articles.
+    - This is also a prototype for an open-source, modular, & extensible
+        blogging service.
+    - The project is a case study in software design and development.
+    - Sharing the software and the process of creating the software is my
+        contribution to long-form content ecosystem.
+
+#### Building With Integrity
 - I believe in thinking towards the future, and creating technology that
     will stand the test of time, either by being extensible or modular.
     - I believe in the importance of decentralized, open-source technology.
