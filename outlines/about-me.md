@@ -16,7 +16,7 @@
             creative;
         - questions of aesthetics, ethics, and morality;
 - Everything to know about me is available here in [my writing].
-    - I do not enjoy writing about myself.
+    - I find it challenging to write about myself.
     - It may be necessary to provide context for the rest of my articles and
         [my projects].
     - A short autobiography also serves as a personal introduction to my
@@ -202,17 +202,15 @@
         about, or die trying.
 
 ### So Long, And Thanks for All the Fish
-- If you made it this far, thank you for reading.
-    - I hate to talk about myself, but I also believe it is important to share
-        experiences. --why? share knowledge, build community, etc.
+- Thank you for reading about me.
     - It is an honor to have anyone read about my work.
     - I hope you found something interesting, and I look forward to sharing more
         in the future.
 - My entire [portfolio] is available online.
     - Most projects are described in detail here in my [portfolio].
     - All the code is available on [my GitHub profile].
-    - If you have any questions, comments, or suggestions, please feel free to
-        [reach out to me].
+- If you have any questions, comments, or suggestions, please feel free to
+    [reach out to me].
 
 #### <a id='thanks-&-follow'></a>Keep in Touch
 - Follow my work [here] or on [GitHub].
