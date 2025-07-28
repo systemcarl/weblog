@@ -146,20 +146,29 @@
 ### The Best Way to Learn
 - There's nothing that I value more than learning.
     - If we have nothing else, we have our knowledge and experience.
-    - As a life-long learner, I am always looking for new ways to progress,
-        grow, and explore.
+    - As a life-long learner.
+    - I am always looking for new ways to progress, grow, and explore.
 - There's no better way to learn than by teaching.
     - I take every opportunity to share my knowledge and experience with others.
-    - Teaching science and programming has been a rewarding experience:
-        - guest lecturing and assisting with courses at McMaster University,
-        - supervising college graduate projects and undergraduate coop
+    - Teaching science and programming has been a rewarding experience.
+        - I have guest lectured and assisted with courses at McMaster
+            University.
+        - I supervised college graduate projects and undergraduate coop
             internships.
+
+#### Mentorship
 - As software development becomes more complex, the need for collaboration and
     communication is more important than ever.
+    - Software development is now rarely a solo endeavour.
     - Continuous investment and research into teaching computer programming will
-        only become more important.
+        only become more important as technology continues to evolve.
     - Innovation can only continue when new developers are trained and mentored,
         with the fundamentals required to solve new, unsolved problems.
+- I will continue to share, mentor, and teach.
+    - Without the mentorship, guidance I received, I would not have the
+        abilities I have now.
+    - This [weblog] is one way I can share knowledge and enable others.
+    - I will surely continue to mentor throughout my career.
 
 ## Looking Towards the Future
 - My ultimate goal is to empower others to do more with less.
