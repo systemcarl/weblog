@@ -47,30 +47,54 @@
     - Science is not just a body of knowledge or a collection of disciplines.
     - Understanding and applying the scientific method helps us establish
         objective facts about the world.
-    - Without science, conclusions are biased but individual observations.
+        - However, scientific hypotheses cannot be proved true, only disproved
+            as false.
 - Scientific literacy is important for everyone, not just academics.
-    - I've committed a significant amount of time to learning and teaching
-        within the scientific community.
-    - A scientific approach to problem solving provides a reliable framework for
-        finding objective solutions to complex problems.
-- Currently, I am working on a M.Sc. thesis in Psychology
+    - It is essential to be able to critically evaluate information in a world
+        dependent on science and technology,
+    - The necessity of scientific literacy has motivated my pursuit of
+        education.
+    - The goal is to investigate problems and share the knowledge gained.
+
+#### Continuous Education
+- I have continued my education in parallel with my career.
+    - Currently, I am working on a M.Sc. thesis in Psychology.
     - My research is centered around understanding the spatial characteristics
         of [vesper bat] echolocation.
-    - Much of the work is focused on audio signal analysis and computational
-        modelling.
-    - My study has taught me the nuance of statistical analysis and scientific
-        writing.
-- I plan to continue my research between the fields of computer science,
+        - Much of the work is focused on audio signal analysis and computational
+            modelling.
+    - My study was in the Department Of Psychology, Neuroscience & Behaviour
+        at McMaster University.
+        - Course work and assistantships extended my education beyond the
+            discipline of physics.
+        - I learned the nuance of statistical analysis and scientific writing.
+- Studying science taught me a scientific approach to problem solving provides
+    a reliable framework for finding objective solutions.
+    - Complex problems require a systematic approach.
+    - Observing, research, experimentation, and analysis are all essential
+        steps in addressing any enigmatic problem.
+    - I have learned how to apply this methodology to my work through concurrent
+        education and practical experience.
+
+#### Science of Software
+- The goal of information technology has been to build intuitive systems and
+    interfaces
+    - Recent advancements in computer science have been in pursuit of creating
+        technology that can intuitively perceive and react to the external
+        world.
+        - This is an interesting topic of psychology.
+    - There is still much to be learned about how to build systems that satisfy
+        our current ambitions.
+    - Further technological advancements will require scientific discovery.
+- I plan to continue my research within the fields of computer science,
     psychology, and physics.
-    - Over the last few decades the primary goal of information technology has
-        been to build systems and interfaces that are approachable and intuitive
-        to the human user.
-    - Recent goals of computer science are to perceive and react to the real
-        physical world.
-    - Ultimately, there is much to be learned still across all these fields,
-        especially their intersections.
-    - My priority is primarily to build technology, but I hope that effort will
-        also contribute to the scientific community.
+    - Experimenting with modern technologies provides endless opportunity to
+        make observations and collect data.
+    - The modularity of software solutions allows new solutions to be applied to
+        problems outside their domain.
+    - My priority is primarily to build technology through scientific practice.
+    - I hope my efforts will also contribute to future scientific research and
+        education.
 
 ### Modern, Accessible Technology
 - My time over the last 5 years has been spent writing software and building web
