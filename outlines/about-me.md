@@ -7,13 +7,20 @@
 
 # About Me
 - I am a technologist, scientist, and educator.
+    - I am passionate about science and technology, and take every opportunity
+        to share my passion.
+    - I am an unapologetic nerd.
+    - I love anything intellectually or philosophically challenging:
+        - classic science fiction, *e.g.* Star Trek (The Original Series);
+        - games, in any form, but especially those that are inspiring or
+            creative;
+        - questions of aesthetics, ethics, and morality;
+- Everything to know about me is available here in [my writing].
     - I do not enjoy writing about myself.
-    - However, A short autobiography may be necessary to provide context for the
-        rest of [my writing] and
+    - It may be necessary to provide context for the rest of my articles and
         [my projects].
-    - This also serves as a personal introduction to my work, and (hopefully) a
-        way to connect with with the online community.
-    - It will be a good opportunity to reflect on past successes and failures.
+    - A short autobiography also serves as a personal introduction to my
+        work, and a way to connect with the online community.
 
 ## A Journey So Far
 - I have always loved science and computers.
@@ -189,23 +196,23 @@
         - doing empirical research to build educated solutions,
         - or building and sharing the tools.
 - The world isn't yet perfect.
-    - If I can't fix all the problems in the world myself, hopefully I can
-        help others to do the job.
-    - I plan to grow old realizing the future the 1960's science-fiction dreamed
-        about, or die trying. --could be a good call back if you mention some examples you like in about me or a journey so far
+    - I can't fix all the problems in the world myself, but I can help others to
+        in their work.
+    - I will grow old realizing the future the 1960's science-fiction dreamed
+        about, or die trying.
 
 ### So Long, And Thanks for All the Fish
 - If you made it this far, thank you for reading.
-    - I hate to talk about myself, but I also believe it i important to share
-        experiences.
+    - I hate to talk about myself, but I also believe it is important to share
+        experiences. --why? share knowledge, build community, etc.
     - It is an honor to have anyone read about my work.
     - I hope you found something interesting, and I look forward to sharing more
         in the future.
-    - If you have any questions, comments, or suggestions, please feel free to
-        [reach out to me].
 - My entire [portfolio] is available online.
     - Most projects are described in detail here in my [portfolio].
     - All the code is available on [my GitHub profile].
+    - If you have any questions, comments, or suggestions, please feel free to
+        [reach out to me].
 
 #### <a id='thanks-&-follow'></a>Keep in Touch
 - Follow my work [here] or on [GitHub].
