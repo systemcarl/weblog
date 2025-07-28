@@ -5,7 +5,7 @@
 - My mission is to share my knowledge and resources to promote the use of
     technology in industry, education, & research.
 
-# About Me
+# On the Grounds That I Don't Know the Answer
 - I am a technologist, scientist, and educator.
     - I am passionate about science and technology, and take every opportunity
         to share my passion.
@@ -22,7 +22,7 @@
     - A short autobiography also serves as a personal introduction to my
         work, and a way to connect with the online community.
 
-## A Journey So Far
+## I Have Ended Up Where I Need to Be
 - I have always loved science and computers.
     - As a young child I watched PBS shows like Bill Nye the Science Guy, and
         booted video games from my compact floppy disk collection.
@@ -48,7 +48,7 @@
     - Academia is a natural environment for sharing knowledge.
     - All of my professional work has involved training and mentoring.
 
-### Philosophy of Science
+### See First, Think Later, Then Test
 - The definition of scientific process is a method of inquiry that is
     systematic, empirical, and reproducible.
     - Science is not just a body of knowledge or a collection of disciplines.
@@ -63,7 +63,7 @@
         education.
     - The goal is to investigate problems and share the knowledge gained.
 
-#### Continuous Education
+#### I'd Rather Be Happy Than Right
 - I have continued my education in parallel with my career.
     - Currently, I am working on a M.Sc. thesis in Psychology.
     - My research is centered around understanding the spatial characteristics
@@ -78,12 +78,13 @@
 - Studying science taught me a scientific approach to problem solving provides
     a reliable framework for finding objective solutions.
     - Complex problems require a systematic approach.
+    - The goal is not to be "correct", but to discover the best solution.
     - Observing, research, experimentation, and analysis are all essential
         steps in addressing any enigmatic problem.
     - My experience designing and conducting technical behavioral experiments
         has instilled a rigorous discipline in my professional work.
 
-#### Science of Software
+#### It Has Great Practical Value
 - The goal of information technology has been to build intuitive systems and
     interfaces
     - Recent advancements in computer science have been in pursuit of creating
@@ -103,7 +104,7 @@
     - I hope my efforts will also contribute to future scientific research and
         education.
 
-### Modern, Accessible Technology
+### What We Really Want Is Stuff That Works
 - For a long time, I did not consider a career in software development.
     - I am mostly self taught.
     - I have only taken few formal Python & C++ classes.
@@ -116,7 +117,7 @@
         - I realized the power & accessibility of the technology after building
             a web application myself.
 
-#### Recent Projects
+#### I Love Deadlines
 - Over the last 5 years I have also been writing software and building web
     applications.
     - Much of my software development work happened concurrently with my
@@ -139,7 +140,7 @@
     - Sharing the software and the process of creating the software is my
         contribution to long-form content ecosystem.
 
-#### Building With Integrity
+#### Grapple With the Ineffable
 - I believe in thinking towards the future, and creating technology that
     will stand the test of time, either by being extensible or modular.
     - I believe in the importance of decentralized, open-source technology.
@@ -150,7 +151,7 @@
     - Moving forward, I want to continue to build open-source technology that
         promotes these values.
 
-### The Best Way to Learn
+### You Live and Learn
 - There's nothing that I value more than learning.
     - If we have nothing else, we have our knowledge and experience.
     - As a life-long learner.
@@ -163,7 +164,7 @@
         - I supervised college graduate projects and undergraduate coop
             internships.
 
-#### Mentorship
+#### At Any Rate, You Live
 - As software development becomes more complex, the need for collaboration and
     communication is more important than ever.
     - Software development is now rarely a solo endeavour.
@@ -177,7 +178,7 @@
     - This [weblog] is one way I can share knowledge and enable others.
     - I will surely continue to mentor throughout my career.
 
-## Looking Towards the Future
+## Let the Present Move Forward Into the Future
 - A future of equity requires working together and sharing knowledge and
     technology.
     - I we want a future free from oppression and classism, we must remove
@@ -212,8 +213,13 @@
 - If you have any questions, comments, or suggestions, please feel free to
     [reach out to me].
 
-#### <a id='thanks-&-follow'></a>Keep in Touch
+#### <a id='thanks-&-follow'></a>Better to Talk to Than Nobody
 - Follow my work [here] or on [GitHub].
+
+# Footnotes
+- All headings are lifted from various [Douglas Adams quotes].
+    - I highly recommend reading one of his books, if you have not already.
+    - Adams' philosophy and sense of humor has always inspired me.
 
 [my writing]: https://carledwardlyons.ca/articles/
 [my projects]: https://carledwardlyons.ca/articles/projects/
@@ -237,3 +243,5 @@
 [reach out to me]: https://carledwardlyons.ca#contact
 [here]: https://carledwardlyons.ca/articles/
 [GitHub]: https://github.com/systemcarl
+[Douglas Adams quotes]:
+    https://www.bbc.co.uk/programmes/articles/2bcFfMt6rGLTPpbG0yLwPw0/42-douglas-adams-quotes-to-live-by
