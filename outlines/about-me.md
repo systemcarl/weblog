@@ -17,19 +17,30 @@
 
 ## A Journey So Far
 - I have always loved science and computers.
-    - I grew up watching Bill Nye the Science Guy, and booting games from my
-        compact floppy disk collection.
+    - As a young child I watched PBS shows like Bill Nye the Science Guy, and
+        booted video games from my compact floppy disk collection.
     - My curiosity about how things work carried my interest through high school
-        and university.
-    - Now, I love taking about science & technology, and sharing my experiences.
-- My time has been split between professional work and continuing education.
-    - My work has been in the manufacturing and software industries.
-    - After graduating with a B.Sc. in Astrophysics from the University of
-        Waterloo, I continued with a M.Sc. in Psychology study the biophysics
-        of bat echolocation.
-    - I always loved learning and teaching, in both industry and academia.
-    - I've been fortunate to have had a variety of roles, in different
-        industries and academic disciplines.
+        university, and professional career.
+- I went on to pursue a diverse education in science.
+    - In university, studying physics was a an obvious choice for better
+        understanding the world.
+        - Specializing in astrophysics happened naturally with my affinity for
+            computer modelling and simulation.
+    - My passion for scientific inquiry led to a M.Sc. in Psychology at McMaster
+        University
+        - I found an opportunity to apply my knowledge of computer science and
+            physics, a project studying the biophysics of bat echolocation.
+- My professional work has been in the manufacturing and software industries.
+    - I began my career in electrical engineering, responsible for quality
+        assurance, testing, and customer support.
+    - I transitioned to software development building web application and
+        cloud-based services after realizing my passion for system design.
+- I still love learn about science & technology, and sharing my knowledge.
+    - My research and writing can be found here, in [my weblog].
+    - I take every opportunity to learn new skills and teach others.
+    - Academia is a natural environment for sharing knowledge.
+    - All of my professional work has involved training and mentoring.
+
 
 ### Modern, Accessible Technology
 - My time over the last 5 years has been spent writing software and building web
@@ -150,6 +161,7 @@
 
 [my writing]: https://carledwardlyons.ca/articles/
 [my projects]: https://carledwardlyons.ca/articles/projects/
+[my weblog]: https://carledwardlyons.ca/articles/
 [Microsoft Digital Operating System (MS-DOS)]:
     https://en.wikipedia.org/wiki/MS-DOS
 [Bill Nye the Science Guy]:
