@@ -171,21 +171,28 @@
     - I will surely continue to mentor throughout my career.
 
 ## Looking Towards the Future
-- My ultimate goal is to empower others to do more with less.
+- A future of equity requires working together and sharing knowledge and
+    technology.
+    - I we want a future free from oppression and classism, we must remove
+        socioeconomic barriers and fairly distribute resources.
+    - Digital technology has become a necessary part of our lives.
+    - Differences in access to technology, ["The Digital Divide"], is a key
+        factor in worsening inequality.
+    - Making software resources and tools freely available reduces the financial
+        barrier for everyday use and careers in technology.
+- Pushing boundaries is only possible when future generations are given more
+    resources and opportunities.
+    - Progress will only continue when we empower each other to do more.
     - I have been told "[I] don't work very hard, but [I] work smart."
     - I want to share that gift with others, by:
         - teaching the skills to manage complex & unintuitive problems,
         - doing empirical research to build educated solutions,
         - or building and sharing the tools.
-    - A future of equity requires working together and sharing knowledge and
-        technology.
-    - Pushing boundaries is only possible when future generations are given
-        more resources and opportunities.
 - The world isn't yet perfect.
-    - If I can't fix the all the problems in the world myself, hopefully I can
+    - If I can't fix all the problems in the world myself, hopefully I can
         help others to do the job.
     - I plan to grow old realizing the future the 1960's science-fiction dreamed
-        about, or die trying.
+        about, or die trying. --could be a good call back if you mention some examples you like in about me or a journey so far
 
 ### So Long, And Thanks for All the Fish
 - If you made it this far, thank you for reading.
@@ -221,6 +228,7 @@
 [MRKTBOX's GitHub repository]: https://github.com/MRKTBOX/mrktbox-web
 [this weblog]: https://carledwardlyons.ca/articles/
 [vesper bat]: https://en.wikipedia.org/wiki/Vespertilionidae
+["The Digital Divide"]: https://en.wikipedia.org/wiki/Digital_divide
 [reach out to me]: https://carledwardlyons.ca#contact
 [here]: https://carledwardlyons.ca/articles/
 [GitHub]: https://github.com/systemcarl
