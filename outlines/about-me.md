@@ -80,8 +80,8 @@
     - Complex problems require a systematic approach.
     - Observing, research, experimentation, and analysis are all essential
         steps in addressing any enigmatic problem.
-    - I have learned how to apply this methodology to my work through concurrent
-        education and practical experience.
+    - My experience designing and conducting technical behavioral experiments
+        has instilled a rigorous discipline in my professional work.
 
 #### Science of Software
 - The goal of information technology has been to build intuitive systems and
