@@ -35,10 +35,14 @@
             computer modelling and simulation.
     - I have also been working towards a M.Sc. in Psychology at McMaster
         University
-        - This degree has consisted of bat research, and studying concepts in psychology and statistical analysis
-           - These have diversified my knowledge of scientific inquiry   
+        - This degree has included researching bats, scientific writing, course work studying concepts in psychology and statistical analysis, and teaching assistantships
+           - These have diversified my knowledge of scientific inquiry beyond the discipline of physics  
         - Still, I was able to apply my knowledge of computers and
             physics in a thesis studying the biophysics of bat echolocation.
+          - Specifically, I am trying to understand the spatial characteristics
+                of [vesper bat] echolocation.
+          - Much of the work is focused on audio signal analysis and computational
+                modelling.
           
 - I have also pursued my love of computers (? if not computers, maybe technology. just try to link to hook sentence) in the manufacturing and software industries.
     - I began my career in electrical engineering, responsible for quality
