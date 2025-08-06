@@ -26,27 +26,26 @@
 - I have always loved science and computers.
     - As a young child I watched PBS shows like Bill Nye the Science Guy, and
         booted video games from my compact floppy disk collection.
-    - My curiosity about how things work carried my interest through high school
-        university, and professional career.
-- I went on to pursue a diverse education in science.
-    - In university, studying physics was a an obvious choice for better
+    - My curiosity about how things work carried my interest through school and my professional career.
+      
+- Since high school, I have pursued my interest in science through a diverse education in (at?) university.
+    - As an undergraduate student at (however you want to explain) university, studying physics was an obvious choice for better
         understanding the world.
         - Specializing in astrophysics happened naturally with my affinity for
             computer modelling and simulation.
-    - My passion for scientific inquiry led to a M.Sc. in Psychology at McMaster
+    - I have also been working towards a M.Sc. in Psychology at McMaster
         University
-        - I found an opportunity to apply my knowledge of computer science and
-            physics, a project studying the biophysics of bat echolocation.
-- My professional work has been in the manufacturing and software industries.
+        - This degree has consisted of bat research, and studying concepts in psychology and statistical analysis
+           - These have diversified my knowledge of scientific inquiry   
+        - Still, I was able to apply my knowledge of computers and
+            physics in a thesis studying the biophysics of bat echolocation.
+          
+- I have also pursued my love of computers (? if not computers, maybe technology. just try to link to hook sentence) in the manufacturing and software industries.
     - I began my career in electrical engineering, responsible for quality
         assurance, testing, and customer support.
-    - I transitioned to software development building web application and
-        cloud-based services after realizing my passion for system design.
-- I still love learn about science & technology, and sharing my knowledge.
-    - My research and writing can be found here, in [my weblog].
-    - I take every opportunity to learn new skills and teach others.
-    - Academia is a natural environment for sharing knowledge.
-    - All of my professional work has involved training and mentoring.
+    - I have since realized my passion for system design.
+        - So, I have transitioned to software development through building web application and
+        cloud-based services.
 
 ### See First, Think Later, Then Test
 - The definition of scientific process is a method of inquiry that is
