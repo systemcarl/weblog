@@ -43,49 +43,29 @@
                 of [vesper bat] echolocation.
           - Much of the work is focused on audio signal analysis and computational
                 modelling.
-          
+            
+ ### See First, Think Later, Then Test --I think I prefer this heading
+ #### I'd Rather Be Happy Than Right
+- Studying science has taught me problem solving through a scientific approach provides
+    a reliable framework for finding objective solutions.
+    - Observation, experimentation, analysis, and clear communication are all essential
+        steps in addressing any enigmatic problem.
+    - The goal is not to be "correct", but to discover the best solution.
+- Studying science has also taught me scientific literacy is important for everyone, not just academics.
+    - It is essential to be able to critically evaluate information
+- Overall, my experience designing, conducting, and communicating technical behavioral experiments
+        has instilled a rigorous discipline in my everyday life and professional work.
+               
+
+    
+
+
 - I have also pursued my love of computers (? if not computers, maybe technology. just try to link to hook sentence) in the manufacturing and software industries.
     - I began my career in electrical engineering, responsible for quality
         assurance, testing, and customer support.
     - I have since realized my passion for system design.
         - So, I have transitioned to software development through building web application and
         cloud-based services.
-
-### See First, Think Later, Then Test
-- The definition of scientific process is a method of inquiry that is
-    systematic, empirical, and reproducible.
-    - Science is not just a body of knowledge or a collection of disciplines.
-    - Understanding and applying the scientific method helps us establish
-        objective facts about the world.
-        - However, scientific hypotheses cannot be proved true, only disproved
-            as false.
-- Scientific literacy is important for everyone, not just academics.
-    - It is essential to be able to critically evaluate information in a world
-        dependent on science and technology,
-    - The necessity of scientific literacy has motivated my pursuit of
-        education.
-    - The goal is to investigate problems and share the knowledge gained.
-
-#### I'd Rather Be Happy Than Right
-- I have continued my education in parallel with my career.
-    - Currently, I am working on a M.Sc. thesis in Psychology.
-    - My research is centered around understanding the spatial characteristics
-        of [vesper bat] echolocation.
-        - Much of the work is focused on audio signal analysis and computational
-            modelling.
-    - My study was in the Department Of Psychology, Neuroscience & Behaviour
-        at McMaster University.
-        - Course work and assistantships extended my education beyond the
-            discipline of physics.
-        - I learned the nuance of statistical analysis and scientific writing.
-- Studying science taught me a scientific approach to problem solving provides
-    a reliable framework for finding objective solutions.
-    - Complex problems require a systematic approach.
-    - The goal is not to be "correct", but to discover the best solution.
-    - Observing, research, experimentation, and analysis are all essential
-        steps in addressing any enigmatic problem.
-    - My experience designing and conducting technical behavioral experiments
-        has instilled a rigorous discipline in my professional work.
 
 #### It Has Great Practical Value
 - The goal of information technology has been to build intuitive systems and
