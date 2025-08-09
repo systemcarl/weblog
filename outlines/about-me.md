@@ -104,6 +104,12 @@
         contribution to long-form content ecosystem.
       
 #### It Has Great Practical Value
+- My priority is primarily to build technology through scientific practice.
+    - Experimenting with modern technologies provides endless opportunity to
+        make observations and collect data.
+    - The modularity of software solutions allows new solutions to be applied to
+        problems outside their domain.
+      
 - The goal of information technology has been to build intuitive systems and
     interfaces
     - Recent advancements in computer science have been in pursuit of creating
@@ -115,11 +121,7 @@
     - Further technological advancements will require scientific discovery.
 - I plan to continue my research within the fields of computer science,
     psychology, and physics.
-    - Experimenting with modern technologies provides endless opportunity to
-        make observations and collect data.
-    - The modularity of software solutions allows new solutions to be applied to
-        problems outside their domain.
-    - My priority is primarily to build technology through scientific practice.
+    
     - I hope my efforts will also contribute to future scientific research and
         education.
 
