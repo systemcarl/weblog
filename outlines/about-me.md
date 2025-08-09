@@ -79,41 +79,8 @@
         learn about web application.
     - I realized the power & accessibility of the technology after building
             a web application myself.
-          
-#### It Has Great Practical Value
-- The goal of information technology has been to build intuitive systems and
-    interfaces
-    - Recent advancements in computer science have been in pursuit of creating
-        technology that can intuitively perceive and react to the external
-        world.
-        - This is an interesting topic of psychology.
-    - There is still much to be learned about how to build systems that satisfy
-        our current ambitions.
-    - Further technological advancements will require scientific discovery.
-- I plan to continue my research within the fields of computer science,
-    psychology, and physics.
-    - Experimenting with modern technologies provides endless opportunity to
-        make observations and collect data.
-    - The modularity of software solutions allows new solutions to be applied to
-        problems outside their domain.
-    - My priority is primarily to build technology through scientific practice.
-    - I hope my efforts will also contribute to future scientific research and
-        education.
 
-### What We Really Want Is Stuff That Works
-- For a long time, I did not consider a career in software development.
-    - I am mostly self taught.
-    - I have only taken few formal Python & C++ classes.
-        - During my undergraduate studies, I took some courses about simulation,
-            computational mathematics, and modelling.
-    - It wasn't until after working in electrical engineering that I realized
-        software development could be viable career.
-    - Not knowing anything about HTML, CSS, or JavaScript, I was reluctant to
-        learn about web application.
-        - I realized the power & accessibility of the technology after building
-            a web application myself.
-
-#### I Love Deadlines
+  #### I Love Deadlines
 - Over the last 5 years I have also been writing software and building web
     applications.
     - Much of my software development work happened concurrently with my
@@ -135,6 +102,26 @@
     - The project is a case study in software design and development.
     - Sharing the software and the process of creating the software is my
         contribution to long-form content ecosystem.
+      
+#### It Has Great Practical Value
+- The goal of information technology has been to build intuitive systems and
+    interfaces
+    - Recent advancements in computer science have been in pursuit of creating
+        technology that can intuitively perceive and react to the external
+        world.
+        - This is an interesting topic of psychology.
+    - There is still much to be learned about how to build systems that satisfy
+        our current ambitions.
+    - Further technological advancements will require scientific discovery.
+- I plan to continue my research within the fields of computer science,
+    psychology, and physics.
+    - Experimenting with modern technologies provides endless opportunity to
+        make observations and collect data.
+    - The modularity of software solutions allows new solutions to be applied to
+        problems outside their domain.
+    - My priority is primarily to build technology through scientific practice.
+    - I hope my efforts will also contribute to future scientific research and
+        education.
 
 #### Grapple With the Ineffable
 - I believe in thinking towards the future, and creating technology that
