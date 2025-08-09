@@ -81,7 +81,7 @@
             a web application myself.
 
   #### I Love Deadlines
-- Over the last 5 years I have also been writing software and building web
+- Over the last 5 years I have been writing software and building web
     applications.
     - Much of my software development work happened concurrently with my
         graduate studies.
