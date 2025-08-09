@@ -67,6 +67,19 @@
         - So, I have transitioned to software development through building web application and
         cloud-based services.
 
+### What We Really Want Is Stuff That Works
+- For a long time, I did not consider a career in software development.
+    - I am mostly self taught.
+    - I have only taken few formal Python & C++ classes.
+        - During my undergraduate studies, I took some courses about simulation,
+            computational mathematics, and modelling.
+    - It wasn't until after working in electrical engineering that I realized
+        software development could be viable career.
+    - Not knowing anything about HTML, CSS, or JavaScript, I was reluctant to
+        learn about web application.
+        - I realized the power & accessibility of the technology after building
+            a web application myself.
+          
 #### It Has Great Practical Value
 - The goal of information technology has been to build intuitive systems and
     interfaces
