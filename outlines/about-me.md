@@ -113,35 +113,19 @@
         our current ambitions.    
     - As a life-long learner, I am always looking for new ways to progress, grow, and explore.
     - If we have nothing else, we have our knowledge and experience.
-
-
-
-- Recent advancements in computer science have been in pursuit of creating
-        technology that can intuitively perceive and react to the external
-        world.
-        - This is an interesting topic of psychology. ---see comment---
    
 
 #### Grapple With the Ineffable
 - I believe in thinking towards the future, and creating technology that
     will stand the test of time, either by being extensible or modular.
-    - I believe in the importance of decentralized, open-source technology.
+- I believe in the importance of decentralized, open-source technology.
         - Technology should be:
             - accessible to everyone,
             - easy to use,
             - and free from monopolistic control.
-    - Moving forward, I want to continue to build open-source technology that
+- Moving forward, I want to continue to build open-source technology that
         promotes these values.
 
-### You Live and Learn
-
-- There's no better way to learn than by teaching.
-    - I take every opportunity to share my knowledge and experience with others.
-    - Teaching science and programming has been a rewarding experience.
-        - I have guest lectured and assisted with courses at McMaster
-            University.
-        - I supervised college graduate projects and undergraduate coop
-            internships.
 
 #### At Any Rate, You Live
 - As software development becomes more complex, the need for collaboration and
