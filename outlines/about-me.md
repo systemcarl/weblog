@@ -109,16 +109,16 @@
         make observations and collect data.
     - The modularity of software solutions allows new solutions to be applied to
         problems outside their domain.
-      
-- The goal of information technology has been to build intuitive systems and
-    interfaces
+- There is still much to be learned about how to build systems that satisfy
+        our current ambitions.    
+
     - Recent advancements in computer science have been in pursuit of creating
         technology that can intuitively perceive and react to the external
         world.
         - This is an interesting topic of psychology.
-    - There is still much to be learned about how to build systems that satisfy
-        our current ambitions.
-    - Further technological advancements will require scientific discovery.
+   
+
+
 - I plan to continue my research within the fields of computer science,
     psychology, and physics.
     
