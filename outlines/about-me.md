@@ -115,15 +115,8 @@
     - Recent advancements in computer science have been in pursuit of creating
         technology that can intuitively perceive and react to the external
         world.
-        - This is an interesting topic of psychology.
+        - This is an interesting topic of psychology. ---see comment---
    
-
-
-- I plan to continue my research within the fields of computer science,
-    psychology, and physics.
-    
-    - I hope my efforts will also contribute to future scientific research and
-        education.
 
 #### Grapple With the Ineffable
 - I believe in thinking towards the future, and creating technology that
@@ -187,6 +180,11 @@
     - I will grow old realizing the future the 1960's science-fiction dreamed
         about, or die trying.
 
+- I plan to continue my research within the fields of computer science,
+    psychology, and physics.
+- I hope my efforts will also contribute to future scientific research and
+        education.
+      
 ### So Long, And Thanks for All the Fish
 - Thank you for reading about me.
     - It is an honor to have anyone read about my work.
