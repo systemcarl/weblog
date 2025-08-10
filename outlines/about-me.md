@@ -114,6 +114,7 @@
     - As a life-long learner, I am always looking for new ways to progress, grow, and explore.
     - If we have nothing else, we have our knowledge and experience.
    
+## Let the Present Move Forward Into the Future
 
 #### Grapple With the Ineffable
 - I believe in thinking towards the future, and creating technology that
@@ -123,52 +124,44 @@
             - accessible to everyone,
             - easy to use,
             - and free from monopolistic control.
-- Moving forward, I want to continue to build open-source technology that
+- Moving forward, I want to continue to learn the best ways of building open-source technology that
         promotes these values.
 
 
 #### At Any Rate, You Live
-- As software development becomes more complex, the need for collaboration and
-    communication is more important than ever.
-    - Software development is now rarely a solo endeavour.
+- I also want to teach what I have learned
+    - After all, without the mentorship and guidance I received, I would not have the
+        abilities I have now.
+
+- I want to teach others that innovation can only continue when new developers are trained and mentored
+        with the fundamentals required to solve new, unsolved problems
     - Continuous investment and research into teaching computer programming will
         only become more important as technology continues to evolve.
-    - Innovation can only continue when new developers are trained and mentored,
-        with the fundamentals required to solve new, unsolved problems.
-- I will continue to share, mentor, and teach.
-    - Without the mentorship, guidance I received, I would not have the
-        abilities I have now.
-    - This [weblog] is one way I can share knowledge and enable others.
-    - I will surely continue to mentor throughout my career.
-
-## Let the Present Move Forward Into the Future
-- A future of equity requires working together and sharing knowledge and
-    technology.
-    - I we want a future free from oppression and classism, we must remove
-        socioeconomic barriers and fairly distribute resources.
-    - Digital technology has become a necessary part of our lives.
-    - Differences in access to technology, ["The Digital Divide"], is a key
+   
+- Already, digital technology has become a necessary part of our lives.
+    - However, differences in access to technology, ["The Digital Divide"], is a key
         factor in worsening inequality.
+    - Thus, a future of equity requires working together and sharing knowledge of
+        technology.
+    - If we want a future free from oppression and classism, we must remove
+        socioeconomic barriers and fairly distribute resources.
     - Making software resources and tools freely available reduces the financial
         barrier for everyday use and careers in technology.
-- Pushing boundaries is only possible when future generations are given more
-    resources and opportunities.
-    - Progress will only continue when we empower each other to do more.
-    - I have been told "[I] don't work very hard, but [I] work smart."
+      
+- This [weblog] is my contribution to sharing knowledge and enabling others.
+- I have been told "[I] don't work very hard, but [I] work smart."
     - I want to share that gift with others, by:
-        - teaching the skills to manage complex & unintuitive problems,
         - doing empirical research to build educated solutions,
-        - or building and sharing the tools.
+        - building and sharing tools to manage complex & unintuitive problems,
+        - or teaching the skills to do so. --learn, do, teach :)--
+
 - The world isn't yet perfect.
+    - I hope my efforts will contribute to scientific research, technological development, and
+        education.
     - I can't fix all the problems in the world myself, but I can help others to
         in their work.
     - I will grow old realizing the future the 1960's science-fiction dreamed
         about, or die trying.
-
-- I plan to continue my research within the fields of computer science,
-    psychology, and physics.
-- I hope my efforts will also contribute to future scientific research and
-        education.
       
 ### So Long, And Thanks for All the Fish
 - Thank you for reading about me.
