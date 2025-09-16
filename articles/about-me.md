@@ -58,23 +58,23 @@ where my love for computers has thrived.
 After receiving my BSc, my career began in an electrical manufacturing support
     role bridging quality assurance, testing, technical sales, and incident
     management.
-It was while troubleshooting and field repairing commercial-industrial control
-    systems that I realized my passion for systems design.
+It was in this role, while troubleshooting and field repairing commercial-industrial control
+    systems, that I realized my passion for systems design.
 
 Pursuing this passion into the software development industry required
-    significant amounts of passion-driven effort.
-Aside from the undergraduate simulation and modelling practicals — which used
-    Python and C++ —
-my software and programming skills are self-taught.
-My early experience came from modding video games, writing small scripts to
-    automate medial tasks, and free-lancing for friends and family.
+    significant amounts of determined effort.
+Aside from the undergraduate simulation and modelling courses—which used
+    Python and C++—
+    my software and programming skills are self-taught.
 
-It was when building a website for my good friend Jerry's business,
-that I realized the potential of *the web*
+I first practiced modding video games, writing small scripts to
+    automate medial tasks, and free-lancing for friends and family.
+Then, while building a website for my good friend Jerry's business,
+I realized the potential of *the web*
 and dove headfirst into a world of HTML, CSS, JavaScript, web servers, and web
     servers on top of web servers.
-Doubling down on my long-standing love affair with Python for backend
-    development, I've been building web applications and services ever since.
+Since then, I have been doubling down on my long-standing love for Python for backend
+    development to build web applications and services.
 
 ### I Love Deadlines
 Over the last five years, I have been writing software and building web
