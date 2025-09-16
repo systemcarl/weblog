@@ -78,12 +78,12 @@ Since then, I have been doubling down on my long-standing love for Python for ba
 
 ### I Love Deadlines
 Over the last five years, I have been writing software and building web
-    applications concurrently with my M.Sc. studies.
-The majority of which has been focused on rebuilding the MRKTBOX e-commerce web
+    applications concurrently with my MSc studies.
+The majority of this was focused on rebuilding the MRKTBOX e-commerce web
     application.
 The project's goal was to create a multi-channel e-commerce application that
-    intuitively handle whatever experience a small business could throw at it
-— cafe, catering, home delivery, and other special offerings.
+    intuitively handles whatever requirements a small business could throw at it: 
+    cafe, catering, home delivery, and other special offerings.
 The application comprised a custom back-end service
 with a repurposed front-end from a pre-existing open-source project, OpenTender.
 
