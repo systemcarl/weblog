@@ -134,22 +134,16 @@ I believe that harnessing this process will undoubtedly lead to better outcomes,
     grounded in evidence and reason.
 
 ## Let the Present Move Forward Into the Future
-I'm also of the opinion software developers should always be thinking towards
+I'm also of the opinion that software developers should always be thinking towards
     the future.
-Sure — we all have to stay focused on the the milestone.
+Sure, we all have to stay focused on the the next milestone.
 But any experienced project manager knows: if you don't consider our direction,
     you may just be [scrum] sprinting into a wall.
+
 Personally, I want to create technology that will stand the test of time, either
     by being extensible or modular.
-In this way, new software solutions can be applied to problems outside their
+In this way, any software solutions I find can be applied to problems outside their
     originally intended domain.
-
-This only highlights the importance of decentralized, open-source technology.
-The tools we make cannot help anyone locked away until they have been
-    sufficiently monetized.
-Technology should be easily accessible to everyone.
-Effective collaboration can only happen when the resources and information are
-    available to be shared.
 I can't think of a greater achievement than creating a foundational piece of
     work that paves the way for others to build.
 
