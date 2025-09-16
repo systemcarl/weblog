@@ -15,7 +15,7 @@ I love discussing anything intellectually or philosophically challenging.
 I feel the need to introduce myself, my work, and my ambitions to give context
     to my projects and other endeavours.
 While I find it challenging to write about myself,
-leaving my story lets me share and connect with the
+leaving my story here lets me share and connect with the
     online community.
 
 # I Have Ended Up Where I Need to Be
