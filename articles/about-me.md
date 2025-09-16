@@ -32,10 +32,9 @@ but I also see myself as a scientist and educator.
 I continued to pursue my interest in science through a diverse university
     education.
 I first received a Bachelor of Science (B.Sc.) degree from the University of
-    Waterloo, where I studied physics
-— a natural choice for someone fascinated by the fundamental workings of the
+    Waterloo, where I studied physics—a natural choice for someone fascinated by the fundamental workings of the
     universe.
-Naturally, I specialized in astrophysics, taking any course that focused on
+More specifically, I specialized in astrophysics and took any course that focused on
     mathematical modelling and computer simulation.
 
 Over the last few years, I have been gradually working towards a Master of
