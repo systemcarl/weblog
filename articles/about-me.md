@@ -94,15 +94,14 @@ I spent endless hours reviewing student code, untangling git commits, and lectur
       which were enlightening practice in leadership and project management.
 
 Since finishing my work on the MRKTBOX project, I have continued studying,
-    researching, and experimenting;
-primarily working on this weblog, here.
-Aside from writing programming guides, professional tips, and other articles,
-    I am also building the website, from the ground up.
-The goal is to create a prototype for an open-source, modular, extensible, maybe
+    researching, and experimenting to be able to build this weblog, here, from the ground up.
+My goal is to create a prototype for an open-source, modular, extensible, maybe
     federated, blogging service.
-Essentially, this weblog is the current expression of my love for software
+I am also writing programming guides, professional tips, and other articles
+    to include on my weblog.
+Essentially, this is the current expression of my love for software
     design and development,
-in the form of rambling development diaries, how-to guides, opinion pieces, and
+in the form of development diaries, how-to guides, opinion pieces, and
     the code that props it all up.
 Sharing the software and the process of creating it is my contribution to the
     long-form content ecosystem.
