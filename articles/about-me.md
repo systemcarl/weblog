@@ -6,8 +6,8 @@ I can be many things, depending on when or how you find me. But without fail,
 I love science fiction,
 from *Star Trek*'s naive mid-century techno-optimism
 to *Jurassic Park*'s outlandish cautionary tale.
-I also love games — in any form
-— but I'll take a simple, creative tabletop role-playing game over any
+I also love games in any form, 
+    but I'll take a creative tabletop role-playing game over an
     uninspired transaction-fuelled "AAA" any day.
 I'm passionate about aesthetics, ethics, and morality;
 I love discussing anything intellectually or philosophically challenging.
@@ -15,7 +15,7 @@ I love discussing anything intellectually or philosophically challenging.
 I feel the need to introduce myself, my work, and my ambitions to give context
     to my projects and other endeavours.
 While I find it challenging to write about myself,
-leaving my story here seems like the best way to share and connect with the
+leaving my story lets me share and connect with the
     online community.
 
 # I Have Ended Up Where I Need to Be
