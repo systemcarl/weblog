@@ -88,10 +88,10 @@ The application comprised a custom back-end service
 with a repurposed front-end from a pre-existing open-source project, OpenTender.
 
 One of the most valuable experiences of this project was when 
-    I supervised aspiring developers studying at local colleges as they worked 
-    on co-op terms or student-led projects.
-Endless hours reviewing student code, untangling git commits, and lecturing on topics of best practice
-     was an enlightening exercise in leadership and project management.
+    I supervised aspiring developers studying at local colleges 
+    as they worked on co-op terms or student-led projects.
+I spent endless hours reviewing student code, untangling git commits, and lecturing on topics of best practice,
+      which were enlightening practice in leadership and project management.
 
 Since finishing my work on the MRKTBOX project, I have continued studying,
     researching, and experimenting;
