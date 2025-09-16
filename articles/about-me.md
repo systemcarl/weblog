@@ -31,22 +31,22 @@ but I also see myself as a scientist and educator.
 ## I'd Rather Be Happy Than Right
 I continued to pursue my interest in science through a diverse university
     education.
-I first received a Bachelor of Science (B.Sc.) degree from the University of
+I first received a Bachelor of Science (BSc) degree from the University of
     Waterloo, where I studied physics—a natural choice for someone fascinated by the fundamental workings of the
     universe.
 More specifically, I specialized in astrophysics and took any course that focused on
     mathematical modelling and computer simulation.
 
 Over the last few years, I have been gradually working towards a Master of
-    Science (M.Sc.) degree in psychology at McMaster University.
+    Science (MSc) degree in psychology at McMaster University.
 While I had always had a pet interest in psychology,
 the Department of Psychology, Neuroscience & Behaviour gave me an opportunity to
-    dive deeper into statistical analysis, experimental design and scientific
+    dive deeper into statistical analysis, experimental design, and scientific
     writing.
-The work behind my M.Sc. thesis studied the biophysics of vesper bat
+I have applied this new knowledge in my MSc thesis studying the biophysics of vesper bat
     echolocation.
-I have been trying to document and understand the spatial characteristics of
-    Big Brown Bat (*Eptesicus fuscus*) developmental vocalizations
+I have been working to document and understand the spatial characteristics of
+    big brown bat (*Eptesicus fuscus*) developmental vocalizations
 (the sounds bat pups make as they learn to echolocate).
 The majority of my time has been spent developing computational signal analysis
     tools to extract data from the raw audio recordings.
@@ -55,7 +55,7 @@ The majority of my time has been spent developing computational signal analysis
 In tandem with my education, I have continued to pursue a professional career in
     technology,
 where my love for computers has thrived.
-After receiving my B.Sc., my career began in an electrical manufacturing support
+After receiving my BSc, my career began in an electrical manufacturing support
     role bridging quality assurance, testing, technical sales, and incident
     management.
 It was while troubleshooting and field repairing commercial-industrial control
