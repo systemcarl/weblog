@@ -4,12 +4,12 @@ Who am I? I'm Carl.
 I can be many things, depending on the time or the place. But without fail,
     I am always an unapologetic nerd.
 I love science fiction,
-from *Star Trek*'s naive mid-century techno-optimism
-to *Jurassic Park*'s outlandish cautionary tale.
+from [*Star Trek*]'s naive mid-century techno-optimism
+to [*Jurassic Park*]'s outlandish cautionary tale.
 I also love games in any form,
-    but I'll take a simple, creative tabletop role-playing game over an
-    uninspired transaction-fuelled "AAA" any day.
-I'm passionate about aesthetics, ethics, and morality;
+    but I'll take a simple, creative [tabletop role-playing game] over an
+    uninspired transaction-fuelled ["AAA"] any day.
+I'm passionate about [aesthetics], [ethics], and [morality];
 I love discussing anything intellectually or philosophically challenging.
 
 Despite my adversity to my own personal definition,
@@ -21,8 +21,8 @@ hopefully leaving my story here will help me share and connect with the
 
 # I Have Ended Up Where I Need to Be
 I have loved science and computers for as long as I can remember.
-My earliest memories recount an obsession with Bill Nye the Science Guy
-and tireless efforts to bootstrap video games from my compact floppy disk
+My earliest memories recount an obsession with [*Bill Nye the Science Guy*]
+and tireless efforts to bootstrap video games from my [compact floppy disk]
     collection.
 These preoccupations, as well as a natural curiosity about how things work, have
     carried throughout my post-secondary education and professional career.
@@ -32,26 +32,26 @@ but I also still see myself as a scientist and educator.
 ## I'd Far Rather Be Happy Than Right
 I continued to pursue my interest in science through a diverse university
     education.
-I first received a Bachelor of Science (BSc) degree from the University of
-    Waterloo, where I studied physics—a natural choice for someone fascinated
-    by the fundamental workings of the
+I first received a [Bachelor of Science (BSc)] degree from the
+    [*University of Waterloo*], where I studied [physics] —
+an intuitive choice for someone fascinated by the fundamental workings of the
     universe.
 Naturally, I enrolled in any course that focused on mathematical modelling and
     computer simulation
-which led me to specialize in astrophysics.
+which led me to specialize in [astrophysics].
 
-Over the last few years, I have been gradually working towards a Master of
-    Science (MSc) degree in psychology at McMaster University.
+Over the last few years, I have been gradually working towards a [Master of
+    Science (MSc)] degree in [psychology] at [*McMaster University*].
 I have been studying and assisting with undergraduate courses, completing
     teaching assistantships and performing guest lectures.
 While I had always had a pet interest in psychology,
-the Department of Psychology, Neuroscience & Behaviour gave me an opportunity to
-    dive deeper into statistical analysis, experimental design, and scientific
-    writing.
-I applied this knowledge in my MSc thesis studying the biophysics of vesper bat
-    echolocation.
+the [*Department of Psychology, Neuroscience & Behaviour*] gave me an
+    opportunity to dive deeper into statistical analysis, experimental design,
+    and scientific writing.
+I applied this knowledge in my MSc thesis studying the biophysics of
+    [vesper bat] [echolocation].
 I have been working to document and understand the spatial characteristics of
-    big brown bat (*Eptesicus fuscus*) developmental vocalizations
+    [big brown bat (*Eptesicus fuscus*)] developmental vocalizations
 (the sounds bat pups make as they learn to echolocate).
 This work might seem distant from programming or physics,
 but the majority of my time has been spent developing computational signal
@@ -71,21 +71,21 @@ It was in this role, while troubleshooting and field repairing
 Pursuing this passion into the software development industry required
     significant amounts of determined effort.
 Aside from the undergraduate simulation and modelling courses — which used
-    Python and C++ —
+    [*Python*] and [*C++*] —
     my software and programming skills are self-taught.
 
 While modding video games on my free time, I began writing small scripts to
     automate medial tasks, and free-lancing for friends and family.
-Then, while building a website for my good friend Jerry's business,
-I realized the potential of *the web*
-and dove headfirst into a world of HTML, CSS, JavaScript, web servers, and web
-    servers on top of web servers.
+Then, while building a website for my good friend [Jerry's business],
+I realized the potential of [*the web*]
+and dove headfirst into a world of [*HTML*], [*CSS*], [*JavaScript*],
+    [web servers], and [web servers on top of web servers].
 Since then, I have been busy building full-stack web applications and services.
 
 ### I Love Deadlines
 Over the last five years, I have been writing software and building web
     applications concurrently with my MSc studies.
-My task was to rebuild the MRKTBOX e-commerce web application.
+My task was to rebuild the [*MRKTBOX*] [e-commerce web application].
 The goal of the project was to create a multi-channel e-commerce application
     that intuitively handles whatever customer experience a small business could
     throw at it
@@ -98,7 +98,7 @@ I spent endless hours reviewing student code, untangling git commits, and
     lecturing on topics of best practice,
 which were enlightening practice in leadership and project management.
 
-Since finishing my work on the MRKTBOX project, I have continued studying,
+Since finishing my work on the [*MRKTBOX*] project, I have continued studying,
     researching, and experimenting,
 culminating in the process of building this weblog, here.
 My goal is to create a prototype for an open-source, modular, extensible, maybe
@@ -148,7 +148,7 @@ I'm also of the opinion software developers should always be thinking towards
     the future.
 Sure, we all have to stay focused on the the next milestone.
 But any experienced project manager knows: if you don't consider our direction,
-    you may just be [scrum] sprinting into a wall.
+    you may just be [[scrum]] sprinting into a wall.
 
 Personally, I want to create technology that will stand the test of time, either
     by being extensible or modular.
@@ -174,7 +174,7 @@ Continuous research and investment into teaching computer programming will only
     return.
 
 Already, technology has become a necessary part of our lives.
-However, differences in access to technology, "The Digital Divide", is a key
+However, differences in access to technology, ["The Digital Divide"], is a key
     factor in worsening inequity.
 If we want a future free from oppression and classism, we have to remove
     socioeconomic barriers and fairly distribute resources.
@@ -205,3 +205,40 @@ and I look forward to sharing more in the future.
 Currently, all of my work is available via my GitHub profile.
 If you have any questions, comments, or suggestions, please feel free to reach
     out to me.
+
+[*Star Trek*]: https://en.wikipedia.org/wiki/Star_Trek
+[*Jurassic Park*]: https://en.wikipedia.org/wiki/Jurassic_Park_(novel)
+[tabletop role-playing game]:
+    https://en.wikipedia.org/wiki/Tabletop_role-playing_game
+["AAA"]: https://en.wikipedia.org/wiki/AAA_(video_game_industry)
+[aesthetics]: https://en.wikipedia.org/wiki/Aesthetics
+[ethics]: https://en.wikipedia.org/wiki/Ethics
+[morality]: https://en.wikipedia.org/wiki/Morality
+[*Bill Nye the Science Guy*]:
+    https://en.wikipedia.org/wiki/Bill_Nye_the_Science_Guy
+[compact floppy disk]: https://en.wikipedia.org/wiki/History_of_the_floppy_disk#3%C2%BD-inch_format
+[Bachelor of Science (BSc)]: https://en.wikipedia.org/wiki/Bachelor_of_Science
+[*University of Waterloo*]: https://uwaterloo.ca/
+[physics]: https://en.wikipedia.org/wiki/Physics
+[astrophysics]: https://en.wikipedia.org/wiki/Astrophysics
+[Master of Science (MSc)]: https://en.wikipedia.org/wiki/Master_of_Science
+[psychology]: https://en.wikipedia.org/wiki/Psychology
+[*McMaster University*]: https://www.mcmaster.ca/
+[*Department of Psychology, Neuroscience & Behaviour*]: https://pnb.mcmaster.ca
+[vesper bat]: https://en.wikipedia.org/wiki/Vesper_bat
+[echolocation]: https://en.wikipedia.org/wiki/Animal_echolocation
+[big brown bat (*Eptesicus fuscus*)]:
+    https://en.wikipedia.org/wiki/Big_brown_bat
+[*Python*]: https://www.python.org/
+[*C++*]: https://en.wikipedia.org/wiki/C%2B%2B
+[*HTML*]: https://en.wikipedia.org/wiki/HTML
+[*CSS*]: https://en.wikipedia.org/wiki/CSS
+[*JavaScript*]: https://en.wikipedia.org/wiki/JavaScript
+[web servers]: https://en.wikipedia.org/wiki/Web_server
+[web servers on top of web servers]: https://en.wikipedia.org/wiki/Reverse_proxy
+[*the web*]: https://en.wikipedia.org/wiki/World_Wide_Web
+[Jerry's business]: https://jerrynoordam.ca
+[*MRKTBOX*]: https://www.mrktbox.com/
+[e-commerce web application]: https://order.mrktbox.com/
+[scrum]: https://en.wikipedia.org/wiki/Scrum_(software_development)
+["The Digital Divide"]: https://en.wikipedia.org/wiki/Digital_divide
