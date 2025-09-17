@@ -1,21 +1,22 @@
 # On the Grounds That I Don't Know the Answer
-So, I'm Carl.
+Who am I? I'm Carl.
 
-I can be many things, depending on when or how you find me. But without fail,
+I can be many things, depending on the time or the place. But without fail,
     I am always an unapologetic nerd.
 I love science fiction,
 from *Star Trek*'s naive mid-century techno-optimism
 to *Jurassic Park*'s outlandish cautionary tale.
-I also love games in any form, 
-    but I'll take a creative tabletop role-playing game over an
+I also love games in any form,
+    but I'll take a simple, creative tabletop role-playing game over an
     uninspired transaction-fuelled "AAA" any day.
 I'm passionate about aesthetics, ethics, and morality;
 I love discussing anything intellectually or philosophically challenging.
 
+Despite my adversity to my own personal definition,
 I feel the need to introduce myself, my work, and my ambitions to give context
     to my projects and other endeavours.
 While I find it challenging to write about myself,
-leaving my story here lets me share and connect with the
+hopefully leaving my story here will help me share and connect with the
     online community.
 
 # I Have Ended Up Where I Need to Be
