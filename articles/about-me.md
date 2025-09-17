@@ -113,13 +113,13 @@ Sharing the software and the process of creating it is my attempt to add to the
     long-form content software ecosystem.
 
 # It Has Great Practical Value
-Across my many roles in academia and industry, I've learned the
-    vast amount of power that modern technologies can provide.
+Across my many roles in academia and industry, I've learned the vast amount of
+    power that modern technologies can provide.
 The last few decades have shown us amazing tools that can not only improve our
-    day-to-day lives, but that have the potential to advance us exponentially as a
-    society.
-However, even with the unfathomable amount of computing power and data
-    available today,
+    day-to-day lives, but that have the potential to advance us exponentially as
+    a society.
+However, even with the unfathomable amount of computing power and data available
+    today,
 we still struggle to solve many problems that feel within reach.
 There is still much to learn about our future—and ourselves—to
     satisfy all of our ambitions.
