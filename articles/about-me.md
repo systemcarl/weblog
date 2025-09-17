@@ -85,13 +85,11 @@ Since then, I have been busy building full-stack web applications and services.
 ### I Love Deadlines
 Over the last five years, I have been writing software and building web
     applications concurrently with my MSc studies.
-The majority of this was focused on rebuilding the MRKTBOX e-commerce web
-    application.
-The project's goal was to create a multi-channel e-commerce application that
-    intuitively handles whatever requirements a small business could throw at it: 
-    cafe, catering, home delivery, and other special offerings.
-The application comprised a custom back-end service
-with a repurposed front-end from a pre-existing open-source project, OpenTender.
+My task was to rebuild the MRKTBOX e-commerce web application.
+The goal of the project was to create a multi-channel e-commerce application
+    that intuitively handles whatever customer experience a small business could
+    throw at it
+— cafe, catering, home delivery, and other special offerings.
 
 One of the most valuable experiences of this project was when
     I supervised aspiring developers studying at local colleges
@@ -101,7 +99,8 @@ I spent endless hours reviewing student code, untangling git commits, and
 which were enlightening practice in leadership and project management.
 
 Since finishing my work on the MRKTBOX project, I have continued studying,
-    researching, and experimenting to be able to build this weblog, here, from the ground up.
+    researching, and experimenting,
+culminating in the process of building this weblog, here.
 My goal is to create a prototype for an open-source, modular, extensible, maybe
     federated, blogging service.
 I am also writing programming guides, professional tips, and other articles
@@ -110,8 +109,8 @@ Essentially, this is the current expression of my love for software
     design and development,
 in the form of development diaries, how-to guides, opinion pieces, and
     the code that props it all up.
-Sharing the software and the process of creating it is my contribution to the
-    long-form content ecosystem.
+Sharing the software and the process of creating it is my attempt to add to the
+    long-form content software ecosystem.
 
 # It Has Great Practical Value
 Across my many roles in academia and industry, I've learned the
