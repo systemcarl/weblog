@@ -74,14 +74,13 @@ Aside from the undergraduate simulation and modelling courses — which used
     Python and C++ —
     my software and programming skills are self-taught.
 
-I first practiced modding video games, writing small scripts to
+While modding video games on my free time, I began writing small scripts to
     automate medial tasks, and free-lancing for friends and family.
 Then, while building a website for my good friend Jerry's business,
 I realized the potential of *the web*
 and dove headfirst into a world of HTML, CSS, JavaScript, web servers, and web
     servers on top of web servers.
-Since then, I have been doubling down on my long-standing love for Python for backend
-    development to build web applications and services.
+Since then, I have been busy building full-stack web applications and services.
 
 ### I Love Deadlines
 Over the last five years, I have been writing software and building web
