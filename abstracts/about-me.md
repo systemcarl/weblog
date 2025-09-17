@@ -1,6 +1,9 @@
-# About Me
-I am a technologist, scientist, and educator.
-I have been involved in several commercial and academic projects which have
-    given me valuable opportunities to learn and teach.
-My mission is to share my knowledge and resources to promote the use of
-    technology in industry, education, and research.
+# On the Grounds That I Don't Know the Answer
+
+So, I'm Carl.
+
+I'm a software developer, applied physicist, and purveyor of eclectic knowledge.
+As a curious person, I have devoted much of my life to exploring enigmatic
+    topics and learning new skills.
+In the process, I acquired a deep appreciation for science and technology.
+As you'll find out, I can't help but share it.
