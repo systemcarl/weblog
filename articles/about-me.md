@@ -21,13 +21,13 @@ hopefully leaving my story here will help me share and connect with the
 
 # I Have Ended Up Where I Need to Be
 I have loved science and computers for as long as I can remember.
-My earliest memories involve an obsession with the Bill Nye the Science Guy show
-and with trying tirelessly to bootstrap video games from my compact floppy disk
+My earliest memories recount an obsession with Bill Nye the Science Guy
+and tireless efforts to bootstrap video games from my compact floppy disk
     collection.
 These preoccupations, as well as a natural curiosity about how things work, have
     carried throughout my post-secondary education and professional career.
 Now, I am primarily a software developer,
-but I also see myself as a scientist and educator.
+but I also still see myself as a scientist and educator.
 
 ## I'd Rather Be Happy Than Right
 I continued to pursue my interest in science through a diverse university
