@@ -93,11 +93,12 @@ The project's goal was to create a multi-channel e-commerce application that
 The application comprised a custom back-end service
 with a repurposed front-end from a pre-existing open-source project, OpenTender.
 
-One of the most valuable experiences of this project was when 
-    I supervised aspiring developers studying at local colleges 
+One of the most valuable experiences of this project was when
+    I supervised aspiring developers studying at local colleges
     as they worked on co-op terms or student-led projects.
-I spent endless hours reviewing student code, untangling git commits, and lecturing on topics of best practice,
-      which were enlightening practice in leadership and project management.
+I spent endless hours reviewing student code, untangling git commits, and
+    lecturing on topics of best practice,
+which were enlightening practice in leadership and project management.
 
 Since finishing my work on the MRKTBOX project, I have continued studying,
     researching, and experimenting to be able to build this weblog, here, from the ground up.
