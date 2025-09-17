@@ -29,7 +29,7 @@ These preoccupations, as well as a natural curiosity about how things work, have
 Now, I am primarily a software developer,
 but I also still see myself as a scientist and educator.
 
-## I'd Rather Be Happy Than Right
+## I'd Far Rather Be Happy Than Right
 I continued to pursue my interest in science through a diverse university
     education.
 I first received a Bachelor of Science (BSc) degree from the University of
