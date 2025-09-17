@@ -184,7 +184,7 @@ Thus, a future of equity requires working together and sharing knowledge of
     technology.
 This weblog is my contribution to sharing knowledge and enabling others.
 
-### At Any Rate, You Live
+# At Any Rate, You Live
 I have been told "[I] don't work very hard, but [I] work smart."
 I want to share that gift with others, by:
 - scientifically researching how to build educated solutions,
@@ -198,8 +198,8 @@ I can't fix all the problems in the world myself, but I can help others to in
 I will grow old realizing the future that classic science-fiction dreamed of, or
     die trying.
 
-### Better to Talk to Than Nobody
-If you made it this far, I hope you found something interesting.
+## Better to Talk to Than Nobody
+If you're here, I hope you found something interesting.
 I appreciate all the support that has gotten me here,
 and I look forward to sharing more in the future.
 Currently, all of my work is available via my GitHub profile.
