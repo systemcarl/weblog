@@ -64,13 +64,14 @@ where my love for computers has thrived.
 After receiving my BSc, my career began in an electrical manufacturing support
     role bridging quality assurance, testing, technical sales, and incident
     management.
-It was in this role, while troubleshooting and field repairing commercial-industrial control
-    systems, that I realized my passion for systems design.
+It was in this role, while troubleshooting and field repairing
+    commercial-industrial control systems, that I realized my passion for
+    systems design.
 
 Pursuing this passion into the software development industry required
     significant amounts of determined effort.
-Aside from the undergraduate simulation and modelling courses—which used
-    Python and C++—
+Aside from the undergraduate simulation and modelling courses — which used
+    Python and C++ —
     my software and programming skills are self-taught.
 
 I first practiced modding video games, writing small scripts to
