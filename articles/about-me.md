@@ -121,8 +121,12 @@ The last few decades have shown us amazing tools that can not only improve our
 However, even with the unfathomable amount of computing power and data available
     today,
 we still struggle to solve many problems that feel within reach.
-There is still much to learn about our future—and ourselves—to
-    satisfy all of our ambitions.
+People are still without the opportunity for education, healthcare,
+or even basic needs like food, water, and shelter.
+Our consumption of energy skyrockets while we barrel towards climate
+    catastrophe.
+There is still much to learn about our future — and ourselves — in order to
+    satisfy all of our ambitions safely and equitably.
 
 ## See First, Think Later, Then Test
 My personal goal is to apply what I've learned from scientific training to my
@@ -137,10 +141,10 @@ product design and project management are no exception.
 A scientific approach provides a reliable framework to find the best solution to
     an enigmatic problem.
 I believe that harnessing this process will undoubtedly lead to better outcomes,
-    grounded in evidence and reason.
+    grounded in evidence and reason, for the benefit of all.
 
 ## Let the Present Move Forward Into the Future
-I'm also of the opinion that software developers should always be thinking towards
+I'm also of the opinion software developers should always be thinking towards
     the future.
 Sure, we all have to stay focused on the the next milestone.
 But any experienced project manager knows: if you don't consider our direction,
@@ -148,7 +152,7 @@ But any experienced project manager knows: if you don't consider our direction,
 
 Personally, I want to create technology that will stand the test of time, either
     by being extensible or modular.
-In this way, any software solutions I find can be applied to problems outside their
+In this way, new software solutions can be applied to problems outside their
     originally intended domain.
 I can't think of a greater achievement than creating a foundational piece of
     work that paves the way for others to build.
