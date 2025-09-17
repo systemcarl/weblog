@@ -1,4 +1,4 @@
-# On the Grounds That I Don't Know the Answer
+# On the Grounds That I Don't Know the Answer[^adams]
 Who am I? I'm Carl.
 
 I can be many things, depending on the time or the place. But without fail,
@@ -206,6 +206,12 @@ Currently, all of my work is available via my GitHub profile.
 If you have any questions, comments, or suggestions, please feel free to reach
     out to me.
 
+[^adams]: If you're not familiar with the references, all the headings in this
+    article are lifted from popular [Douglas Adams] quotes.
+I highly recommend reading his works, if you haven't already.
+Douglas Adams was a brilliant satirist and his philosophy and sense of humor has
+    always inspired me.
+
 [*Star Trek*]: https://en.wikipedia.org/wiki/Star_Trek
 [*Jurassic Park*]: https://en.wikipedia.org/wiki/Jurassic_Park_(novel)
 [tabletop role-playing game]:
@@ -242,3 +248,4 @@ If you have any questions, comments, or suggestions, please feel free to reach
 [e-commerce web application]: https://order.mrktbox.com/
 [scrum]: https://en.wikipedia.org/wiki/Scrum_(software_development)
 ["The Digital Divide"]: https://en.wikipedia.org/wiki/Digital_divide
+[Douglas Adams]: https://en.wikipedia.org/wiki/Douglas_Adams
