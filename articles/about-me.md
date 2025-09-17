@@ -33,24 +33,29 @@ but I also still see myself as a scientist and educator.
 I continued to pursue my interest in science through a diverse university
     education.
 I first received a Bachelor of Science (BSc) degree from the University of
-    Waterloo, where I studied physics—a natural choice for someone fascinated by the fundamental workings of the
+    Waterloo, where I studied physics—a natural choice for someone fascinated
+    by the fundamental workings of the
     universe.
-More specifically, I specialized in astrophysics and took any course that focused on
-    mathematical modelling and computer simulation.
+Naturally, I enrolled in any course that focused on mathematical modelling and
+    computer simulation
+which led me to specialize in astrophysics.
 
 Over the last few years, I have been gradually working towards a Master of
     Science (MSc) degree in psychology at McMaster University.
+I have been studying and assisting with undergraduate courses, completing
+    teaching assistantships and performing guest lectures.
 While I had always had a pet interest in psychology,
 the Department of Psychology, Neuroscience & Behaviour gave me an opportunity to
     dive deeper into statistical analysis, experimental design, and scientific
     writing.
-I have applied this new knowledge in my MSc thesis studying the biophysics of vesper bat
+I applied this knowledge in my MSc thesis studying the biophysics of vesper bat
     echolocation.
 I have been working to document and understand the spatial characteristics of
     big brown bat (*Eptesicus fuscus*) developmental vocalizations
 (the sounds bat pups make as they learn to echolocate).
-The majority of my time has been spent developing computational signal analysis
-    tools to extract data from the raw audio recordings.
+This work might seem distant from programming or physics,
+but the majority of my time has been spent developing computational signal
+    analysis tools to extract acoustic data from the raw audio recordings.
 
 ## You Live and Learn
 In tandem with my education, I have continued to pursue a professional career in
