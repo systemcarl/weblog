@@ -195,8 +195,8 @@ In the end, I hope my efforts will contribute to scientific research,
     technological development, and education.
 I can't fix all the problems in the world myself, but I can help others to in
     their work.
-I will grow old realizing the future that classic science-fiction dreamed of, or
-    die trying.
+If I don't live to see the dreams of a classic science-fiction future, I
+    I'll have died trying.
 
 ## Better to Talk to Than Nobody
 If you're here, I hope you found something interesting.
