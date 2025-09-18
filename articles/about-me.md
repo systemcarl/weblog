@@ -1,8 +1,8 @@
 # On the Grounds That I Don't Know the Answer[^adams]
-Who am I? I'm Carl.
+I'm Carl.
 
-I can be many things, depending on the time or the place. But without fail,
-    I am always an unapologetic nerd.
+I sometimes find it difficult to describe exactly who I am.
+But one thing I can say for certain: I'm an unapologetic nerd.
 I love science fiction,
 from [*Star Trek*]'s naive mid-century techno-optimism
 to [*Jurassic Park*]'s outlandish cautionary tale.
