@@ -87,8 +87,8 @@ Over the last five years, I have been writing software and building web
 My task was to rebuild the [*MRKTBOX*] [e-commerce web application].
 The goal of the project was to create a multi-channel e-commerce application
     that intuitively handles whatever customer experience a small business could
-    throw at it
-— cafe, catering, home delivery, and other special offerings.
+    throw at it:
+ cafe, catering, home delivery, and other special offerings.
 
 One of the most valuable experiences of this project was when
     I supervised aspiring developers studying at local colleges
