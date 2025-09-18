@@ -213,9 +213,9 @@ If I don't live to see the dreams of a classic science-fiction future, I
 If you're here, I hope you found something interesting.
 I appreciate all the support that has gotten me here,
 and I look forward to sharing more in the future.
-Currently, all of my work is available via my GitHub profile.
-If you have any questions, comments, or suggestions, please feel free to reach
-    out to me.
+Currently, all of my work is available via my [GitHub profile].
+If you have any questions, comments, or suggestions, please feel free to
+    [reach out to me].
 
 [^adams]: If you're not familiar with the references, all the headings in this
     article are lifted from popular [Douglas Adams] quotes.
@@ -259,4 +259,6 @@ Douglas Adams was a brilliant satirist and his philosophy and sense of humour ha
 [e-commerce web application]: https://order.mrktbox.com/
 [scrum]: https://en.wikipedia.org/wiki/Scrum_(software_development)
 ["The Digital Divide"]: https://en.wikipedia.org/wiki/Digital_divide
+[GitHub profile]: https://github.com/systemcarl
+[reach out to me]: https://carledwardlyons.ca/#contact
 [Douglas Adams]: https://en.wikipedia.org/wiki/Douglas_Adams
