@@ -12,8 +12,7 @@ I also love games in any form,
 I'm passionate about [aesthetics], [ethics], and [morality];
 I love discussing anything intellectually or philosophically challenging.
 
-Despite my adversity to my own personal definition,
-I feel the need to introduce myself, my work, and my ambitions to give context
+I'd like to introduce myself, my work, and my ambitions to give context
     to my projects and other endeavours.
 While I find it challenging to write about myself,
 hopefully leaving my story here will help me share and connect with the
