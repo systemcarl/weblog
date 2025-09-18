@@ -208,7 +208,7 @@ If you have any questions, comments, or suggestions, please feel free to reach
 [^adams]: If you're not familiar with the references, all the headings in this
     article are lifted from popular [Douglas Adams] quotes.
 I highly recommend reading his works, if you haven't already.
-Douglas Adams was a brilliant satirist and his philosophy and sense of humor has
+Douglas Adams was a brilliant satirist and his philosophy and sense of humour has
     always inspired me.
 
 [*Star Trek*]: https://en.wikipedia.org/wiki/Star_Trek
