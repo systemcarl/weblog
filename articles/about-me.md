@@ -101,7 +101,7 @@ Since finishing my work on the [*MRKTBOX*] project, I have continued studying,
     researching, and experimenting,
 which has culminated in the process of building this weblog, here.
 My goal is to create a prototype for an open-source, modular, extensible, maybe
-    federated, blogging service.
+    federated blogging service.
 I am also writing programming guides, professional tips, and other articles
     to include on my weblog.
 Essentially, this is the current expression of my love for software
