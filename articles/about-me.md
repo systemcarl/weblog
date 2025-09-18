@@ -42,7 +42,7 @@ which led me to specialize in [astrophysics].
 Over the last few years, I have been gradually working towards a [Master of
     Science (MSc)] degree in [psychology] at [*McMaster University*].
 I have been studying and assisting with undergraduate courses, completing
-    teaching assistantships and performing guest lectures.
+    teaching assistantships, and performing guest lectures.
 While I had always had a pet interest in psychology,
 the [*Department of Psychology, Neuroscience & Behaviour*] gave me an
     opportunity to dive deeper into statistical analysis, experimental design,
