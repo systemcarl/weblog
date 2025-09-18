@@ -121,10 +121,9 @@ However, even with the unfathomable amount of computing power and data available
     today,
 we still struggle to solve many problems that feel within reach.
 People are still without the opportunity for education, healthcare,
-or even basic needs like food, water, and shelter.
-Our consumption of energy skyrockets while we barrel towards climate
-    catastrophe.
-There is still much to learn about our future — and ourselves — in order to
+    or even very basic needs.
+I believe we should look to technology to help solve these problems, but 
+    there is still much to learn in order to
     satisfy all of our ambitions safely and equitably.
 
 ## See First, Think Later, Then Test
