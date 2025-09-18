@@ -119,12 +119,25 @@ The last few decades have shown us amazing tools that can not only improve our
     a society.
 However, even with the unfathomable amount of computing power and data available
     today,
-we still struggle to solve many problems that feel within reach.
-People are still without the opportunity for education, healthcare,
-    or even very basic needs.
-I believe we should look to technology to help solve these problems, but 
-    there is still much to learn in order to
-    satisfy all of our ambitions safely and equitably.
+we still struggle to solve many important problems that seem within reach.
+
+For example,
+vast amounts of our economic and social infrastructure rely on centralized
+    services.
+The corporations responsible for operating these services have continually
+    proven incapable of self-moderation
+    and are plagued by misaligned incentives.
+Increased demand for computing power now necessitates a dependence on privatized
+    infrastructure.
+Unless we find ways to address these concerns, our future will only become more
+    contingent on these unreliable resources as our needs continue to grow.
+
+I don't believe that technology itself is ever the problem.
+I believe by embracing technology to help solve the problems we face surrounding
+    it
+we can continue to innovate without compromising our safety and security.
+But as it stands, there is still much to learn in order to satisfy all of our
+    ambitions without unintended consequences.
 
 ## See First, Think Later, Then Test
 My personal goal is to apply what I've learned from scientific training to my
