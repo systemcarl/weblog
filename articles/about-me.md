@@ -99,7 +99,7 @@ which were enlightening practice in leadership and project management.
 
 Since finishing my work on the [*MRKTBOX*] project, I have continued studying,
     researching, and experimenting,
-culminating in the process of building this weblog, here.
+which has culminated in the process of building this weblog, here.
 My goal is to create a prototype for an open-source, modular, extensible, maybe
     federated, blogging service.
 I am also writing programming guides, professional tips, and other articles
