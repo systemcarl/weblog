@@ -136,6 +136,9 @@ I don't believe that technology itself is ever the problem.
 I believe by embracing technology to help solve the problems we face surrounding
     it
 we can continue to innovate without compromising our safety and security.
+Federated systems are already making social platforms, like Mastodon, more
+    autonomous and democratic;
+local-first architecture is now giving users more control over their data.
 But as it stands, there is still much to learn in order to satisfy all of our
     ambitions without unintended consequences.
 
