@@ -114,13 +114,15 @@ Sharing the software and the process of creating it is my attempt to add to the
 # It Has Great Practical Value
 Across my many roles in academia and industry, I've learned the vast amount of
     power that modern technologies can provide.
-The last few decades have shown us amazing tools that can not only improve our
+Development over the last few decades has led to amazing tools that can not only improve our
     day-to-day lives, but that have the potential to advance us exponentially as
     a society.
 However, even with the unfathomable amount of computing power and data available
     today,
 we still struggle to solve many important problems that seem within reach.
 
+I don't believe that technology itself is ever the root problem.
+Instead, I believe that certain applications of technology are the problem.
 For example,
 vast amounts of our economic and social infrastructure rely on centralized
     services.
@@ -132,10 +134,8 @@ Increased demand for computing power now necessitates a dependence on privatized
 Unless we find ways to address these concerns, our future will only become more
     contingent on these unreliable resources as our needs continue to grow.
 
-I don't believe that technology itself is ever the problem.
-I believe by embracing technology to help solve the problems we face surrounding
-    it
-we can continue to innovate without compromising our safety and security.
+Luckily, there have been software developers working to embrace technology 
+    to help solve these problems without compromisong our safety and security. 
 Federated systems are already making social platforms, like Mastodon, more
     autonomous and democratic;
 local-first architecture is now giving users more control over their data.
