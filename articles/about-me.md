@@ -2,7 +2,7 @@
 I'm Carl.
 
 I sometimes find it difficult to describe exactly who I am.
-But one thing I can say for certain: I'm an unapologetic nerd.
+But one thing I can say for certain: I'm an nerd.
 I love science fiction,
 from [*Star Trek*]'s naive mid-century techno-optimism
 to [*Jurassic Park*]'s outlandish cautionary tale.
@@ -20,7 +20,7 @@ hopefully leaving my story here will help me share and connect with the
 
 # I Have Ended Up Where I Need to Be
 I have loved science and computers for as long as I can remember.
-My earliest memories recount an obsession with [*Bill Nye the Science Guy*]
+My earliest memories recount a mild obsession with [*Bill Nye the Science Guy*]
 and tireless efforts to bootstrap video games from my [compact floppy disk]
     collection.
 These preoccupations, as well as a natural curiosity about how things work, have
