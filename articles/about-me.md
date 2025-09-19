@@ -172,7 +172,7 @@ I can't think of a greater achievement than creating a foundational piece of
     work that paves the way for others to build.
 
 ## Grapple With the Ineffable
-Though most of all, I also want to teach what I've learned.
+Though, most of all, I also want to teach what I've learned.
 Throughout completing my teaching assistantships, guest lectures, and
     supervision of college projects and co-op internships, my desire to educate
     has solidified.
