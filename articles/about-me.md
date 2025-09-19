@@ -209,7 +209,7 @@ In the end, I hope my efforts will contribute to scientific research,
     technological development, and education.
 I can't fix all the problems in the world myself, but I can help others to in
     their work.
-If I don't live to see the dreams of a classic science-fiction future, I
+If I don't live to see a classic science-fiction future,
     I'll have died trying.
 
 ## Better to Talk to Than Nobody
