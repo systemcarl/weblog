@@ -36,7 +36,7 @@ I first received a [Bachelor of Science (BSc)] degree from the
 an intuitive choice for someone fascinated by the fundamental workings of the
     universe.
 Naturally, I enrolled in any course that focused on mathematical modelling and
-    computer simulation
+    computer simulation,
 which led me to specialize in [astrophysics].
 
 Over the last few years, I have been gradually working towards a [Master of
