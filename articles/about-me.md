@@ -160,7 +160,7 @@ I believe that harnessing this process will undoubtedly lead to better outcomes,
 ## Let the Present Move Forward Into the Future
 I'm also of the opinion software developers should always be thinking towards
     the future.
-Sure, we all have to stay focused on the the next milestone.
+Sure, we all have to stay focused on the next milestone.
 But any experienced project manager knows: if you don't consider our direction,
     you may just be [[scrum]] sprinting into a wall.
 
