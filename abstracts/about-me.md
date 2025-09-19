@@ -1,5 +1,4 @@
 # On the Grounds That I Don't Know the Answer
-
 Who am I? I'm Carl.
 
 I'm a software developer, applied physicist, and purveyor of eclectic knowledge.
