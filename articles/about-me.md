@@ -73,7 +73,7 @@ Aside from the undergraduate simulation and modelling courses — which used
     [*Python*] and [*C++*] —
     my software and programming skills are self-taught.
 
-While modding video games on my free time, I began writing small scripts to
+While modding video games in my free time, I began writing small scripts to
     automate medial tasks, and free-lancing for friends and family.
 Then, while building a website for my good friend [Jerry's business],
 I realized the potential of [*the web*]
