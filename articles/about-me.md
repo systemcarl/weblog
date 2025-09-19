@@ -114,9 +114,9 @@ Sharing the software and the process of creating it is my attempt to add to the
 # It Has Great Practical Value
 Across my many roles in academia and industry, I've learned the vast amount of
     power that modern technologies can provide.
-Development over the last few decades has led to amazing tools that can not only improve our
-    day-to-day lives, but that have the potential to advance us exponentially as
-    a society.
+Development over the last few decades has led to amazing tools that can not only
+    improve our day-to-day lives, but that have the potential to advance us
+    exponentially as a society.
 However, even with the unfathomable amount of computing power and data available
     today,
 we still struggle to solve many important problems that seem within reach.
@@ -134,8 +134,8 @@ Increased demand for computing power now necessitates a dependence on privatized
 Unless we find ways to address these concerns, our future will only become more
     contingent on these unreliable resources as our needs continue to grow.
 
-Luckily, there have been software developers working to embrace technology 
-    to help solve these problems without compromisong our safety and security. 
+Luckily, there have been software developers working to embrace technology
+    to help solve these problems without compromising our safety and security.
 Federated systems are already making social platforms, like Mastodon, more
     autonomous and democratic;
 local-first architecture is now giving users more control over their data.
@@ -223,8 +223,8 @@ If you have any questions, comments, or suggestions, please feel free to
 [^adams]: If you're not familiar with the references, all the headings in this
     article are lifted from popular [Douglas Adams] quotes.
 I highly recommend reading his works, if you haven't already.
-Douglas Adams was a brilliant satirist and his philosophy and sense of humour has
-    always inspired me.
+Douglas Adams was a brilliant satirist and his philosophy and sense of humour
+    has always inspired me.
 
 [*Star Trek*]: https://en.wikipedia.org/wiki/Star_Trek
 [*Jurassic Park*]: https://en.wikipedia.org/wiki/Jurassic_Park_(novel)
@@ -236,7 +236,8 @@ Douglas Adams was a brilliant satirist and his philosophy and sense of humour ha
 [morality]: https://en.wikipedia.org/wiki/Morality
 [*Bill Nye the Science Guy*]:
     https://en.wikipedia.org/wiki/Bill_Nye_the_Science_Guy
-[compact floppy disk]: https://en.wikipedia.org/wiki/History_of_the_floppy_disk#3%C2%BD-inch_format
+[compact floppy disk]:
+    https://en.wikipedia.org/wiki/History_of_the_floppy_disk#3%C2%BD-inch_format
 [Bachelor of Science (BSc)]: https://en.wikipedia.org/wiki/Bachelor_of_Science
 [*University of Waterloo*]: https://uwaterloo.ca/
 [physics]: https://en.wikipedia.org/wiki/Physics
