@@ -63,16 +63,16 @@
             - These were enlightening exercises in leadership and project management.
 - Since finishing the *MRKTBOX* project, I have been
     experimenting with new software technologies.
-    - Building this weblog is one result of this personal development.
-        - My goal is to create a prototype for a blogging service that is:
-            - open-source
-            - modular
-            - extensible
-            - federated
-        - The project combines my development logs, how-to guides, and opinion pieces
-            with the code of the blogging platform itself.
-        - Sharing the software and its development process
-            is my contribution to the long-form content ecosystem.
+- Building this weblog is one result of this personal development.
+    - My goal is to create a prototype for a blogging service that is:
+        - open-source
+        - modular
+        - extensible
+        - federated
+    - The project combines my development logs, how-to guides, and opinion pieces
+        with the code of the blogging platform itself.
+    - Sharing the software and its development process
+        is my contribution to the long-form content ecosystem.
 
 ## It Has Great Practical Value
 - My education and career have shown me the power and importance of modern
