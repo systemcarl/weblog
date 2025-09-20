@@ -18,7 +18,7 @@ While I find it challenging to write about myself,
 hopefully leaving my story here will help me share and connect with the
     online community.
 
-# I Have Ended Up Where I Need to Be
+## I Have Ended Up Where I Need to Be
 I have loved science and computers for as long as I can remember.
 My earliest memories recount a mild obsession with [*Bill Nye the Science Guy*]
 and tireless efforts to bootstrap video games from my [compact floppy disk]
@@ -28,7 +28,7 @@ These preoccupations, as well as a natural curiosity about how things work, have
 Now, I am primarily a software developer,
 but I also still see myself as a scientist and educator.
 
-## I'd Far Rather Be Happy Than Right
+### I'd Far Rather Be Happy Than Right
 I continued to pursue my interest in science through a diverse university
     education.
 I first received a [Bachelor of Science (BSc)] degree from the
@@ -56,7 +56,7 @@ This work might seem distant from programming or physics,
 but the majority of my time has been spent developing computational signal
     analysis tools to extract acoustic data from the raw audio recordings.
 
-## You Live and Learn
+### You Live and Learn
 In tandem with my education, I have continued to pursue a professional career in
     technology,
 where my love for computers has thrived.
@@ -71,7 +71,7 @@ Pursuing this passion into the software development industry required
     significant amounts of determined effort.
 Aside from the undergraduate simulation and modelling courses — which used
     [*Python*] and [*C++*] —
-    my software and programming skills are self-taught.
+my software and programming skills are self-taught.
 
 While modding video games in my free time, I began writing small scripts to
     automate medial tasks, and free-lancing for friends and family.
@@ -81,7 +81,7 @@ and dove headfirst into a world of [*HTML*], [*CSS*], [*JavaScript*],
     [web servers], and [web servers on top of web servers].
 Since then, I have been busy building full-stack web applications and services.
 
-### I Love Deadlines
+#### I Love Deadlines
 Over the last five years, I have been writing software and building web
     applications concurrently with my MSc studies.
 My task was to rebuild the [*MRKTBOX*] [e-commerce web application].
@@ -111,7 +111,7 @@ in the form of development diaries, how-to guides, opinion pieces, and
 Sharing the software and the process of creating it is my attempt to add to the
     long-form content software ecosystem.
 
-# It Has Great Practical Value
+## It Has Great Practical Value
 Across my many roles in academia and industry, I've learned the vast amount of
     power that modern technologies can provide.
 Development over the last few decades has led to amazing tools that can not only
@@ -142,7 +142,7 @@ local-first architecture is now giving users more control over their data.
 But as it stands, there is still much to learn in order to satisfy all of our
     ambitions without unintended consequences.
 
-## See First, Think Later, Then Test
+### See First, Think Later, Then Test
 My personal goal is to apply what I've learned from scientific training to my
     professional work.
 Namely, I've learned that researching any phenomenon requires correct scientific
@@ -157,7 +157,7 @@ A scientific approach provides a reliable framework to find the best solution to
 I believe that harnessing this process will undoubtedly lead to better outcomes,
     grounded in evidence and reason, for the benefit of all.
 
-## Let the Present Move Forward Into the Future
+### Let the Present Move Forward Into the Future
 I'm also of the opinion software developers should always be thinking towards
     the future.
 Sure, we all have to stay focused on the next milestone.
@@ -171,7 +171,7 @@ In this way, new software solutions can be applied to problems outside their
 I can't think of a greater achievement than creating a foundational piece of
     work that paves the way for others to build.
 
-## Grapple With the Ineffable
+### Grapple With the Ineffable
 Though, most of all, I also want to teach what I've learned.
 Throughout completing my teaching assistantships, guest lectures, and
     supervision of college projects and co-op internships, my desire to educate
@@ -198,7 +198,7 @@ Thus, a future of equity requires working together and sharing knowledge of
     technology.
 This weblog is my contribution to sharing knowledge and enabling others.
 
-# At Any Rate, You Live
+## At Any Rate, You Live
 I have been told "[I] don't work very hard, but [I] work smart."
 I want to share that gift with others, by:
 - scientifically researching how to build educated solutions,
@@ -212,7 +212,7 @@ I can't fix all the problems in the world myself, but I can help others to in
 If I don't live to see a classic science-fiction future,
     I'll have died trying.
 
-## Better to Talk to Than Nobody
+### Better to Talk to Than Nobody
 If you're here, I hope you found something interesting.
 I appreciate all the support that has gotten me here,
 and I look forward to sharing more in the future.
