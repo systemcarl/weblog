@@ -175,7 +175,7 @@ I can't think of a greater achievement than creating a foundational piece of
 
 ### Grapple With the Ineffable
 Though, most of all, I want to teach what I've learned.
-Throughout teaching assistantships, guest lectures, and supervision of college
+Throughout my teaching assistantships, guest lectures, and supervision of college
     projects and co-op internships, my desire to educate
     has solidified.
 I know I wouldn't be where I am without the mentorship and guidance I've
