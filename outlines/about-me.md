@@ -9,7 +9,7 @@
 # On the Grounds That I Don't Know the Answer[^adams]
 - I'm Carl and I'm a nerd.
 - My intension with this article is to introduce myself,
-    give context to my work.
+    give context to my work,
     and connect with the online community.
 
 ## I Have Ended Up Where I Need to Be
