@@ -92,14 +92,9 @@
 
 ### See First, Think Later, Then Test
 - My goal is to apply my scientific training to software development.
-    - Effective research requires the scientific method.
-    - The scientific method is systematic, empirical, and reproducible.
-    - Any attempt at problem solving can follow the scientific method.
-        - This includes product design and project management.
-    - The scientific method provides a framework for reliably finding solutions
-        to complex problems.
-    - The outcomes of using the scientific method are based on unbiased evidence
-        and reason.
+- Any attempt at problem solving can follow the scientific method
+    (*i.e.* a systematic, empirical, and reproducible process).
+    - This includes product design and project management.
 
 ### Let the Present Move Forward Into the Future
 - Software developers should be thinking about the future.
