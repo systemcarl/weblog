@@ -113,16 +113,13 @@
         developers.
 
 ## At Any Rate, You Live
-- I have been told "[I] don't work very hard, but [I] work smart."
-    - I want to share that gift with others, by:
-        - conducting empirical research to build educated solutions,
-        - building and sharing tools to manage complex and unintuitive problems,
-        - or teaching the skills to do the same.
-- I hope my effort will contribute to scientific research, technological
+- Overall, I want to:
+    - conduct empirical research on building educated solutions
+    - build and share tools to manage complex and unintuitive problems
+    - teach the skills for others to do the same.
+- I want to help create a better future for everyone
+- by contributing to scientific research, technological
     development, and education.
-    - I want to help create a better future for everyone.
-    - If I don't live to see a classic science-fiction future,
-        I'll have died trying.
 
 ### <a id='thanks-&-follow'></a>Better to Talk to Than Nobody
 - I hope you found something interesting.
