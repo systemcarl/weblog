@@ -53,38 +53,26 @@
 - I have been building web applications and services since then.
 
 #### I Love Deadlines
-- I have been writing software and building web applications for the last
-    5 years.
-    - This work was concurrent with my graduate studies.
+- I have been profesionally writing software and building web applications
+    for the last 5 years.
     - Mostly, I worked on the [*MRKTBOX*] [e-commerce web application].
-    - The goal was to create a multi-channel e-commerce application that could
-        support small businesses including:
-        - cafes,
-        - catering,
-        - home delivery,
-        - and other special offerings.
-- One of the most valuable experience was supervising co-op students and college
-    projects.
-    - A significant amount of my time was spent reviewing code, managing code
-        repositories, and teaching best practices.
-    - These were enlightening exercises in leadership and project management.
-- Since finishing the *MRKTBOX* project, I have been studying, researching, and
+        - The goal was to create a multi-channel e-commerce application that could
+            support small business needs.
+        - During this, I also supervised co-op students and college
+            projects.
+            - These were enlightening exercises in leadership and project management.
+- Since finishing the *MRKTBOX* project, I have been
     experimenting with new software technologies.
-    - Building this weblog is one the results of this personal development.
-    - My goal is to create a prototype for a blogging service that is:
-        - open-source,
-        - modular,
-        - extensible,
-        - and federated.
-    - I am also writing:
-        - programming guides,
-        - professional tips,
-        - and other articles.
-    - This is a passion project devoted to software design and development.
-    - The project combines development logs, how-to guides, and opinion pieces
-        with the code of the blogging platform itself.
-    - Sharing the software and the process is my contribution to the long-form
-        content ecosystem.
+    - Building this weblog is one result of this personal development.
+        - My goal is to create a prototype for a blogging service that is:
+            - open-source
+            - modular
+            - extensible
+            - federated
+        - The project combines my development logs, how-to guides, and opinion pieces
+            with the code of the blogging platform itself.
+        - Sharing the software and its development process
+            is my contribution to the long-form content ecosystem.
 
 ## It Has Great Practical Value
 - My education and career have shown me the power and importance of modern
