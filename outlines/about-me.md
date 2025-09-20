@@ -123,14 +123,10 @@
 
 ### <a id='thanks-&-follow'></a>Better to Talk to Than Nobody
 - I hope you found something interesting.
-    - I appreciate all the support.
-    - I look forward to sharing more.
     - My work is available on my [GitHub profile].
     - Feel free to [reach out to me].
 
 [^adams]: All headings in this article reference quotes from [Douglas Adams].
-    - I recommend you read his works.
-    - The satire and philosophy of Douglas Adams has always inspired me.
 
 [*Star Trek*]: https://en.wikipedia.org/wiki/Star_Trek
 [*Jurassic Park*]: https://en.wikipedia.org/wiki/Jurassic_Park_(novel)
