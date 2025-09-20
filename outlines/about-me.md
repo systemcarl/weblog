@@ -102,22 +102,13 @@
 - Creating software that enables future development is a great achievement.
 
 ### Grapple With the Ineffable
-- More than anything, I want to teach what I have learned.
-    - My experience completing teaching assistantships, guest lecturing, and
-        supervising software students has motivated me to continue teaching.
-    - The mentorship and guidance I received was crucial to my career.
-    - I want to provide the same mentorship and guidance to others.
-- Software innovation can only continue when new developers are trained with the
-    necessary fundamentals.
-    - Research and investment into teaching computer programming will become
-        more important as technology continues to become more demanding.
-- Technology is a necessary part of our lives.
-    - Worsening inequality can be attributed to differences in access to
-        technology, ["The Digital Divide"].
-    - A future free from inequality requires removing socioeconomic barriers.
-    - Making software resources and tools freely available removes financial
-        barriers.
-    - Working together and sharing knowledge is the achieve equity.
+- More than anything, I want to teach what I have learned,
+    and provide mentoriship and guidance for others.
+- Research and investment into teaching computer programming will become
+    more important as technology continues to become more demanding.
+    - Software innovation can only continue when new developers are trained with the
+        necessary fundamentals.
+- Making software resources and tools freely available is the way to achieve equity.
     - This weblog is my contribution to sharing and enabling other software
         developers.
 
