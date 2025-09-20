@@ -7,20 +7,10 @@
         questions.
 
 # On the Grounds That I Don't Know the Answer[^adams]
-- I am Carl.
-- I am a nerd.
-    - I find it difficult to describe myself otherwise.
-    - I love science fiction, *e.g.*:
-        - [*Star Trek*],
-        - and [*Jurassic Park*].
-    - I love games, in general.
-        - I prefer creative [tabletop role-playing games] over ["AAA"] video
-            games.
-    - I love discussing challenging topics.
-        - *e.g.* [aesthetics], [ethics], and [morality].
-- My intension is to introduce myself and give context to my work.
-    - I find it difficult to write about myself.
-    - The goal is to connect with the online community.
+- I'm Carl and I'm a nerd.
+- My intension with this article is to introduce myself,
+    give context to my work.
+    and connect with the online community.
 
 ## I Have Ended Up Where I Need to Be
 - I loved science and computers since I was very young.
