@@ -18,25 +18,18 @@
 - Now I am a software developer, scientist, and educator.
 
 ### I'd Far Rather Be Happy Than Right
-- I have continued to pursue my interests in science and computers through my
+- I have pursued my interests in science and computers through my
     education.
-    - I received a [Bachelor of Science (BSc)] in [physics] from the
+- I received a [Bachelor of Science (BSc)] in [physics] from the
         [*University of Waterloo*].
-    - Physics was a natural choice for someone interested the how things work.
     - I focused on mathematical modelling and computer simulation.
-    - My degree included a specialization in [astrophysics].
-- I have also been working towards a [Master of Science (MSc)] degree in
+- I have  been working towards a [Master of Science (MSc)] degree in
     [psychology] at [*McMaster University*].
     - I have been taking courses, completing teaching assistantships, and
-        giving guest lectures.
-    - I have always been interested in psychology.
-    - The [*Department of Psychology, Neuroscience & Behaviour*] taught me
-        statistical analysis, experimental design, and scientific writing.
+        giving guest lectures. 
     - My thesis research is about the biology of [vesper bat] echolocation.
-    - I have been documenting the spacial characteristics of
-        [big brown bat (*Eptesicus fuscus*)] pup vocalizations.
-    - This research utilized my background in physics and programming
-        - I worked to develop computational signal analysis tools to aggregate
+        - This research utilizes my background in physics and programming
+            through developing computational signal analysis tools to aggregate
             and analyze acoustic data.
 
 ### You Live and Learn
