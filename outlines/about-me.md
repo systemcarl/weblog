@@ -33,31 +33,24 @@
             and analyze acoustic data.
 
 ### You Live and Learn
-- While studying, I've also been pursuing a career in software development.
-    - My love for computers has thrived, throughout my career.
-    - My career began with a support role in electrical manufacturing.
-        - The role involved:
-            - quality assurance,
-            - testing,
-            - technical sales,
-            - and incident management.
+- While studying, I've also been pursuing a career in software development,
+    where my love for computers has thrived.
+- My career began with a support role in electrical manufacturing.
     - Troubleshooting and field repairing commercial-industrial control systems
         helped me realize my passion for systems design.
 - I have since put a lot of effort into learning about software development.
-    - I have only taken a few classes that used [*Python*] and [*C++*] in
-        undergraduate simulation and modelling courses.
-    - Otherwise my programming skills are self-taught.
-- I began learning software development by modding video games, writing small
-    automation scripts and free-lancing.
-    - Most notably, I built a website for my friend [Jerry's business].
-    - Making small websites showed me the potential of [*the web*].
-    - This led me to learn more about:
-        - [*HTML*],
-        - [*CSS*],
-        - [*JavaScript*],
-        - [web servers],
-        - and cloud infrastructure (*e.g.* [reverse proxies]).
-    - I have been building web applications and services since then.
+    - Knowing a bit about Python and C++,
+        I began with modding video games, writing small
+        automation scripts and free-lancing.
+        - Most notably, I built a website for my friend [Jerry's business]
+            early in my career.
+    - I've since learned more about:
+        - [*HTML*]
+        - [*CSS*]
+        - [*JavaScript*]
+        - [web servers]
+        - cloud infrastructure (*e.g.* [reverse proxies])
+- I have been building web applications and services since then.
 
 #### I Love Deadlines
 - I have been writing software and building web applications for the last
