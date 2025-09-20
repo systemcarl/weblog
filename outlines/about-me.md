@@ -77,26 +77,18 @@
 ## It Has Great Practical Value
 - My education and career have shown me the power and importance of modern
     technology.
-    - The last few decades of development have produced tools that improve our
-        lives and have the potential to continue advancing society.
-    - We now possess vast amounts of data and computational power.
-    - There are still many problems our technology can help solve.
-- Technology is not the problem itself.
-    - Our application of the technology is the source of many problems.
-    - Much of our infrastructure relies on centralized services.
-    - The corporations that operate these services have proven to be incapable
-        of self-moderation and have misaligned incentives.
-    - Our demand for more computing power has necessitated our dependence on
-        this private infrastructure.
-    - Our future will continue to depend on these services unless we address
-        these issues.
-- Fortunately, there are initiatives to embrace technology to solve these
+- The last few decades of development have produced tools that improve our
+    lives and have the potential to continue advancing society.
+- However, our application of the technology is the source of many problems.
+    - *e.g.* Much of our infrastructure relies on centralized services
+        from corporations incapable of self-moderation.
+- Fortunately, there are initiatives embracing technology to solve these
     problems with safety and security in mind.
     - Federated systems are making social platforms more autonomous and
         democratic;
         - *e.g.* [*Mastodon*].
     - Local-first architecture is giving users more control over their data.
-    - We still have a lot to learn in order to satisfy all of our needs.
+- Though, we still have a lot to learn in order to satisfy all of our needs.
 
 ### See First, Think Later, Then Test
 - My goal is to apply my scientific training to software development.
