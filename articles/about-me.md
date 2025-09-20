@@ -2,7 +2,7 @@
 I'm Carl.
 
 I sometimes find it difficult to describe exactly who I am.
-But one thing I can say for certain: I'm an nerd.
+But one thing I can say for certain: I'm a nerd.
 I love science fiction,
 from [*Star Trek*]'s naive mid-century techno-optimism
 to [*Jurassic Park*]'s outlandish cautionary tale.
