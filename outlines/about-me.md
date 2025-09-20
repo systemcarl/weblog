@@ -116,7 +116,7 @@
 - Overall, I want to:
     - conduct empirical research on building educated solutions
     - build and share tools to manage complex and unintuitive problems
-    - teach the skills for others to do the same.
+    - teach the skills for others to do the same
 - I want to help create a better future for everyone
 - by contributing to scientific research, technological
     development, and education.
