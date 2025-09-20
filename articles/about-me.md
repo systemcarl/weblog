@@ -107,7 +107,7 @@ My goal is to create a prototype for an open-source, modular, extensible, (maybe
     eventually) federated blogging service.
 I am also writing programming guides, professional tips, and other articles
     to include on my weblog.
-Essentially, this is the current expression of my love for software
+Essentially, this weblog is the current expression of my love for software
     design and development,
 in the form of development diaries, how-to guides, opinion pieces, and
     the code that props it all up.
