@@ -26,7 +26,7 @@ and tireless efforts to bootstrap video games from my [compact floppy disk]
 These preoccupations, as well as a natural curiosity about how things work, have
     carried throughout my post-secondary education and professional career.
 Now, I am primarily a software developer,
-but I also still see myself as a scientist and educator.
+but I also see myself as a scientist and educator.
 
 ### I'd Far Rather Be Happy Than Right
 I continued to pursue my interest in science through a diverse university
