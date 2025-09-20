@@ -14,10 +14,8 @@
 
 ## I Have Ended Up Where I Need to Be
 - I loved science and computers since I was very young.
-    - I loved watching [*Bill Nye the Science Guy*]
-    - I spent hours trying to load games from my [compact floppy disks].
-    - I have always had a curiosity about how things worked.
-    - Now I am a software developer, scientist, and educator.
+    - I have always had a curiosity about how things work.
+- Now I am a software developer, scientist, and educator.
 
 ### I'd Far Rather Be Happy Than Right
 - I have continued to pursue my interests in science and computers through my
