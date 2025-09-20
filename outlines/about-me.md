@@ -98,13 +98,8 @@
 
 ### Let the Present Move Forward Into the Future
 - Software developers should be thinking about the future.
-    - Incremental milestones are important.
-    - Effective milestones require clear direction.
-- I want to build technology that last.
-    - Lasting software is modular and extensible.
-    - Flexible software can be applied to problems outside its original
-        domain.
-    - Creating software that enables future development is a great achievement.
+- I want to build technology that lasts because it's modular and extensible.
+- Creating software that enables future development is a great achievement.
 
 ### Grapple With the Ineffable
 - More than anything, I want to teach what I have learned.
