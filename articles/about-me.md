@@ -156,7 +156,7 @@ By this definition, it stands to reason that any approach to problem solving
 product design and project management are no exception.
 A scientific approach provides a reliable framework to find the best solution to
     an enigmatic problem.
-I believe that harnessing this process will undoubtedly lead to better outcomes,
+I believe that harnessing this process will undoubtedly lead to better software solutions,
     grounded in evidence and reason, for the benefit of all.
 
 ### Let the Present Move Forward Into the Future
