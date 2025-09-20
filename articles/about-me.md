@@ -182,12 +182,12 @@ I know I wouldn't be where I am without the mentorship and guidance I've
     received along the way,
 and I want to provide the same for others.
 
-One of the most important concepts I want to teach is that software innovation
-    can only continue when new developers are trained with the fundamentals
-    required to solve new problems.
 Continuous research and investment into teaching computer programming will only
     become more important as technology continues to demand more from us in
     return.
+I believe that software innovation
+    can only continue when new developers are trained with the fundamentals
+    required to solve new problems.
 
 Already, technology has become a necessary part of our lives.
 However, differences in access to technology, ["The Digital Divide"], is a key
