@@ -7,7 +7,7 @@ I love science fiction,
 from [*Star Trek*]'s naive mid-century techno-optimism
 to [*Jurassic Park*]'s outlandish cautionary tale.
 I also love games in any form,
-    but I'll take a simple, creative [tabletop role-playing game] over an
+but I'll take a simple, creative [tabletop role-playing game] over an
     uninspired transaction-fuelled ["AAA"] any day.
 I'm passionate about [aesthetics], [ethics], and [morality];
 I love discussing anything intellectually or philosophically challenging.
@@ -61,7 +61,8 @@ In tandem with my education, I have continued to pursue a professional career in
     technology,
 where my love for computers has thrived.
 After receiving my BSc, my career began in an electrical manufacturing support
-    role bridging quality assurance, testing, technical sales, and incident
+    role
+bridging quality assurance, testing, technical sales, and incident
     management.
 It was in this role, while troubleshooting and field repairing
     commercial-industrial control systems, that I realized my passion for
@@ -83,21 +84,23 @@ Since then, I have been busy building full-stack web applications and services.
 
 #### I Love Deadlines
 Over the last five years, I have been writing software and building web
-    applications concurrently with my MSc studies.
-My task was to rebuild the [*MRKTBOX*] [e-commerce web application].
+    applications
+concurrently with my MSc studies.
+For most of this time, my task was to rebuild the [*MRKTBOX*]
+    [e-commerce web application].
 The goal of the project was to create a multi-channel e-commerce application
     that intuitively handles whatever customer experience a small business could
     throw at it:
- cafe, catering, home delivery, and other special offerings.
+cafe, catering, home delivery, and other special offerings.
 
-One of the most valuable experiences of this project was when
-    I supervised aspiring developers studying at local colleges
-    as they worked on co-op terms or student-led projects.
-I spent endless hours reviewing student code, untangling git commits, and
-    lecturing on topics of best practice,
-which were enlightening practice in leadership and project management.
+One of the most valuable experiences of this project was supervising aspiring
+    student developers from local colleges as they worked on co-op terms or
+    industry partner projects.
+Spending countless hours reviewing student code, untangling git commits, and
+    lecturing on best practices
+was an enlightening exercise in leadership and project management.
 
-Since finishing my work on the [*MRKTBOX*] project, I have continued studying,
+Since finishing my work on the *MRKTBOX* project, I have continued studying,
     researching, and experimenting,
 which has culminated in the process of building this weblog, here.
 My goal is to create a prototype for an open-source, modular, extensible, (maybe
@@ -108,8 +111,8 @@ Essentially, this is the current expression of my love for software
     design and development,
 in the form of development diaries, how-to guides, opinion pieces, and
     the code that props it all up.
-Sharing the software and the process of creating it is my attempt to add to the
-    long-form content software ecosystem.
+Sharing the software and the software's development process is my attempt to add
+    to the long-form content software ecosystem.
 
 ## It Has Great Practical Value
 Across my many roles in academia and industry, I've learned the vast amount of
@@ -123,9 +126,8 @@ we still struggle to solve many important problems that seem within reach.
 
 I don't believe that technology itself is ever the root problem.
 Instead, I believe that certain applications of technology are the problem.
-For example,
-vast amounts of our economic and social infrastructure rely on centralized
-    services.
+For example, vast amounts of our economic and social infrastructure rely on
+    centralized services.
 The corporations responsible for operating these services have continually
     proven incapable of self-moderation
     and are plagued by misaligned incentives.
@@ -136,7 +138,7 @@ Unless we find ways to address these concerns, our future will only become more
 
 Luckily, there have been software developers working to embrace technology
     to help solve these problems without compromising our safety and security.
-Federated systems are already making social platforms, like Mastodon, more
+Federated systems are already making social platforms, like [*Mastodon*], more
     autonomous and democratic;
 local-first architecture is now giving users more control over their data.
 But as it stands, there is still much to learn in order to satisfy all of our
@@ -161,11 +163,11 @@ I believe that harnessing this process will undoubtedly lead to better outcomes,
 I'm also of the opinion software developers should always be thinking towards
     the future.
 Sure, we all have to stay focused on the next milestone.
-But any experienced project manager knows: if you don't consider our direction,
+But any experienced project manager knows: if you don't consider your direction,
     you may just be [[scrum]] sprinting into a wall.
 
-Personally, I want to create technology that will stand the test of time, either
-    by being extensible or modular.
+Personally, I want to create technology that will stand the test of time,
+either by being extensible or modular.
 In this way, new software solutions can be applied to problems outside their
     originally intended domain.
 I can't think of a greater achievement than creating a foundational piece of
@@ -173,8 +175,8 @@ I can't think of a greater achievement than creating a foundational piece of
 
 ### Grapple With the Ineffable
 Though, most of all, I also want to teach what I've learned.
-Throughout completing my teaching assistantships, guest lectures, and
-    supervision of college projects and co-op internships, my desire to educate
+Throughout teaching assistantships, guest lectures, and supervision of college
+    projects and co-op internships, my desire to educate
     has solidified.
 I know I wouldn't be where I am without the mentorship and guidance I've
     received along the way,
@@ -212,7 +214,7 @@ I can't fix all the problems in the world myself, but I can help others to in
 If I don't live to see a classic science-fiction future,
     I'll have died trying.
 
-### Better to Talk to Than Nobody
+### <a id='thanks-&-follow'></a>Better to Talk to Than Nobody
 If you're here, I hope you found something interesting.
 I appreciate all the support that has gotten me here,
 and I look forward to sharing more in the future.
@@ -261,6 +263,7 @@ Douglas Adams was a brilliant satirist and his philosophy and sense of humour
 [Jerry's business]: https://jerrynoordam.ca
 [*MRKTBOX*]: https://www.mrktbox.com/
 [e-commerce web application]: https://order.mrktbox.com/
+[*Mastodon*]: https://joinmastodon.org/
 [scrum]: https://en.wikipedia.org/wiki/Scrum_(software_development)
 ["The Digital Divide"]: https://en.wikipedia.org/wiki/Digital_divide
 [GitHub profile]: https://github.com/systemcarl

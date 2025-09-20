@@ -11,4 +11,4 @@ If you want to learn more [about me] and my work, check out [my website] and
 
 [about me]: ./about-me.md
 [my website]: https://carledwardlyons.ca
-[follow]: ./about-me.md#keep-in-touch
+[follow]: ./about-me.md#thanks-&-follow

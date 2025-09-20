@@ -19,4 +19,4 @@
 
 [about me]: ./about-me.md
 [my website]: https://carledwardlyons.ca
-[Follow]: ./about-me.md#keep-in-touch
+[follow]: ./about-me.md#thanks-&-follow
