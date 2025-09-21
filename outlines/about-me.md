@@ -21,7 +21,7 @@
     - I received a [Bachelor of Science (BSc)] in [physics] from the
             [*University of Waterloo*].
     - I focused on mathematical modelling and computer simulation.
-- I have  been working towards a [Master of Science (MSc)] degree in
+- I have been working towards a [Master of Science (MSc)] degree in
     [psychology] at [*McMaster University*].
     - I have been taking courses, completing teaching assistantships, and
         giving guest lectures.
