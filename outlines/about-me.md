@@ -57,16 +57,16 @@
     for the last 5 years.
     - I worked on the [*MRKTBOX*] [e-commerce web application].
         - The goal was to create an e-commerce application that could
-            provide a variety of food and beverage business needs.
-- I also supervised co-op students and college projects.
-    - These were enlightening exercises in leadership and project management.
+            handle a variety of food and beverage business needs.
+        - I also supervised co-op students and college projects.
+            - These were enlightening exercises in leadership and project management.
 - I am currently working on this weblog and the underlying software platform.
     - My goal is to create a prototype for a blogging service that is:
-        - open-source
-        - modular
-        - extensible
+        - open-source,
+        - modular,
+        - extensible,
         - and federated.
-    - The project combines my educational topics with the code of the blogging
+    - This project combines my educational topics with the code of the blogging
         platform itself.
 
 ## It Has Great Practical Value
