@@ -126,38 +126,20 @@
 
 [^adams]: All headings in this article reference quotes from [Douglas Adams].
 
-[*Star Trek*]: https://en.wikipedia.org/wiki/Star_Trek
-[*Jurassic Park*]: https://en.wikipedia.org/wiki/Jurassic_Park_(novel)
-[tabletop role-playing game]:
-    https://en.wikipedia.org/wiki/Tabletop_role-playing_game
-["AAA"]: https://en.wikipedia.org/wiki/AAA_(video_game_industry)
-[aesthetics]: https://en.wikipedia.org/wiki/Aesthetics
-[ethics]: https://en.wikipedia.org/wiki/Ethics
-[morality]: https://en.wikipedia.org/wiki/Morality
-[*Bill Nye the Science Guy*]:
-    https://en.wikipedia.org/wiki/Bill_Nye_the_Science_Guy
-[compact floppy disks]:
-    https://en.wikipedia.org/wiki/History_of_the_floppy_disk#3%C2%BD-inch_format
 [Bachelor of Science (BSc)]: https://en.wikipedia.org/wiki/Bachelor_of_Science
-[*University of Waterloo*]: https://uwaterloo.ca/
 [physics]: https://en.wikipedia.org/wiki/Physics
-[astrophysics]: https://en.wikipedia.org/wiki/Astrophysics
+[*University of Waterloo*]: https://uwaterloo.ca/
 [Master of Science (MSc)]: https://en.wikipedia.org/wiki/Master_of_Science
 [psychology]: https://en.wikipedia.org/wiki/Psychology
 [*McMaster University*]: https://www.mcmaster.ca/
-[*Department of Psychology, Neuroscience & Behaviour*]: https://pnb.mcmaster.ca
 [vesper bat]: https://en.wikipedia.org/wiki/Vesper_bat
 [echolocation]: https://en.wikipedia.org/wiki/Animal_echolocation
-[big brown bat (*Eptesicus fuscus*)]:
-    https://en.wikipedia.org/wiki/Big_brown_bat
 [*Python*]: https://www.python.org/
 [*C++*]: https://en.wikipedia.org/wiki/C%2B%2B
 [*HTML*]: https://en.wikipedia.org/wiki/HTML
 [*CSS*]: https://en.wikipedia.org/wiki/CSS
 [*JavaScript*]: https://en.wikipedia.org/wiki/JavaScript
 [web servers]: https://en.wikipedia.org/wiki/Web_server
-[reverse proxies]: https://en.wikipedia.org/wiki/Reverse_proxy
-[*the web*]: https://en.wikipedia.org/wiki/World_Wide_Web
 [Jerry's business]: https://jerrynoordam.ca
 [*MRKTBOX*]: https://www.mrktbox.com/
 [e-commerce web application]: https://order.mrktbox.com/
