@@ -73,16 +73,7 @@
 - My education and career have shown me the power and importance of technology.
     - New tools continually improve our lives.
     - Modern technology has the potential to both empower and oppress us.
-- For example, much of our infrastructure relies on centralized services
-    - The corporations controlling these services can be
-        - incapable of self-moderation
-        - or have conflicting interests with their users.
-- There are initiatives embracing technology to solve these problems.
-    - Federated systems are making social platforms more autonomous and
-        democratic;
-        - *e.g.* [*Mastodon*].
-    - Local-first architecture is giving users more control over their data.
-    - Continued efforts to find new solutions and applications will require
+- Continued efforts to find new technological solutions and applications will require
         more research and development.
 
 ### See First, Think Later, Then Test
