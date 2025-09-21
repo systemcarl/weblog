@@ -78,7 +78,7 @@
 
 ### See First, Think Later, Then Test
 - My goal is to apply my scientific training to software development.
-    - Any attempt at problem solving can follow the scientific method,
+    - Any attempt at problem solving can follow the scientific method.
         - *i.e.* a systematic, empirical, and reproducible process.
     - This includes product design and project management.
 
