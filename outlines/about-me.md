@@ -45,10 +45,10 @@
     - Building a website for my friend [Jerry's business] was my foyer into web
         development.
     - I've since learned more about:
-        - [*HTML*]
-        - [*CSS*]
-        - [*JavaScript*]
-        - [web servers]
+        - [*HTML*],
+        - [*CSS*],
+        - [*JavaScript*],
+        - [web servers],
         - and cloud infrastructure.
     - I have been focused on building web applications and services since then.
 
