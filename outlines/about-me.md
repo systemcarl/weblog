@@ -1,10 +1,8 @@
 # Abstract
 - I am Carl.
-- I am a software developer, applied physicist, and web blogger.
-    - I am curious about enigmatic topics.
-    - I love learning new skills.
-    - My goal is to share my enthusiasm for science, technology, and challenging
-        questions.
+- I am a software developer, applied physicist, and technology writer.
+    - I love enigmatic topics, learning skills, and teaching others.
+    - I want to drive technological innovation for a better future.
 
 # On the Grounds That I Don't Know the Answer[^adams]
 - I'm Carl and I'm a nerd.
