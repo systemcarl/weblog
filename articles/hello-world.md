@@ -1,16 +1,16 @@
 # Hello, World!
 Welcome to my weblog!
 
-This is my first post, and also an introduction to my content collection.
-I'm starting this blog to share my various interests, thoughts, and ideas.
-I'll be posting about topics of technology, science, or whatever else happens to
+This is my first post, and also an introduction to my weblog content collection.
+I'm starting this weblog to share my interests, ideas, and knowledge.
+You'll find a repertoire of my tips, guides, and other related insights 
+    about technology, science, and whatever else happens to
     capture my curiosity.
-Here you'll find tips, guides, and other related insights.
 
-Come back here, or visit [my website] to see what's new.
+Come back here, or visit [my website], to see what's new.
 I keep all my content up to date, including this article, with my current
     projects and new article topics.
-You can find a list of changes to this article, and any of my other post, on
+You can find a list of changes to this article, or any of my other posts, on
     [GitHub].
 
 If you want to learn more [about me] and my work, [follow me] to stay up to
