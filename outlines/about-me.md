@@ -56,7 +56,8 @@
 - I have been professionally writing software and building web applications
     for the last 5 years.
     - I worked on the [*MRKTBOX*] [e-commerce web application].
-        - The goal was to create an e-commerce application that could a variety food and beverage business needs.
+        - The goal was to create an e-commerce application that could
+            provide a variety of food and beverage business needs.
 - I also supervised co-op students and college projects.
     - These were enlightening exercises in leadership and project management.
 - I am currently working on this weblog and the underlying software platform.
