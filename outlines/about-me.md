@@ -26,9 +26,9 @@
     - I have been taking courses, completing teaching assistantships, and
         giving guest lectures.
     - My thesis research is about the biology of [vesper bat] [echolocation].
-        - This research utilizes my background in physics and programming.
-        - I have been developing computational signal analysis tools to
-            aggregate and analyze acoustic data.
+        - This research uses my background in physics and programming.
+            - I have been developing computational signal analysis tools to
+                aggregate and analyze acoustic data.
 
 ### You Live and Learn
 - My career began with a support role in electrical manufacturing.
