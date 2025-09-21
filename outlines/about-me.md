@@ -50,7 +50,7 @@
         - [*JavaScript*],
         - [web servers],
         - and cloud infrastructure.
-    - I have been focused on building web applications and services since then.
+- Since developing my programming skills, I have focused on building web applications and services.
 
 #### I Love Deadlines
 - I have been professionally writing software and building web applications
