@@ -1,8 +1,8 @@
 # Abstract
 - Hello!
 - Start with this post to begin exploring my weblog content.
-    - I will be sharing tips, guides, and commentary.
     - Topics include technology, science, and philosophy.
+    - I will be sharing my tips, guides, and commentary.
 - Enjoy!
 
 # Hello World
