@@ -7,16 +7,21 @@
 
 # Hello World
 - Hello!
-- This is my blog.
+- This is my weblog.
     - This first post is an introduction to the rest of my weblog content.
     - This weblog to share my thoughts and ideas about:
         - technology,
         - science,
         - and anything else that interests me.
+    - You can find tips, guides, and other insights here.
+- Check back here for updates to this article.
+    - All my content is updated to be current with my work.
+    - Updates are also available on [my website].
+    - All changes to articles are tracked on [GitHub].
 - You can read to learn more [about me] and my work.
-    - Visit [my website].
     - [Follow] me for updates.
 
+[GitHub]: https://github.com/systemcarl/weblog
 [about me]: ./about-me.md
 [my website]: https://carledwardlyons.ca
 [follow]: ./about-me.md#thanks-&-follow
