@@ -1,19 +1,26 @@
 # Abstract
-- This is my first blog post.
-- I am using this blog to share my thoughts and ideas about anything that
-    interests me.
+- Hello!
+- Start with this post to begin exploring my weblog content.
+    - Topics include technology, science, and philosophy.
+    - I will be sharing my tips, guides, and commentary.
 - Enjoy!
 
 # Hello World
 - Hello!
-- This is my blog.
-    - I am using this blog to share my thoughts and ideas about:
+- This first post is an introduction to my weblog content.
+    - The purpose of this weblog is to share my tips, guides, and other insights
+        about:
         - technology,
         - science,
         - and anything else that interests me.
-    - You can also read to learn more [about me] and my work.
-- This weblog is updated regularly with new articles and projects.
-    - [Follow] to stay up to date with my latest projects and ideas.
+- Check back here for updates to my content.
+    - I update my content regularly to be current with my work.
+        - Updates are also available on [my website].
+        - All changes to articles are tracked on [GitHub].
+- You can read to learn more [about me] and my work.
+    - [Follow] me for updates.
 
+[GitHub]: https://github.com/systemcarl/weblog
 [about me]: ./about-me.md
-[Follow]: ./about-me.md#keep-in-touch
+[my website]: https://carledwardlyons.ca
+[follow]: ./about-me.md#thanks-&-follow
