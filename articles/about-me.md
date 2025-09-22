@@ -83,8 +83,8 @@ and dove headfirst into a world of [*HTML*], [*CSS*], [*JavaScript*],
 Since then, I have been busy building full-stack web applications and services.
 
 #### I Love Deadlines
-Over the last five years, I have been profesionally 
-    writing software and building web applications  
+Over the last five years, I have been professionally writing software and
+    building web applications
 concurrently with my MSc studies.
 For most of this time, my task was to rebuild the [*MRKTBOX*]
     [e-commerce web application].

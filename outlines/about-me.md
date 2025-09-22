@@ -50,7 +50,8 @@
         - [*JavaScript*],
         - [web servers],
         - and cloud infrastructure.
-- Since developing my programming skills, I have focused on building web applications and services.
+- Since developing my programming skills, I have focused on building web
+    applications and services.
 
 #### I Love Deadlines
 - I have been professionally writing software and building web applications
@@ -58,8 +59,9 @@
     - I worked on the [*MRKTBOX*] [e-commerce web application].
         - The goal was to create an e-commerce application that could
             handle a variety of food and beverage business needs.
-        - I also supervised co-op students and college projects.
-            - These were enlightening exercises in leadership and project management.
+- I also supervised co-op students and college projects while working at
+    [*MRKTBOX*].
+    - These were enlightening exercises in leadership and project management.
 - I am currently working on this weblog and the underlying software platform.
     - My goal is to create a prototype for a blogging service that is:
         - open-source,
@@ -73,8 +75,8 @@
 - My education and career have shown me the power and importance of technology.
     - New tools continually improve our lives.
     - Modern technology has the potential to both empower and oppress us.
-- Continued efforts to find new technological solutions and applications will require
-        more research and development.
+- Continued efforts to find new technological solutions and applications will
+    require more research and development.
 
 ### See First, Think Later, Then Test
 - My goal is to apply my scientific training to software development.
