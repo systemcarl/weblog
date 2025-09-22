@@ -216,7 +216,7 @@ If I don't live to see a classic science-fiction future,
 
 ### <a id='thanks-&-follow'></a>Better to Talk to Than Nobody
 If you're here, I hope you found something interesting.
-I appreciate all the support that has gotten me here,
+I appreciate all the support that has gotten me here[^ren],
 and I look forward to sharing more in the future.
 Currently, all of my work is available via my [GitHub profile].
 If you have any questions, comments, or suggestions, please feel free to
@@ -227,6 +227,9 @@ If you have any questions, comments, or suggestions, please feel free to
 I highly recommend reading his works, if you haven't already.
 Douglas Adams was a brilliant satirist and his philosophy and sense of humour
     has always inspired me.
+
+[^ren]: A special thanks to my partner, Ren, for their editorial assistance and
+    the endless emotional support.
 
 [*Star Trek*]: https://en.wikipedia.org/wiki/Star_Trek
 [*Jurassic Park*]: https://en.wikipedia.org/wiki/Jurassic_Park_(novel)
