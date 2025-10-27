@@ -30,14 +30,14 @@
     - To the best of my knowledge, there is no way to apply the CSS
         styles of one selector to another.
 - This was very straightforward to implement with "Markdown it!".
-    - Aside from limitations with the [footnote plugin], it only required a few
-       lines of code to map tokens to typography classes.
+    - Aside from limitations with the [footnote plugin], it only required a
+        [few lines of code] to map tokens to typography classes.
 
 ### Thinking Abstractly
 - The article pages still needed some metadata to be complete.
     - [Search engine optimization (SEO)] requires [titles] and [descriptions].
-    - A separate directory of article abstracts provides a matching description
-        for each article.
+    - A separate directory of article abstracts provides a
+        [matching description] for each [article].
 
 ### I Do Declare
 - Since I had chosen to make the [theme styles available globally as plain CSS],
@@ -48,7 +48,7 @@
     - Simply mapping elements to style classes leaves the styling logic to the
         [CSS engine].
     - Since the CSS classes are just semantic tokens withing the theming system,
-        the theme CSS generator takes care of the rest.
+        the [theme CSS generator] takes care of the rest.
 
 ## Not-So-Hyper Text
 - One question that always comes up when designing a content system is how to
@@ -102,14 +102,22 @@
 [HTML classes]:
     https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/class
 [footnote plugin]: https://github.com/markdown-it/markdown-it-footnote
+[few lines of code]:
+    https://github.com/systemcarl/blank/blob/6db0c4fde3a3a966937dae62b76cd0bd0b4022c5/src/lib/utils/weblog.ts#L35-L49
 [search engine optimization (SEO)]:
     https://en.wikipedia.org/wiki/Search_engine_optimization
 [titles]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title
 [descriptions]:
     https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name#description
+[matching description]:
+    https://github.com/systemcarl/weblog/blob/2bd7694f413c43640033e09db42eca7aad80b58d/abstracts/hello-world.md
+[article]:
+    https://github.com/systemcarl/weblog/blob/2bd7694f413c43640033e09db42eca7aad80b58d/articles/hello-world.md
 [theme styles available globally as plain CSS]: ./sveltekit.md#theming
 [declarative design]: https://en.wikipedia.org/wiki/Declarative_programming
 [CSS engine]: https://developer.mozilla.org/en-US/docs/Glossary/Engine/Rendering
+[theme CSS generator]:
+    https://github.com/systemcarl/blank/blob/v0.0.3/src/lib/utils/styles.ts
 [start of the project]: ./sveltekit.md
 [Data structure can impact design outcomes]:
     https://notes.mtb.xyz/p/your-data-model-is-your-destiny

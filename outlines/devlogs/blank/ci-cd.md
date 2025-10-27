@@ -39,7 +39,7 @@
 ### Following the Script
 - The pipeline logic was implement with [Bash] to make the CI/CD pipeline
     reasonably portable.
-- Creating a set of Bash scripts entry points defines a clear interface for
+- Creating a [set of Bash scripts] entry points defines a clear interface for
     interacting with the pipeline.
     - Each script is responsible for a specific task.
     - Shared logic is abstracted into common functions; tasks may be composed of
@@ -56,10 +56,10 @@
     - The Bats test suites are executed as part of the CI/CD pipeline to verify
         pipeline functionality before deployment.
 - Bats doesn't provide advanced mocking or stubbing functionality.
-    - I took a bit of time to implement a simple mocking framework the using
+    - I took a bit of time to implement [a simple mocking framework] the using
         Bash function shadowing.
-    - The framework also stores call arguments to a temporary file to test
-        mocked dependencies are invoked correctly.
+    - The framework also [stores call arguments] to a temporary file to
+        [test mocked dependencies are invoked] correctly.
 
 ### I Could Hardly Contain Myself
 - Previously, I had largely deployed applications as static files or within
@@ -105,10 +105,10 @@
     simple.
     - Since Terraform is a command line tool, it could be invoked directly from
         the pipeline scripts.
-    - Terraform has a testing framework to verify infrastructure code.
-    - Since cloud initialization can be done with a Bash script, the provisioned
-        initialization script could be tested with [Bats] as well.
-    - Separating state files made it easy to manage multiple concurrent
+    - Terraform has a [testing framework] to verify infrastructure code.
+    - Since cloud initialization can be done with [a Bash script], the
+        provisioned initialization script could be tested with [Bats] as well.
+    - [Separating state files] made it easy to manage multiple concurrent
         environments.
 - However, I did encounter a significant challenge provisioning configuration.
     - Terraform [does not fully support provisioning resources through remote
@@ -124,9 +124,9 @@
 - The solution itself is straightforward; the problem is reliability.
     - Remote execution is unreliable and there are no testing tools to verify
         the configuration.
-- I added a [runtime verification] to the provisioned virtual machine to test
-    that the configuration files were correctly deployed before finalizing the
-    deployment.
+- I added a [runtime verification] to the provisioned virtual machine to
+    [test the integrity] of the servers configuration files
+    [before finalizing the deployment].
     - The deployment could still fail unexpectedly, but this is this assures
         that a successful deployment is configured as expected.
 - The only element of the infrastructure that could not be tested was the
@@ -166,6 +166,8 @@
     - Grafana also provides [Grafana Alloy] to collect and forward logs from the
         application to the Loki backend.
     - Alloy was easy to install as another Docker container on the server.
+    - The only challenge was [configuring Alloy] to correctly parse and forward
+        the application logs.
 - The application also has error monitoring, built in with [Sentry].
     - So as long as the server environment is configured with the Sentry
         credentials, the application will automatically report errors.
@@ -192,8 +194,17 @@
     run the pipeline both locally and in GitHub Actions.
     - Creating a simple GitHub Actions workflow wrapper around the Bash scripts
         minimized integration effort and maximized portability.
-    - The GitHub Actions workflows are only responsible for setting up the
+    - The [GitHub Actions workflows] are only responsible for setting up the
         environment and invoking the pipeline scripts.
+- Storing Terraform state files remotely in Google Cloud Storage allows both
+    local and remote executions of the pipeline to share state.
+    - Otherwise it would be either difficult or risky to use local execution to
+        manage the the automated deployment.
+- I implemented git [commit status] [integration] to provide feedback on the
+    deployment status directly in the repository.
+    - This is normally automatic when using GitHub Actions.
+    - Reading and updating commit statuses from the [Bash scripts] allowed the
+        pipeline to provide feedback even when run locally.
 
 #### Testing the Test Runner Tests
 - It's difficult to know where to draw the line when testing a CI/CD pipeline.
@@ -274,12 +285,20 @@
 [this CI/CD pipeline]: https://github.com/systemcarl/folio
 [application code-base]: https://github.com/systemcarl/blank
 [Bash]: https://en.wikipedia.org/wiki/Bash_(Unix_shell)
+[set of Bash scripts]:
+    https://github.com/systemcarl/folio/tree/v0.0.1/cli
 [use-case diagram]:
     https://www.figma.com/board/KlVlC2x59WcyfeWcGDwh5A/Portfolio-Plans?t=VNSCcSgmN5HuSPOm-6
 [README]: https://github.com/systemcarl/folio/tree/v0.0.1#readme
 [Bash Automated Testing System (Bats)]:
     https://bats-core.readthedocs.io/en/stable/
 [Bats]: https://bats-core.readthedocs.io/en/stable/
+[a simple mocking framework]:
+    https://github.com/systemcarl/folio/blob/v0.0.1/cli/tests/mocks
+[stores call arguments]:
+    https://github.com/systemcarl/folio/blob/v0.0.1/cli/tests/deploy.bats#L16-L43
+[test mocked dependencies are invoked]:
+    https://github.com/systemcarl/folio/blob/v0.0.1/cli/tests/deploy.bats#L315-L317
 [Docker]: https://www.docker.com/
 [image]:
     https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-an-image/
@@ -292,6 +311,12 @@
 [DigitalOcean]: https://www.digitalocean.com/
 [Cloudflare]: https://www.cloudflare.com/
 [Google Cloud Services]: https://cloud.google.com/
+[testing framework]:
+    https://developer.hashicorp.com/terraform/tutorials/configuration-language/test
+[a Bash script]:
+    https://github.com/systemcarl/folio/blob/v0.0.1/infra/cloud-init.tftpl
+[separating state files]:
+    https://github.com/systemcarl/folio/blob/v0.0.1/cli/deploy#L88-L89
 [does not fully support provisioning resources through remote connections]:
     https://developer.hashicorp.com/terraform/language/resources/provisioners/file
 [file]:
@@ -299,6 +324,10 @@
 [remote-exec]:
     https://developer.hashicorp.com/terraform/language/resources/provisioners/remote-exec
 [runtime verification]: https://en.wikipedia.org/wiki/Runtime_verification
+[test the integrity]:
+    https://github.com/systemcarl/folio/blob/v0.0.1/infra/cloud-init.tftpl#L75-L91
+[before finalizing the deployment]:
+    https://github.com/systemcarl/folio/blob/v0.0.1/infra/cloud-init.tftpl#L75-L91
 [trigger]:
     https://registry.terraform.io/providers/hashicorp/null/latest/docs/resources/resource#triggers-1
 [Docker package registry]: https://hub.docker.com/
@@ -311,12 +340,18 @@
 [Grafana Cloud]: https://grafana.com/products/cloud/
 [Loki]: https://grafana.com/oss/loki/
 [Grafana Alloy]: https://grafana.com/docs/alloy/latest/
+[configuring Alloy]:
+    https://github.com/systemcarl/folio/blob/v0.0.1/infra/config.alloy.tftpl
 [Sentry]: https://sentry.io/
 [GitHub Actions]: https://docs.github.com/en/actions
 [GitHub]: https://github.com/
 [YAML]: https://en.wikipedia.org/wiki/YAML
 [Vendor lock-in]: https://en.wikipedia.org/wiki/Vendor_lock-in
 [Bash scripts]: #following-the-script
+[Github Actions workflows]:
+    https://github.com/systemcarl/folio/tree/v0.0.1/.github/workflows
+[integration]:
+    https://github.com/systemcarl/folio/blob/v0.0.1/cli/status
 [Act]: https://nektosact.com/
 [an addition workflow]:
     https://github.com/systemcarl/folio/blob/v0.0.1/.github/workflows/verify.yaml

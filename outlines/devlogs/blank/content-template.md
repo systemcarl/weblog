@@ -14,7 +14,8 @@
         [proof-of-concept].
 - The next step was to create a simple [landing page] to give myself a very
     brief personal introduction.
-    - Working off a simple design mock-up the goal was to add:
+    - Working off a simple design mock-up the goal was to implement the
+        [profile] and [contact information] sections, adding:
         - my name,
         - a short description,
         - an avatar image,
@@ -61,6 +62,7 @@
 - Despite the opinions of the content design, the application itself is still
     agnostic to the content.
     - All content is still [aggregated from static JSON files].
+    - A [new file] was added to define the content structure.
 - The dynamic nature of the application components has made development and
     testing easier.
     - Abstracting away text and other data makes logic and tests resilient to
@@ -80,6 +82,12 @@
     https://www.figma.com/design/TJYtbshPU4K0CoXuYKqtwp/Portfolio?m=auto&t=IV2gWGSb6tnTZcel-6
 [proof-of-concept]: ./sveltekit.md#an-empty-application
 [landing page]: https://carledwardlyons.ca
+[profile]:
+    https://github.com/systemcarl/blank/blob/v0.0.2/src/lib/components/profile.svelte
+[contact information]:
+    https://github.com/systemcarl/blank/blob/v0.0.2/src/lib/components/contact.svelte
 [aggregated from static JSON files]: ./sveltekit.md#knobs-and-dials
+[new file]:
+    https://github.com/systemcarl/folio-assets/blob/v0.0.2/config.json
 [testing strategies]: ./sveltekit.md#testing-testing-testing
 [integrating Markdown content]: ./markdown-parser.md
