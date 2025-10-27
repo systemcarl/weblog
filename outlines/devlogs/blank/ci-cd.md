@@ -19,6 +19,8 @@
         consistency.
 
 ## Putting the Pieces Together
+- Like a physical pipeline, a CI/CD pipeline is made up of many smaller
+    components that each get the product closer to delivery.
 - My main goal was to create a self-contained project that could be easily
     shared and customized.
     - I took care to consider the best platform-agnostic tools to use.

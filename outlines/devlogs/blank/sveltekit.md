@@ -95,7 +95,7 @@
 
 #### Unit Testing
 - [Unit tests] were used to cover utility functions and data
-    loading.[^utilities][^data loading]
+    loading.[^utilities][^data-loading]
     - Some consideration was required to mock SvelteKit-specific modules,
         such as [`$app/environment`].
     - There is no way to mock SvelteKit stores without a full mock
@@ -391,7 +391,7 @@
 [^utilities]: [Universal] and [server-specific] utility functions and their
     tests are located in their own respective folders within [`src/lib/`].
 
-[^data loading]: The [main layout] defines a [data loading function] that is
+[^data-loading]: The [main layout] defines a [data loading function] that is
     tested in an [adjacent file].
 
 [^packages]: The application has has unit tests to validate
