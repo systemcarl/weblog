@@ -14,6 +14,15 @@
         - science,
         - and anything else that interests me.
 
+## Master of None
+- I am far from a leading expert in any one of these fields.
+    - I excel at learning new skills and transferring expertise between
+        disciplines.
+    - Researching new topics is a significant part of my work.
+- Anything I find that is not widely known or well documented is reported here.
+    - These articles include software development tips and guides:
+        - [Mocking Svelte 5 Components].
+
 ## Committing to Open Development
 - I write semi-regular development logs (DevLogs), documenting all my open
     projects.
@@ -36,6 +45,7 @@
 
 [GitHub]: https://github.com/systemcarl/weblog
 [about me]: ./about-me.md
+[Mocking Svelte 5 Components]: ./tips/svelte/svelte-5-mocks.md
 [Setting Up SvelteKit for a Personal Weblog]: ./devlogs/blank/sveltekit.md
 [Exploring CI/CD for a Modern (SvelteKit) Web Application]:
     ./devlogs/blank/ci-cd.md

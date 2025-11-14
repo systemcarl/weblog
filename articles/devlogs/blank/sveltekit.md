@@ -224,6 +224,8 @@ I was able to work around this by manually [mounting test components] with the
 Generated components could be use to mock comprised child components with
     [`vi.mock`]
 and also passed directly as a `children` property.
+To learn about these techniques in more detail, I documented them in a guide
+    on [mocking Svelte 5 components].
 I was not able to find a reliable way to substitute for named slots, so for now
     I simply avoided using them in any components.
 
@@ -607,6 +609,7 @@ utilities are organized into their own respective directories within
 [`createRawSnippet`]:
     https://svelte.dev/docs/svelte/svelte#createRawSnippet
 [`vi.mock`]: https://vitest.dev/guide/mocking#manual-mocks
+[mocking Svelte 5 components]: ./../../tips/svelte/svelte-5-mocks.md
 [Playwright]: https://playwright.dev
 [middleware interactions that can't be run in isolation]:
     https://github.com/sveltejs/kit/issues/14249
