@@ -141,6 +141,8 @@
     rendering child components.
     - It wasn't too difficult to create a [few simple utilities] to mock
         Svelte components and mount generated child components.
+    - I wrote a full guide on [mocking Svelte 5 components] that explains the
+        techniques used in these utilities.
 
 #### End-to-End Testing
 - [End-to-end (E2E)] tests are essential to ensure the application works, but
@@ -447,6 +449,7 @@
 [Playwright]: https://playwright.dev
 [few simple utilities]:
     https://github.com/systemcarl/blank/blob/v0.0.1/src/lib/tests/component.ts
+[mocking Svelte 5 components]: ./../../tips/svelte/svelte-5-mocks.md
 [End-to-end (E2E)]: https://www.ibm.com/think/topics/end-to-end-testing
 [these tests]: https://github.com/systemcarl/blank/tree/v0.0.1/spec
 [intercept network requests]: https://playwright.dev/docs/mock
