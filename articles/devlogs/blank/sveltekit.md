@@ -100,7 +100,7 @@ Abstracting any common application logic into light wrappers and utility
 After the initial setup, 
     my first priority was establishing good observability — the ability to monitor
     the application and track errors from the outside.
-Debugging can often be challenging at the begging of a project as the code
+Debugging can often be challenging at the beginning of a project while the code
     settles into the framework and runtime;
 often times new dependencies and configurations can introduce unexpected issues
     that are hard to trace.
