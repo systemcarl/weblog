@@ -526,14 +526,14 @@ If the server does not render the page with the user's requested theme and the
 ## An Empty Application
 With all the necessary tools in place, it was time to create a simple
     proof-of-concept.
-To avoid getting bogged down in content creation, I wanted to simply create a
-    simple page the could render and verify everything was working correctly.
+To avoid getting bogged down in content creation, I wanted to create a
+    simple page the could render and verify that everything was working correctly.
 Instead of a meaningless "Hello, World!" notice, I decided to implement some
     simple error handling, and add a route that would intentionally trigger an
     error.
 With the logging and error tracking systems in place, I could fully implement
     this feature while verifying that errors were being captured and reported.
-And by forgoing any actual content, the application was functional empty yet
+And by forgoing any actual content, the application was functionally empty yet
     still complete.
 
 Fully implementing [this test error route] could also validate the rest of the
