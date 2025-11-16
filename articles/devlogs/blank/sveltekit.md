@@ -129,7 +129,7 @@ Using the [Pino-Pretty] plugin, I could also format the logs nicely during
     development to save me from squinting at compressed JSON strings all day.
 
 ### Testing, Testing, Testing
-Ask anyone and they'll tell you how important testing is (at least while their
+Ask any developer and they'll tell you how important testing is (at least while their
     boss is listening).
 I believe most developers understand the value of testing, but every developer
     knows how time-consuming and thankless writing tests can be.
