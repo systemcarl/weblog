@@ -97,7 +97,8 @@ Abstracting any common application logic into light wrappers and utility
     third-party dependencies.
 
 ### Keeping Tabs on Things
-My first priority was establishing good observability — the ability to monitor
+After the initial setup, 
+    my first priority was establishing good observability — the ability to monitor
     the application and track errors from the outside.
 Debugging can often be challenging at the begging of a project as the code
     settles into the framework and runtime;
