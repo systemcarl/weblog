@@ -306,7 +306,7 @@ Unless the structure of the text is fluid (like placing the currency symbol
     before or after a price), it's usually sufficient to simply map tokens to
     localized strings.
 In this project, this can easily apply to any text being displayed, allowing the
-    application to completely customized to display any text content.
+    application to be completely customized to display any text content.
 
 To achieve this with little overhead, I implemented [a simple utility] that
     creates a simple [object proxy].
