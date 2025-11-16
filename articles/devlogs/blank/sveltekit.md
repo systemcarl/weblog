@@ -86,10 +86,6 @@ But with this initial setup being so simple and concise, all the later changes
     to the project configuration were easy to manage.
 
 ## Setting Up the Scaffolding
-It's true, it may often be better to implement features first and refactor
-    later to build in internal tools and establish patterns.
-However, knowing exactly what I was going to need over the next several
-    iterations of the application, I preferred not do everything twice.
 I was careful to keep the initial setup minimal, only adding what I knew I
     would need right away.
 The goal was really to follow the ["Don't Repeat Yourself" (DRY)] motto early on
