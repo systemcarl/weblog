@@ -86,7 +86,7 @@ I found it helpful to determine the purpose of the content design, not just the
     subject matter (me).
 My motivation for building this personal website comes down to (shameless)
     self-promotion.
-It would be much easier to simply post generic articles to an established
+It would be much easier to post generic articles to an established
     platform, simply to put the core information (straight to the point tips
     and guides) out there.
 But that doesn't really capture my mission to create an identity and brand that

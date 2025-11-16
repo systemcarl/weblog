@@ -80,16 +80,12 @@ So, I used [npm] which gave me no issues.
 
 From that point, I was ready to start building;
 I could locally host a development server and run tests.
-Later I would have to add a few more dependencies and tweak the some package
+Later I would have to add a few more dependencies and tweak some package
     configurations.
 But with this initial setup being so simple and concise, all the later changes
     to the project configuration were easy to manage.
 
 ## Setting Up the Scaffolding
-It's true, it may often be better to implement features first and refactor
-    later to build in internal tools and establish patterns.
-However, knowing exactly what I was going to need over the next several
-    iterations of the application, I preferred not do everything twice.
 I was careful to keep the initial setup minimal, only adding what I knew I
     would need right away.
 The goal was really to follow the ["Don't Repeat Yourself" (DRY)] motto early on
@@ -101,9 +97,10 @@ Abstracting any common application logic into light wrappers and utility
     third-party dependencies.
 
 ### Keeping Tabs on Things
-My first priority was establishing good observability — the ability to monitor
+After the initial setup,
+    my first priority was establishing good observability — the ability to monitor
     the application and track errors from the outside.
-Debugging can often be challenging at the begging of a project as the code
+Debugging can often be challenging at the beginning of a project while the code
     settles into the framework and runtime;
 often times new dependencies and configurations can introduce unexpected issues
     that are hard to trace.
@@ -120,19 +117,19 @@ and in the case of SvelteKit, there is a [simple integration] that lets you
 
 To handle all non-error-related logging events,
     [I simply sent logs to the application standard output]
- — via our friend, the console.
+via our friend, the console.
 This works great during development,
 and since I plan to host the application in my own server environment, I
     can easily aggregate these logs and handle them at the system level.
 [I later implemented the log collection] using [Grafana Alloy] when
     [I set up the deployment environment].
-To make sure the logging was efficient and consistent, I install [Pino],
+To make sure the logging was efficient and consistent, I installed [Pino],
     a fast JSON-friendly logging library, to structure and format the logs.
 Using the [Pino-Pretty] plugin, I could also format the logs nicely during
     development to save me from squinting at compressed JSON strings all day.
 
 ### Testing, Testing, Testing
-Ask anyone and they'll tell you how important testing is (at least while their
+Ask any developer and they'll tell you how important testing is (at least while their
     boss is listening).
 I believe most developers understand the value of testing, but every developer
     knows how time-consuming and thankless writing tests can be.
@@ -194,7 +191,7 @@ In practice, these tests simply preserve the exact configuration expected to
 Component testing — by that I mean unit testing for components —
 instead focuses on testing functional components as a whole.
 These tests are especially useful for verifying user interface components,
-    where presentation and interaction can intertwined.
+    where presentation and interaction can be intertwined.
 
 Typically when writing component tests, I find it helpful to categorize
     components into different types to separate concerns.
@@ -267,7 +264,7 @@ wraps the rendered application components is the correct HTML structure,
     and can handle a simple HTTP request.
 
 It would also be nice to test each route to make sure the basic functionality is
-    is place.
+    in place.
 However, [Playwright] only provides an API for [mocking browser requests], not
     requests from the server to third-party services.
 This will be a problem for testing any dynamically generated page that relies on
@@ -309,7 +306,7 @@ Unless the structure of the text is fluid (like placing the currency symbol
     before or after a price), it's usually sufficient to simply map tokens to
     localized strings.
 In this project, this can easily apply to any text being displayed, allowing the
-    application to completely customized to display any text content.
+    application to be completely customized to display any text content.
 
 To achieve this with little overhead, I implemented [a simple utility] that
     creates a simple [object proxy].
@@ -319,8 +316,9 @@ This means that very little customization is required to generate a page that
     feels complete.
 
 #### Theming
-I've spent a lot of time recently sitting with the question of how to style
-    a application, working on the [Batched] platform.
+While working on the [Batched] platform,
+    I spent a lot of time recently sitting with the question of how to style
+    an application.
 If your brand is very rigid and unlikely to change, it fine to hard-code styles
     directly into the web pages.
 However, in many cases, users expect to be able to customize the look-and-feel
@@ -397,7 +395,7 @@ These definitions are compiled to dereference the keyed properties into
 }
 ```
 
-I chose also define backgrounds and accents graphics as part of the theme.
+I chose to also define backgrounds and accents graphics as part of the theme.
 Since it's often better to store assets separately from code repositories,
     it seemed like a natural step to define these assets with the theme.
 This makes it easy to swap out images and graphics or even host them
@@ -463,7 +461,7 @@ CSS variables are simple and efficient, separating style from both structure and
 }
 ```
 Occasionally, it's useful to access theme properties directly in JavaScript,
-    when style value are needed to provide functionality not possible with CSS
+    when style values are needed to provide functionality not possible with CSS
     alone.
 ```typescript
 const { getSection } = useTheme();
@@ -483,7 +481,7 @@ console.log(section.typography.body);
 // }
 ```
 The contextual theming by section, typography, or graphic is established with
-    a custom helper that conditional synchronizes the CSS class context with the
+    a custom helper that conditionally synchronizes the CSS class context with the
     [SvelteKit context].
 ```typescript
 <script lang="ts">
@@ -510,7 +508,7 @@ Both the CSS and JavaScript interfaces test well.
 CSS variables can be [set on the browser test container] to simulate different
     themes.
 The JavaScript theme object [can be easily mocked] to provide different test
-    values with needing to load a full theme definition.
+    values without needing to load a full theme definition.
 
 The biggest challenge with this theming approach will be coordinating multiple
     concurrent themes.
@@ -528,14 +526,14 @@ If the server does not render the page with the user's requested theme and the
 ## An Empty Application
 With all the necessary tools in place, it was time to create a simple
     proof-of-concept.
-To avoid getting bogged down in content creation, I wanted to simply create a
-    simple page the could render and verify everything was working correctly.
+To avoid getting bogged down in content creation, I wanted to create a
+    simple page the could render and verify that everything was working correctly.
 Instead of a meaningless "Hello, World!" notice, I decided to implement some
     simple error handling, and add a route that would intentionally trigger an
     error.
 With the logging and error tracking systems in place, I could fully implement
     this feature while verifying that errors were being captured and reported.
-And by forgoing any actual content, the application was functional empty yet
+And by forgoing any actual content, the application was functionally empty yet
     still complete.
 
 Fully implementing [this test error route] could also validate the rest of the
@@ -556,8 +554,9 @@ It was frustrating at times to work around limitations of the framework,
 especially when the documentation was vague or just incomplete.
 For example, mocking SvelteKit-specific modules for testing was not obvious from
     the documentation.
-The solution I found was pieced together many examples of the `createRawSnippet`
-    function from various issues ([like this one]) and Stack Overflow answers.
+The solution I found was pieced together from Stack Overflow answers 
+    and many examples of the `createRawSnippet`
+    function from various issues ([like this one]).
 And I'm sure the solution I implemented is not officially supported, so I expect
     it may break in future releases.
 Beyond the challenges of mocking components, it was disappointing that SvelteKit
