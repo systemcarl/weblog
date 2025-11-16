@@ -508,7 +508,7 @@ Both the CSS and JavaScript interfaces test well.
 CSS variables can be [set on the browser test container] to simulate different
     themes.
 The JavaScript theme object [can be easily mocked] to provide different test
-    values with needing to load a full theme definition.
+    values without needing to load a full theme definition.
 
 The biggest challenge with this theming approach will be coordinating multiple
     concurrent themes.
