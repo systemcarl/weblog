@@ -264,7 +264,7 @@ wraps the rendered application components is the correct HTML structure,
     and can handle a simple HTTP request.
 
 It would also be nice to test each route to make sure the basic functionality is
-    is place.
+    in place.
 However, [Playwright] only provides an API for [mocking browser requests], not
     requests from the server to third-party services.
 This will be a problem for testing any dynamically generated page that relies on
