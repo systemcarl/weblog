@@ -123,7 +123,7 @@ and since I plan to host the application in my own server environment, I
     can easily aggregate these logs and handle them at the system level.
 [I later implemented the log collection] using [Grafana Alloy] when
     [I set up the deployment environment].
-To make sure the logging was efficient and consistent, I install [Pino],
+To make sure the logging was efficient and consistent, I installed [Pino],
     a fast JSON-friendly logging library, to structure and format the logs.
 Using the [Pino-Pretty] plugin, I could also format the logs nicely during
     development to save me from squinting at compressed JSON strings all day.
