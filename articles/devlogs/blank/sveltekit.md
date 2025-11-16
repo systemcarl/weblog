@@ -97,7 +97,7 @@ Abstracting any common application logic into light wrappers and utility
     third-party dependencies.
 
 ### Keeping Tabs on Things
-After the initial setup, 
+After the initial setup,
     my first priority was establishing good observability — the ability to monitor
     the application and track errors from the outside.
 Debugging can often be challenging at the beginning of a project while the code
@@ -117,7 +117,7 @@ and in the case of SvelteKit, there is a [simple integration] that lets you
 
 To handle all non-error-related logging events,
     [I simply sent logs to the application standard output]
- — via our friend, the console.
+via our friend, the console.
 This works great during development,
 and since I plan to host the application in my own server environment, I
     can easily aggregate these logs and handle them at the system level.
