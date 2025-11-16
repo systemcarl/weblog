@@ -481,7 +481,7 @@ console.log(section.typography.body);
 // }
 ```
 The contextual theming by section, typography, or graphic is established with
-    a custom helper that conditional synchronizes the CSS class context with the
+    a custom helper that conditionally synchronizes the CSS class context with the
     [SvelteKit context].
 ```typescript
 <script lang="ts">
