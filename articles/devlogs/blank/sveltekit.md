@@ -554,8 +554,9 @@ It was frustrating at times to work around limitations of the framework,
 especially when the documentation was vague or just incomplete.
 For example, mocking SvelteKit-specific modules for testing was not obvious from
     the documentation.
-The solution I found was pieced together many examples of the `createRawSnippet`
-    function from various issues ([like this one]) and Stack Overflow answers.
+The solution I found was pieced together from Stack Overflow answers 
+    and many examples of the `createRawSnippet`
+    function from various issues ([like this one]).
 And I'm sure the solution I implemented is not officially supported, so I expect
     it may break in future releases.
 Beyond the challenges of mocking components, it was disappointing that SvelteKit
