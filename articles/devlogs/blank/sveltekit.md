@@ -191,7 +191,7 @@ In practice, these tests simply preserve the exact configuration expected to
 Component testing — by that I mean unit testing for components —
 instead focuses on testing functional components as a whole.
 These tests are especially useful for verifying user interface components,
-    where presentation and interaction can intertwined.
+    where presentation and interaction can be intertwined.
 
 Typically when writing component tests, I find it helpful to categorize
     components into different types to separate concerns.
