@@ -80,7 +80,7 @@ So, I used [npm] which gave me no issues.
 
 From that point, I was ready to start building;
 I could locally host a development server and run tests.
-Later I would have to add a few more dependencies and tweak the some package
+Later I would have to add a few more dependencies and tweak some package
     configurations.
 But with this initial setup being so simple and concise, all the later changes
     to the project configuration were easy to manage.
