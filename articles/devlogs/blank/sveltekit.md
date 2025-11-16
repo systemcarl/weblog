@@ -316,8 +316,9 @@ This means that very little customization is required to generate a page that
     feels complete.
 
 #### Theming
-I've spent a lot of time recently sitting with the question of how to style
-    a application, working on the [Batched] platform.
+While working on the [Batched] platform,
+    I spent a lot of time recently sitting with the question of how to style
+    an application.
 If your brand is very rigid and unlikely to change, it fine to hard-code styles
     directly into the web pages.
 However, in many cases, users expect to be able to customize the look-and-feel
