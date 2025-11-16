@@ -45,6 +45,7 @@ you can read the first few DevLogs I've written so far here:
 - [Designing a Content Template]
 - [Implementing a Weblog Markdown Parser]
 - [Integrating Themed Syntax Highlighting]
+- [Integrating Themed Alert Blocks]
 
 ## Check for Updates
 Come back here, or visit [my website], to see what's new.
@@ -68,5 +69,6 @@ Also, [follow me] to stay up to date with my work.
 [Designing a Content Template]: ./devlogs/blank/content-template.md
 [Implementing a Weblog Markdown Parser]: ./devlogs/blank/markdown-parser.md
 [Integrating Themed Syntax Highlighting]: ./devlogs/blank/syntax-highlighting.md
+[Integrating Themed Alert Blocks]: ./devlogs/blank/quoteblock-alerts.md
 [about me]: ./about-me.md
 [follow me]: ./about-me.md#thanks-&-follow

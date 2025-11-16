@@ -35,6 +35,7 @@
     - [Designing a Content Template]
     - [Implementing a Weblog Markdown Parser]
     - [Integrating Themed Syntax Highlighting]
+    - [Integrating Themed Alert Blocks]
 
 ## Check for Updates
 - Check back here for updates to my content.
@@ -53,5 +54,6 @@
 [Designing a Content Template]: ./devlogs/blank/content-template.md
 [Implementing a Weblog Markdown Parser]: ./devlogs/blank/markdown-parser.md
 [Integrating Themed Syntax Highlighting]: ./devlogs/blank/syntax-highlighting.md
+[Integrating Themed Alert Blocks]: ./devlogs/blank/quoteblock-alerts.md
 [my website]: https://carledwardlyons.ca
 [follow]: ./about-me.md#thanks-&-follow
