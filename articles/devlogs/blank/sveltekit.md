@@ -461,7 +461,7 @@ CSS variables are simple and efficient, separating style from both structure and
 }
 ```
 Occasionally, it's useful to access theme properties directly in JavaScript,
-    when style value are needed to provide functionality not possible with CSS
+    when style values are needed to provide functionality not possible with CSS
     alone.
 ```typescript
 const { getSection } = useTheme();
