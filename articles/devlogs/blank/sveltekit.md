@@ -395,7 +395,7 @@ These definitions are compiled to dereference the keyed properties into
 }
 ```
 
-I chose also define backgrounds and accents graphics as part of the theme.
+I chose to also define backgrounds and accents graphics as part of the theme.
 Since it's often better to store assets separately from code repositories,
     it seemed like a natural step to define these assets with the theme.
 This makes it easy to swap out images and graphics or even host them
