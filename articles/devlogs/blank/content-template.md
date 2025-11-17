@@ -123,7 +123,7 @@ As per the original design of the application, all of the content is still
     [aggregated from static JSON files].
 Now, the files just include [an addition configuration object] to control the
     composition of pages, beyond the text and styling definitions.[^assets]
-It was a choice of personal preference to not combine all the configuration
+It was a choice of personal preference to not combine all the configurations
     into a single file,
 even though there is coupling between the content and its presentation.
 Despite spanning multiple files, I still consider these files to be a single
