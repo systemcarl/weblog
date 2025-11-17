@@ -91,8 +91,8 @@ It would be much easier to post generic articles to an established
     and guides) out there.
 But that doesn't really capture my mission to create an identity and brand that
     other people in the community can relate to and follow.
-These journal entries, for example, are not just meant to be a technical
-    resource, but also inspire and motivate others to pursue their own
+My journal entries, like this one you're reading, are not just meant to be a technical
+    resource, but also to inspire and motivate others to pursue their own
     ambitions.
 
 And while I'm not asking anyone to buy into anything (besides maybe a like or
