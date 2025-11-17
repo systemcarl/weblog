@@ -1,0 +1,61 @@
+{
+  "articles": {
+    "hello-world": {
+      "title": "Hello, World!",
+      "abstract": "Welcome!\n\nExplore my collection of professional tips, technology guides, and ongoing development logs (DevLogs), dwelling on topics of technology, science, and philosophy. Relax; stay a while. Grab a coffee and maybe learn something new."
+    },
+    "about-me": {
+      "title": "On the Grounds That I Don't Know the Answer",
+      "abstract": "Who am I?\n\nI'm a technologist, scientist, and educator. I love exploring enigmatic topics, learning new skills, and teaching others. Ignited by my experiences building web applications and conducting scientific research, I'm here to drive technological innovation for a better future."
+    },
+    "devlogs/blank/sveltekit": {
+      "title": "Setting Up SvelteKit for a Personal Weblog",
+      "abstract": "I recently started building a personal website to host my weblog. To get started, I setup logging, error monitoring, testing, and configuration — including theming and customization. It took some finesse, but wasn't too hard to get my SvelteKit weblog project off the ground."
+    },
+    "devlogs/blank/ci-cd": {
+      "title": "Exploring CI/CD for a Modern (SvelteKit) Web Application",
+      "abstract": "I'm building a new SvelteKit web app to host my weblog. To make it easier, I built a CI/CD pipeline (for the first time). During research and development, I explored containerization, IaC, testing, and observability solutions to learn how to best deliver a modern web app."
+    },
+    "devlogs/blank/content-template": {
+      "title": "Designing a Content Template",
+      "abstract": "To build out my personal website, I've been creating a reusable SvelteKit app that I can tailor to showcase my projects and interests. Lately I've been spending time refining both the visual design and content data structures to ensure a cohesive but flexible template."
+    },
+    "devlogs/blank/markdown-parser": {
+      "title": "Implementing a Weblog Markdown Parser",
+      "abstract": "My website is now a blog. A key part of developing this first weblog renderer was converting my weblog articles — stored as static Markdown files — into themed HTML pages. The implementation was simple, but making the right decisions required thinking abstractly about websites design."
+    },
+    "devlogs/blank/syntax-highlighting": {
+      "title": "Integrating Themed Syntax Highlighting",
+      "abstract": "Writing these DevLogs and other technical articles often involves including code examples. To make these examples render nicely on my website, I integrated highlight.js to highlight code snippet syntax using the fonts and colours defined by the pages' themes."
+    },
+    "tips/svelte/svelte-5-mocks": {
+      "title": "Mocking Svelte 5 Components",
+      "abstract": "If you've tried to write tests in Svelte 5, you may have found it frustrating to setup test cases. Svelte is very rigid in terms of component definition and there's little API documentation. I found some ways to compose and mock Svelte 5 components to make testing simpler."
+    },
+    "devlogs/blank/quoteblock-alerts": {
+      "title": "Integrating Themed Alert Blocks",
+      "abstract": "Now that I'm writing programming tips & guides, my weblog applications need to highlight important information. And what is a technical article without alert blocks? So, I implemented custom Markdown It! rules to convert GitHub-style alert blocks into embedded, theme-aware HTML."
+    }
+  },
+  "tags": {
+    "featured": {
+      "name": "Featured",
+      "articles": [
+        "hello-world",
+        "about-me",
+        "tips/svelte/svelte-5-mocks"
+      ]
+    },
+    "devlog": {
+      "name": "DevLogs",
+      "articles": [
+        "devlogs/blank/sveltekit",
+        "devlogs/blank/ci-cd",
+        "devlogs/blank/content-template",
+        "devlogs/blank/markdown-parser",
+        "devlogs/blank/syntax-highlighting",
+        "devlogs/blank/quoteblock-alerts"
+      ]
+    }
+  }
+}
