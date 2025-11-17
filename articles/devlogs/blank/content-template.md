@@ -99,7 +99,7 @@ And while I'm not asking anyone to buy into anything (besides maybe a like or
     a follow),
 most content driven applications are no different — they are trying to market
     something.
-Here, I am just marketing myself; a business markets its products or services;
+Here, I am just marketing myself as a business markets its products or services.
 So, it occurred to me that to generalize the design of my template effectively,
     the goal is to make a marketing template that is tailored specifically for
     personal profiles.
