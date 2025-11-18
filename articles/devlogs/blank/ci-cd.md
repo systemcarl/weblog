@@ -214,7 +214,7 @@ Instead, the idea is to use a cloud provider's native secret management system
 
 In my case, this wasn't a straightforward option.
 DigitalOcean doesn't have a secret management system that naively integrates
-    with there virtual machines
+    with their virtual machines
 and subscribing to a third-party secret manager would have added unnecessary
     complexity and cost to the project
 (and some how I would have had to configure the provisioned server to
