@@ -92,7 +92,7 @@ There are a few other, very similar testing frameworks for bash scripts,
     but Bats seemed like the easiest to get started with
 — especially with its [easy Docker execution], which I'll come back to [later].
 The pipeline Bats test suites are executed as part of the CI process to verify
-    any changes to the scripts do not break the process as a whole.
+    that any changes to the scripts do not break the process as a whole.
 
 Writing the tests was easy;
 the only thing that Bats did not handle out-of-the-box was mocking system
