@@ -223,8 +223,8 @@ and subscribing to a third-party secret manager would have added unnecessary
 So, I just used the [file] and [remote-exec] provisioners to copy over the
     files anyway.
 
-It's not hard to configure these remote connection provisioners,
-the problem is reliability.
+It's not hard to configure these remote connection provisioners.
+The problem is reliability.
 Since these operations depend on the remote server being reachable over [SSH],
     any network hiccup can cause the provisioning to fail.
 Moreover, since these operations are not seen as first-class citizens in
