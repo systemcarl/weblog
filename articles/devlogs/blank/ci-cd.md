@@ -40,7 +40,7 @@ Most projects choose to include the CI/CD configuration files directly within a
 However, I decided to keep the CI/CD pipeline in a separate repository to
     decouple the application from the specific CI/CD implementation I was using.
 Since the application is just a template, the application could be re-deployed
-    for a variety production environments,
+    for a variety of production environments,
 each with their own configuration and CI/CD requirements.
 
 This separation proved to be beneficial as both the application and CI/CD
