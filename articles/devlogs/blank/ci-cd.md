@@ -17,7 +17,7 @@ Implementing an automatic process to build, test, and deploy the application
     means there is no tedious, risky manual work discouraging regular updates.
 
 ## Putting the Pieces Together
-True to its namesake, a CI/CD pipeline is made up many smaller pieces that
+True to its namesake, a CI/CD pipeline is made up of many smaller pieces that
     deliver artifacts (e.g., code, configurations files, build outputs)
 from one to the next, end-to-end.
 Each piece is responsible for a specific task; every step brings the final
