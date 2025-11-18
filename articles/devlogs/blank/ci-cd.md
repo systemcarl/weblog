@@ -62,7 +62,7 @@ The bulk of the pipeline is [defined using bash scripts] that can be run on any
     system with a compatible shell environment
 (which is most systems at this point).
 
-Bundling the the pipeline logic into a set of bash scripts clearly defines
+Bundling the pipeline logic into a set of bash scripts clearly defines
     the pipeline actions.
 Each script is responsible for a specific task in the process, combining
     shared functions, systems commands, and in many cases, other prerequisite
