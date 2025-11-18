@@ -203,8 +203,8 @@ I was also very happy with how easy it was to
     (e.g., staging or production).
 
 Despite the simplicity Terraform provides, I did encounter a significant
-    challenge provisioning my server configuration
-— copying environment files to the provisioned server.
+    challenge provisioning my server configuration:
+copying environment files to the provisioned server.
 Terraform
     [does not fully support provisioning resources through remote connections].
 While possible, documented, and maintained, transferring files and variables
