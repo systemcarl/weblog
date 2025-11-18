@@ -29,7 +29,7 @@ My goal was to make this project as self-contained and portable as possible,
 so it could be easily shared and customized.
 Choosing tools that were platform-agnostic and widely supported across operating
     systems was a priority.
-Also minimizing external dependencies helped keep the project easier to manage,
+Also, minimizing external dependencies helped keep the project easier to manage,
     maintain, and replicate.
 The less tools and services required, the fewer installation steps and
     environment configurations needed to get started.
