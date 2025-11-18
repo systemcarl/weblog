@@ -142,7 +142,7 @@ If anything, I don't think I used Docker (or an alternate containerization
     tools) enough in this project.
 In retrospect, it would be ideal to containerize the entire CI/CD pipeline
     itself to simplify the CI/CD environment.
-However, to achieve this for my specific use-cases, would require Docker
+However, to achieve this for my specific use-cases, it would require Docker
     executions to themselves run other Docker containers.
 This is possible using [Docker-in-Docker (DinD)] to run Docker containers
     within a running Docker container,
