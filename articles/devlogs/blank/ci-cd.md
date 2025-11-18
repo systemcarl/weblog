@@ -169,7 +169,7 @@ There are a few different IaC tools available,
 but Terraform has a history of wide support across many cloud providers
     and services.
 It also has a certain reputation for being easy to get started with, and
-    may discussions about IaC tend to revolve around Terraform.
+    many discussions about IaC tend to revolve around Terraform.
 Despite having my reservations about declarative languages and recent changes
     to the Terraform's licensing model, I decided it was at least worth a try.
 
