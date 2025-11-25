@@ -71,8 +71,8 @@ The initial setup was painless. Using the Vite template wizard, I created a
 - ESLing pre-configured,
 - and Vitest installed.
 
-Normally, I prefer to use [Yarn] because I found it more flexible when
-    installing local packages
+Normally, I use [Yarn] as my [package manager] because I have found it more
+    flexible when installing local packages
 (which can be nice for experimenting with custom dependencies).
 However, it seems that SvelteKit doesn't quite support Yarn yet
     (or at least, I couldn't get it to work).
@@ -596,6 +596,7 @@ utilities are organized into their own respective directories within
 [Vite]: https://vite.dev
 [Vitest]: https://vitest.dev
 [Yarn]: https://yarnpkg.com
+[package manager]: https://en.wikipedia.org/wiki/Package_manager
 [npm]: https://www.npmjs.com
 ["Don't Repeat Yourself" (DRY)]:
     https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
