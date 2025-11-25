@@ -234,15 +234,15 @@ These test then focus on capturing the intended presentation of the component,
     opposed to testing every individual property.
 
 The only tricky part about component testing in SvelteKit is mocking child
-    components.
+    components to substitute the components dependencies during the tests.
 Neither Svelte nor SvelteKit provide a built-in way to mock components.
 I was able to work around this by manually [mounting test components] with the
     [`createRawSnippet`] function
-Generated components could be use to mock comprised child components with
+Generated components can be used to mock comprised child components with
     [`vi.mock`]
-and also passed directly as a `children` property.
-To learn about these techniques in more detail, I documented them in a guide
-    on [mocking Svelte 5 components].
+and can also be passed directly as a `children` property.
+If you want to learn about these techniques in more detail, I documented them in
+    a guide on [mocking Svelte 5 components].
 I was not able to find a reliable way to substitute for named slots, so for now
     I simply avoided using them in any components.
 
