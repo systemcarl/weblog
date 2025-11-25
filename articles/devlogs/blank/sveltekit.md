@@ -280,11 +280,13 @@ It appears this will require some custom middleware to
 ### Knobs and Dials
 Early on, I made the decision to abstract all personalized content away from
     the application code.
+It didn't make much sense to hard-code any content that I would likely want to
+    change.
 Providing configuration options as static JSON files seemed like the best way to
     separate content that I may want to change frequently away from my
     rigorously tested application logic.
-The data is [loaded during each request] and made available throughout the
-    application [via SvelteKit data stores].
+The configuration data are [loaded during each request] and made available
+    throughout the application [via SvelteKit data stores].
 Bundling these settings into utility modules provided a simple interface to
     retrieve configuration values throughout the application.
 Abstracting all the visual theming and text content (including localization)
@@ -300,6 +302,8 @@ Generally, it's always good practice to abstract out text that may need to be
     changed
 — either because the application has changed, or because the application is
     being used in a different language or dialectic region.
+Many applications use full-featured [localization] libraries to manage text
+    translations and formatting.
 Unless the structure of the text is fluid (like placing the currency symbol
     before or after a price), it's usually sufficient to simply map tokens to
     localized strings.
@@ -644,6 +648,8 @@ utilities are organized into their own respective directories within
     https://github.com/systemcarl/blank/tree/v0.0.1/src/lib/stores
 [abstracting the application content]:
     ./content-template.md#an-agnostic-application
+[localization]:
+    https://en.wikipedia.org/wiki/Internationalization_and_localization
 [simple utility]:
     https://github.com/systemcarl/blank/blob/v0.0.1/src/lib/utils/locale.ts
 [object proxy]:
