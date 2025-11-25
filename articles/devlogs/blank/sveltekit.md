@@ -228,10 +228,11 @@ Fortunately, a [Vitest Browser] plugin was recently released for Svelte to
 Since in-browser tests are generally slower to run, these tests will follow a
     more state-based approach,
 grouping assertions into tests that verify each unique state of the component.
-(There are no interactive elements currently planned for this project, so for
-    now these will not need to test state transitions.)
 These test then focus on capturing the intended presentation of the component,
     opposed to testing every individual property.
+> [!NOTE]
+There are no interactive elements currently planned for this project, so for
+    now these will not need to test state transitions.
 
 The only tricky part about component testing in SvelteKit is mocking child
     components to substitute the components dependencies during the tests.
