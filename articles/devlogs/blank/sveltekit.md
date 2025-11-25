@@ -256,6 +256,10 @@ Also, E2E tests are great for testing elements of the application that are
     [middleware interactions that can't be run in isolation].
 However, E2E tests are generally the slowest to run and difficult to maintain
     if the specifications are too rigid.
+Each test case requires a full page render, including all network requests and
+    application logic.
+Small changes to the application components can easily break tests if the test
+    assertions are too specific.
 So, for this project, I simply wanted to test that the application builds and
     starts correctly (at least within the test environment),
 wraps the rendered application components is the correct HTML structure,
