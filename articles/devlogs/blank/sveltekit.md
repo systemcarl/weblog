@@ -152,16 +152,17 @@ In my opinion, comprehensive testing goes beyond just [code coverage]
 Even when completely covering all logic branches with unit tests, it's still
     possible that the application could not behave as intended.
 When dealing with complex, stateful applications, like a component-based web
-    application, it can also be exhausting to test every possible interaction
-    and state change.
+    application, it can also be exhausting to unit test every possible
+    interaction and state change.
 
-Instead, my goal was to implement complete testing strategies that would
-    provide confidence in the application while still being fun to develop
+Instead, my goal was to implement complete testing strategies that would go
+    beyond just unit testing to satisfy code coverage,
+and provide confidence in the application while still being fun to develop
     against.
 Some of the tests I implemented to test package configuration and middleware are
-    quite simple and possibly redundant.
-In that case, the goal is just redundancy — making sure that the code I
-    accidentally typed in the wrong file doesn't torpedo deployment.
+    quite simple and possibly moot.
+In that case, the goal is just redundancy — making sure that any code I
+    accidentally type in the wrong file doesn't torpedo deployment.
 In other cases, I focused on testing the code from the consumer's perspective,
 making sure each component does what has been promised.
 
