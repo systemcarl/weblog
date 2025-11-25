@@ -2,13 +2,28 @@
 Hey! You found my blog.
 
 There may be other places to find my content, but if you're reading this, you're
-    probably on my [personal website].
+    most likely reading it on my [personal website].
 If you're not, go check it out.
-I built the website using [SvelteKit] to host my weblog articles and create a
-    place to experiment with web technologies and share [my projects].
+This is where I host my weblog articles — mostly about my ongoing projects —
+and experiment with new web technologies
+(new to me, anyway).
 
-I decided to use the framework [Svelte], and its companion meta-framework
-    [SvelteKit], because of its simplicity and performance.
+I built the application powering this website myself.
+I wanted a project to practice design architecture skills;
+I wanted to take my ideas and experience from past projects
+and apply them without the practical constraints of delivering a commercial
+    product.
+These [development logs (DevLogs)] are part of that process,
+documenting my experiences, challenges, and solutions as I continue to tinker
+    with the code.
+These logs are mainly an exercise in self-reflection,
+but I also hope that sharing my achievements and failures will help inspire
+    others when facing similar challenges in their own projects.
+
+## Laying the Groundwork
+To build the application, I decided to use the framework [Svelte], and its
+    companion meta-framework [SvelteKit], because of its simplicity and
+    performance.
 I wanted a modern, fast technology stack that could support server-side logic.
 SvelteKit provides a streamlined server-side rendering experience out of the
     box, with plenty of options for customizing server-client interactions.
@@ -21,8 +36,8 @@ I haven't used either of these well-endorsed frameworks before myself, so I was
 With any new project, the fist step was setting up the development environment
     and application infrastructure
 — the "scaffolding" of the application that will support development.
-To start, I set up a new SvelteKit project with just most the necessary tools
-    to provide:
+To start, I set up a new SvelteKit project with just the necessary tools to
+    provide:
 - observability — functions and integrations to log events and track errors;
 - configuration management — processes to load and retrieve application
     settings;
@@ -32,9 +47,8 @@ To start, I set up a new SvelteKit project with just most the necessary tools
 Taking the time to create these internal interfaces early on made the
     application code simple and consistent right from the start.
 
-## Laying the Groundwork
-To keep it simple, I began setting up the the SvelteKit project in the standard
-    JavaScript run-time environment, [Node.js].
+To keep the setup simple, I began initializing the SvelteKit project in the
+    standard JavaScript run-time environment, [Node.js].
 Because some of the content will be dynamic, the compiled
     [server-side application] will need to be run in a Node.js environment as
     well.
@@ -57,8 +71,8 @@ The initial setup was painless. Using the Vite template wizard, I created a
 - ESLing pre-configured,
 - and Vitest installed.
 
-Normally, I prefer to use [Yarn] because I found it more flexible when
-    installing local packages
+Normally, I use [Yarn] as my [package manager] because I have found it more
+    flexible when installing local packages
 (which can be nice for experimenting with custom dependencies).
 However, it seems that SvelteKit doesn't quite support Yarn yet
     (or at least, I couldn't get it to work).
@@ -68,8 +82,8 @@ From that point, I was ready to start building;
 I could locally host a development server and run tests.
 Later I would have to add a few more dependencies and tweak the some package
     configurations.
-But with the initial setup being so quick and concise, any additional changes
-    were easy to manage.
+But with this initial setup being so simple and concise, all the later changes
+    to the project configuration were easy to manage.
 
 ## Setting Up the Scaffolding
 It's true, it may often be better to implement features first and refactor
@@ -80,9 +94,11 @@ I was careful to keep the initial setup minimal, only adding what I knew I
     would need right away.
 The goal was really to follow the ["Don't Repeat Yourself" (DRY)] motto early on
     to avoid unnecessary rework later.
-Abstracting common application logic into light wrappers and utility functions
-    has the added benefit of decoupling the application code from third-party
-    dependencies.
+I bundled the necessary tools into modules and functions that could be easily
+    imported and used throughout the application.
+Abstracting any common application logic into light wrappers and utility
+    functions also has the added benefit of decoupling the application code from
+    third-party dependencies.
 
 ### Keeping Tabs on Things
 My first priority was establishing good observability — the ability to monitor
@@ -136,16 +152,17 @@ In my opinion, comprehensive testing goes beyond just [code coverage]
 Even when completely covering all logic branches with unit tests, it's still
     possible that the application could not behave as intended.
 When dealing with complex, stateful applications, like a component-based web
-    application, it can also be exhausting to test every possible interaction
-    and state change.
+    application, it can also be exhausting to unit test every possible
+    interaction and state change.
 
-Instead, my goal was to implement complete testing strategies that would
-    provide confidence in the application while still being fun to develop
+Instead, my goal was to implement complete testing strategies that would go
+    beyond just unit testing to satisfy code coverage,
+and provide confidence in the application while still being fun to develop
     against.
 Some of the tests I implemented to test package configuration and middleware are
-    quite simple and possibly redundant.
-In that case, the goal is just redundancy — making sure that the code I
-    accidentally typed in the wrong file doesn't torpedo deployment.
+    quite simple and possibly moot.
+In that case, the goal is just redundancy — making sure that any code I
+    accidentally type in the wrong file doesn't torpedo deployment.
 In other cases, I focused on testing the code from the consumer's perspective,
 making sure each component does what has been promised.
 
@@ -187,8 +204,8 @@ In this project, I defined 3 types of components:
 - **functional components**,[^functional] which combine multiple material
     components or other functional components to provide more complex
     functionality (like modals and dropdowns);
-- **page components**,[^page] which are a requirement of SvelteKit for defining routes
-    (generally prefixed with '+').
+- **page components**,[^page] which are a requirement of SvelteKit for defining
+    routes (generally prefixed with '+').
 
 The functional[^functional] and page[^page] components were implemented to only
     interface with other Svelte components and the SvelteKit framework.
@@ -211,21 +228,22 @@ Fortunately, a [Vitest Browser] plugin was recently released for Svelte to
 Since in-browser tests are generally slower to run, these tests will follow a
     more state-based approach,
 grouping assertions into tests that verify each unique state of the component.
-(There are no interactive elements currently planned for this project, so for
-    now these will not need to test state transitions.)
 These test then focus on capturing the intended presentation of the component,
     opposed to testing every individual property.
+> [!NOTE]
+There are no interactive elements currently planned for this project, so for
+    now these will not need to test state transitions.
 
 The only tricky part about component testing in SvelteKit is mocking child
-    components.
+    components to substitute the component's dependencies during the tests.
 Neither Svelte nor SvelteKit provide a built-in way to mock components.
 I was able to work around this by manually [mounting test components] with the
     [`createRawSnippet`] function
-Generated components could be use to mock comprised child components with
+Generated components can be used to mock comprised child components with
     [`vi.mock`]
-and also passed directly as a `children` property.
-To learn about these techniques in more detail, I documented them in a guide
-    on [mocking Svelte 5 components].
+and can also be passed directly as a `children` property.
+If you want to learn about these techniques in more detail, I documented them in
+    a guide on [mocking Svelte 5 components].
 I was not able to find a reliable way to substitute for named slots, so for now
     I simply avoided using them in any components.
 
@@ -239,6 +257,10 @@ Also, E2E tests are great for testing elements of the application that are
     [middleware interactions that can't be run in isolation].
 However, E2E tests are generally the slowest to run and difficult to maintain
     if the specifications are too rigid.
+Each test case requires a full page render, including all network requests and
+    application logic.
+Small changes to the application components can easily break tests if the test
+    assertions are too specific.
 So, for this project, I simply wanted to test that the application builds and
     starts correctly (at least within the test environment),
 wraps the rendered application components is the correct HTML structure,
@@ -259,11 +281,13 @@ It appears this will require some custom middleware to
 ### Knobs and Dials
 Early on, I made the decision to abstract all personalized content away from
     the application code.
+It didn't make much sense to hard-code any content that I would likely want to
+    change.
 Providing configuration options as static JSON files seemed like the best way to
     separate content that I may want to change frequently away from my
     rigorously tested application logic.
-The data is [loaded during each request] and made available throughout the
-    application [via SvelteKit data stores].
+The configuration data are [loaded during each request] and made available
+    throughout the application [via SvelteKit data stores].
 Bundling these settings into utility modules provided a simple interface to
     retrieve configuration values throughout the application.
 Abstracting all the visual theming and text content (including localization)
@@ -279,6 +303,8 @@ Generally, it's always good practice to abstract out text that may need to be
     changed
 — either because the application has changed, or because the application is
     being used in a different language or dialectic region.
+Many applications use full-featured [localization] libraries to manage text
+    translations and formatting.
 Unless the structure of the text is fluid (like placing the currency symbol
     before or after a price), it's usually sufficient to simply map tokens to
     localized strings.
@@ -571,7 +597,8 @@ utilities are organized into their own respective directories within
     also has its own [test file].
 
 [personal website]: https://carledwardlyons.ca
-[my projects]: https://github.com/systemcarl
+[development logs (DevLogs)]:
+    ../../hello-world.md#committing-to-open-development
 [SvelteKit]: https://svelte.dev/docs/kit/introduction
 [Svelte]: https://svelte.dev
 [Node.js]: https://nodejs.org
@@ -581,6 +608,7 @@ utilities are organized into their own respective directories within
 [Vite]: https://vite.dev
 [Vitest]: https://vitest.dev
 [Yarn]: https://yarnpkg.com
+[package manager]: https://en.wikipedia.org/wiki/Package_manager
 [npm]: https://www.npmjs.com
 ["Don't Repeat Yourself" (DRY)]:
     https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
@@ -621,6 +649,8 @@ utilities are organized into their own respective directories within
     https://github.com/systemcarl/blank/tree/v0.0.1/src/lib/stores
 [abstracting the application content]:
     ./content-template.md#an-agnostic-application
+[localization]:
+    https://en.wikipedia.org/wiki/Internationalization_and_localization
 [simple utility]:
     https://github.com/systemcarl/blank/blob/v0.0.1/src/lib/utils/locale.ts
 [object proxy]:
