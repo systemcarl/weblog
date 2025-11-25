@@ -49,11 +49,12 @@ Almost all of the operations were specific to the architecture prescribed by the
     CI/CD pipeline, not the application.
 The only exception was the building of the SvelteKit application
 — this ended up being more independent of customization than I had expected.
-All the environment variables of the application are evaluated at runtime, after
-    the build process,
+All the environment variables of the application are evaluated at runtime,
+not during the build process,
 and any template customization is fetched live from static resources.
-This means that the application build artifacts can be effectively versioned
-    with the [generic source code] without sacrificing flexibility.
+This means that the application build artifacts can be versioned
+    with the [generic source code],
+independently of environment variables or configuration files.
 
 ### Following the Script
 To balance portability with convenience, I chose to implement the CI/CD pipeline
