@@ -2,13 +2,28 @@
 Hey! You found my blog.
 
 There may be other places to find my content, but if you're reading this, you're
-    probably on my [personal website].
+    most likely reading it on my [personal website].
 If you're not, go check it out.
-I built the website using [SvelteKit] to host my weblog articles and create a
-    place to experiment with web technologies and share [my projects].
+This is where I host my weblog articles — mostly about my ongoing projects —
+and experiment with new web technologies
+(new to me, anyway).
 
-I decided to use the framework [Svelte], and its companion meta-framework
-    [SvelteKit], because of its simplicity and performance.
+I built the application powering this website myself.
+I wanted a project to practice design architecture skills;
+I wanted to take my ideas and experience from past projects
+and apply them without the practical constraints of delivering a commercial
+    product.
+These [development logs (DevLogs)] are part of that process,
+documenting my experiences, challenges, and solutions as I continue to tinker
+    with the code.
+These logs are mainly an exercise in self-reflection,
+but I also hope that sharing my achievements and failures will help inspire
+    others when facing similar challenges in their own projects.
+
+## Laying the Groundwork
+To build the application, I decided to use the framework [Svelte], and its
+    companion meta-framework [SvelteKit], because of its simplicity and
+    performance.
 I wanted a modern, fast technology stack that could support server-side logic.
 SvelteKit provides a streamlined server-side rendering experience out of the
     box, with plenty of options for customizing server-client interactions.
@@ -32,7 +47,6 @@ To start, I set up a new SvelteKit project with just most the necessary tools
 Taking the time to create these internal interfaces early on made the
     application code simple and consistent right from the start.
 
-## Laying the Groundwork
 To keep it simple, I began setting up the the SvelteKit project in the standard
     JavaScript run-time environment, [Node.js].
 Because some of the content will be dynamic, the compiled
@@ -571,7 +585,8 @@ utilities are organized into their own respective directories within
     also has its own [test file].
 
 [personal website]: https://carledwardlyons.ca
-[my projects]: https://github.com/systemcarl
+[development logs (DevLogs)]:
+    ../../hello-world.md#committing-to-open-development
 [SvelteKit]: https://svelte.dev/docs/kit/introduction
 [Svelte]: https://svelte.dev
 [Node.js]: https://nodejs.org
