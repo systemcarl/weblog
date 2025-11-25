@@ -47,8 +47,8 @@ To start, I set up a new SvelteKit project with just the necessary tools to
 Taking the time to create these internal interfaces early on made the
     application code simple and consistent right from the start.
 
-To keep it simple, I began setting up the the SvelteKit project in the standard
-    JavaScript run-time environment, [Node.js].
+To keep the setup simple, I began initializing the SvelteKit project in the
+    standard JavaScript run-time environment, [Node.js].
 Because some of the content will be dynamic, the compiled
     [server-side application] will need to be run in a Node.js environment as
     well.
@@ -82,8 +82,8 @@ From that point, I was ready to start building;
 I could locally host a development server and run tests.
 Later I would have to add a few more dependencies and tweak the some package
     configurations.
-But with the initial setup being so quick and concise, any additional changes
-    were easy to manage.
+But with this initial setup being so simple and concise, all the later changes
+    to the project configuration were easy to manage.
 
 ## Setting Up the Scaffolding
 It's true, it may often be better to implement features first and refactor
