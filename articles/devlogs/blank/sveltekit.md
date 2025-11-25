@@ -235,7 +235,7 @@ There are no interactive elements currently planned for this project, so for
     now these will not need to test state transitions.
 
 The only tricky part about component testing in SvelteKit is mocking child
-    components to substitute the components dependencies during the tests.
+    components to substitute the component's dependencies during the tests.
 Neither Svelte nor SvelteKit provide a built-in way to mock components.
 I was able to work around this by manually [mounting test components] with the
     [`createRawSnippet`] function
