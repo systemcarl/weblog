@@ -94,9 +94,11 @@ I was careful to keep the initial setup minimal, only adding what I knew I
     would need right away.
 The goal was really to follow the ["Don't Repeat Yourself" (DRY)] motto early on
     to avoid unnecessary rework later.
-Abstracting common application logic into light wrappers and utility functions
-    has the added benefit of decoupling the application code from third-party
-    dependencies.
+I bundled the necessary tools into modules and functions that could be easily
+    imported and used throughout the application.
+Abstracting any common application logic into light wrappers and utility
+    functions also has the added benefit of decoupling the application code from
+    third-party dependencies.
 
 ### Keeping Tabs on Things
 My first priority was establishing good observability — the ability to monitor
