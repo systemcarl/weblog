@@ -59,11 +59,11 @@ independently of environment variables or configuration files.
 ### Following the Script
 To balance portability with convenience, I chose to implement the CI/CD pipeline
     using [Bash].
-The bulk of the pipeline is [defined using bash scripts] that can be run on any
+The bulk of the pipeline is [defined using Bash scripts] that can be run on any
     system with a compatible shell environment
 (which is most systems at this point).
 
-Bundling the pipeline logic into a set of bash scripts clearly defines
+Bundling the pipeline logic into a set of Bash scripts clearly defines
     the pipeline actions.
 Each script is responsible for a specific task in the process, combining
     shared functions, systems commands, and in many cases, other prerequisite
@@ -80,16 +80,16 @@ The resulting command line interface (CLI) is fully documented in the project
     [README] file.
 
 #### Bash With Bats
-Since the vast majority of the pipeline logic is implemented in bash scripts,
+Since the vast majority of the pipeline logic is implemented in Bash scripts,
 continuing to maintain the pipeline would be a real nightmare without proper
     testing.
 To properly deliver a working solution, each step must deliver a very specific
     outcome.
 The smallest deviation from the expected result can cause a release to fail.
 
-To test the bash scripts, I used [Bash Automated Testing System (Bats)], a
-    testing framework for bash.
-There are a few other, very similar testing frameworks for bash scripts,
+To test the Bash scripts, I used [Bash Automated Testing System (Bats)], a
+    testing framework for Bash.
+There are a few other, very similar testing frameworks for Bash scripts,
     but Bats seemed like the easiest to get started with
 — especially with its [easy Docker execution], which I'll come back to [later].
 The pipeline Bats test suites are executed as part of the CI process to verify
@@ -193,7 +193,7 @@ There was no real reason for these specific choices beyond the fact that I
 #### Too Good to Be Simple
 Using [Terraform] was quite straightforward overall.
 Since Terraform deployments are executed by the command line,
-I could invoke Terraform commands directly from the [pipeline bash scripts].
+I could invoke Terraform commands directly from the [pipeline Bash scripts].
 Most of the tests were quite simple to write with Terraform's
     [testing framework] (if you can call it that).
 And since cloud initialization can be done with [a Bash script],
@@ -245,9 +245,9 @@ and assures that a successful deployment means the files were copied correctly.
 
 The only part of the whole pipeline that I could not entirely test in some way
     was the deprovisioning of the configuration between releases.
-The [trigger] argument that causes the configuration to be re-applied if the
-    server a new server has been provisioned cannot be tested without running
-    two full deployments.
+The [trigger] argument that causes the configuration to be re-applied if a new
+    server has been provisioned cannot be tested without running two full
+    deployments.
 While I understand the reasoning and necessity of this limitation with
     Terraform's plan and apply workflow,
 I can't justify using a provisioning strategy I can't thoroughly test for a
@@ -550,7 +550,7 @@ came out of a conversation with fellow software developer, [Chris Adkins].
 [this project]: https://github.com/systemcarl/folio
 [generic source code]: https://github.com/systemcarl/blank
 [Bash]: https://en.wikipedia.org/wiki/Bash_(Unix_shell)
-[defined using bash scripts]:
+[defined using Bash scripts]:
     https://github.com/systemcarl/folio/tree/v0.0.1/cli
 [use-case diagram]:
     https://www.figma.com/board/KlVlC2x59WcyfeWcGDwh5A/Portfolio-Plans?t=VNSCcSgmN5HuSPOm-6
@@ -585,7 +585,7 @@ came out of a conversation with fellow software developer, [Chris Adkins].
 [Cloudflare]: https://www.cloudflare.com/
 [Google Cloud Services (GCS)]: https://cloud.google.com/
 [Terraform's state]: https://developer.hashicorp.com/terraform/language/state
-[pipeline bash scripts]: #following-the-script
+[pipeline Bash scripts]: #following-the-script
 [testing framework]:
     https://developer.hashicorp.com/terraform/tutorials/configuration-language/test
 [a Bash script]:
