@@ -36,8 +36,8 @@ I haven't used either of these well-endorsed frameworks before myself, so I was
 With any new project, the fist step was setting up the development environment
     and application infrastructure
 — the "scaffolding" of the application that will support development.
-To start, I set up a new SvelteKit project with just most the necessary tools
-    to provide:
+To start, I set up a new SvelteKit project with just the necessary tools to
+    provide:
 - observability — functions and integrations to log events and track errors;
 - configuration management — processes to load and retrieve application
     settings;
