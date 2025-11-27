@@ -1,8 +1,8 @@
 # DevLog: Integrating Themed Syntax Highlighting
-Being a software developer, many of my articles naturally include code in some
+Being a software developer, I often augment my articles with code in some
     form or another.
-A simple monospaced font can sometimes be enough when rendering the odd line of
-    code,
+When this involves rendering the odd line of code,
+    a simple monospaced font can be enough,
 but when the code blocks get longer and the language context is important,
 syntax highlighting matters.
 Today, this is the norm for code presentation in the code editor, and on the
