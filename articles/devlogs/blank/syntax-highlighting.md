@@ -125,7 +125,7 @@ The theme file is already much larger than I had originally anticipated,
 and there's always the risk of bloating the generated CSS, reducing overall page
     performance.
 
-[integrating a Markdown renderer]: ./markdown-parser.md
+[integrated a Markdown renderer]: ./markdown-parser.md
 [personal website]: https://carledwardlyons.ca
 [the application]: https://github.com/systemcarl/blank
 [Markdown it!]: https://github.com/markdown-it/markdown-it
