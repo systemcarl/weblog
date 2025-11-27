@@ -9,7 +9,7 @@ Today, this is the norm for code presentation in the code editor, and on the
     web.
 
 To keep the development process streamlined, I opted not to implement syntax
-    highlighting when I first [integrating a Markdown renderer] on my
+    highlighting when I first [integrated a Markdown renderer] on my
     [personal website].
 Up until this point, [the application] simply used the default [Markdown it!]
     renderer output without any additional processing.
