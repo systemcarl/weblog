@@ -119,7 +119,7 @@ But with [these changes] and some quick adjustments to the theme configuration
     file,
 the code blocks are already much easier to read and look much more consistent
     with the overall visual style of the website.
-I may however need to revisit how theme's are defined to better manage the
+I may however need to revisit how themes are defined to better manage the
     increasing complexity of the typography styles.
 The theme file is already much larger than I had originally anticipated,
 and there's always the risk of bloating the generated CSS, reducing overall page
