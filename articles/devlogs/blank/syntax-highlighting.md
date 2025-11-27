@@ -101,7 +101,7 @@ Fortunately, I had already designed the typography styles to set properties to
     properties, as needed.
 This means that every code scope does not need to define the font family to the
     same monospace font
-as the base `typography-code` style has already taken care of that.
+because the base `typography-code` style has already taken care of that.
 It also means that every scope is optional; the theme only needs to define the
     typography of the scopes that need to be highlighted.
 
