@@ -172,6 +172,7 @@ It includes file definitions for all the websites [content configuration],
 [decided early]: ./sveltekit.md#knobs-and-dials
 [my design]:
     https://www.figma.com/design/TJYtbshPU4K0CoXuYKqtwp/Portfolio?m=auto&t=IV2gWGSb6tnTZcel-6
+[my mission]: ../../about-me.md#it-has-great-practical-value
 [aggregated from static JSON files]: ./sveltekit.md#knobs-and-dials
 [an addition configuration object]:
     https://github.com/systemcarl/folio-assets/blob/v0.0.2/config.json
