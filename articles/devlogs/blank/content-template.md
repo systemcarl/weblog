@@ -23,8 +23,8 @@ Choosing to only implement the [profile] and [contact information] sections,
 - and a list of contact information.
 
 ## Strong Opinions, Loosely Held
-I had [decided early] to decouple the page content (including static
-    elements)[^assets] from the application.
+I had [decided early] to abstract all of the page content (including static
+    elements)[^assets] away from the application code.
 The idea was to remove any personalized content from the application code,
 allowing for easier updates to both the application and the content,
 making it possible to reuse the same application code for different websites
@@ -44,7 +44,9 @@ Ultimately, responsibility for the design outcome needs to be either given to
 — the responsibility cannot simply be shared.
 
 I chose to focus this solution on ease of content creation, creating a very
-    opinionated content design.
+    opinionated content design
+— opinionated in the sense that the page structure and content are predetermined
+    and the template constraints must be respected.
 However, opinionated does not mean immutable.
 At a minimum, the content needs to be flexible enough to allow for
     personalization,
