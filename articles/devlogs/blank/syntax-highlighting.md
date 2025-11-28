@@ -23,12 +23,12 @@ Fortunately, *Markdown it!* integrates well with [highlight.js], a quaintly
 ## A Token of Appreciation
 The [highlight.js] library can be used as a plugin for [Markdown it!] to extend
     the HTML tokenization process.
-When code blocks are rendered, [highlight.js] wraps the code elements with
+When code blocks are rendered, highlight.js wraps the code elements with
     specific style classes based on symbolic code token types.
 
 
-These tokens are defined in the [list of "scopes"], which outlines the common
-    semantic code elements shared across programming languages.
+These tokens are defined in the highlight.js [list of "scopes"], which outlines
+    the common semantic code elements shared across programming languages.
 The syntax highlighter automatically assigns the common scopes based on the
     grammar of the specified programming language
 (so long as it [is supported]).
