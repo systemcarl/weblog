@@ -73,7 +73,7 @@ Since the application is primarily concerned with visual presentation
 the constraints of the design are limited mainly to the layout.
 So beyond having to dictate where each content element should go on the page,
 the system does not impose any semantic meaning on the content itself.
-For example, the "likes" and "dislikes" sections specified in [my design] do
+For example, the section in [my design] listing my "likes" and "dislikes" do
     not need to be used for this purpose at all.
 Structurally, this element is simply a pair of lists that can be used to
     represent any kind of comparison
