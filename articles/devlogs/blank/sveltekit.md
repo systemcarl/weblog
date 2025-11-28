@@ -589,7 +589,7 @@ utilities are organized into their own respective directories within
     populate the error pages, each with their own tests.
 
 [^functional]: The [first release] of the application didn't include any
-    [functional components]. However, [version 0.0.2] includes [examples] with
+    functional components. However, [version 0.0.2] includes [examples] with
     tests.
 
 [^page]: The Svelte components defined in the [routes] folder are used to
