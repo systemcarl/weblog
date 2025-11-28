@@ -55,19 +55,21 @@ Conveniently, [highlight.js] applies syntax highlighting styles to the code
 The class name for each code scope follow a predictable pattern of
     `<prefix><scope>`,
 where the default prefix is `hljs-`
-(*e.g.*, `hljs-keyword`, `hljs-string`, etc.).
+(*e.g.*, `hljs-keyword`, `hljs-string`, *etc.*).
 
-This is very similar to the naming pattern used by
-    [the application theming system].
+This naming pattern is very similar to that used to apply [theme styles]
+    throughout the application.
 To specifically target text elements, the application automatically generates
     typography style classes with the format `typography-<context>`,
 where `<context>` is the semantic usage of the typography style
-(*e.g.*, `typography-body`, `typography-title`, etc.).
+(*e.g.*, `typography-body`, `typography-title`, *etc.*).
 By setting the [highlight.js prefix] to `typography-`,
 the code scopes are automatically mapped to the corresponding theme-generated
-    typography styles — just like that.
+    typography styles, using the highlight.js scope as the theme context.
+And just like that, the theme-defined typography styles are applied to the
+    applicable code tokens.
 
-The reset of the implementation is just to address the base styles for code
+The rest of the implementation is just to address the base styles for code
     blocks, and text elements in general.
 All text elements throughout the application are also given the base `text`
     class for resolving the theme CSS variables into finalized style properties
@@ -90,8 +92,8 @@ Additionally, adding the `code-block` and `typography-code` classes to the
 </pre>
 ```
 Now these code blocks can be styled by simply defining the right typography
-    definitions for each theme definition, or even for each theme section to
-    allow for light and dark variations, depending on the background.
+    definitions for each theme, or even for each theme section to allow for
+    light and dark variations, depending on the background.
 
 ## Keeping Options Open
 Over and over, the fundamental questions come back to
@@ -139,7 +141,7 @@ So, in the future, I may need to revisit how themes are defined to better manage
     https://highlightjs.readthedocs.io/en/latest/css-classes-reference.html
 [is supported]:
     https://highlightjs.readthedocs.io/en/latest/supported-languages.html
-[the application theming system]: ./sveltekit.md#theming
+[theme styles]: ./sveltekit.md#theming
 [highlight.js prefix]:
     https://highlightjs.readthedocs.io/en/latest/api.html#configure
 [balancing the complexity of features with ease of use]:
