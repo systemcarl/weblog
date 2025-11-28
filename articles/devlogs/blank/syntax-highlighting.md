@@ -96,8 +96,8 @@ Now these code blocks can be styled by simply defining the right typography
     light and dark variations, depending on the background.
 
 ## Keeping Options Open
-Over and over, the fundamental questions come back to
-    [balancing the complexity of features with ease of use].
+Over and over, the fundamental questions concerning the application's design
+    come back to [balancing the complexity of features with ease of use].
 To fully enable the syntax highlighting feature, several new typography
     definitions need to be added to the [theme configuration].
 Each code scope requires its own typography style definition, even if the
