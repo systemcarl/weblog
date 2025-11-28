@@ -29,6 +29,8 @@ My goal was to make this project as self-contained and portable as possible,
 so it could be easily shared and customized.
 Choosing tools that were platform-agnostic and widely supported across operating
     systems was a priority.
+Ideally, all of the pipeline could be run on any UNIX-like system, including
+    Windows — via [Windows Subsystem for Linux (WSL)].
 Also, minimizing external dependencies helped keep the project easier to manage,
     maintain, and replicate.
 The less tools and services required, the fewer installation steps and
