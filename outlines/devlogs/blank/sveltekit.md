@@ -8,14 +8,6 @@
 - I am building a [personal website] and blog.
     - The goal is to create a platform to share my [portfolio] and ongoing
         projects.
-    - Content is written and maintained primarily as weblog articles.
-- I have been building the application myself to practice design and
-    architecture.
-    - These [development logs (DevLogs)] document the process.
-    - I hope sharing my experiences will help inspire others building their own
-        projects.
-
-## Laying the Groundwork
 - I chose to build the frontend using [Svelte] and [SvelteKit].
     - Svelte provides a simple and efficient way to create reactive web pages.
     - SvelteKit extends the Svelte component framework to provide a full
@@ -29,6 +21,8 @@
         testing.
     - Internal utility interfaces will make development of the application
         efficient and consistent.
+
+## Laying the Groundwork
 - The standard environment for building and running SvelteKit applications is
     [Node.js].
     - The application will also be deployed to a Node.js environment to
@@ -418,8 +412,6 @@
 
 [personal website]: https://carledwardlyons.ca
 [portfolio]: https://github.com/systemcarl
-[development logs (DevLogs)]:
-    ../../hello-world.md#committing-to-open-development
 [Svelte]: https://svelte.dev
 [SvelteKit]: https://svelte.dev/docs/kit/introduction
 [Node.js]: https://nodejs.org
