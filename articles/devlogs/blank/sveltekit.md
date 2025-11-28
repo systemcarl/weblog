@@ -204,8 +204,8 @@ In this project, I defined 3 types of components:
 - **functional components**,[^functional] which combine multiple material
     components or other functional components to provide more complex
     functionality (like modals and dropdowns);
-- **page components**,[^page] which are a requirement of SvelteKit for defining routes
-    (generally prefixed with '+').
+- **page components**,[^page] which are a requirement of SvelteKit for defining
+    routes (generally prefixed with '+').
 
 The functional[^functional] and page[^page] components were implemented to only
     interface with other Svelte components and the SvelteKit framework.
