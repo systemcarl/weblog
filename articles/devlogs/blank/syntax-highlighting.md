@@ -111,25 +111,27 @@ because the base `typography-code` style has already taken care of that.
 It also means that every scope is optional; the theme only needs to define the
     typography of the scopes that need to be highlighted.
 
-I've already added syntax highlighting support to my [personal website]
-(you probably saw it already in this article).
+I've already added this syntax highlighting support to my [personal website]
+(and this blog, as you've probably noticed).
 You can see [an example] of the theme configuration on GitHub. This file defines
     the typography styles for the code you see here.
 
 Once the logic was in place, it was a lot of fun to experiment with different
     color schemes and typographic styles for the various code scopes.
 I haven't yet decided on additional font options for the theme, but it would
-   be interesting to use alternative monospace fonts for certain tokens,
-like some developers do in their code editors, using cursive fonts for comments.
+   be interesting to use alternative monospace fonts for certain tokens
+— like many developers do in their code editors, using cursive fonts for
+    comments for example.
 But with [these changes] and some quick adjustments to the theme configuration
     file,
 the code blocks are already much easier to read and look much more consistent
     with the overall visual style of the website.
-However, the theme file is already much larger than I had originally anticipated,
+However, the theme file is already much larger than I had originally
+    anticipated,
 and there's always the risk of bloating the generated CSS, reducing overall page
     performance.
-So, in the future, I may need to revisit how themes are defined to better manage the
-    increasing complexity of the typography styles.
+So, in the future, I may need to revisit how themes are defined to better manage
+    the increasing complexity of the typography styles.
 
 ["syntax highlighting,"]: https://en.wikipedia.org/wiki/Syntax_highlighting
 [integrated a Markdown renderer]: ./markdown-parser.md
