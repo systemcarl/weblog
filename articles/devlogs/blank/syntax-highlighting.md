@@ -4,15 +4,19 @@ Being a software developer, I often augment my articles with code in some
 When this involves rendering the odd line of code,
     a simple monospaced font can be enough,
 but when the code blocks get longer and the language context is important,
-syntax highlighting matters.
-Today, this is the norm for code presentation in the code editor, and on the
-    web.
+formatting matters.
+Often referred to as ["syntax highlighting,"]
+language-specific keywords, tokens, and variables are visually differentiated
+    using various typographic styles,
+like color, weight, and emphasis.
+Today, syntax highlighting is the norm for code presentation in the code editor,
+    and on the web.
 
 To keep the development process of my [personal website] streamlined,
-    I opted not to implement syntax
-    highlighting when I first [integrated a Markdown renderer].
-Up until this point, [the application] simply used the default [Markdown it!]
-    renderer output without any additional processing.
+I opted not to implement syntax highlighting when I first
+    [integrated a Markdown renderer].
+Initially, [the application] simply used the default [Markdown it!] renderer
+    output without any additional processing.
 Fortunately, *Markdown it!* integrates well with [highlight.js], a quaintly
     simple syntax highlighting library.
 
@@ -125,6 +129,7 @@ and there's always the risk of bloating the generated CSS, reducing overall page
 So, in the future, I may need to revisit how themes are defined to better manage the
     increasing complexity of the typography styles.
 
+["syntax highlighting,"]: https://en.wikipedia.org/wiki/Syntax_highlighting
 [integrated a Markdown renderer]: ./markdown-parser.md
 [personal website]: https://carledwardlyons.ca
 [the application]: https://github.com/systemcarl/blank
