@@ -91,11 +91,8 @@ My motivation for building this personal website comes down to (shameless)
 It would be much easier to post generic articles to an established
     platform, simply to put the core information (straight to the point tips
     and guides) out there.
-But that doesn't really capture my mission to create an identity and brand that
-    other people in the community can relate to and follow.
-My journal entries, like this one you're reading, are not just meant to be a technical
-    resource, but also to inspire and motivate others to pursue their own
-    ambitions.
+But that doesn't really capture [my mission] to create an identity and brand
+    that other people in the community can relate to and follow.
 
 And while I'm not asking anyone to buy into anything (besides maybe a like or
     a follow),
