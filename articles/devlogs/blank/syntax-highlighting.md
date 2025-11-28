@@ -122,8 +122,8 @@ I haven't yet decided on additional font options for the theme, but it would
    be interesting to use alternative monospace fonts for certain tokens
 — like many developers do in their code editors, using cursive fonts for
     comments for example.
-But with [these changes] and some quick adjustments to the theme configuration
-    file,
+But with [this new application version] and some quick adjustments to the theme
+    configuration file,
 the code blocks are already much easier to read and look much more consistent
     with the overall visual style of the website.
 However, the theme file is already much larger than I had originally
@@ -151,4 +151,4 @@ So, in the future, I may need to revisit how themes are defined to better manage
 [theme configuration]: ./sveltekit.md#theming
 [an example]:
     https://github.com/systemcarl/folio-assets/blob/3233735aa5594f3dc7c75b14fa6b2f2f11c23383/theme.json#L241-L274
-[these changes]: https://github.com/systemcarl/blank/tree/v0.0.4
+[this new application version]: https://github.com/systemcarl/blank/tree/v0.0.4
