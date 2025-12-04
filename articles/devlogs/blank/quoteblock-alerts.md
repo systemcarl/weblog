@@ -6,9 +6,9 @@ These sections of text are usually highlighted with backgrounds, borders,
 > [!TIP]
 This is what I mean by an alert block.
 
-By convention, these are often created from "quote blocks"
-— or [block quotations],
-a paragraph of text, often indented, to indicate a special section, often a
+By convention, these are often created from "quote blocks",
+or [block quotations],
+which are paragraphs of text, often indented, to indicate a special section, often a
     quote from another source.
 In markdown, quote blocks are created by prefixing lines with the `>` character.
 ```markdown
