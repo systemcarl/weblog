@@ -77,7 +77,7 @@ I was able to crawl the tokens to apply the necessary theme classes and
 While finding a way to parse the alert blocks was difficult,
 the real challenge was deciding how to structure the HTML to take full advantage
     of the [application theming system].
-Because alerts typically have an outer accentuating styles
+Because alerts typically have an outer accentuating style
 — highlighting the label and boundaries —
 and an inner content area that needs to be consistent and legible,
 I had to find a way to intuitively separate these two areas despite there being
