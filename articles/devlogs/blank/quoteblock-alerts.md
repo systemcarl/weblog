@@ -9,7 +9,7 @@ In Markdown, quote blocks are created by prefixing lines with the `>` character.
 ```
 > This is a regular old quote block.
 
-Beyond these quote blocks, "alert blocks" can 
+Beyond these quote blocks, "alert blocks" can
 further highlight sections of text with backgrounds, borders,
     and other accentuating styles or icons to draw attention to information.
 Alert blocks often include a label to indicate a semantic
@@ -66,7 +66,7 @@ I already had to:
 - [integrate syntax highlighting], which required some additional parsing logic as
     well.
 
-However, it was a bit trickier this time.
+However, implementing alert block parsing was a bit trickier.
 Since *Markdown it!* divides the content during parsing,
 treating opening and closing tags as their own tokens,
 it was difficult to link the content to the style of the wrapping quote block.
