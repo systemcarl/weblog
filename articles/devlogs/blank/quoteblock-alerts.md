@@ -107,8 +107,8 @@ The one obvious limitation of this structure is that all alert-specific styles
 If the quote block content is dark text, every alert background must be
     sufficiently light, or vice versa.
 It is possible to work around this by not defining a base style,
-but that would only work if regular quote blocks (without an alert declaration)
-    are have similar styles to the article body text.
+but that would only work if regular quote blocks (without an alert declaration) 
+    have similar styles to the article body text.
 
 ## [!SUCCESS]
 I may still consider adding alternative syntax for alert blocks later, that
