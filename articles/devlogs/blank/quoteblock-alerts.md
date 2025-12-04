@@ -111,7 +111,7 @@ but that would only work if regular quote blocks (without an alert declaration)
     have similar styles to the article body text.
 
 ## [!SUCCESS]
-I may still consider adding alternative syntax for alert blocks later, that
+I may still consider adding alternative syntax for my alert blocks later, that
     would make the Markdown files more portable, and render better with generic
     parsers.
 There's no reason my applications renderer can't support multiple syntax
@@ -120,7 +120,7 @@ so long as there are no conflicts.
 Of course, the more features and decorators added, the more likely it will be
     to run into conflicts between the syntax for different features.
 
-For now, though, the way the articles are rendered is very satisfying.
+For now, though, the way my articles are rendered is very satisfying.
 With alert blocks and [code syntax highlighting] both integrated with the
     [application theme],
 my more technical articles now look nicely polished and professional.
