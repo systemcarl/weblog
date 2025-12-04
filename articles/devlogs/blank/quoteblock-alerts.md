@@ -65,6 +65,7 @@ I already had to:
       (especially to get footnotes looking right), and
 - [integrate syntax highlighting], which required some additional parsing logic as
     well.
+
 However, it was a bit trickier this time.
 Since *Markdown it!* divides the content during parsing,
 treating opening and closing tags as their own tokens,
