@@ -10,7 +10,7 @@ By convention, these are often created from "quote blocks",
 or [block quotations],
 which are paragraphs of text, often indented, to indicate a special section, often a
     quote from another source.
-In markdown, quote blocks are created by prefixing lines with the `>` character.
+In Markdown, quote blocks are created by prefixing lines with the `>` character.
 ```markdown
 > This is a regular old quote block.
 ```
