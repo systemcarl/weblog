@@ -58,11 +58,10 @@ Unfortunately, there aren't any existing *Markdown it!* plugins
 So, it was up to me to implement the [necessary logic] to parse the quote block
     alert type declarations and convert them into something more legible.
 This isn't the first parser rule I added to format my weblog articles.
-I already had to:
-- [add custom theme classes] to integrate the
-      [application theming system] to be able to
-      apply text fonts and other styles
-      (especially to get footnotes looking right), and
+I already had to [add custom theme classes] to:
+- integrate the [application theming system]
+    to be able to apply text fonts and other styles
+    (especially to get footnotes looking right), and
 - [integrate syntax highlighting], which required some additional parsing logic as
     well.
 
