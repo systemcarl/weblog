@@ -98,7 +98,7 @@ The base alert typography styles could then be applied directly to the remaining
 > [!NOTE]
 The `typography-note` class applies the base styles to all note elements via
     inheritance from the outer blockquote
-and reapplied to the inner content to revert any alert-specific styles.
+and is reapplied to the inner content to revert any alert-specific styles.
 You can see an example of this structure in the [theme configuration] used for
     this weblog.
 
