@@ -111,9 +111,9 @@ but that would only work if regular quote blocks (without an alert declaration)
     have similar styles to the article body text.
 
 ## [!SUCCESS]
-I may still consider adding alternative syntax for my alert blocks later, that
-    would make the Markdown files more portable, and render better with generic
-    parsers.
+I may still consider adding alternative syntax for my alert blocks, 
+    with the goal of making the Markdown files more portable, 
+    and render better with generic parsers.
 There's no reason my applications renderer can't support multiple syntax
     options for the same feature,
 so long as there are no conflicts.
