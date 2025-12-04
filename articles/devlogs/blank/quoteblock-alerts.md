@@ -1,7 +1,7 @@
 # DevLog: Integrating Themed Alert Blocks
 If you've ever read a programming guide or any online technical documentation,
 you're probably familiar with alert blocks.
-These sections of text are usually highlighted with backgrounds, borders,
+Alert blocks are sections of text, usually highlighted with backgrounds, borders,
     other accentuating styles, or icons to draw attention to information.
 > [!TIP]
 This is an example of an alert block.
