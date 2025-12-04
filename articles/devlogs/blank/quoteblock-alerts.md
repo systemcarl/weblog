@@ -120,7 +120,7 @@ so long as there are no conflicts.
 Of course, the more features and decorators added, the more likely it will be
     to run into conflicts between the syntax for different features.
 
-For now, though, the way the articles are rendered, is very satisfying.
+For now, though, the way the articles are rendered is very satisfying.
 With alert blocks and [code syntax highlighting] both integrated with the
     [application theme],
 my more technical articles now look nicely polished and professional.
