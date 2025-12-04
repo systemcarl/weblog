@@ -1,14 +1,7 @@
 # DevLog: Integrating Themed Alert Blocks
 If you've ever read a programming guide or any online technical documentation,
-you're probably familiar with alert blocks.
-Alert blocks are sections of text, usually highlighted with backgrounds, borders,
-    other accentuating styles, or icons to draw attention to information.
-> [!TIP]
-This is an example of an alert block.
-
-By convention, these are often created from "quote blocks",
-or [block quotations],
-which are paragraphs of text, often indented, to indicate a special section, often a
+you're probably familiar with "quote blocks", or [block quotations].
+These are paragraphs of text, often indented, to indicate a special section, often a
     quote from another source.
 In Markdown, quote blocks are created by prefixing lines with the `>` character.
 ```markdown
@@ -16,9 +9,15 @@ In Markdown, quote blocks are created by prefixing lines with the `>` character.
 ```
 > This is a regular old quote block.
 
-Alert blocks, on the other hand, often include a label to indicate a semantic
+Beyond these quote blocks, "alert blocks" can 
+further highlight sections of text with backgrounds, borders,
+    and other accentuating styles or icons to draw attention to information.
+Alert blocks often include a label to indicate a semantic
     meaning, such as the *NOTE*, *TIP*, *IMPORTANT*, *WARNING*, or *CAUTION*
     alert types [used by GitHub].
+
+> [!TIP]
+This is an example of an alert block.
 
 Common Markdown renders
 — like [Markdown it!], which I'm using to [render Markdown files] on my
