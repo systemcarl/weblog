@@ -4,7 +4,7 @@ you're probably familiar with alert blocks.
 These sections of text are usually highlighted with backgrounds, borders,
     other accentuating styles, or icons to draw attention to information.
 > [!TIP]
-This is what I mean by an alert block.
+This is an example of an alert block.
 
 By convention, these are often created from "quote blocks",
 or [block quotations],
