@@ -66,8 +66,8 @@ I already had to [add custom theme classes] to:
     well.
 
 However, implementing alert block parsing was a bit trickier.
-Since *Markdown it!* divides the content during parsing,
-treating opening and closing tags as their own tokens,
+Since *Markdown it!* divides the content during parsing
+by treating opening and closing tags as their own tokens,
 it was difficult to link the content to the style of the wrapping quote block.
 After some close inspection of the token structure,
 I was able to crawl the tokens to apply the necessary theme classes and
