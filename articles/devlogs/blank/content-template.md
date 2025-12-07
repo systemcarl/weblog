@@ -1,19 +1,19 @@
 # DevLog: Designing a Content Template
-Not long after [setting up SvelteKit application] for my [personal website]
+Not long after [I set up SvelteKit application] for [my personal website]
     and blog,
-I released and deployed the [first update] to the site adding a very simple
-    [landing page].
-The [initial version] of the application had no content at all, only a styled
-    [error message].
-The component framework and underlying [theming system] was already in place,
-but this was the implementation of the [visual design] beyond a simple
-    [proof-of-concept].
+I released and deployed [the first update] to the site adding
+    [a very simple landing page].
+[The initial version] of the application had no content at all, only
+    [a styled error message].
+The component framework and [underlying theming system] was already in place,
+but this was the implementation of [the website's visual design] beyond
+    [the early proof-of-concept].
 
 This next step was to create a basic, stylized landing page to provide a brief
     personal introduction.
 Working from the design mock-up, I decided to include as little content as
     possible without having to revisit the design later.
-Choosing to only implement the [profile] and [contact information] sections,
+Choosing to only implement [the profile] and [the contact information] sections,
     the goal was just to add some static content elements, including:
 - my name,
 - a personal summary,
@@ -23,7 +23,7 @@ Choosing to only implement the [profile] and [contact information] sections,
 - and a list of contact information.
 
 ## Strong Opinions, Loosely Held
-I had [decided early] to abstract all of the page content (including static
+I had decided early to [abstract all of the page content] (including static
     elements)[^assets] away from the application code.
 The idea was to remove any personalized content from the application code,
 allowing for easier updates to both the application and the content,
@@ -118,7 +118,7 @@ The end result is a cohesive design where my cartooned face could easily be
 Despite the strong opinions built into the content design, the resulting
     application was still completely agnostic to the actual content itself.
 As per the original design of the application, all of the content is still
-    [aggregated from static JSON files].
+    [aggregated by the application from static JSON files].
 Now, the files just include [an addition configuration object] to control the
     composition of pages, beyond the text and styling definitions.[^assets]
 It was a choice of personal preference to not combine all the configurations
@@ -135,13 +135,13 @@ Abstracting away text and other data into component properties and context
 requires values to be injected into components during testing.
 This prevents changes to the content or style of the final application from
     affecting the setup or expected outcomes of the tests.
-All of the [testing strategies] established at the start of development are
-    still valid and effective.
+[All of the previously implemented testing strategies] established at the start
+    of development are still valid and effective.
 
 The next step in the development of this application was to add some actual
     weblog content.
-The [following release] of [this application] provided
-    [integration of Markdown content],
+[The following release] of [this application] provided
+    [integration of Markdown content with custom parsing],
 populating article pages from externally hosted markdown files.
 Incorporating the Markdown content continued to make the application more
     flexible,
@@ -149,42 +149,44 @@ and because of Markdown's simple, well established structure,
 this could be done without inviting any more complexity into the application
     design.
 
-[^assets]: The static assets are [versioned separately] from the application.
-[Version 0.0.2] of the assets from my [personal website] released with
-    [this version].
-It includes file definitions for all the websites [content configuration],
+[^assets]: The static assets [are versioned separately] from the application.
+[Version 0.0.2 of the assets] from [my personal website] released with
+    [version 0.0.2 of the application].
+It includes file definitions for all [the websites content configuration],
     [text definitions], and [theme settings].
 
-[setting up SvelteKit application]: ./sveltekit.md
-[personal website]: https://carledwardlyons.ca
-[first update]: https://github.com/systemcarl/blank/tree/v0.0.2
-[landing page]: https://carledwardlyons.ca
-[initial version]: ./sveltekit.md
-[error message]: https://carledwardlyons.ca/errors/400
-[theming system]: ./sveltekit.md#theming
-[visual design]:
+[I set up SvelteKit application]: ./sveltekit.md
+[my personal website]: https://carledwardlyons.ca
+[the first update]: https://github.com/systemcarl/blank/tree/v0.0.2
+[a very simple landing page]: https://carledwardlyons.ca
+[The initial version]: ./sveltekit.md
+[a styled error message]: https://carledwardlyons.ca/errors/400
+[underlying theming system]: ./sveltekit.md#theming
+[the website's visual design]:
     https://www.figma.com/design/TJYtbshPU4K0CoXuYKqtwp/Portfolio?m=auto&t=IV2gWGSb6tnTZcel-6
-[proof-of-concept]: ./sveltekit.md#an-empty-application
-[profile]:
+[the early proof-of-concept]: ./sveltekit.md#an-empty-application
+[the profile]:
     https://github.com/systemcarl/blank/blob/v0.0.2/src/lib/components/profile.svelte
-[contact information]:
+[the contact information]:
     https://github.com/systemcarl/blank/blob/v0.0.2/src/lib/components/contact.svelte
-[decided early]: ./sveltekit.md#knobs-and-dials
+[abstract all of the page content]: ./sveltekit.md#knobs-and-dials
 [my design]:
     https://www.figma.com/design/TJYtbshPU4K0CoXuYKqtwp/Portfolio?m=auto&t=IV2gWGSb6tnTZcel-6
 [my mission]: ../../about-me.md#it-has-great-practical-value
-[aggregated from static JSON files]: ./sveltekit.md#knobs-and-dials
+[aggregated by the application from static JSON files]: ./sveltekit.md#knobs-and-dials
 [an addition configuration object]:
     https://github.com/systemcarl/folio-assets/blob/v0.0.2/config.json
-[testing strategies]: ./sveltekit.md#testing-testing-testing
-[following release]: https://github.com/systemcarl/blank/tree/v0.0.3
+[All of the previously implemented testing strategies]: ./sveltekit.md#testing-testing-testing
+[The following release]: https://github.com/systemcarl/blank/tree/v0.0.3
 [this application]: https://github.com/systemcarl/blank
-[integration of Markdown content]: ./markdown-parser.md
-[versioned separately]: https://github.com/systemcarl/folio-assets
-[Version 0.0.2]: https://github.com/systemcarl/folio-assets/tree/v0.0.2
-[personal website]: https://carledwardlyons.ca
-[this version]: https://github.com/systemcarl/blank/tree/v0.0.2
-[content configuration]:
+[integration of Markdown content with custom parsing]: ./markdown-parser.md
+[are versioned separately]: https://github.com/systemcarl/folio-assets
+[Version 0.0.2 of the assets]:
+    https://github.com/systemcarl/folio-assets/tree/v0.0.2
+[my personal website]: https://carledwardlyons.ca
+[version 0.0.2 of the application]:
+    https://github.com/systemcarl/blank/tree/v0.0.2
+[the websites content configuration]:
     https://github.com/systemcarl/folio-assets/blob/v0.0.2/config.json
 [text definitions]:
     https://github.com/systemcarl/folio-assets/blob/v0.0.2/locale.json
