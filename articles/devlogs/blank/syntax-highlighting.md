@@ -12,11 +12,11 @@ like color, weight, and emphasis.
 Today, syntax highlighting is the norm for code presentation in the code editor,
     and on the web.
 
-To keep the development process of my [personal website] streamlined,
-I opted not to implement syntax highlighting when I first
-    [integrated a Markdown renderer].
-Initially, [the application] simply used the default [Markdown it!] renderer
-    output without any additional processing.
+To keep the development process of [my personal website] streamlined,
+I opted not to implement syntax highlighting when
+    [I first integrated a Markdown renderer].
+Initially, [this web application] simply used the default [Markdown it!]
+    renderer output without any additional processing.
 Fortunately, *Markdown it!* integrates well with [highlight.js], a quaintly
     simple syntax highlighting library.
 
@@ -57,7 +57,7 @@ The class name for each code scope follow a predictable pattern of
 where the default prefix is `hljs-`
 (*e.g.*, `hljs-keyword`, `hljs-string`, *etc.*).
 
-This naming pattern is very similar to that used to apply [theme styles]
+This naming pattern is very similar to [the pattern used to apply theme styles]
     throughout the application.
 To specifically target text elements, the application automatically generates
     typography style classes with the format `typography-<context>`,
@@ -99,7 +99,8 @@ Now these code blocks can be styled by simply defining the right typography
 Over and over, the fundamental questions concerning the application's design
     come back to [balancing the complexity of features with ease of use].
 To fully enable the syntax highlighting feature, several new typography
-    definitions need to be added to the [theme configuration].
+    definitions need to be added to
+    [the theme configuration used to style this website].
 Each code scope requires its own typography style definition, even if the
     typography styles are shared across multiple scopes.
 Fortunately, I had already designed the typography styles to set properties to
@@ -111,9 +112,9 @@ because the base `typography-code` style has already taken care of that.
 It also means that every scope is optional; the theme only needs to define the
     typography of the scopes that need to be highlighted.
 
-I've already added this syntax highlighting support to my [personal website]
+I've already added this syntax highlighting support to [my personal website]
 (and this blog, as you've probably noticed).
-You can see [an example] of the theme configuration on GitHub. This file defines
+You can see [an example of the theme configuration] on GitHub. This file defines
     the typography styles for the code you see here.
 
 Once the logic was in place, it was a lot of fun to experiment with different
@@ -134,21 +135,21 @@ So, in the future, I may need to revisit how themes are defined to better manage
     the increasing complexity of the typography styles.
 
 ["syntax highlighting,"]: https://en.wikipedia.org/wiki/Syntax_highlighting
-[integrated a Markdown renderer]: ./markdown-parser.md
-[personal website]: https://carledwardlyons.ca
-[the application]: https://github.com/systemcarl/blank
+[I first integrated a Markdown renderer]: ./markdown-parser.md
+[my personal website]: https://carledwardlyons.ca
+[this web application]: https://github.com/systemcarl/blank
 [Markdown it!]: https://github.com/markdown-it/markdown-it
 [highlight.js]: https://github.com/highlightjs/highlight.js
 [list of "scopes"]:
     https://highlightjs.readthedocs.io/en/latest/css-classes-reference.html
 [is supported]:
     https://highlightjs.readthedocs.io/en/latest/supported-languages.html
-[theme styles]: ./sveltekit.md#theming
+[the pattern used to apply theme styles]: ./sveltekit.md#theming
 [highlight.js prefix]:
     https://highlightjs.readthedocs.io/en/latest/api.html#configure
 [balancing the complexity of features with ease of use]:
     ./content-template.md#strong-opinions-loosely-held
-[theme configuration]: ./sveltekit.md#theming
-[an example]:
+[the theme configuration used to style this website]: ./sveltekit.md#theming
+[an example of the theme configuration]:
     https://github.com/systemcarl/folio-assets/blob/3233735aa5594f3dc7c75b14fa6b2f2f11c23383/theme.json#L241-L274
 [this new application version]: https://github.com/systemcarl/blank/tree/v0.0.4
