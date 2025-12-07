@@ -2,7 +2,7 @@
 Hey! You found my blog.
 
 There may be other places to find my content, but if you're reading this, you're
-    most likely reading it on my [personal website].
+    most likely reading it on [my personal website].
 If you're not, go check it out.
 This is where I host my weblog articles — mostly about my ongoing projects —
 and experiment with new web technologies
@@ -13,7 +13,7 @@ I wanted a project to practice design architecture skills;
 I wanted to take my ideas and experience from past projects
 and apply them without the practical constraints of delivering a commercial
     product.
-These [development logs (DevLogs)] are part of that process,
+[These development logs (DevLogs)] are part of that process,
 documenting my experiences, challenges, and solutions as I continue to tinker
     with the code.
 These logs are mainly an exercise in self-reflection,
@@ -118,14 +118,14 @@ and in the case of SvelteKit, there is a [simple integration] that lets you
     handle errors both on the server and client, with automatic source map
     integration for easier debugging.
 
-To handle all non-error-related logging events, I simply
-    [sent logs to the application standard output]
+To handle all non-error-related logging events,
+    [I simply sent logs to the application standard output]
  — via our friend, the console.
 This works great during development,
 and since I plan to host the application in my own server environment, I
     can easily aggregate these logs and handle them at the system level.
-I later [implemented the log collection] using [Grafana Alloy] when I
-    [set up the deployment environment].
+[I later implemented the log collection] using [Grafana Alloy] when
+    [I set up the deployment environment].
 To make sure the logging was efficient and consistent, I install [Pino],
     a fast JSON-friendly logging library, to structure and format the logs.
 Using the [Pino-Pretty] plugin, I could also format the logs nicely during
@@ -243,7 +243,7 @@ Generated components can be used to mock comprised child components with
     [`vi.mock`]
 and can also be passed directly as a `children` property.
 If you want to learn about these techniques in more detail, I documented them in
-    a guide on [mocking Svelte 5 components].
+    [a guide on mocking Svelte 5 components].
 I was not able to find a reliable way to substitute for named slots, so for now
     I simply avoided using them in any components.
 
@@ -295,7 +295,7 @@ Abstracting all the visual theming and text content (including localization)
     long-form content site.
 
 The implementation of the configuration management system was quite simple.
-But as development progressed, I found [abstracting the application content]
+But as development progressed, [I found abstracting the application content]
     was a very important part of the application structure and design.
 
 #### Localization
@@ -311,7 +311,7 @@ Unless the structure of the text is fluid (like placing the currency symbol
 In this project, this can easily apply to any text being displayed, allowing the
     application to completely customized to display any text content.
 
-To achieve this with little overhead, I implemented a [simple utility] that
+To achieve this with little overhead, I implemented [a simple utility] that
     creates a simple [object proxy].
 The proxy object looks for custom text and simply falls back to placeholder text
     if none is provided.
@@ -372,7 +372,7 @@ Within these sections, using key-referenced properties for colours, fonts,
   }
 }
 ```
-The [full theme definition] for my [personal website] is included in the
+The [full theme definition] for my [my personal website] is included in the
     deployment packages.
 These definitions are compiled to dereference the keyed properties into
     a predicable structure with concrete values.
@@ -502,13 +502,14 @@ The contextual theming by section, typography, or graphic is established with
 </div>
 ```
 Implementing this system was less complicated than it sounds.
-Most of the trouble was defining an intuitive system for
-  [resolving missing properties] with sensible fallbacks or defaults.
+Most of the trouble was defining
+    [an intuitive system for resolving missing properties] with sensible
+    fallbacks or defaults.
 
 Both the CSS and JavaScript interfaces test well.
 CSS variables can be [set on the browser test container] to simulate different
     themes.
-The JavaScript theme object can be [easily mocked] to provide different test
+The JavaScript theme object [can be easily mocked] to provide different test
     values with needing to load a full theme definition.
 
 The biggest challenge with this theming approach will be coordinating multiple
@@ -537,18 +538,18 @@ With the logging and error tracking systems in place, I could fully implement
 And by forgoing any actual content, the application was functional empty yet
     still complete.
 
-Fully implementing this [test error route] could also validate the rest of the
+Fully implementing [this test error route] could also validate the rest of the
     application infrastructure, besides just observability.
 Each error code returns a different error message, defined by the localization.
 The error page is styled using the application theming system, with colours,
     fonts, and a graphic defined by the theme (using the `error` section).
 
 ## Learning to Love SvelteKit
-This [first iteration] of the application was undoubtedly a success, despite its
+[This first iteration] of the application was undoubtedly a success, despite its
     underwhelming presentation.
 The interfaces I had implemented and testing strategies I had developed made
     building out the application extremely manageable.
-Since then, [adding content] to the SvelteKit application has been frictionless.
+Since then, [adding content to the SvelteKit application] has been frictionless.
 
 However, setting up the SvelteKit application was not without its challenges.
 It was frustrating at times to work around limitations of the framework,
@@ -596,8 +597,8 @@ utilities are organized into their own respective directories within
     define the [SvelteKit routing]. The [error page] is a simple example that
     also has its own [test file].
 
-[personal website]: https://carledwardlyons.ca
-[development logs (DevLogs)]:
+[my personal website]: https://carledwardlyons.ca
+[These development logs (DevLogs)]:
     ../../hello-world.md#committing-to-open-development
 [SvelteKit]: https://svelte.dev/docs/kit/introduction
 [Svelte]: https://svelte.dev
@@ -616,12 +617,12 @@ utilities are organized into their own respective directories within
 [Syntax.fm]: https://syntax.fm
 [simple integration]:
     https://docs.sentry.io/platforms/javascript/guides/sveltekit/
-[sent logs to the application standard output]:
+[I simply sent logs to the application standard output]:
     https://github.com/systemcarl/blank/blob/v0.0.1/src/lib/server/logs.ts
-[implemented the log collection]:
+[I later implemented the log collection]:
     ./ci-cd.md#phoning-it-in
 [Grafana Alloy]: https://grafana.com/docs/alloy/latest/
-[set up the deployment environment]: ./ci-cd.md#phoning-it-in
+[I set up the deployment environment]: ./ci-cd.md#phoning-it-in
 [Pino]: https://getpino.io
 [Pino-Pretty]: https://getpino.io/#/docs/pretty
 [code coverage]: https://en.wikipedia.org/wiki/Code_coverage
@@ -637,7 +638,8 @@ utilities are organized into their own respective directories within
 [`createRawSnippet`]:
     https://svelte.dev/docs/svelte/svelte#createRawSnippet
 [`vi.mock`]: https://vitest.dev/guide/mocking#manual-mocks
-[mocking Svelte 5 components]: ./../../tips/svelte/svelte-5-mocks.md
+[a guide on mocking Svelte 5 components]:
+    ./../../tips/svelte/svelte-5-mocks.md
 [Playwright]: https://playwright.dev
 [middleware interactions that can't be run in isolation]:
     https://github.com/sveltejs/kit/issues/14249
@@ -647,11 +649,11 @@ utilities are organized into their own respective directories within
     https://github.com/systemcarl/blank/blob/v0.0.1/src/routes/+layout.server.ts
 [via SvelteKit data stores]:
     https://github.com/systemcarl/blank/tree/v0.0.1/src/lib/stores
-[abstracting the application content]:
+[I found abstracting the application content]:
     ./content-template.md#an-agnostic-application
 [localization]:
     https://en.wikipedia.org/wiki/Internationalization_and_localization
-[simple utility]:
+[a simple utility]:
     https://github.com/systemcarl/blank/blob/v0.0.1/src/lib/utils/locale.ts
 [object proxy]:
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy
@@ -663,18 +665,18 @@ utilities are organized into their own respective directories within
     https://github.com/systemcarl/folio-assets/blob/v0.0.1/chevron.svg?short_path=a0e7720
 [sveltekit context]:
     https://svelte.dev/docs/kit/state-management#Using-state-and-stores-with-context
-[resolving missing properties]:
+[an intuitive system for resolving missing properties]:
     https://github.com/systemcarl/blank/blob/v0.0.1/src/lib/utils/theme.ts
 [set on the browser test container]:
   https://github.com/systemcarl/blank/blob/96343d1a78d60a59e9d36b0e1330cd8d33f50ee9/src/lib/materials/background.svelte.spec.ts#L105
-[easily mocked]:
+[can be easily mocked]:
   https://github.com/systemcarl/blank/blob/96343d1a78d60a59e9d36b0e1330cd8d33f50ee9/src/lib/materials/background.svelte.spec.ts#L47-L57
 [flash of unstyled content (FOUC)]:
     https://en.wikipedia.org/wiki/Flash_of_unstyled_content
-[test error route]:
+[this test error route]:
     https://github.com/systemcarl/blank/blob/v0.0.1/src/routes/errors/%5Bcode%5D/%2Bpage.server.ts
-[first iteration]: https://github.com/systemcarl/blank/tree/v0.0.1
-[adding content]: ./content-template.md
+[This first iteration]: https://github.com/systemcarl/blank/tree/v0.0.1
+[adding content to the SvelteKit application]: ./content-template.md
 [like this one]:
     https://github.com/sveltejs/svelte/discussions/13518#discussioncomment-10871705
 [Svelte 5]: https://svelte.dev/blog/svelte-5-is-alive
@@ -709,4 +711,3 @@ utilities are organized into their own respective directories within
     https://github.com/systemcarl/blank/blob/v0.0.1/src/routes/+error.svelte
 [test file]:
     https://github.com/systemcarl/blank/blob/v0.0.1/src/routes/error.svelte.test.ts
-
