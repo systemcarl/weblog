@@ -98,10 +98,10 @@ Now these code blocks can be styled by simply defining the right typography
     light and dark variations, depending on the background.
 
 ## Keeping Options Open
-Over and over, the fundamental questions concerning the application's design
+Over and over, the fundamental questions concerning my application's design
     come back to [balancing the complexity of features with ease of use].
-To fully enable the syntax highlighting feature, several new typography
-    definitions need to be added to
+To fully enable the syntax highlighting feature, I had to add several new typography
+    definitions to
     [the theme configuration used to style this website].
 Each code scope requires its own typography style definition, even if the
     typography styles are shared across multiple scopes.
