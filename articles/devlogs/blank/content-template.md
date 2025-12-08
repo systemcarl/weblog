@@ -57,6 +57,37 @@ But so long as the system is intuitive and resilient against unpleasant
 there is still some room to explore different content configuration structures
 to suit needs other than my own.
 
+### It Always Comes Back to Marketing
+My motivation for building this personal website comes down to (shameless)
+    self-promotion.
+I could instead post my articles to an established
+    platform, simply to put the core information (the matter-of-fact tips
+    and guides) out there.
+But that doesn't really capture [my mission] to create an identity and brand
+    that other people in the community can relate to and follow.
+
+As I've mentioned, I also have a goal to reuse my application code for others' websites
+    or blogs.
+I found it helpful to determine the purpose of the content design, not just the
+    subject matter (me).
+It occurred to me that, in the same way I am promoting myself, 
+    any content driven application is trying to market something.
+So, to generalize the design of my template effectively,
+    the goal is to make a marketing template that is tailored specifically for
+    personal profiles.
+
+Reflecting on the purpose of each design element from this marketing
+    perspective
+helped to simplify and clarify the intended effect towards the overall design.
+Each content element has a role to play in establishing identity, credibility, or
+    connection with the audience.
+For example, an avatar image and logo both serve to establish visual identity.
+Therefore, the presentation of the avatar element should emphasize this
+    function,
+making it prominent and visually distinct from the rest of the content.
+The end result is a cohesive design where my cartooned face could easily be
+    swapped out for a brand logo without disrupting the design integrity.
+    
 ### Personal Preferences
 To make the content design as easy to use as possible,
 all of the content configurations are optional.
@@ -82,37 +113,6 @@ This visual component could also be used to list pros and cons about
     a particular product, service, or philosophy.
 I could have just as easily listed what I believe is, or is not, a sandwich.
 
-### It Always Comes Back to Marketing
-To approach the potentially endless design possibilities,
-I found it helpful to determine the purpose of the content design, not just the
-    subject matter (me).
-My motivation for building this personal website comes down to (shameless)
-    self-promotion.
-It would be much easier to post generic articles to an established
-    platform, simply to put the core information (straight to the point tips
-    and guides) out there.
-But that doesn't really capture [my mission] to create an identity and brand
-    that other people in the community can relate to and follow.
-
-Any content driven applications is trying to market something.
-I'm not asking anyone to buy into anything (besides maybe a like and a follow).
-But still, I am marketing myself as any business markets its products or
-    services.
-So, it occurred to me that to generalize the design of my template effectively,
-    the goal is to make a marketing template that is tailored specifically for
-    personal profiles.
-
-Reflecting on the purpose of each design element from this marketing
-    perspective
-helped to simplify and clarify the intended effect towards the overall design.
-Each element has a role to play in establishing identity, credibility, or
-    connection with the audience.
-For example, an avatar image and logo both serve to establish visual identity.
-Therefore, the presentation of the avatar element should emphasize this
-    function,
-making it prominent and visually distinct from the rest of the content.
-The end result is a cohesive design where my cartooned face could easily be
-    swapped out for a brand logo without disrupting the design integrity.
 
 ## An Agnostic Application
 Despite the strong opinions built into the content design, the resulting
