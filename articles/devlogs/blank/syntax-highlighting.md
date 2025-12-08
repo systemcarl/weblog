@@ -8,7 +8,7 @@ formatting matters.
 Often referred to as ["syntax highlighting,"]
 language-specific keywords, tokens, and variables are visually differentiated
     using various typographic styles,
-like color, weight, and emphasis.
+like colour, weight, and emphasis.
 Today, syntax highlighting is the norm for code presentation in the code editor,
     and on the web.
 
