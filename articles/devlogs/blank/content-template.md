@@ -73,7 +73,7 @@ Since the application is primarily concerned with visual presentation
 the constraints of the design are limited mainly to the layout.
 So beyond having to dictate where each content element should go on the page,
 the system does not impose any semantic meaning on the content itself.
-For example, the section in [my design] listing my "likes" and "dislikes" do
+For example, the section in [my design mock-up] listing my "likes" and "dislikes" do
     not need to be used for this purpose at all.
 Structurally, this element is simply a pair of lists that can be used to
     represent any kind of comparison
@@ -170,7 +170,7 @@ It includes file definitions for all [the websites content configuration],
 [the contact information]:
     https://github.com/systemcarl/blank/blob/v0.0.2/src/lib/components/contact.svelte
 [abstract all of the page content]: ./sveltekit.md#knobs-and-dials
-[my design]:
+[my design mock-up]:
     https://www.figma.com/design/TJYtbshPU4K0CoXuYKqtwp/Portfolio?m=auto&t=IV2gWGSb6tnTZcel-6
 [my mission]: ../../about-me.md#it-has-great-practical-value
 [aggregated by the application from static JSON files]: ./sveltekit.md#knobs-and-dials
