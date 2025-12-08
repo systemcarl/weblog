@@ -55,14 +55,14 @@ Conveniently, [highlight.js] applies syntax highlighting styles to the code
 The class name for each code scope follows a predictable pattern of
     `<prefix><scope>`,
 where the default prefix is `hljs-`
-(*e.g.*, `hljs-keyword`, `hljs-string`, *etc.*).
+(e.g., `hljs-keyword`, `hljs-string`, etc.).
 
 This naming pattern is very similar to [the pattern I used to apply theme styles]
     throughout my application.
 To specifically target text elements, the application automatically generates
     typography style classes with the format `typography-<context>`,
 where `<context>` is the semantic usage of the typography style
-(*e.g.*, `typography-body`, `typography-title`, *etc.*).
+(e.g., `typography-body`, `typography-title`, etc.).
 By setting the [highlight.js prefix] to `typography-`,
 the code scopes are automatically mapped to the corresponding theme-generated
     typography styles, using the highlight.js scope as the theme context.
