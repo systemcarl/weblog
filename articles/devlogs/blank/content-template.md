@@ -78,7 +78,7 @@ For example, the section in [my design mock-up] listing my "likes" and "dislikes
 Structurally, this element is simply a pair of lists that can be used to
     represent any kind of comparison
 (if it even really needs to be a comparison).
-This visual component could just as easily be used to list pros and cons about
+This visual component could also be used to list pros and cons about
     a particular product, service, or philosophy.
 I could have just as easily listed what I believe is, or is not, a sandwich.
 
