@@ -68,7 +68,7 @@ Beyond that simple requirement, I designed the content and theme together so
 the design would still look complete.
 
 Since the application is primarily concerned with visual presentation
-(there's nothing particularly interactive about a personal website and blog
+(there's nothing particularly interactive about a personal website and blog,
     though I hope to add comments and other features in the future),
 the constraints of the design are limited mainly to the layout.
 So beyond having to dictate where each content element should go on the page,
