@@ -132,7 +132,7 @@ Breaking it down just makes it easier for me to manage and navigate.
 While some might disagree, I have found that the dynamic nature of the
     application components has made development and testing much easier.
 Abstracting away text and other data into component properties and context
-    stores,
+    stores
 requires values to be injected into components during testing.
 This prevents changes to the content or style of the final application from
     affecting the setup or expected outcomes of the tests.
