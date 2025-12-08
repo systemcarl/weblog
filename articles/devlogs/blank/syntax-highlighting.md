@@ -52,7 +52,7 @@ function helloWorld() {
 ### The Perfect Prefix
 Conveniently, [highlight.js] applies syntax highlighting styles to the code
     tokens via predictable CSS class names.
-The class name for each code scope follow a predictable pattern of
+The class name for each code scope follows a predictable pattern of
     `<prefix><scope>`,
 where the default prefix is `hljs-`
 (*e.g.*, `hljs-keyword`, `hljs-string`, *etc.*).
