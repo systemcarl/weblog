@@ -10,7 +10,7 @@ This means my weblog catalog is independent of the website [application]
     (which is actually [just a template]),
 making it easy to manage with the deployed [configuration].
 
-Since the articles files are meant to be human-readable, easy to edit, and
+Since the article files are meant to be human-readable, easy to edit, and
     meant to be universally compatible,
 I wrote the content in [Markdown].
 The simplest option would have been to just link to the source Markdown files,
