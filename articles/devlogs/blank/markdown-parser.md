@@ -1,7 +1,8 @@
 # DevLog: Implementing a Weblog Markdown Parser
 Over the past couple weeks, I've been [building a personal website] to showcase
     my projects and whatever else I want to share.
-It makes sense to host a weblog on the site so I can incrementally add content
+"Whatever else" includes hosting a weblog on the site, 
+    to which I can incrementally add content
     over time that's both easy to manage and browse.
 To keep the content management simple, I've chosen to store them in a
     [Git repository] separate from the website code.
