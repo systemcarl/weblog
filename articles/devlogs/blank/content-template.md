@@ -143,7 +143,7 @@ The next step in the development of this application was to add some actual
     weblog content.
 [The following release] of [this application] provided
     [integration of Markdown content with custom parsing],
-populating article pages from externally hosted markdown files.
+populating article pages from externally hosted Markdown files.
 Incorporating the Markdown content continued to make the application more
     flexible,
 and because of Markdown's simple, well established structure,
