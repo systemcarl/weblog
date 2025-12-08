@@ -7,9 +7,9 @@ I released and deployed [the first update].
 With this, the application's component framework 
     and [underlying theming system] was already in place.
 The update now added [a very simple landing page]
-    including the implementation of [the website's visual design].
+    including the implementation of [the website's visual design mock-up].
 
-This next step was to create a basic, stylized landing page to provide a brief
+The basic, stylized landing page provided a brief
     personal introduction.
 Working from the design mock-up, I decided to include as little content as
     possible without having to revisit the design later.
@@ -162,7 +162,7 @@ It includes file definitions for all [the websites content configuration],
 [The original version]: ./sveltekit.md
 [a styled error message]: https://carledwardlyons.ca/errors/400
 [underlying theming system]: ./sveltekit.md#theming
-[the website's visual design]:
+[the website's visual design mock-up]:
     https://www.figma.com/design/TJYtbshPU4K0CoXuYKqtwp/Portfolio?m=auto&t=IV2gWGSb6tnTZcel-6
 [an early proof-of-concept]: ./sveltekit.md#an-empty-application
 [the profile]:
