@@ -68,7 +68,8 @@ But that doesn't really capture [my mission] to create an identity and brand
 
 As I've mentioned, I also have a goal to reuse my application code for others' websites
     or blogs.
-I found it helpful to determine the purpose of the content design, not just the
+To approach this, 
+    I found it helpful to determine the purpose of the content design, not just the
     subject matter (me).
 It occurred to me that, in the same way I am promoting myself, 
     any content driven application is trying to market something.
