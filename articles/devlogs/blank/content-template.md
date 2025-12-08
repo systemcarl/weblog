@@ -116,10 +116,11 @@ I could have just as easily listed what I believe is, or is not, a sandwich.
 
 ## An Agnostic Application
 Despite the strong opinions built into the content design, the resulting
-    application was still completely agnostic to the actual content itself.
-As per the original design of the application, all of the content is still
-    [aggregated by the application from static JSON files].
-Now, the files just include [an addition configuration object] to control the
+    application is still completely agnostic to the actual content itself.
+That is, all of the content is
+    [aggregated by the application from static JSON files],
+    as per the original design of the application.
+The difference with this update is the files now include [an addition configuration object] to control the
     composition of pages, beyond the text and styling definitions.[^assets]
 It was a choice of personal preference to not combine all the configurations
     into a single file,
