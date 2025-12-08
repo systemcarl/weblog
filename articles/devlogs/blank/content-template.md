@@ -1,5 +1,5 @@
 # DevLog: Designing a Content Template
-Not long after [I set up SvelteKit application] for [my personal website]
+Not long after [I set up a SvelteKit application] for [my personal website]
     and blog,
 I released and deployed [the first update] to the site adding
     [a very simple landing page].
@@ -155,7 +155,7 @@ this could be done without inviting any more complexity into the application
 It includes file definitions for all [the websites content configuration],
     [text definitions], and [theme settings].
 
-[I set up SvelteKit application]: ./sveltekit.md
+[I set up a SvelteKit application]: ./sveltekit.md
 [my personal website]: https://carledwardlyons.ca
 [the first update]: https://github.com/systemcarl/blank/tree/v0.0.2
 [a very simple landing page]: https://carledwardlyons.ca
