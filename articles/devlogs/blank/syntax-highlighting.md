@@ -18,7 +18,7 @@ I opted not to implement syntax highlighting when
 Initially, [this web application] simply used the default [Markdown it!]
     renderer output without any additional processing.
 Fortunately, *Markdown it!* integrates well with [highlight.js], a quaintly
-    simple syntax highlighting library.
+    simple syntax highlighting library, which I eventually opted to use.
 
 ## A Token of Appreciation
 The [highlight.js] library can be used as a plugin for [Markdown it!] to extend
