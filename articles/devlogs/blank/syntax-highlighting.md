@@ -2,8 +2,8 @@
 Being a software developer, I often augment my articles with code in some
     form or another.
 When this involves rendering the odd line of code,
-    a simple monospaced font can be enough,
-but when the code blocks get longer and the language context is important,
+    a simple monospaced font can be enough.
+But when the code blocks get longer and the language context is important,
 formatting matters.
 Often referred to as ["syntax highlighting,"]
 language-specific keywords, tokens, and variables are visually differentiated
