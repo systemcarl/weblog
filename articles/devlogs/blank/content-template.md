@@ -73,21 +73,9 @@ To approach this,
     subject matter (me).
 It occurred to me that, in the same way I am promoting myself, 
     any content driven application is trying to market something.
-So, to generalize the design of my template effectively,
+So, to generalize the content design of my template effectively,
     the goal is to make a marketing template that is tailored specifically for
     personal profiles.
-
-Reflecting on the purpose of each design element from this marketing
-    perspective
-helped to simplify and clarify the intended effect towards the overall design.
-Each content element has a role to play in establishing identity, credibility, or
-    connection with the audience.
-For example, an avatar image and logo both serve to establish visual identity.
-Therefore, the presentation of the avatar element should emphasize this
-    function,
-making it prominent and visually distinct from the rest of the content.
-The end result is a cohesive design where my cartooned face could easily be
-    swapped out for a brand logo without disrupting the design integrity.
     
 ### Personal Preferences
 To make the content design as easy to use as possible,
@@ -99,6 +87,18 @@ Beyond that simple requirement, I designed the content and theme together so
     that regardless of the amount of configuration provided,
 the design would still look complete.
 
+Furthermore, reflecting on the purpose of each design element from a marketing
+    perspective
+helped to simplify and clarify each element's intended effect towards the overall design
+(e.g., establishing identity, credibility, or
+    connection with the audience).
+For example, an avatar image and logo both serve to establish visual identity.
+Therefore, the presentation of the avatar element should emphasize this
+    function,
+making it prominent and visually distinct from the rest of the content.
+The end result is a cohesive design where my cartooned face could easily be
+    swapped out for a brand logo without disrupting the design integrity.
+    
 Since the application is primarily concerned with visual presentation
 (there's nothing particularly interactive about a personal website and blog,
     though I hope to add comments and other features in the future),
@@ -113,7 +113,6 @@ Structurally, this element is simply a pair of lists that can be used to
 This visual component could also be used to list pros and cons about
     a particular product, service, or philosophy.
 I could have just as easily listed what I believe is, or is not, a sandwich.
-
 
 ## An Agnostic Application
 Despite the strong opinions built into the content design, the resulting
