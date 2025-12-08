@@ -4,9 +4,9 @@ Over the past couple weeks, I've been [building a personal website] to showcase
 "Whatever else" includes hosting a weblog on the site, 
     to which I can incrementally add content
     over time that's both easy to manage and browse.
-To keep the content management simple, I've chosen to store them in a
+To keep the content management simple, I've chosen to store my articles in a
     [Git repository] separate from the website code.
-This means my catalog is independent of the website [application]
+This means my weblog catalog is independent of the website [application]
     (which is actually [just a template]),
 making it easy to manage with the deployed [configuration].
 
