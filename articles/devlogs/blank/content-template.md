@@ -1,13 +1,13 @@
 # DevLog: Designing a Content Template
 Not long after [I set up a SvelteKit application] for [my personal website]
     and blog,
-I released and deployed [the first update] to the site adding
-    [a very simple landing page].
-[The initial version] of the application had no content at all, only
-    [a styled error message].
-The component framework and [underlying theming system] was already in place,
-but this was the implementation of [the website's visual design] beyond
-    [the early proof-of-concept].
+I released and deployed [the first update]. 
+[The original version] of the application had no content at all, only
+    [a styled error message], which provided [an early proof-of-concept].
+With this, the application's component framework 
+    and [underlying theming system] was already in place.
+The update now added [a very simple landing page]
+    including the implementation of [the website's visual design].
 
 This next step was to create a basic, stylized landing page to provide a brief
     personal introduction.
@@ -159,12 +159,12 @@ It includes file definitions for all [the websites content configuration],
 [my personal website]: https://carledwardlyons.ca
 [the first update]: https://github.com/systemcarl/blank/tree/v0.0.2
 [a very simple landing page]: https://carledwardlyons.ca
-[The initial version]: ./sveltekit.md
+[The original version]: ./sveltekit.md
 [a styled error message]: https://carledwardlyons.ca/errors/400
 [underlying theming system]: ./sveltekit.md#theming
 [the website's visual design]:
     https://www.figma.com/design/TJYtbshPU4K0CoXuYKqtwp/Portfolio?m=auto&t=IV2gWGSb6tnTZcel-6
-[the early proof-of-concept]: ./sveltekit.md#an-empty-application
+[an early proof-of-concept]: ./sveltekit.md#an-empty-application
 [the profile]:
     https://github.com/systemcarl/blank/blob/v0.0.2/src/lib/components/profile.svelte
 [the contact information]:
