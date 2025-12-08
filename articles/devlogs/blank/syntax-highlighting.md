@@ -57,8 +57,8 @@ The class name for each code scope follows a predictable pattern of
 where the default prefix is `hljs-`
 (*e.g.*, `hljs-keyword`, `hljs-string`, *etc.*).
 
-This naming pattern is very similar to [the pattern used to apply theme styles]
-    throughout the application.
+This naming pattern is very similar to [the pattern I used to apply theme styles]
+    throughout my application.
 To specifically target text elements, the application automatically generates
     typography style classes with the format `typography-<context>`,
 where `<context>` is the semantic usage of the typography style
@@ -144,7 +144,7 @@ So, in the future, I may need to revisit how themes are defined to better manage
     https://highlightjs.readthedocs.io/en/latest/css-classes-reference.html
 [is supported]:
     https://highlightjs.readthedocs.io/en/latest/supported-languages.html
-[the pattern used to apply theme styles]: ./sveltekit.md#theming
+[the pattern I used to apply theme styles]: ./sveltekit.md#theming
 [highlight.js prefix]:
     https://highlightjs.readthedocs.io/en/latest/api.html#configure
 [balancing the complexity of features with ease of use]:
