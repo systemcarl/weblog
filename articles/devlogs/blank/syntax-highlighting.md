@@ -106,7 +106,7 @@ To fully enable the syntax highlighting feature, I had to add several new typogr
 Each code scope requires its own typography style definition, even if the
     typography styles are shared across multiple scopes.
 Fortunately, I had already designed the typography styles to set properties to
-    `inherit` by default, allowing new styles to only apply a subset of
+    `inherit` by default, allowing new styles to only apply to a subset of
     properties, as needed.
 This means that every code scope does not need to define the font family to the
     same monospace font
