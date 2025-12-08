@@ -64,7 +64,7 @@ Technically, to set up the application template, you don't even need to provide
     a title,
 but it would hardly make sense to have a webpage without one.
 Beyond that simple requirement, I designed the content and theme together so
-    that regardless the amount of configuration provided,
+    that regardless of the amount of configuration provided,
 the design would still look complete.
 
 Since the application is primarily concerned with visual presentation
