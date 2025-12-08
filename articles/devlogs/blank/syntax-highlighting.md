@@ -123,8 +123,8 @@ Once the logic was in place, it was a lot of fun to experiment with different
     color schemes and typographic styles for the various code scopes.
 I haven't yet decided on additional font options for the theme, but it would
    be interesting to use alternative monospace fonts for certain tokens
-— like many developers do in their code editors, using cursive fonts for
-    comments for example.
+— like using cursive fonts for comments, 
+    as many developers do in their code editors.
 But with [this new application version] and some quick adjustments to the theme
     configuration file,
 the code blocks are already much easier to read and look much more consistent
