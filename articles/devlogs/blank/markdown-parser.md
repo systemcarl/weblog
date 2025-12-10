@@ -112,7 +112,7 @@ Markdown isn't much more than plain text, and the added syntax is as close to
    plain text styling as you can get.
 At a glance, a Markdown document just looks like an old text file from before
     rich text editors were commonplace
-and documents were broken up with dashes and pounds signs.
+and documents were broken up with dashes and pound signs.
 This means that my content will remain quite stable and accessible, regardless
     of how Markdown specifications change over time.
 And with some added validation in the application, it shouldn't be too difficult
