@@ -142,8 +142,8 @@ https://github.com/systemcarl/weblog/blob/2bd7694f413c43640033e09db42eca7aad80b5
 > On GitHub, you can just include a link to raw files directly, like so:
 > https://github.com/systemcarl/weblog/blob/2bd7694f413c43640033e09db42eca7aad80b58d/articles/hello-world.md?plain=1#L2
 
-This only works if you're viewing the content in an environment that understands
-    that github URLs link to a file resource.
+However, this only works if you're viewing the content in an environment that understands
+    that GitHub URLs link to a file resource.
 Any other parser would just leave the directives as-is in the output HTML as
     unintelligible text.
 This is not ideal, but there could be ways to mitigate this problem with
