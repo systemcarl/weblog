@@ -170,7 +170,7 @@ And since HTML is also just a plain text format,
 it fits well within the design's principles of simplicity and stability.
 However, HTML is not nearly as nice to read and thus requires a more involved
     HTML renderer to present the content in an acceptable way.
-But if used sparingly within a Markdown document, this could still work well as
+But if used sparingly within a Markdown document, this solution could still work well as
     a compromise between readability and functionality.
 
 ### A Common Content Concern
