@@ -188,7 +188,7 @@ In the same way, [building out the content template] required thinking about how
 
 I expect this will continue to be a theme (philosophical, not visual) as this
     project continues.
-As more features are added to the underlying application, the constraints will
+As I add more features to the underlying application, the constraints will
     continue to tighten around how the content must be structured.
 The application still needs to provide a way to browse, filter, and sort
     articles
