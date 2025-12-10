@@ -65,7 +65,7 @@ Each [abstract file] includes the title and description for the corresponding
     [article file].
 Pulling this optional data into a separate file keeps the article content to the
     article itself,
-and the abstract Markdown file can also rendered to provide a simple preview of
+and the abstract Markdown file can also be rendered to provide a simple preview of
     the article content.
 
 ### I Do Declare
