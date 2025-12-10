@@ -69,7 +69,7 @@ and the abstract Markdown file can also rendered to provide a simple preview of
     the article content.
 
 ### I Do Declare
-There wan't much else to it, really.
+There wasn't much else to it, really.
 Since the [theme styles are globally available as plain CSS], there was no
     need to implement any theme-specific logic in the parser.
 Had I used scoped styles (e.g., [CSS Modules], Svelte
