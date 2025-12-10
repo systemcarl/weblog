@@ -174,7 +174,7 @@ But if used sparingly within a Markdown document, this solution could still work
     a compromise between readability and functionality.
 
 ### A Common Content Concern
-Since the [start of the project], content formatting has been a common concern.
+Since the [start of my project], content formatting has been a common concern.
 This simple but critical element of the design is a key decision that will
     impact the overall structure and experience of the application.
 The [structure of your data shapes the outcome] of project, well beyond the
@@ -247,7 +247,7 @@ came from feedback provided by fellow software developer, [Chris Adkins].
 [this update]: https://github.com/systemcarl/blank/tree/v0.0.3
 [previewing the content on GitHub]:
     https://github.com/systemcarl/weblog/blob/main/articles/devlogs/blank/markdown-parser.md#text-is-plain
-[start of the project]: ./sveltekit.md
+[start of my project]: ./sveltekit.md
 [structure of your data shapes the outcome]:
     https://notes.mtb.xyz/p/your-data-model-is-your-destiny
 [structure the theming system]: ./sveltekit.md#theming
