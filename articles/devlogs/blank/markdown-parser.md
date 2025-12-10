@@ -177,8 +177,8 @@ But if used sparingly within a Markdown document, this solution could still work
 Since the [start of my project], content formatting has been a common concern for me.
 This simple but critical element of the design is a key decision that will
     impact the overall structure and experience of the application.
-The [structure of your data shapes the outcome] of project, well beyond the
-    current iteration of the software.
+The [structure of your data shapes the outcome] of a project, well beyond the
+    current iteration of its software.
 Deciding how to [structure the theming system] also required carefully
     considering not just my initial design, but how the design might evolve
     over time, with more features and different themes.
