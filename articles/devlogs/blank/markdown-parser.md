@@ -174,7 +174,7 @@ But if used sparingly within a Markdown document, this solution could still work
     a compromise between readability and functionality.
 
 ### A Common Content Concern
-Since the [start of my project], content formatting has been a common concern.
+Since the [start of my project], content formatting has been a common concern for me.
 This simple but critical element of the design is a key decision that will
     impact the overall structure and experience of the application.
 The [structure of your data shapes the outcome] of project, well beyond the
