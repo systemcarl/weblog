@@ -94,7 +94,7 @@ In terms of code, [this update] was quite trivial.
 However, a lot had to be considered beyond simply choosing the right parser
     library.
 When designing a content system, one of the core questions that must be
-    addressed is: how to format the content data?
+    addressed is: how do I format the content data?
 With any system that's not fully self-contained, data needs to be stored and
     transmitted in a consistent format.
 If that format changes with new features, all existing content may need to be
