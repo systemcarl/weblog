@@ -35,7 +35,7 @@ The most active and popular choice that met these requirements was
 In most cases, it's not necessary to add custom [HTML classes] to the parsed
     elements.
 Typically one could simply use tag names for styling: e.g., `.article h1`.
-But, since the dynamic [theme system] needs to apply different styles based on
+But, since my dynamic [theme system] needs to apply different styles based on
     additional context, this approach wouldn't work.
 To the best of my knowledge, there currently isn't a runtime protocol for
     applying the [cascading style sheets (CSS)] definitions of one selector to
