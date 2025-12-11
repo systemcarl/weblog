@@ -33,7 +33,7 @@ Ideally, all of the pipeline could be run on any UNIX-like system, including
     Windows — via [Windows Subsystem for Linux (WSL)].
 Also, minimizing external dependencies helped keep the project easier to manage,
     maintain, and replicate.
-The less tools and services required, the fewer installation steps and
+With less tools and services required, there are fewer installation steps and
     environment configurations needed to get started.
 
 Most projects choose to include the CI/CD configuration files directly within a
