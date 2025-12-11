@@ -75,7 +75,7 @@ This modularity makes it easy to manage the individual steps of the pipeline
 while still providing a single entry point to run the whole process.
 
 It took some trial, and a lot of error, to determine the best way to structure
-    the scripts and breakdown the pipeline tasks.
+    the Bash scripts and breakdown the pipeline tasks.
 The final [use-case diagram] illustrates the overall flow of the pipeline,
     describing the overall functionality provided.
 The resulting command line interface (CLI) is fully documented in the project
