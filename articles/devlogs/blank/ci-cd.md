@@ -122,8 +122,8 @@ strange dependency conflicts
 and stale system packages with major security vulnerabilities.
 
 It was about time I started deploying applications within containerized
-    environments.
-[Docker] is now a ubiquitous tool for packaging applications and something any
+    environments with [Docker].
+Docker is now a ubiquitous tool for packaging applications and something any
    modern full-stack developer should be familiar with.
 By bundling up the application and its dependencies into a single filesystem
     [image],
