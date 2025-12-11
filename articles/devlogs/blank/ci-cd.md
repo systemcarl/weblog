@@ -45,7 +45,7 @@ Since the application is just a template, the application could be re-deployed
     for a variety of production environments,
 each with their own configuration and CI/CD requirements.
 
-This separation proved to be beneficial as both the application and CI/CD
+This separation proved to be beneficial as both my application and CI/CD
     pipeline evolved.
 Almost all of the operations were specific to the architecture prescribed by the
     CI/CD pipeline, not the application.
