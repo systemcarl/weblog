@@ -100,7 +100,8 @@ The pipeline Bats test suites are executed as part of the CI process to verify
 Writing the tests was easy;
 the only thing that Bats did not handle out-of-the-box was mocking system
     commands or other script calls.
-I took a bit of time to implement [a simple mocking framework] that utilizes
+To handle this, 
+    I took a bit of time to implement [a simple mocking framework] that utilizes
     Bash function shadowing.
 In addition to stubbing dependencies,
 these helper functions also [store mock call counts and arguments] in a
