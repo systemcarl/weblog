@@ -1,7 +1,7 @@
 # DevLog: Exploring CI/CD for a Modern (SvelteKit) Web Application
 Over the summer, I have been [working on a new web application] to host my
     [personal portfolio] and weblog.
-The [template application] for this dynamically generates pages on demand,
+The [template application] dynamically generates pages on demand,
 which are [populated using static JSON files].
 To achieve this, I've been using [SvelteKit]'s [server-side rendering (SSR)] to
     produce the HTML pages live.
