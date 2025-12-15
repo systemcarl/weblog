@@ -175,7 +175,7 @@ but Terraform has a history of wide support across many cloud providers
     and services.
 It also has a certain reputation for being easy to get started with, and
     many discussions about IaC tend to revolve around Terraform.
-Despite having my reservations about declarative languages and recent changes
+Despite having my reservations about declarative languages and the recent changes
     to the Terraform's licensing model, I decided it was at least worth a try.
 
 #### Pie in the Sky
