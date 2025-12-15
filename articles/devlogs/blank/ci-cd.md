@@ -143,7 +143,7 @@ Docker was also useful for running pipeline dependencies without worrying about
     installation or compatibility issues (e.g., [running Bats tests]).
 
 If anything, I don't think I used Docker (or an alternate containerization
-    tools) enough in this project.
+    tool) enough in this project.
 In retrospect, it would be ideal to containerize the entire CI/CD pipeline
     itself to simplify the CI/CD environment.
 However, to achieve this for my specific use-cases, it would require Docker
