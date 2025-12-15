@@ -160,7 +160,8 @@ At this point, it was probably best that I didn't attempt any of this as
 ### Terraform the Cloud
 Something else I had little experience with before this project was using
     [Terraform], or any [infrastructure as code (IaC)] tools for that matter.
-Setup and maintenance of web servers has always required long stressful [SSH]
+Without the tools, 
+    setup and maintenance of web servers has always required long stressful [SSH]
     sessions,
 copying and pasting artisanal shell commands to craft the perfect machine.
 Again, this manual process discouraged frequent updates.
