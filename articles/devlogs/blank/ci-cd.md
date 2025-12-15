@@ -219,10 +219,11 @@ Instead, the idea is to use a cloud provider's native secret management system
 
 In my case, this wasn't a straightforward option.
 DigitalOcean doesn't have a secret management system that naively integrates
-    with their virtual machines
-and subscribing to a third-party secret manager would have added unnecessary
+    with their virtual machines.
+Another option, subscribing to a third-party secret manager,
+    would have added unnecessary
     complexity and cost to the project
-(and some how I would have had to configure the provisioned server to
+(and somehow I would have had to configure the provisioned server to
     authenticate with the server manager
 — begging the question of how to securely configure the server).
 So, I just used the [file] and [remote-exec] provisioners to copy over the
