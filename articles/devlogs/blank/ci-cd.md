@@ -263,7 +263,7 @@ The only alternative I can imagine would be to fully image the virtual machine
     projects.
 
 ### Stacking Containers
-To fully implement a modern web application deployment, it was necessary to
+To fully implement a modern web application deployment, I had to
     install more than just my [SvelteKit] application on the server.
 Fortunately, since I was [already using Docker], I could containerize the other
     required services as well.
