@@ -276,7 +276,7 @@ still with the ability to communicate over a [private Docker network].
 #### Serving the Web
 Technically, a SvelteKit application, or any [Node.js] application really, can
     directly serve HTTP requests.
-However, this is not ideal; It's much easier and more secure to use a dedicated
+However, this is not ideal; it's much easier and more secure to use a dedicated
     web server application as a [reverse proxy].
 In this case, I needed to handle [TLS termination] for
     [hypertext transfer secure (HTTPS) connections]
