@@ -183,7 +183,7 @@ Terraform itself doesn't actually create or manage any infrastructure, it
     generally just converts the configuration files into API calls to your cloud provider.
 So to use Terraform, you first need to set up an account with the cloud providers
     you want to use for each element of your infrastructure.
-in my case, I used:
+In my case, I used:
 - [DigitalOcean] for hosting the application server;
 - [Cloudflare] to manage DNS records and provide a public facing proxy;
 - and [Google Cloud Services (GCS)] for persistent storage.
