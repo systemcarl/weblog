@@ -238,8 +238,8 @@ Moreover, since these operations are not seen as first-class citizens in
     configuration.
 
 In the end, instead of unit testing the file provisioners ahead of time,
-I implemented a [runtime verification] step within the Terraform configuration
-    to confirm the files were copied successfully through [a remote execution]
+I implemented a [runtime verification] step within the Terraform configuration.
+    This was to confirm the files were copied successfully through [a remote execution]
     before proceeding with the rest of the deployment.
 On the cloud-side, I also had to add some [checks] to the initialization script
     to prevent a race condition between the file transfer and script execution.
