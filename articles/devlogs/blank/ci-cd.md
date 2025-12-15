@@ -243,7 +243,7 @@ I implemented a [runtime verification] step within the Terraform configuration
     before proceeding with the rest of the deployment.
 On the cloud-side, I also had to add some [checks] to the initialization script
     to prevent a race condition between the file transfer and script execution.
-Since this test happens during the deployment step, this doesn't prevent
+Since this test happens during the deployment step, it doesn't prevent
     the deployment from failing unexpectedly.
 However, it at least provides a clear indication of what went wrong
 and assures that a successful deployment means the files were copied correctly.
