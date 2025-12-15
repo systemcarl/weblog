@@ -258,7 +258,7 @@ While I understand the reasoning and necessity of this limitation with
 I can't justify using a provisioning strategy I can't thoroughly test for a
     production project.
 The only alternative I can imagine would be to fully image the virtual machine
-    with a pre-configured application.
+    with a pre-configured application
 — something I will carefully consider before using Terraform for future
     projects.
 
