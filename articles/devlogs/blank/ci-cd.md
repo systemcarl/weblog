@@ -340,7 +340,7 @@ Also, having a more centralized CI/CD environment (instead of just running scrip
     locally) provides a way to monitor and manage deployments at scale.
 
 Since [GitHub] is by far the most popular code hosting platform,
-most people have at least heard [GitHub Actions].
+most people have at least heard of [GitHub Actions].
 At first I had some concerns about using a platform-specific CI/CD solution,
     worrying about portability and [vendor lock-in].
 However, I did find that there are now many open-source solutions (like [Gitea])
