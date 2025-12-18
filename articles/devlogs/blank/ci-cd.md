@@ -278,7 +278,7 @@ Technically, a SvelteKit application, or any [Node.js] application really, can
     directly serve HTTP requests.
 However, this is not ideal; it's much easier and more secure to use a dedicated
     web server application as a [reverse proxy].
-In this case, I needed to handle [TLS termination] for
+In this case, I needed to handle [Transport Layer Security (TLS) termination] for
     [hypertext transfer secure (HTTPS) connections]
  — an encrypted HTTP protocol.
 SvelteKit applications are also not designed to directly serve static assets.
@@ -617,7 +617,7 @@ came out of a conversation with fellow software developer, [Chris Adkins].
     https://docs.docker.com/network/network-tutorial-standalone/
 [Node.js]: https://en.wikipedia.org/wiki/Node.js
 [reverse proxy]: https://en.wikipedia.org/wiki/Reverse_proxy
-[TLS termination]:
+[Transport Layer Security (TLS) termination]:
     https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_termination
 [hypertext transfer secure (HTTPS) connections]:
     https://en.wikipedia.org/wiki/HTTPS
