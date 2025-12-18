@@ -287,7 +287,7 @@ It's expected that static files will be bundled with the application during
 and my website's configuration was not something I wanted to include in the
     application artifacts.
 
-When exploring web server options, I discoverd [Caddy], which
+Instead, I explored web server options and discoverd [Caddy], which
     [automatically provisions and renews TLS certificates] using
     [Let's Encrypt].
 The simple configuration made it an easy choice for setting up a reverse
