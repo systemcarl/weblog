@@ -332,10 +332,11 @@ it would have been fine to just manually trigger the pipeline using
     [the simple CLI I had created].
 But since this is a project to explore CI/CD practices,
 I wanted to implement some form of automated triggering.
-In an ideal system, any change to the application source code should
-    automatically deliver itself to production without requiring any manual
+This was to create an ideal system, 
+    in which any change to the application source code
+    automatically delivers itself to production without requiring any manual
     intervention.
-And having a more centralized CI/CD environment (instead of just running scripts
+Also, having a more centralized CI/CD environment (instead of just running scripts
     locally) provides a way to monitor and manage deployments at scale.
 
 Since [GitHub] is by far the most popular code hosting platform,
