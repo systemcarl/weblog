@@ -308,7 +308,7 @@ Logs can often go missing due to disk failures, application crashes, or a sneaky
 [Grafana Cloud] was a product I had been meaning to try for some time.
 With a free account, you can get a hosted instance of [Loki], an open-source log
     aggregation system,
-with a managed [Grafana] dashboards (also open-source) for easy visualization.
+with managed [Grafana] dashboards (also open-source) for easy visualization.
 It also comes with a [plugin] to export logs to persistent storage (like GCS)
     for long-term archival, or to migrate logs to another service.
 Integrating it was also quite easy using [Grafana Alloy], a lightweight log
