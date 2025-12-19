@@ -351,8 +351,8 @@ Otherwise GitHub Actions workflows are nice because of their simplicity and
 Readable [YAML] configuration files define CI/CD steps that can be triggered
     manually with control over environment variables and secrets,
 or automatically on [repository events], like updates to specific files or
-    branches, or in response to a pull requests.
-Github also provides free hosted ["runners"] to execute workflows within a
+    branches, or in response to a pull request.
+GitHub also provides free hosted ["runners"] to execute workflows within a
     preconfigured, on-demand environment, which is incredibly convenient.
 
 #### Countering Compute Time
