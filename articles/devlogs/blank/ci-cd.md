@@ -344,7 +344,7 @@ most people have at least heard of [GitHub Actions].
 At first I had some concerns about using a platform-specific CI/CD solution,
     worrying about portability and [vendor lock-in].
 However, I did find that there are now many open-source solutions (like [Gitea])
-    that can be used to run GitHub Actions workflows outside of GitHub platform
+    that can be used to run GitHub Actions workflows outside of the GitHub platform
     itself.
 Otherwise GitHub Actions workflow are nice because of their simplicity and
     tight integration with other Git services.
