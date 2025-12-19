@@ -374,7 +374,7 @@ The [Github Actions workflows] for the project are therefore simply just
 These workflow files simply define the conditions for execution:
 defining the environment variables to pass into the scripts,
 and configuring the triggering events.
-Some addition structure to the workflows did help simplify the workflows;
+Some additional structure to the workflows did help simplify the workflows;
 by generalizing the pipeline script workflows, chaining [workflow dispatches]
     made it easy to reuse setup between different [environment deployments].
 
