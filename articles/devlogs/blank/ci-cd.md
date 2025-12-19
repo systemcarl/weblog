@@ -365,9 +365,9 @@ And while workflows can be run self-hosted runners, or through an alternate
 these options require more setup and maintenance overhead that are ideally
     avoided.
 
-Avoiding dependency on a specific platform, or any platform at all, was the
+Avoiding dependency on a specific platform, or any platform at all, was my
     primary motivation for [designing a clean CLI interface].
-This way, the pipeline can be run anywhere with a Bash-compatible shell,
+This way, I can run the pipeline anywhere with a Bash-compatible shell,
     including any GitHub Actions runner.
 The [Github Actions workflows] for the project are therefore simply just
     wrappers for invoking the pipeline scripts.
