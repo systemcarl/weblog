@@ -346,7 +346,7 @@ At first I had some concerns about using a platform-specific CI/CD solution,
 However, I did find that there are now many open-source solutions (like [Gitea])
     that can be used to run GitHub Actions workflows outside of the GitHub platform
     itself.
-Otherwise GitHub Actions workflow are nice because of their simplicity and
+Otherwise GitHub Actions workflows are nice because of their simplicity and
     tight integration with other Git services.
 Readable [YAML] configuration files define CI/CD steps that can be triggered
     manually with control over environment variables and secrets,
