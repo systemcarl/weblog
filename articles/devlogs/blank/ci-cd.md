@@ -383,7 +383,7 @@ Since the Terraform state files are stored remotely in GCS, both local and
     processes.
 Otherwise it would be either very difficult (or stupidly risky) to locally
     execute commands against automated deployment environments
-— resources could easily be duplicate, destroyed, or orphaned.
+— resources could easily be duplicated, destroyed, or orphaned.
 But with this setup, it's easy to follow up automated deployments with local
     commands to troubleshoot issues or manage resources between releases.
 
