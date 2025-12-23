@@ -391,7 +391,7 @@ One other benefit of using GitHub Actions is the automatic [commit status]
     integration:
 the execution status of GitHub Action runs are automatically stored within the
     repository's commit history.
-To provide this feedback during local executions, I also added some simple
+To provide this execution status feedback during local executions, I also added some simple
     [GitHub API integration] to manually update commit statuses.
 While this doesn't provide the same resolution as the GitHub Actions runs
     themselves,
