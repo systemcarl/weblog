@@ -516,7 +516,7 @@ The pipeline logic (the abstracted processes to define the CI/CD steps) is
 While this may be acceptable for certain projects where the application
     architecture generates long-term value and is unlikely to change,
 it's not ideal for a small project meant for learning and experimentation.
-The time invested into manage this very specific deployment process can't be
+The time invested into managing this very specific deployment process can't be
     justified when it cannot be easily adapted to other projects.
 
 In the future, I would like to explore creating a more generalized CI/CD
