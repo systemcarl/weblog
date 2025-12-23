@@ -535,7 +535,7 @@ In the meantime, I am quite happy with the current state of the project;
 I'm sure this solution will save me plenty of time and stress while I continue
     developing and improving my [personal portfolio] and weblog.
 After some more time using the pipeline and better understanding its
-    limitations, I will definitely revisit theses problems.
+    limitations, I will definitely revisit these problems.
 Hopefully, by the time I am ready to begin deploying more applications, with
     more complex requirements and at a larger scales,
 I will be well prepared to try this again.
