@@ -445,7 +445,7 @@ This isn't as much of a concern for me as the [limitations with Terraform]
     since I'll still be checking the deployment results after each release.
 No news is bad news; if the workflow fails to trigger, a missing "in progress"
     status will make it obvious the deployment was not initiated.
-This could be possibly be mitigated by abstracting the workflows into reusable
+This could possibly be mitigated by abstracting the workflows into reusable
     [actions] that are tested in their own isolated repositories with controlled
     triggering events.
 
