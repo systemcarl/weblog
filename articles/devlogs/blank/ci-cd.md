@@ -522,7 +522,7 @@ The time invested into managing this very specific deployment process can't be
 In the future, I would like to explore creating a more generalized CI/CD
     framework (probably more of a micro-framework) that can be easily extended
     to support common application architectures and deployment strategies.
-This would provide a more solid foundation to build CI/CD pipelines on top of,
+This would provide a more solid foundation to build CI/CD pipelines, on top of
     reducing the amount of boilerplate and duplicated effort required
     between projects.
 I think exploring alternate IaC tools that can integrate directly with
