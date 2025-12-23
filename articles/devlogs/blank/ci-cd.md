@@ -388,7 +388,7 @@ But with this setup, it's easy to follow up automated deployments with local
     commands to troubleshoot issues or manage resources between releases.
 
 One other benefit of using GitHub Actions is the automatic [commit status]
-    integration;
+    integration:
 the execution status of GitHub Action runs are automatically stored within the
     repository's commit history.
 To provide this feedback during local executions, I also added some simple
