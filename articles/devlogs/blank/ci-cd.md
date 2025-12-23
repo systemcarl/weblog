@@ -528,7 +528,7 @@ This would provide a more solid foundation to build CI/CD pipelines, on top of
 I think exploring alternate IaC tools that can integrate directly with
     higher-level languages (like [Pulumi]) would also be worthwhile.
 After this experience, I think there may be an elegant way to create a
-    generalize CI/CD library that can be containerized to provide more robust
+    generalized CI/CD library that can be containerized to provide more robust
     tools without sacrificing portability.
 
 In the meantime, I am quite happy with the current state of the project;
