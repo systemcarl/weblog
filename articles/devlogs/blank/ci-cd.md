@@ -493,7 +493,7 @@ But most importantly, I learned a ton about common DevOps tools and practices
     that I had little experience with before.
 I have a much better understanding at this point of what makes a good CI/CD
     solution,
-and what core problems that need to be considered when deciding on a design.
+and what core problems need to be considered when deciding on a design.
 
 At this point, I don't have much doubt that the issues still remaining with this
     pipeline can be addressed as I continue to iterate on the project.
