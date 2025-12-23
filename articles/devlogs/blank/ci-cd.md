@@ -420,7 +420,7 @@ With all the limitations and general lack of standard practices, this seemed
     like an interesting problem to explore.
 If I planned to ever develop a serious CI/CD pipeline for running production
     deployments at any sort of scale,
-I would need a reliable way validate a GitHub Actions workflow (or whatever
+I would need a reliable way to validate a GitHub Actions workflow (or whatever
     other CI/CD platform equivalent).
 After some thought and research, I found [an example] that used the artifacts
     produced by a workflow run to verify the expected outcomes of the workflow.
