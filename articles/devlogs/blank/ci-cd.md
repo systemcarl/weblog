@@ -507,7 +507,7 @@ I also think taking the time to abstract the GitHub Actions workflows into
     reusable [actions] would provide a better way to manage workflows in
     the long run.
 
-However, by far the biggest issue with this CI/CD project, is simply it's scope.
+However, by far, the biggest issue with this CI/CD project is simply its scope.
 The solution is very specifically tailored to this particular SvelteKit
     application template, and the exact tools and services I chose to
     use.[^softyy]
