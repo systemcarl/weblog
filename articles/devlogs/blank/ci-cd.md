@@ -397,7 +397,7 @@ While this doesn't provide the same resolution as the GitHub Actions runs
     themselves,
 it standardizes the most important information between execution environments.
 With a consistent way to monitor deployment status, it's easy to diagnose
-    deployment issues
+    deployment issues,
 and other integration with other GitHub features (like pull requests) will be
     more manageable in the future.
 
