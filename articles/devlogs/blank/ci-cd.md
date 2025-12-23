@@ -509,7 +509,7 @@ I also think taking the time to abstract the GitHub Actions workflows into
 
 However, by far, the biggest issue with this CI/CD project is simply its scope.
 The solution is very specifically tailored to this particular SvelteKit
-    application template, and the exact tools and services I chose to
+    application template, and to the exact tools and services I chose to
     use.[^softyy]
 The pipeline logic (the abstracted processes to define the CI/CD steps) is
     mixed in with all these specific implementation details.
