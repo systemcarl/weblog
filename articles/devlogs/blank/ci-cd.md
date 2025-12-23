@@ -486,8 +486,8 @@ From there, I could have iteratively added the refined features incrementally,
 Despite all the doubt and reservations I had while working on the
     [initial iteration] of the project,
 the result has been truly satisfying.
-Continuing to release and deploy [new versions of the application] has been a
-    been trivial compared to my past experiences publishing web applications
+Continuing to release and deploy [new versions of the application] has been
+    trivial compared to my past experiences publishing web applications
 — every update so far has gone out without a problem.
 But most importantly, I learned a ton about common DevOps tools and practices
     that I had little experience with before.
