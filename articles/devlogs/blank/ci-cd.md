@@ -484,7 +484,7 @@ From there, I could have iteratively added the refined features incrementally,
 
 #### From One Project to the Next
 Despite all the doubt and reservations I had while working on the
-    [first iteration] of the project,
+    [initial iteration] of the project,
 the result has been truly satisfying.
 Continuing to release and deploy [new versions of the application] has been a
     been trivial compared to my past experiences publishing web applications
@@ -670,7 +670,6 @@ came out of a conversation with fellow software developer, [Chris Adkins].
     https://en.wikipedia.org/wiki/Minimum_viable_product
 [as discussed earlier]: #putting-the-pieces-together
 [initial iteration]: https://github.com/systemcarl/folio/tree/v0.0.1
-[first iteration]: https://github.com/systemcarl/folio/tree/v0.0.1
 [new versions of the application]: ./content-template.md
 [Pulumi]: https://www.pulumi.com/
 [personal portfolio]: https://carledwardlyons.ca
