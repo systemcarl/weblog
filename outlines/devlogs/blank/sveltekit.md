@@ -174,6 +174,7 @@
         establishes simple interfaces to build upon.
     - Data can be provided as static JSON files, which can be easily updated or
         replaced.
+    - There were some performance issues that [I had to address later].
 - As development continued, I found that [abstracting the application content]
     was an integral part of the project's design.
 
@@ -465,6 +466,7 @@
     https://github.com/systemcarl/blank/blob/v0.0.1/src/routes/+layout.server.ts
 [SvelteKit data stores]:
     https://github.com/systemcarl/blank/tree/v0.0.1/src/lib/stores
+[I had to address later]: ./svelte-stores.md
 [abstracting the application content]:
     ./content-template.md#an-agnostic-application
 [mapping code tokens to appropriate text strings]:

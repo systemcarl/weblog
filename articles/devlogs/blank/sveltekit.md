@@ -290,6 +290,12 @@ Bundling these settings into utility modules provided a simple interface to
 Abstracting all the visual theming and text content (including localization)
     also meant that this application could be easily re-branded for any other
     long-form content site.
+> [!NOTE]
+When originally implementing these global configuration stores,
+I didn't quite understand how SvelteKit module scope persisted between requests.
+[This led to some performance issues] that I had to addresses later,
+partly by caching fetched resources in memory to avoid redundant network
+    requests.
 
 The implementation of the configuration management system was quite simple.
 But as development progressed, [I found abstracting the application content]
@@ -649,6 +655,8 @@ utilities are organized into their own respective directories within
     https://github.com/systemcarl/blank/blob/v0.0.1/src/routes/+layout.server.ts
 [via SvelteKit data stores]:
     https://github.com/systemcarl/blank/tree/v0.0.1/src/lib/stores
+[This led to some performance issues] that I had to addresses later:
+    ./svelte-stores.md
 [I found abstracting the application content]:
     ./content-template.md#an-agnostic-application
 [localization]:

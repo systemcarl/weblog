@@ -1,19 +1,37 @@
 # Abstract
 - Testing CI/CD automation ensures reliable software delivery.
 - Github Actions does not provide tools for testing workflows.
-- Output validation and dry-run techniques can be used to test workflows.
+- Output and artifact validation against CLI executions can be used to test
+    workflows.
 
 # Testing Github Workflows
 - Workflows define GitHub Actions tasks for CI/CD automation.
     - They are defined in YAML files stored in the `.github/workflows` folder.
+- Testing is often disregarded when implementing a CI/CD pipeline.
+    - There are some valid reasons:
+        - Deployment needs change rapidly.
+        - There's little return on investment.
+    - There is often little support for testing automation directly.
 - Unfortunately, there are no options to test workflows directly in GitHub.
     - Act is a popular tool for running GitHub Actions locally.
         - Act doesn't have any tools for testing either.
+
+## Deployment Testing
+- Tests can be run against production-like environments to validate the
+    deployment process.
+    - Requires production-like resources to be available for testing.
+    - May not expose key components of the deployment process;
+        - *e.g.,* configuration may not be externally accessible for security.
+- Deployment testing is useful for validating infrastructure changes.
+    - Deployment tests are most effective when combined with unit and
+        integration tests.
 
 ## Validating Workflow Output
 - One way to test workflows is to validate their outputs.
     - Comparing an expected output to actual workflow results can validate the
         workflow.
+    - This is ideal for non-destructive workflows that do not take action
+- Deployment workflows with side effects can still be tested safely.
     - Using "dry-run" and "verbose" options allow testing intent without
         executing CI/CD tasks.
     - There are examples in my personal website CI/CD pipeline.
@@ -21,11 +39,13 @@
 ### Simplifying Workflows
 - Testing workflows is not quick or easy.
     - Complex workflows with many steps are tedious to test.
-    - It is easier to test logic outside of GitHub Actions.
+    - It is easier to test logic outside of GitHub Actions workflows.
 - Ideally, workflows should only define the minimum setup required to run tasks.
     - The workflow should:
         - Set up the environment.
         - Execute a single script or command.
+    - This makes it possible to implement dry-run testing for dependency
+        commands that do not not support it on their own.
 ```yaml
 name: Run Script
 
@@ -40,12 +60,15 @@ jobs:
         run: chmod +x ./script
 
       - name: Run bash script
+        # execute the script
         run: ./script
+        # define environment variables as needed for the script
+        env:
           ENVIRONMENT: 'production'
 ```
 
 ### Re-Using Workflows
-- Re-usable workflows allow workflows to be called from other workflows.
+- Re-usable workflows can be called from other workflows.
     - This allows a workflow to be tested using another workflow.
 - Defining an `workflow_call` trigger allows a workflow to be called from
     another workflow.

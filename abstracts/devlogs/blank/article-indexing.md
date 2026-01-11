@@ -1,4 +1,4 @@
-# DevLog: Listing Articles Using a Simple Index
+# Listing Articles Using a Simple Index
 A weblog needs an index
     — a way to view articles, chronologically or grouped by category.
 To avoid implementing persistent storage or burdening my application with
