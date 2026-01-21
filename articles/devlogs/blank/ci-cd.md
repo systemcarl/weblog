@@ -38,16 +38,17 @@ True to its namesake, a CI/CD pipeline is made up of many smaller pieces that
 from one to the next, end-to-end.
 Each piece is responsible for a specific task; every step brings the final
     product closer to delivery.
-This project combines several tools and services to create a hands-off,
-    repeatable process.
+This project, the CI/CD pipeline solution I implemented for my personal website,
+combines several tools and services to create a hands-off, repeatable process
+    for deploying the application.
 
-My goal was to make this project as self-contained and portable as possible,
-so it could be easily shared and customized.
+My goal was to make the pipeline as self-contained and portable as possible,
+so it could be easily shared and customized along with the application itself.
 Choosing tools that were platform-agnostic and widely supported across operating
     systems was a priority.
 Ideally, all of the pipeline could be run on any UNIX-like system, including
     Windows — via [Windows Subsystem for Linux (WSL)].
-Also, minimizing external dependencies helped keep the project easier to manage,
+Minimizing external dependencies also helped keep the project easier to manage,
     maintain, and replicate.
 With less tools and services required, there are fewer installation steps and
     environment configurations needed to get started.
