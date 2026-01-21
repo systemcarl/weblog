@@ -570,6 +570,8 @@ came out of a conversation with fellow software developer, [Chris Adkins].
 [a continuous integration and continuous deployment (CI/CD) pipeline]:
     https://en.wikipedia.org/wiki/CI/CD
 [this pipeline]: https://github.com/systemcarl/folio
+[Windows Subsystem for Linux (WSL)]:
+    https://docs.microsoft.com/en-us/windows/wsl/about
 [generic source code]: https://github.com/systemcarl/blank
 [Bash]: https://en.wikipedia.org/wiki/Bash_(Unix_shell)
 [defined using Bash scripts]:
