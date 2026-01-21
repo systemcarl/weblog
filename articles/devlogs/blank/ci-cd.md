@@ -41,9 +41,14 @@ Each piece is responsible for a specific task; every step brings the final
 This project, the CI/CD pipeline solution I implemented for my personal website,
 combines several tools and services to create a hands-off, repeatable process
     for deploying the application.
+Combining command-line scripting, containerization, infrastructure as code,
+    log aggregation, and platform automation,
+the pipeline provides a tractable means for managing the entire deployment
+    lifecycle.
 
-My goal was to make the pipeline as self-contained and portable as possible,
-so it could be easily shared and customized along with the application itself.
+When selecting each tool and service, one goal was to make the pipeline as
+    self-contained and portable as possible,
+so the pipeline could be easily share along with the application itself.
 Choosing tools that were platform-agnostic and widely supported across operating
     systems was a priority.
 Ideally, all of the pipeline could be run on any UNIX-like system, including
