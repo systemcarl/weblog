@@ -69,8 +69,9 @@ This separation proved to be beneficial as both my application and CI/CD
     pipeline evolved.
 Almost all of the operations were specific to the architecture prescribed by the
     CI/CD pipeline, not the application.
-The only exception was the building of the SvelteKit application
-— this ended up being more independent of customization than I had expected.
+The only exception was the step for building the SvelteKit application from the
+    source code
+— which ended up being more independent of customization than I had expected.
 Any deployment specific configuration is evaluated at runtime,
     only after the application has been built
 — including template customization which is fetched live from static resources.
