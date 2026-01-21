@@ -1,20 +1,36 @@
 # DevLog: Exploring CI/CD for a Modern (SvelteKit) Web Application
-Over the summer, I have been [working on a new web application] to host my
+Over the summer, [I have been working on a new web application] to host my
     [personal portfolio] and weblog.
-The [template application] dynamically generates pages on demand,
-which are [populated using static JSON files].
+[The application] dynamically generates pages on demand,
+    [populated and styled using static JSON files]
 To achieve this, I've been using [SvelteKit]'s [server-side rendering (SSR)] to
     produce the HTML pages live.
-
-To handle the non-trivial deployment process of building, bundling, and
-    deploying a server-side application,
-I decided to implement
+Unlike a traditional, statically-served website,
+deploying a server-side application requires the application to be
+    built, installed, and run (and remain running) on a production server.
+To handle this non-trivial deployment process I decided to implement
     [a continuous integration and continuous deployment (CI/CD) pipeline],
 automating the whole ordeal.
-The goal of [this project] (and any CI/CD pipeline, I imagine) is to reduce
-    common tasks into single, self-contained actions.
+The goal of implementing [this pipeline] (and any CI/CD pipeline, I imagine) is
+    to reduce common tasks into single, self-contained actions.
+
+Without a CI/CD pipeline, every update to the application code would need to be
+    followed by a tedious series of unreliable, impromptu steps probably
+    including:
+1. Execute several commands in a terminal to test and build the application.
+2. Copy the built application to a publicly accessible server;
+3. Fiddle with server configuration to install new dependencies or curate
+    environment variables;
+4. Manually verify you didn't somehow mess it all up;
+5. Realize you forgot to uncomment a critical line of production code before
+    building the application.
+
 Implementing an automatic process to build, test, and deploy the application
     means there is no tedious, risky manual work discouraging regular updates.
+Automation also makes it institute more intensive processes, like
+    deploying each update to a brand new, freshly updated server instance
+— something that would be insane to do by hand, but is essential for maintaining
+    a secure, reliable application.
 
 ## Putting the Pieces Together
 True to its namesake, a CI/CD pipeline is made up of many smaller pieces that
@@ -100,7 +116,7 @@ The pipeline Bats test suites are executed as part of the CI process to verify
 Writing the tests was easy;
 the only thing that Bats did not handle out-of-the-box was mocking system
     commands or other script calls.
-To handle this, 
+To handle this,
     I took a bit of time to implement [a simple mocking framework] that utilizes
     Bash function shadowing.
 In addition to stubbing dependencies,
@@ -160,7 +176,7 @@ At this point, it was probably best that I didn't attempt any of this as
 ### Terraform the Cloud
 Something else I had little experience with before this project was using
     [Terraform], or any [infrastructure as code (IaC)] tools for that matter.
-Without the tools, 
+Without the tools,
     setup and maintenance of web servers has always required long stressful [SSH]
     sessions,
 copying and pasting artisanal shell commands to craft the perfect machine.
@@ -332,7 +348,7 @@ it would have been fine to just manually trigger the pipeline using
     [the simple CLI I had created].
 But since this is a project to explore CI/CD practices,
 I wanted to implement some form of automated triggering.
-This was to create an ideal system, 
+This was to create an ideal system,
     in which any change to the application source code
     automatically delivers itself to production without requiring any manual
     intervention.
@@ -544,16 +560,16 @@ I will be well prepared to try this again.
     deployment architecture
 came out of a conversation with fellow software developer, [Chris Adkins].
 
-[working on a new web application]: ./sveltekit.md
+[I have been working on a new web application]: ./sveltekit.md
 [personal portfolio]: https://carledwardlyons.ca
-[template application]: https://github.com/systemcarl/blank
-[populated using static JSON files]: ./sveltekit.md#knobs-and-dials
+[the application]: https://github.com/systemcarl/blank
+[populated and styled using static JSON files]: ./sveltekit.md#knobs-and-dials
 [SvelteKit]: https://svelte.dev/docs/kit/introduction
 [server-side rendering (SSR)]:
     https://developer.mozilla.org/en-US/docs/Glossary/SSR
 [a continuous integration and continuous deployment (CI/CD) pipeline]:
     https://en.wikipedia.org/wiki/CI/CD
-[this project]: https://github.com/systemcarl/folio
+[this pipeline]: https://github.com/systemcarl/folio
 [generic source code]: https://github.com/systemcarl/blank
 [Bash]: https://en.wikipedia.org/wiki/Bash_(Unix_shell)
 [defined using Bash scripts]:
