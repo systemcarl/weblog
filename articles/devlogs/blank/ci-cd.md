@@ -2,7 +2,7 @@
 Over the summer, [I have been working on a new web application] to host my
     [personal portfolio] and weblog.
 [The application] dynamically generates pages on demand,
-    [populated and styled using static JSON files]
+    [populated and styled using static JSON files].
 To achieve this, I've been using [SvelteKit]'s [server-side rendering (SSR)] to
     produce the HTML pages live.
 Unlike a traditional, statically-served website,
@@ -54,13 +54,16 @@ With less tools and services required, there are fewer installation steps and
     environment configurations needed to get started.
 
 Most projects choose to include the CI/CD configuration files directly within a
-    main project repository that also includes the application source
-    code.
-However, I decided to keep the CI/CD pipeline in a separate repository to
-    decouple the application from the specific CI/CD implementation I was using.
-Since the application is just a template, the application could be re-deployed
-    for a variety of production environments,
-each with their own configuration and CI/CD requirements.
+    same repository as the main application source code.
+However, I decided to keep the CI/CD pipeline separate, in its own repository,
+to decouple the application from the specific CI/CD implementation I was using.
+Since [the application is effectively just a template]
+    — the content and style all being loaded in live, for each request —
+the application could be re-used for a host of different purposes
+    (e.g., personal portfolio, blog, documentation site, etc.).
+Every deployment for each different purpose would likely require its own
+    deployment configuration and CI/CD requirements
+that the CI/CD pipeline discussed here would not be able to satisfy.
 
 This separation proved to be beneficial as both my application and CI/CD
     pipeline evolved.
@@ -573,6 +576,8 @@ came out of a conversation with fellow software developer, [Chris Adkins].
 [this pipeline]: https://github.com/systemcarl/folio
 [Windows Subsystem for Linux (WSL)]:
     https://docs.microsoft.com/en-us/windows/wsl/about
+[the application is effectively just a template]:
+    ./content-template.md
 [generic source code]: https://github.com/systemcarl/blank
 [Bash]: https://en.wikipedia.org/wiki/Bash_(Unix_shell)
 [defined using Bash scripts]:
