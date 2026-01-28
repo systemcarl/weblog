@@ -69,20 +69,21 @@ the application could be re-used for a host of different purposes
 Every deployment for each different purpose would likely require its own
     deployment configuration and CI/CD requirements
 that the CI/CD pipeline discussed here would not be able to satisfy.
-
 This separation proved to be beneficial as both my application and CI/CD
     pipeline evolved.
 Almost all of the operations were specific to the architecture prescribed by the
     CI/CD pipeline, not the application.
+
 The only exception was the step for building the SvelteKit application from the
-    source code
-— which ended up being more independent of customization than I had expected.
-Any deployment specific configuration is evaluated at runtime,
-    only after the application has been built
-— including template customization which is fetched live from static resources.
-This means that the application build artifacts can be versioned
-    with the [generic source code],
-independently of the deployment environment and configuration files.
+    source code,
+which ended up being more independent of customization than I had expected.
+Any deployment specific configuration is evaluated at runtime
+    — by the built application itself, not during the build process —
+including template customization which is fetched live from static resources.
+This means that the resulting artifacts from the application build can be
+    versioned with the [generic source code],
+without concern for the deployment environment, configuration files, themes,
+    or content.
 
 ### Following the Script
 To balance portability with convenience, I chose to implement the CI/CD pipeline
@@ -584,7 +585,7 @@ came out of a conversation with fellow software developer, [Chris Adkins].
     https://docs.microsoft.com/en-us/windows/wsl/about
 [the application is effectively just a template]:
     ./content-template.md
-[generic source code]: https://github.com/systemcarl/blank
+[the application source code]: https://github.com/systemcarl/blank
 [Bash]: https://en.wikipedia.org/wiki/Bash_(Unix_shell)
 [defined using Bash scripts]:
     https://github.com/systemcarl/folio/tree/v0.0.1/cli
