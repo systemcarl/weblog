@@ -111,10 +111,13 @@ The resulting command line interface (CLI) is fully documented in the project
 #### Bash With Bats
 Since the vast majority of the pipeline logic is implemented in Bash scripts,
 continuing to maintain the pipeline would be a real nightmare without proper
-    testing.
+    accompanying script tests.
 To properly deliver a working solution, each step must deliver a very specific
-    outcome.
-The smallest deviation from the expected result can cause a release to fail.
+    outcome;
+the smallest deviation from the expected result can cause a release to fail.
+Thorough testing ensures that each step of the pipeline delivers the necessary
+    results to proceed to the next step,
+or at least fails with clear, actionable feedback.
 
 To test the Bash scripts, I used [Bash Automated Testing System (Bats)], a
     testing framework for Bash.
