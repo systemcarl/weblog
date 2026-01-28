@@ -110,8 +110,8 @@ The resulting command line interface (CLI) is fully documented in the project
 
 #### Bash With Bats
 Since the vast majority of the pipeline logic is implemented in Bash scripts,
-continuing to maintain the pipeline would be a real nightmare without proper
-    accompanying script tests.
+continuing to maintain the pipeline would be a real nightmare without some way
+    to continuously verify the scripts work as intended.
 To properly deliver a working solution, each step must deliver a very specific
     outcome;
 the smallest deviation from the expected result can cause a release to fail.
@@ -124,7 +124,7 @@ To test the Bash scripts, I used [Bash Automated Testing System (Bats)], a
 There are a few other, very similar testing frameworks for Bash scripts,
     but Bats seemed like the easiest to get started with
 — especially with its [easy Docker execution], which I'll come back to [later].
-The pipeline Bats test suites are executed as part of the CI process to verify
+The Bats tests for the pipeline are executed as part of the CI process to verify
     that any changes to the scripts do not break the process as a whole.
 
 Writing the tests was easy;
