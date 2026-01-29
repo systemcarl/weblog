@@ -146,17 +146,19 @@ When I needed a more complex setup, I would rely entirely on manually configured
     virtual environments, like [Python]'s [venv].
 This was always a horrific experience filled with unexpected issues, often
     stemming from malformed commands.
-Often times servers and environments were reused indefinitely to reduce setup.
+Often these environments were reused indefinitely to reduce setup.
 This just led to more problems down the line:
 strange dependency conflicts
 and stale system packages with major security vulnerabilities.
 
-It was about time I started deploying applications within containerized
-    environments with [Docker].
-Docker is now a ubiquitous tool for packaging applications and something any
-   modern full-stack developer should be familiar with.
+It was about time I started deploying applications with [Docker].
+Docker has become a ubiquitous tool for packaging applications, and for good
+    reason.
+It allows applications to be bundled with all their dependencies in a relatively
+    lightweight, portable format
+— that can be run on just about any system, so long as Docker is installed.
 By bundling up the application and its dependencies into a single filesystem
-    [image],
+    [Docker image],
 I no longer have to worry about environment inconsistencies and every
     installation is the same command on any system with Docker installed.
 Each Docker [container] runs an application (or sometimes multiple applications)
@@ -170,7 +172,9 @@ Docker also provides a standardized development environment to test deployment
 On the production server, I also used Docker to install and run other services
     required by the application.
 Docker was also useful for running pipeline dependencies without worrying about
-    installation or compatibility issues (e.g., [running Bats tests]).
+    installation or compatibility issues
+(e.g., [running Bats tests] in a Docker container, without needing to manually
+    install Bats via a package manager or from source).
 
 If anything, I don't think I used Docker (or an alternate containerization
     tool) enough in this project.
