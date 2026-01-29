@@ -138,7 +138,7 @@ these helper functions also [store mock call counts and arguments] in a
     temporary file to [test mocked dependencies are invoked] as expected.
 
 ### I Could Hardly Contain Myself
-For most of my software development career, I've been deploying my projects
+For most of [my software development career], I've been deploying my projects
     manually.
 For statically-served sites made of pre-baked HTML and stand-alone JavaScript,
     this was easy enough.
@@ -600,6 +600,7 @@ came out of a conversation with fellow software developer, [Chris Adkins].
 [easy Docker execution]:
     https://bats-core.readthedocs.io/en/stable/installation.html#running-bats-in-docker
 [I'll come back to later]: #i-could-hardly-contain-myself
+[my software development career]: ../../about-me.md#i-love-deadlines
 [a simple mocking framework]:
     https://github.com/systemcarl/folio/blob/v0.0.1/cli/tests/mocks
 [store mock call counts and arguments]:
