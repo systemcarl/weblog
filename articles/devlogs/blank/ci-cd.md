@@ -332,11 +332,11 @@ and starts containers for other necessary services not pre-installed on the
 
 #### Serving the Web
 Technically, a SvelteKit application, or any [Node.js] application really, can
-    directly serve HTTP requests.
+    directly serve [Hypertext Transfer Protocol (HTTP)] requests.
 However, this is not ideal; it's much easier and more secure to use a dedicated
     web server application as a [reverse proxy].
-In this case, I needed to handle [Transport Layer Security (TLS) termination] for
-    [hypertext transfer secure (HTTPS) connections]
+In this case, I needed to handle [Transport Layer Security (TLS) termination]
+    for [Hypertext Transfer Protocol Secure (HTTPS) connections]
  — an encrypted HTTP protocol.
 SvelteKit applications are also not designed to directly serve static assets.
 It's expected that static files will be bundled with the application during
@@ -685,9 +685,11 @@ came out of a conversation with fellow software developer, [Chris Adkins].
     https://docs.docker.com/network/network-tutorial-standalone/
 [Node.js]: https://en.wikipedia.org/wiki/Node.js
 [reverse proxy]: https://en.wikipedia.org/wiki/Reverse_proxy
+[Hypertext Transfer Protocol (HTTP)]:
+    https://en.wikipedia.org/wiki/HTTP
 [Transport Layer Security (TLS) termination]:
     https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_termination
-[hypertext transfer secure (HTTPS) connections]:
+[Hypertext Transfer Protocol Secure (HTTPS) connections]:
     https://en.wikipedia.org/wiki/HTTPS
 [Caddy]: https://caddyserver.com/
 [automatically provisions and renews TLS certificates]:
