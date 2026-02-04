@@ -312,13 +312,23 @@ The only alternative I can imagine would be to fully image the virtual machine
 ### Stacking Containers
 To fully implement a modern web application deployment, I had to
     install more than just my [SvelteKit] application on the server.
-Fortunately, since I was [already using Docker], I could containerize the other
+I needed more that just the ScriptKit server application to effectively handle
+    incoming requests and monitor application health and performance.
+Fortunately, since [I was already using Docker], I could containerize the other
     required services as well.
 The [Docker package registry] makes it easy to install most applications as
-    pre-configured Docker from any system with Docker installed and internet access.
-These containerized applications have the benefit of being isolated from each
-    other,
-still with the ability to communicate over a [private Docker network].
+    pre-configured Docker containers from any system with Docker installed and
+    access to the internet.
+A ready-to-use application can be [downloaded and run with a single command].
+These containerized applications have the benefit of being isolated to prevent
+    conflicts with each other,
+but still with the ability to communicate — with each other, the host, or the
+    internet —
+through [Docker's internal networking interface].
+The final steps of the server initialization script starts a container to run
+    my SvelteKit application,
+and starts containers for other necessary services not pre-installed on the
+    Linux server.
 
 #### Serving the Web
 Technically, a SvelteKit application, or any [Node.js] application really, can
@@ -667,9 +677,11 @@ came out of a conversation with fellow software developer, [Chris Adkins].
     https://github.com/systemcarl/folio/blob/v0.0.1/infra/cloud-init.tftpl#L75-L91
 [trigger argument]:
     https://registry.terraform.io/providers/hashicorp/null/latest/docs/resources/resource#triggers-1
-[already using Docker]: #i-could-hardly-contain-myself
+[I was already using Docker]: #i-could-hardly-contain-myself
 [Docker package registry]: https://www.docker.com/products/docker-hub/
-[private Docker network]:
+[downloaded and run with a single command]:
+    https://docs.docker.com/get-started/introduction/get-docker-desktop/#run-your-first-container
+[Docker's internal networking interface]:
     https://docs.docker.com/network/network-tutorial-standalone/
 [Node.js]: https://en.wikipedia.org/wiki/Node.js
 [reverse proxy]: https://en.wikipedia.org/wiki/Reverse_proxy
