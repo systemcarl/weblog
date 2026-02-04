@@ -195,8 +195,8 @@ At this point, it was probably best that I didn't attempt any of this as
 Something else I had little experience with before this project was using
     [Terraform], or any [infrastructure as code (IaC)] tools for that matter.
 Without the tools,
-    setup and maintenance of web servers has always required long stressful [SSH]
-    sessions,
+    setup and maintenance of web servers has always required long stressful
+    [secure shell (SSH)] sessions,
 copying and pasting artisanal shell commands to craft the perfect machine.
 Again, this manual process discouraged frequent updates.
 Scaling was out of the question.
@@ -278,21 +278,29 @@ Moreover, since these operations are not seen as first-class citizens in
 
 In the end, instead of unit testing the file provisioners ahead of time,
 I implemented a [runtime verification] step within the Terraform configuration.
-    This was to confirm the files were copied successfully through [a remote execution]
-    before proceeding with the rest of the deployment.
-On the cloud-side, I also had to add some [checks] to the initialization script
-    to prevent a race condition between the file transfer and script execution.
-Since this test happens during the deployment step, it doesn't prevent
-    the deployment from failing unexpectedly.
+During the deployment, this verification step confirms the files are copied
+    successfully through [a remote execution].
+    The deployment only proceeds if the file verification is successful.
+This meant I had to add some [checks] to the initialization script, on the
+    cloud side to prevent a race condition between the file transfer
+    verification and the finalization of the server setup;
+it's expected that the files to be copied long before the server setup finalizes
+    and starts the application, but a deliberate check is still necessary to
+    ensure the files are present before proceeding.
+Since the verification happens mid-deployment, it doesn't prevent the deployment
+    from failing unexpectedly (because, by that point, the deployment is already
+    in progress, and an aborted deployment is a failed deployment).
 However, it at least provides a clear indication of what went wrong
-and assures that a successful deployment means the files were copied correctly.
+and assures that a deployment is only deemed successful if the files were copied
+    correctly.
 
-The only part of the whole pipeline that I could not entirely test in some way
-    was the deprovisioning of the configuration between releases.
-The [trigger] argument that causes the configuration to be re-applied if a new
-    server has been provisioned cannot be tested without running two full
-    deployments.
-While I understand the reasoning and necessity of this limitation with
+Using runtime verification, in lieu of pre-deployment testing,
+the only part of the whole pipeline that I still could not entirely test was the
+    re-provisioning of the configuration between releases.
+The [trigger argument] that causes the configuration to be re-applied if a new
+    server has been provisioned cannot be tested without actually running two
+    full, live deployments.
+While I understand the reasoning and necessity of this limitation, considering
     Terraform's plan and apply workflow,
 I can't justify using a provisioning strategy I can't thoroughly test for a
     production project.
@@ -630,7 +638,7 @@ came out of a conversation with fellow software developer, [Chris Adkins].
 [Terraform]: https://developer.hashicorp.com/terraform
 [Infrastructure as Code (IaC)]:
     https://en.wikipedia.org/wiki/Infrastructure_as_code
-[SSH]: https://en.wikipedia.org/wiki/Secure_Shell
+[secure shell (SSH)]: https://en.wikipedia.org/wiki/Secure_Shell
 [DigitalOcean]: https://www.digitalocean.com/
 [Cloudflare]: https://www.cloudflare.com/
 [Google Cloud Services (GCS)]: https://cloud.google.com/
@@ -651,12 +659,13 @@ came out of a conversation with fellow software developer, [Chris Adkins].
     https://developer.hashicorp.com/terraform/language/resources/provisioners/file
 [remote-exec]:
     https://developer.hashicorp.com/terraform/language/resources/provisioners/remote-exec
+[SSH]: https://en.wikipedia.org/wiki/Secure_Shell
 [runtime verification]: https://en.wikipedia.org/wiki/Runtime_verification
 [a remote execution]:
     https://github.com/systemcarl/folio/blob/v0.0.1/infra/main.tf#L129-L137
 [checks]:
     https://github.com/systemcarl/folio/blob/v0.0.1/infra/cloud-init.tftpl#L75-L91
-[trigger]:
+[trigger argument]:
     https://registry.terraform.io/providers/hashicorp/null/latest/docs/resources/resource#triggers-1
 [already using Docker]: #i-could-hardly-contain-myself
 [Docker package registry]: https://www.docker.com/products/docker-hub/
