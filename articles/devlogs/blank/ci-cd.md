@@ -353,34 +353,37 @@ The simple configuration made it an easy choice for setting up a reverse
 #### Phoning It In
 It doesn't take long to realize that keeping application logs locally on the
     server is not a great idea.
-More than anything, it's horribly tedious to SSH into the server to browse
-    through log files.
+More than anything, it's horribly tedious to access the log files remotely,
+    either by SSH-ing into the host machine or by copying them out manually.
 Exporting logs automatically from the server to a centralized logging service
     makes it much less painful to actively monitor an application.
-Having a remote copy of the logs (and ideally another backup) is also a very
+Having another copy of the logs (and ideally, yet another backup) is also a very
     good idea.
 Logs can often go missing due to disk failures, application crashes, or a sneaky
     hacker helping you hide all your security breaches.
 
-[Grafana Cloud] was a product I had been meaning to try for some time.
+[Grafana Cloud] was another product I had been meaning to try for some time.
+I set up a Grafana Cloud account to outsource my log aggregation and monitoring.
 With a free account, you can get a hosted instance of [Loki], an open-source log
     aggregation system,
 with managed [Grafana] dashboards (also open-source) for easy visualization.
 It also comes with a [plugin] to export logs to persistent storage (like GCS)
     for long-term archival, or to migrate logs to another service.
 Integrating it was also quite easy using [Grafana Alloy], a lightweight log
-    forwarder that I could run as another Docker container on the server.
+    forwarder that I simply ran as another Docker container on the server.
 The only effort was [configuring Alloy] to parse and format the logs to be
     optimized for Loki
 — though most of this might be optional if you're not picky about how your logs
     are labelled and organized.
 
 While system errors from the SvelteKit server are included in the aggregated
-    application logs,
+    application logs sent to Grafana Cloud,
 the real error monitoring is handled by [Sentry].
-This happens within the application itself,
-so as long the correct DSN is set in the environment variables,
-error reports are automatically sent to Sentry's servers.
+I installed Sentry within the application itself,
+so as long the correct Sentry Data Source Name (DSN; the unique identifier for a
+    Sentry project) is set in the environment variables,
+error reports are automatically sent to Sentry's servers and can be viewed
+    through their portal.
 
 ### Taking Action
 The last big piece of the CI/CD pipeline is automation.
