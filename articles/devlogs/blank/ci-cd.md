@@ -212,8 +212,9 @@ It also has a certain reputation for being easy to get started with, and
 Despite having my reservations about declarative languages
     (I just prefer a level of transparency and control that declarative tools
     rarely provide),
-and the recent changes to the Terraform's licensing model, I decided it was at
-    least worth a try.
+and the recent changes to the Terraform's licensing model
+    (downgrading it from open-source to source-available),
+I decided it was at least worth a try.
 
 #### Pie in the Sky
 Terraform itself doesn't actually create or manage any infrastructure, it
@@ -617,7 +618,7 @@ came out of a conversation with fellow software developer, [Chris Adkins].
 [Python]: https://www.python.org/
 [venv]: https://docs.python.org/3/library/venv.html
 [Docker]: https://www.docker.com/
-[image]:
+[Docker image]:
     https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-an-image/
 [container]:
     https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-container/
