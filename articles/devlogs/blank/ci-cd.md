@@ -223,7 +223,8 @@ So to use Terraform, you first need to set up an account with the cloud provider
     you want to use for each element of your infrastructure.
 In my case, I used:
 - [DigitalOcean] for hosting the application server;
-- [Cloudflare] to manage DNS records and provide a public facing proxy;
+- [Cloudflare] to manage [Domain Name System (DNS) records] and provide a public
+    facing proxy;
 - and [Google Cloud Services (GCS)] for persistent storage.
 
 A GCS bucket wasn't necessary for the deployment itself, but to store
@@ -633,6 +634,8 @@ came out of a conversation with fellow software developer, [Chris Adkins].
 [DigitalOcean]: https://www.digitalocean.com/
 [Cloudflare]: https://www.cloudflare.com/
 [Google Cloud Services (GCS)]: https://cloud.google.com/
+[Domain Name System (DNS) records]:
+    https://en.wikipedia.org/wiki/Domain_Name_System#Resource_records
 [Terraform's state]: https://developer.hashicorp.com/terraform/language/state
 [pipeline Bash scripts]: #following-the-script
 [testing framework]:
