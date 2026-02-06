@@ -483,8 +483,9 @@ To provide a complete testing strategy, the solution often requires a clever
 Unfortunately, there are no official, off-the-shelf testing tools for GitHub
     Actions workflows.
 Even third-party tools that help with local development, like [Act], don't
-    provide any testing frameworks to verify workflow functionality without
-    a real workflow execution.
+    provide any testing frameworks.
+There's no way to easily verify workflow functionality; testing typically
+    requires executing the full workflow against a real environment and manually verifying the results.
 
 With all the limitations and general lack of standard practices, this seemed
     like an interesting problem to explore.
