@@ -423,17 +423,20 @@ While Github Actions can be used for free, it's not without limitations.
 Only public repositories can use Github Actions without restrictions,
 and even then, there are limits on the amount of compute time available
     per month before billing starts.
-And while workflows can be run self-hosted runners, or through an alternate
-    CI/CD platform,
+And while Github Actions workflows can be run on self-hosted runners, or through
+    an another compatible CI/CD platform,
 these options require more setup and maintenance overhead that are ideally
     avoided.
+Many of the choices I had made earlier in the project were to decouple my CI/CD
+    pipeline from supporting CI/CD platforms and mitigate these issues.
 
-Avoiding dependency on a specific platform, or any platform at all, was my
-    primary motivation for [designing a clean CLI interface].
-This way, I can run the pipeline anywhere with a Bash-compatible shell,
-    including any GitHub Actions runner.
+My primary motivation for [designing a clean CLI interface] was avoiding
+    unnecessary dependency on a specific platform.
+With a clean, self-contained CLI, I can run the pipeline anywhere with a
+    Bash-compatible shell — a GitHub Actions runner, or really any other modern
+    system.
 The [Github Actions workflows] for the project are therefore simply just
-    wrappers for invoking the pipeline scripts.
+    wrappers for invoking my CI/CD pipeline scripts.
 These workflow files simply define the conditions for execution:
 defining the environment variables to pass into the scripts,
 and configuring the triggering events.
@@ -441,21 +444,25 @@ Some additional structure to the workflows did help simplify the workflows;
 by generalizing the pipeline script workflows, chaining [workflow dispatches]
     made it easy to reuse setup between different [environment deployments].
 
+The automation for my CI/CD pipeline also completely optional; the pipeline
+    can still be executed locally at any time, or even run concurrently on
+    multiple CI/CD platforms.
 Since the Terraform state files are stored remotely in GCS, both local and
     remote executions of the pipeline can share state, synchronizing deployment
     processes.
 Otherwise it would be either very difficult (or stupidly risky) to locally
     execute commands against automated deployment environments
 — resources could easily be duplicated, destroyed, or orphaned.
-But with this setup, it's easy to follow up automated deployments with local
-    commands to troubleshoot issues or manage resources between releases.
+But with this shared state, it's easy to follow up automated deployments with
+    local commands to troubleshoot issues or manage resources between releases.
 
-One other benefit of using GitHub Actions is the automatic [commit status]
+One particular benefit of using GitHub Actions is the automatic [commit status]
     integration:
 the execution status of GitHub Action runs are automatically stored within the
     repository's commit history.
-To provide this execution status feedback during local executions, I also added some simple
-    [GitHub API integration] to manually update commit statuses.
+To provide this execution status feedback during local executions, I needed to
+    add an additional [GitHub API integration] to manually update commit
+    statuses when running the pipeline outside of GitHub Actions.
 While this doesn't provide the same resolution as the GitHub Actions runs
     themselves,
 it standardizes the most important information between execution environments.
