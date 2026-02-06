@@ -396,24 +396,27 @@ This was to create an ideal system,
     in which any change to the application source code
     automatically delivers itself to production without requiring any manual
     intervention.
-Also, having a more centralized CI/CD environment (instead of just running scripts
-    locally) provides a way to monitor and manage deployments at scale.
+Also, having a more centralized CI/CD environment (instead of just running
+    scripts locally) provides a way to monitor and manage deployments at scale.
 
+After some internal deliberation, I decided to use [GitHub Actions] as the CI/CD
+    platform to automate the pipeline execution
 Since [GitHub] is by far the most popular code hosting platform,
 most people have at least heard of [GitHub Actions].
 At first I had some concerns about using a platform-specific CI/CD solution,
-    worrying about portability and [vendor lock-in].
+    like GitHub Actions, worrying about portability and [vendor lock-in].
 However, I did find that there are now many open-source solutions (like [Gitea])
-    that can be used to run GitHub Actions workflows outside of the GitHub platform
-    itself.
-Otherwise GitHub Actions workflows are nice because of their simplicity and
-    tight integration with other Git services.
-Readable [YAML] configuration files define CI/CD steps that can be triggered
+    that can be used to run GitHub Actions workflows outside of the GitHub
+    platform itself.
+Aside from my (arguably excessive) concerns,
+GitHub Actions workflows are nice because of their simplicity
+and tight integration with other services on the GitHub platform.
+Readable [YAML] configuration files define workfloes that can be triggered
     manually with control over environment variables and secrets,
 or automatically on [repository events], like updates to specific files or
     branches, or in response to a pull request.
-GitHub also provides free hosted ["runners"] to execute workflows within a
-    preconfigured, on-demand environment, which is incredibly convenient.
+GitHub Actions also provides free hosted ["runners"] to execute workflows within
+    a preconfigured, on-demand environment, which is incredibly convenient.
 
 #### Countering Compute Time
 While Github Actions can be used for free, it's not without limitations.
