@@ -1,7 +1,7 @@
 # DevLog: Exploring CI/CD for a Modern (SvelteKit) Web Application
 Over the summer, [I have been working on a new web application] to host my
     [personal portfolio] and weblog.
-[The application] dynamically generates pages on demand,
+[The application I've been developing] dynamically generates pages on demand,
     [populated and styled using static JSON files].
 To achieve this, I've been using [SvelteKit]'s [server-side rendering (SSR)] to
     produce the HTML pages live.
@@ -9,14 +9,16 @@ Unlike a traditional, statically-served website,
 deploying a server-side application requires the application to be
     built, installed, and run (and remain running) on a production server.
 To handle this non-trivial deployment process I decided to implement
-    [a continuous integration and continuous deployment (CI/CD) pipeline],
-automating the whole ordeal.
-The goal of implementing [this pipeline] (and any CI/CD pipeline, I imagine) is
-    to reduce common tasks into single, self-contained actions.
+    a [continuous integration and continuous deployment (CI/CD) pipeline],
+automating away the whole ordeal
+(though admittedly, implementing a complete CI/CD pipeline is a whole ordeal in
+    itself).
+The goal of implementing [this CI/CD pipeline, to which I'm referring]
+    (and any CI/CD pipeline, I imagine) is to reduce common tasks into single, self-contained actions.
 
-Without a CI/CD pipeline, every update to the application code would need to be
-    followed by a tedious series of unreliable, impromptu steps probably
-    including:
+Developing and maintaining my personal website without a CI/CD pipeline, every
+    update to the application code would need to be followed by a tedious series
+    of unreliable, *ad hoc* steps, probably including and surely not limited to:
 1. Execute several commands in a terminal to test and build the application.
 2. Copy the built application to a publicly accessible server;
 3. Fiddle with server configuration to install new dependencies or curate
@@ -27,10 +29,18 @@ Without a CI/CD pipeline, every update to the application code would need to be
 
 Implementing an automatic process to build, test, and deploy the application
     means there is no tedious, risky manual work discouraging regular updates.
-Automation also makes it institute more intensive processes, like
+Automation also makes it possible to institute more intensive processes, like
     deploying each update to a brand new, freshly updated server instance
 — something that would be insane to do by hand, but is essential for maintaining
     a secure, reliable application.
+
+Aside from the obvious benefits of automation,
+    implementing a CI/CD pipeline is also a great way to learn about blessings
+    and pitfalls of modern software deployment.
+My humble SvelteKit application, simply for hosting my personal website,
+    likely doesn't warrant the complexity of a full-fledged CI/CD pipeline.
+However, it is the perfect sandbox to explore and experiment with different
+    tools and practices — to satisfy my own curiosity, if nothing else.
 
 ## Putting the Pieces Together
 True to its namesake, a CI/CD pipeline is made up of many smaller pieces that
@@ -46,8 +56,8 @@ Combining command-line scripting, containerization, infrastructure as code,
 the pipeline provides a tractable means for managing the entire deployment
     lifecycle.
 
-When selecting each tool and service, one goal was to make the pipeline as
-    self-contained and portable as possible,
+When selecting each tool and service, one of my goals was to make the pipeline
+    as self-contained and portable as possible,
 so the pipeline could be easily share along with the application itself.
 Choosing tools that were platform-agnostic and widely supported across operating
     systems was a priority.
@@ -58,8 +68,8 @@ Minimizing external dependencies also helped keep the project easier to manage,
 With less tools and services required, there are fewer installation steps and
     environment configurations needed to get started.
 
-Most projects choose to include the CI/CD configuration files directly within a
-    same repository as the main application source code.
+Most projects choose to include the CI/CD scripts and configuration files
+    directly within a same repository as the main application source code.
 However, I decided to keep the CI/CD pipeline separate, in its own repository,
 to decouple the application from the specific CI/CD implementation I was using.
 Since [the application is effectively just a template]
@@ -74,20 +84,21 @@ This separation proved to be beneficial as both my application and CI/CD
 Almost all of the operations were specific to the architecture prescribed by the
     CI/CD pipeline, not the application.
 
-The only exception was the step for building the SvelteKit application from the
-    source code,
-which ended up being more independent of customization than I had expected.
+The only step that did not end up being specific to the deployment architecture
+    was building the SvelteKit application from the source code
+— in the end the build was more independent of customization than I had
+    expected.
 Any deployment specific configuration is evaluated at runtime
     — by the built application itself, not during the build process —
 including template customization which is fetched live from static resources.
 This means that the resulting artifacts from the application build can be
-    versioned with the [generic source code],
+    versioned with [the application source code],
 without concern for the deployment environment, configuration files, themes,
-    or content.
+    content, or anything else specific to the CI/CD pipeline.
 
 ### Following the Script
-To balance portability with convenience, I chose to implement the CI/CD pipeline
-    using [Bash].
+To balance portability with convenience, I chose to implement the majority of
+    the CI/CD pipeline using [Bash].
 The bulk of the pipeline is [defined using Bash scripts] that can be run on any
     system with a compatible shell environment
 (which is most systems at this point).
@@ -618,14 +629,14 @@ came out of a conversation with fellow software developer, [Chris Adkins].
 
 [I have been working on a new web application]: ./sveltekit.md
 [personal portfolio]: https://carledwardlyons.ca
-[the application]: https://github.com/systemcarl/blank
+[the application I've been developing]: https://github.com/systemcarl/blank
 [populated and styled using static JSON files]: ./sveltekit.md#knobs-and-dials
 [SvelteKit]: https://svelte.dev/docs/kit/introduction
 [server-side rendering (SSR)]:
     https://developer.mozilla.org/en-US/docs/Glossary/SSR
-[a continuous integration and continuous deployment (CI/CD) pipeline]:
+[continuous integration and continuous deployment (CI/CD) pipeline]:
     https://en.wikipedia.org/wiki/CI/CD
-[this pipeline]: https://github.com/systemcarl/folio
+[this CI/CD pipeline, to which I'm referring]: https://github.com/systemcarl/folio
 [Windows Subsystem for Linux (WSL)]:
     https://docs.microsoft.com/en-us/windows/wsl/about
 [the application is effectively just a template]:
