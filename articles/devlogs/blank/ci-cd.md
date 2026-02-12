@@ -44,41 +44,45 @@ However, it is the perfect sandbox to explore and experiment with different
 
 ## Putting the Pieces Together
 True to its namesake, a CI/CD pipeline is made up of many smaller pieces that
-    deliver artifacts (e.g., code, configurations files, build outputs)
+    deliver artifacts (*e.g.*, code, configurations files, build outputs)
 from one to the next, end-to-end.
 Each piece is responsible for a specific task; every step brings the final
     product closer to delivery.
-This project, the CI/CD pipeline solution I implemented for my personal website,
+This project, [the CI/CD pipeline solution I implemented]
+    for [my personal website],
 combines several tools and services to create a hands-off, repeatable process
     for deploying the application.
 Combining command-line scripting, containerization, infrastructure as code,
     log aggregation, and platform automation,
 the pipeline provides a tractable means for managing the entire deployment
-    lifecycle.
+    lifecycle with a balance between control and convenience.
 
 When selecting each tool and service, one of my goals was to make the pipeline
     as self-contained and portable as possible,
 so the pipeline could be easily share along with the application itself.
 Choosing tools that were platform-agnostic and widely supported across operating
     systems was a priority.
-Ideally, all of the pipeline could be run on any UNIX-like system, including
-    Windows — via [Windows Subsystem for Linux (WSL)].
-Minimizing external dependencies also helped keep the project easier to manage,
-    maintain, and replicate.
+Ideally, each piece of the pipeline could be run on any UNIX-like system,
+    — even Windows, via [Windows Subsystem for Linux (WSL)].
+Minimizing external dependencies also helped keep the pipeline easier to manage,
+    maintain, and replicate for use in other projects.
 With less tools and services required, there are fewer installation steps and
-    environment configurations needed to get started.
+    environment configurations needed to get started or make changes.
 
 Most projects choose to include the CI/CD scripts and configuration files
-    directly within a same repository as the main application source code.
-However, I decided to keep the CI/CD pipeline separate, in its own repository,
-to decouple the application from the specific CI/CD implementation I was using.
+    that make up the pipeline
+directly within a same repository as the main application source code.
+However, I decided to keep the CI/CD pipeline files separate, in their own
+    repository,
+to decouple the application from the specific CI/CD implementation I have been
+    developing.
 Since [the application is effectively just a template]
     — the content and style all being loaded in live, for each request —
 the application could be re-used for a host of different purposes
-    (e.g., personal portfolio, blog, documentation site, etc.).
-Every deployment for each different purpose would likely require its own
+    (*e.g.*, personal portfolios, blogs, documentation sites, *etc.*).
+Every deployment, for each different purpose, would likely require its own
     deployment configuration and CI/CD requirements
-that the CI/CD pipeline discussed here would not be able to satisfy.
+that [the CI/CD pipeline discussed here] would not be able to satisfy.
 This separation proved to be beneficial as both my application and CI/CD
     pipeline evolved.
 Almost all of the operations were specific to the architecture prescribed by the
@@ -86,7 +90,7 @@ Almost all of the operations were specific to the architecture prescribed by the
 
 The only step that did not end up being specific to the deployment architecture
     was building the SvelteKit application from the source code
-— in the end the build was more independent of customization than I had
+— in the end the build step was more independent of customization than I had
     expected.
 Any deployment specific configuration is evaluated at runtime
     — by the built application itself, not during the build process —
@@ -94,7 +98,7 @@ including template customization which is fetched live from static resources.
 This means that the resulting artifacts from the application build can be
     versioned with [the application source code],
 without concern for the deployment environment, configuration files, themes,
-    content, or anything else specific to the CI/CD pipeline.
+    content, or anything else specific to the CI/CD pipeline implementation.
 
 ### Following the Script
 To balance portability with convenience, I chose to implement the majority of
@@ -636,11 +640,17 @@ came out of a conversation with fellow software developer, [Chris Adkins].
     https://developer.mozilla.org/en-US/docs/Glossary/SSR
 [continuous integration and continuous deployment (CI/CD) pipeline]:
     https://en.wikipedia.org/wiki/CI/CD
-[this CI/CD pipeline, to which I'm referring]: https://github.com/systemcarl/folio
+[this CI/CD pipeline, to which I'm referring]:
+    https://github.com/systemcarl/folio
+[the CI/CD pipeline solution I implemented]:
+    https://github.com/systemcarl/folio
+[my personal website]: https://carledwardlyons.ca
 [Windows Subsystem for Linux (WSL)]:
     https://docs.microsoft.com/en-us/windows/wsl/about
 [the application is effectively just a template]:
     ./content-template.md
+[the CI/CD pipeline discussed here]:
+    https://github.com/systemcarl/folio
 [the application source code]: https://github.com/systemcarl/blank
 [Bash]: https://en.wikipedia.org/wiki/Bash_(Unix_shell)
 [defined using Bash scripts]:
