@@ -121,7 +121,7 @@ running a single script executes a specific step of the process, without
 It took some trial and error (a lot of error) to determine the best way to
     structure and arrange the Bash scripts and breakdown the pipeline tasks.
 This exercise in software design gave me a much deeper appreciation for the
-    scope and complexity of CI/CD and DevOps in general.
+    scope and complexity of CI/CD and [DevOps] in general.
 The final [use-case diagram] illustrates the overall flow of the pipeline,
     describing the overall functionality provided.
 Documentation for the resulting command line interface (CLI) can be found in
@@ -675,6 +675,7 @@ came out of a conversation with fellow software developer, [Chris Adkins].
 [Bash]: https://en.wikipedia.org/wiki/Bash_(Unix_shell)
 [defined using Bash scripts]:
     https://github.com/systemcarl/folio/tree/v0.0.1/cli
+[DevOps]: https://en.wikipedia.org/wiki/DevOps
 [use-case diagram]:
     https://www.figma.com/board/KlVlC2x59WcyfeWcGDwh5A/Portfolio-Plans?t=VNSCcSgmN5HuSPOm-6
 [README]: https://github.com/systemcarl/folio/tree/v0.0.1#readme
