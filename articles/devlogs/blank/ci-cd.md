@@ -347,8 +347,9 @@ The only alternative I can imagine would be to fully image the virtual machine
 ### Stacking Containers
 To fully implement a modern web application deployment, I had to
     install more than just my [SvelteKit] application on the server.
-I needed more that just the ScriptKit server application to effectively handle
-    incoming requests and monitor application health and performance.
+I needed something more robust than the built-in Node.js server application to
+    effectively handle incoming requests and monitor application health and
+    performance.
 Fortunately, since [I was already using Docker], I could containerize the other
     required services as well.
 The [Docker package registry] makes it easy to install most applications as
