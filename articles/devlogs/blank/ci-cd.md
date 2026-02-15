@@ -354,7 +354,8 @@ Fortunately, since [I was already using Docker], I could containerize the other
 The [Docker package registry] makes it easy to install most applications as
     pre-configured Docker containers from any system with Docker installed and
     access to the internet.
-A ready-to-use application can be [downloaded and run with a single command].
+A ready-to-use application image can be
+    [downloaded and run with a single command].
 These containerized applications have the benefit of being isolated to prevent
     conflicts with each other,
 but still with the ability to communicate — with each other, the host, or the
