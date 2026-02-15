@@ -102,26 +102,30 @@ without concern for the deployment environment, configuration files, themes,
 
 ### Following the Script
 To balance portability with convenience, I chose to implement the majority of
-    the CI/CD pipeline using [Bash].
+    my CI/CD pipeline using [Bash].
 The bulk of the pipeline is [defined using Bash scripts] that can be run on any
     system with a compatible shell environment
 (which is most systems at this point).
 
-Bundling the pipeline logic into a set of Bash scripts clearly defines
-    the pipeline actions.
-Each script is responsible for a specific task in the process, combining
-    shared functions, systems commands, and in many cases, other prerequisite
-    scripts.
+Bundling the pipeline logic into a set of Bash scripts clearly defines the
+    pipeline actions.
+I built each script to be responsible for a specific step in the pipeline
+    process,
+combining shared functions, systems commands, and in many cases, other
+    prerequisite scripts.
 This modularity makes it easy to manage the individual steps of the pipeline
-    for troubleshooting or maintenance,
-while still providing a single entry point to run the whole process.
+    for troubleshooting or maintenance;
+running a single script executes a specific step of the process, without
+    requiring the rest of the pipeline to be executed.
 
-It took some trial, and a lot of error, to determine the best way to structure
-    the Bash scripts and breakdown the pipeline tasks.
+It took some trial and error (a lot of error) to determine the best way to
+    structure and arrange the Bash scripts and breakdown the pipeline tasks.
+This exercise in software design gave me a much deeper appreciation for the
+    scope and complexity of CI/CD and DevOps in general.
 The final [use-case diagram] illustrates the overall flow of the pipeline,
     describing the overall functionality provided.
-The resulting command line interface (CLI) is fully documented in the project
-    [README] file.
+Documentation for the resulting command line interface (CLI) can be found in
+    the project [README] file.
 
 #### Bash With Bats
 Since the vast majority of the pipeline logic is implemented in Bash scripts,
