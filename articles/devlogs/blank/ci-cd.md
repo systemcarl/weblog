@@ -422,7 +422,7 @@ error reports are automatically sent to Sentry's servers and can be viewed
     through their portal.
 
 ### Taking Action
-The last big piece of the CI/CD pipeline is automation.
+The last big piece of the CI/CD pipeline was automation.
 For this project, working only by myself with fairly infrequent updates,
 it would have been fine to just manually trigger the pipeline using
     [the simple CLI I had created].
@@ -430,28 +430,29 @@ But since this is a project to explore CI/CD practices,
 I wanted to implement some form of automated triggering.
 This was to create an ideal system,
     in which any change to the application source code
-    automatically delivers itself to production without requiring any manual
+    automatically delivers itself to production without requiring any human
     intervention.
 Also, having a more centralized CI/CD environment (instead of just running
-    scripts locally) provides a way to monitor and manage deployments at scale.
+    scripts locally) provides a way to monitor and manage deployments as the
+    project scales to host more content and serve more users.
 
 After some internal deliberation, I decided to use [GitHub Actions] as the CI/CD
     platform to automate the pipeline execution
 Since [GitHub] is by far the most popular code hosting platform,
-most people have at least heard of [GitHub Actions].
+most developers have at least heard of [GitHub Actions].
 At first I had some concerns about using a platform-specific CI/CD solution,
     like GitHub Actions, worrying about portability and [vendor lock-in].
 However, I did find that there are now many open-source solutions (like [Gitea])
     that can be used to run GitHub Actions workflows outside of the GitHub
     platform itself.
-Aside from my (arguably excessive) concerns,
+Aside from my (arguably undue) concerns,
 GitHub Actions workflows are nice because of their simplicity
 and tight integration with other services on the GitHub platform.
-Readable [YAML] configuration files define workfloes that can be triggered
+Readable [YAML] configuration files define workflows that can be triggered
     manually with control over environment variables and secrets,
 or automatically on [repository events], like updates to specific files or
     branches, or in response to a pull request.
-GitHub Actions also provides free hosted ["runners"] to execute workflows within
+GitHub Actions also provides free [hosted runners] to execute workflows within
     a preconfigured, on-demand environment, which is incredibly convenient.
 
 #### Countering Compute Time
@@ -476,11 +477,11 @@ The [Github Actions workflows] for the project are therefore simply just
 These workflow files simply define the conditions for execution:
 defining the environment variables to pass into the scripts,
 and configuring the triggering events.
-Some additional structure to the workflows did help simplify the workflows;
+Some additional structure to the workflows did help simplify them;
 by generalizing the pipeline script workflows, chaining [workflow dispatches]
     made it easy to reuse setup between different [environment deployments].
 
-The automation for my CI/CD pipeline also completely optional; the pipeline
+The automation for my CI/CD pipeline is also completely optional; the pipeline
     can still be executed locally at any time, or even run concurrently on
     multiple CI/CD platforms.
 Since the Terraform state files are stored remotely in GCS, both local and
@@ -497,7 +498,7 @@ One particular benefit of using GitHub Actions is the automatic [commit status]
 the execution status of GitHub Action runs are automatically stored within the
     repository's commit history.
 To provide this execution status feedback during local executions, I needed to
-    add an additional [GitHub API integration] to manually update commit
+    add [an additional GitHub API integration] to manually update commit
     statuses when running the pipeline outside of GitHub Actions.
 While this doesn't provide the same resolution as the GitHub Actions runs
     themselves,
@@ -514,14 +515,15 @@ It stands to reason, that if you are reliant on an automated process to test
     your solution, then the automation should also be tested thoroughly.
 However, the cycle of testing the tests can potentially go on forever.
 To provide a complete testing strategy, the solution often requires a clever
-    way to 'close the loop', and create a test that effectively verifies itself.
+    way to "close the loop", and create a test that effectively verifies itself.
 
 Unfortunately, there are no official, off-the-shelf testing tools for GitHub
     Actions workflows.
 Even third-party tools that help with local development, like [Act], don't
     provide any testing frameworks.
 There's no way to easily verify workflow functionality; testing typically
-    requires executing the full workflow against a real environment and manually verifying the results.
+    requires executing the full workflow against a full environment using real
+    production resources and manually verifying the results.
 
 With all the limitations and general lack of standard practices, this seemed
     like an interesting problem to explore.
@@ -538,10 +540,10 @@ Since all I was concerned about was validating the CLI input and environment,
     the evaluated configuration.
 To make sure secret values were not accidentally exposed in the outputs,
     the scripts returned truncated hashes of the combined variables.
-The [verification workflow] dry run outputs could then be verified against the
+[The verification workflow] dry run outputs could then be verified against the
     outputs from the expected CLI invocations.
-As a bonus, this verification workflow also first verified all the environments
-    (including the verification environment itself) were configured correctly,
+As a bonus, this verification workflow also first verifies all the environments
+    (including the verification environment itself) are configured correctly,
 to make troubleshooting variable misconfigurations much easier
 and prevent tests from accidentally acting against production resources.
 
@@ -772,7 +774,7 @@ came out of a conversation with fellow software developer, [Chris Adkins].
 [YAML]: https://en.wikipedia.org/wiki/YAML
 [repository events]:
     https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows
-["runners"]:
+[hosted runners]:
     https://docs.github.com/en/actions/concepts/runners/github-hosted-runners
 [designing a clean CLI interface]: #following-the-script
 [Github Actions workflows]:
@@ -783,7 +785,7 @@ came out of a conversation with fellow software developer, [Chris Adkins].
     https://docs.github.com/en/actions/reference/workflows-and-actions/deployments-and-environments
 [commit status]:
     https://docs.github.com/en/rest/commits/statuses
-[GitHub API integration]:
+[an additional GitHub API integration]:
     https://github.com/systemcarl/folio/blob/v0.0.1/cli/status
 [Act]: https://nektosact.com/
 [an example]:
@@ -791,7 +793,7 @@ came out of a conversation with fellow software developer, [Chris Adkins].
 [workflow outputs]:
     https://docs.github.com/en/actions/how-tos/reuse-automations/reuse-workflows#using-outputs-from-a-reusable-workflow
 [dry run]: https://en.wikipedia.org/wiki/Dry_run_(testing)
-[verification workflow]:
+[The verification workflow]:
     https://github.com/systemcarl/folio/blob/v0.0.1/.github/workflows/verify.yaml
 [limitations with Terraform]: #too-good-to-be-simple
 [actions]:
