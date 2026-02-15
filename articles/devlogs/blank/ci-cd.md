@@ -387,8 +387,8 @@ The simple configuration made it an easy choice for setting up a reverse
     proxy with minimal configuration overhead.
 
 #### Phoning It In
-It doesn't take long to realize that keeping application logs locally on the
-    server is not a great idea.
+It doesn't take long to realize that storing application logs on the server is
+    not a great idea.
 More than anything, it's horribly tedious to access the log files remotely,
     either by SSH-ing into the host machine or by copying them out manually.
 Exporting logs automatically from the server to a centralized logging service
@@ -407,7 +407,7 @@ It also comes with a [plugin] to export logs to persistent storage (like GCS)
     for long-term archival, or to migrate logs to another service.
 Integrating it was also quite easy using [Grafana Alloy], a lightweight log
     forwarder that I simply ran as another Docker container on the server.
-The only effort was [configuring Alloy] to parse and format the logs to be
+The only effort was [configuring Alloy to parse and format the logs] to be
     optimized for Loki
 — though most of this might be optional if you're not picky about how your logs
     are labelled and organized.
@@ -761,7 +761,7 @@ came out of a conversation with fellow software developer, [Chris Adkins].
 [Grafana]: https://grafana.com/
 [plugin]: https://grafana.com/docs/grafana-cloud/send-data/logs/export/
 [Grafana Alloy]: https://grafana.com/docs/alloy/latest/
-[configuring Alloy]:
+[configuring Alloy to parse and format the logs]:
     https://github.com/systemcarl/folio/blob/v0.0.1/infra/config.alloy.tftpl
 [Sentry]: https://sentry.io/
 [the simple CLI I had created]: #following-the-script
