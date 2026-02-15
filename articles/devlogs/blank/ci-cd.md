@@ -158,24 +158,38 @@ these helper functions also [store mock call counts and arguments] in a
 
 ### I Could Hardly Contain Myself
 For most of [my software development career], I've been deploying my projects
-    manually.
+    manually, copying files and typing out every system command.
 For statically-served sites made of pre-baked HTML and stand-alone JavaScript,
-    this was easy enough.
-When I needed a more complex setup, I would rely entirely on manually configured
-    virtual environments, like [Python]'s [venv].
-This was always a horrific experience filled with unexpected issues, often
-    stemming from malformed commands.
-Often these environments were reused indefinitely to reduce setup.
-This just led to more problems down the line:
-strange dependency conflicts
-and stale system packages with major security vulnerabilities.
+    manual deployment is easy enough:
+1. Install a web server.
+2. Copy the files to the server.
 
-It was about time I started deploying applications with [Docker].
-Docker has become a ubiquitous tool for packaging applications, and for good
-    reason.
+However, anything more complex than a simple static site quickly becomes a
+    challenge to manage.
+In the past, when I needed to setup a more complex environment, I would rely
+    entirely on one-off virtual runtime environments, like [Python]'s [venv].
+Runtime environments help isolate runtime dependencies (like Python packages)
+    from other applications using similar dependencies (however, they still interact directly with the host system).
+This worked well-enough at first, but later updates to the deployments became a
+    horrific experience filled with unexpected issues, often stemming from
+    malformed commands.
+On their own, these environments can be time consuming to set up.
+Due to the time required for setup, they would be reused indefinitely,
+leading to problems over time;
+unexpected dependency conflicts within the runtime environments and stale
+    system packages with major security vulnerabilities
+regularly crippled production environments.
+
+It was about time I stopped relying on these fragile, manual processes and
+    started containerizing my applications.
+[Containerization] is a powerful strategy for packaging and deploying
+    applications.
 It allows applications to be bundled with all their dependencies in a relatively
     lightweight, portable format
-— that can be run on just about any system, so long as Docker is installed.
+— that can be run on just about any system with a compatible container engine
+    installed.
+In [my CI/CD pipeline], I used [Docker] to containerize and deploy my
+    SvelteKit application.
 By bundling up the application and its dependencies into a single filesystem
     [Docker image],
 I no longer have to worry about environment inconsistencies and every
@@ -185,30 +199,32 @@ Each Docker [container] runs an application (or sometimes multiple applications)
     running on the same host.
 
 I used Docker extensively throughout this project.
-Aside from containerizing and deploying my application to a production server,
+In addition to containerizing and deploying my application to a production
+    server,
 Docker also provides a standardized development environment to test deployment
     configurations on my local machine.
 On the production server, I also used Docker to install and run other services
     required by the application.
 Docker was also useful for running pipeline dependencies without worrying about
-    installation or compatibility issues
+    system installation or compatibility issues
 (e.g., [running Bats tests] in a Docker container, without needing to manually
     install Bats via a package manager or from source).
 
-If anything, I don't think I used Docker (or an alternate containerization
-    tool) enough in this project.
+If anything, I don't think I used containerization enough in this project.
 In retrospect, it would be ideal to containerize the entire CI/CD pipeline
-    itself to simplify the CI/CD environment.
+    itself as an image to simplify setup of the CI/CD environment
+(the environment used to create and manage the testing and production
+    environment).
 However, to achieve this for my specific use-cases, it would require Docker
     executions to themselves run other Docker containers.
-This is possible using [Docker-in-Docker (DinD)] to run Docker containers
-    within a running Docker container,
-or by exposing the host's Docker socket to the container to run
-    Docker-out-of-Docker (DooD).
+This is possible to run Docker containers within a running Docker container,
+often referred to as *[Docker-in-Docker (DinD)]*,
+or by exposing the host's Docker socket to the container,
+*Docker-out-of-Docker (DooD)*.
 Both approaches have their own drawbacks that would require careful
     consideration.
 At this point, it was probably best that I didn't attempt any of this as
-    things were already [too complicated].
+    [things were already getting too complicated].
 
 ### Terraform the Cloud
 Something else I had little experience with before this project was using
@@ -676,6 +692,8 @@ came out of a conversation with fellow software developer, [Chris Adkins].
     https://github.com/systemcarl/folio/blob/v0.0.1/cli/tests/deploy.bats#L315-L317
 [Python]: https://www.python.org/
 [venv]: https://docs.python.org/3/library/venv.html
+[Containerization]:
+    https://en.wikipedia.org/wiki/Containerization_(virtualization)
 [Docker]: https://www.docker.com/
 [Docker image]:
     https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-an-image/
@@ -684,7 +702,8 @@ came out of a conversation with fellow software developer, [Chris Adkins].
 [running Bats tests]: #bash-with-bats
 [Docker-in-Docker (DinD)]:
     https://www.docker.com/resources/docker-in-docker-containerized-ci-workflows-dockercon-2023/
-[too complicated]: #an-ambitious-task-from-end-to-end
+[things were already getting too complicated]:
+    #an-ambitious-task-from-end-to-end
 [Terraform]: https://developer.hashicorp.com/terraform
 [Infrastructure as Code (IaC)]:
     https://en.wikipedia.org/wiki/Infrastructure_as_code
