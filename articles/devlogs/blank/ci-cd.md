@@ -229,15 +229,15 @@ At this point, it was probably best that I didn't attempt any of this as
 ### Terraform the Cloud
 Something else I had little experience with before this project was using
     [Terraform], or any [infrastructure as code (IaC)] tools for that matter.
-Without the tools,
+Without an IaC tool, the
     setup and maintenance of web servers has always required long stressful
     [secure shell (SSH)] sessions,
 copying and pasting artisanal shell commands to craft the perfect machine.
-Again, this manual process discouraged frequent updates.
-Scaling was out of the question.
+Again, this manual process discouraged frequent updates;
+scaling was out of the question.
 Terraform instead allows infrastructure to be defined using simple,
-    declarative configuration files that are magically spawned into existence
-    in exchange for your cloud provider credentials.
+    declarative configuration files that are magically spawn virtual machines
+    into existence in exchange for your cloud provider credentials.
 
 There are a few different IaC tools available,
 but Terraform has a history of wide support across many cloud providers
