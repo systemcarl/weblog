@@ -20,10 +20,10 @@ Developing and maintaining my personal website without a CI/CD pipeline, every
     update to the application code would need to be followed by a tedious series
     of unreliable, *ad hoc* steps, probably including and surely not limited to:
 1. Execute several commands in a terminal to test and build the application.
-2. Copy the built application to a publicly accessible server;
+2. Copy the built application to a publicly accessible server.
 3. Fiddle with server configuration to install new dependencies or curate
-    environment variables;
-4. Manually verify you didn't somehow mess it all up;
+    environment variables.
+4. Manually verify you didn't somehow mess it all up.
 5. Realize you forgot to uncomment a critical line of production code before
     building the application.
 
@@ -59,10 +59,10 @@ the pipeline provides a tractable means for managing the entire deployment
 
 When selecting each tool and service, one of my goals was to make the pipeline
     as self-contained and portable as possible,
-so the pipeline could be easily share along with the application itself.
+so the pipeline could be easily shared along with the application itself.
 Choosing tools that were platform-agnostic and widely supported across operating
     systems was a priority.
-Ideally, each piece of the pipeline could be run on any UNIX-like system,
+Ideally, each piece of the pipeline could be run on any UNIX-like system
     — even Windows, via [Windows Subsystem for Linux (WSL)].
 Minimizing external dependencies also helped keep the pipeline easier to manage,
     maintain, and replicate for use in other projects.
@@ -133,7 +133,7 @@ continuing to maintain the pipeline would be a real nightmare without some way
     to continuously verify the scripts work as intended.
 To properly deliver a working solution, each step must deliver a very specific
     outcome;
-the smallest deviation from the expected result can cause a release to fail.
+the smallest deviation from the expected result can cause a deployment to fail.
 Thorough testing is needed to ensure that each step of the pipeline delivers the
     necessary results to proceed to the next step,
 or at least fails with clear, actionable feedback.
@@ -190,7 +190,7 @@ It allows applications to be bundled with all their dependencies in a relatively
     installed.
 In [my CI/CD pipeline], I used [Docker] to containerize and deploy my
     SvelteKit application.
-By bundling up the application and its dependencies into a single filesystem
+By bundling up the application and its dependencies into a single
     [Docker image],
 I no longer have to worry about environment inconsistencies and every
     installation is the same command on any system with Docker installed.
@@ -207,7 +207,7 @@ On the production server, I also used Docker to install and run other services
     required by the application.
 Docker was also useful for running pipeline dependencies without worrying about
     system installation or compatibility issues
-(e.g., [running Bats tests] in a Docker container, without needing to manually
+(*e.g.*, [running Bats tests] in a Docker container, without needing to manually
     install Bats via a package manager or from source).
 
 If anything, I don't think I used containerization enough in this project.
@@ -279,7 +279,7 @@ And since cloud initialization can be done with [a Bash script],
     it were part of the pipeline itself.
 I was also very happy with how easy it was to
     [separate state files for different environments]
-    (e.g., staging or production).
+    (*e.g.*, staging or production).
 
 Despite the simplicity Terraform provides, I did encounter a significant
     challenge provisioning my server configuration:
@@ -316,7 +316,7 @@ I implemented a [runtime verification] step within the Terraform configuration.
 During the deployment, this verification step confirms the files are copied
     successfully through [a remote execution].
     The deployment only proceeds if the file verification is successful.
-This meant I had to add some [checks] to the initialization script, on the
+This meant I also had to add some [checks] to the initialization script, on the
     cloud side to prevent a race condition between the file transfer
     verification and the finalization of the server setup;
 it's expected that the files to be copied long before the server setup finalizes
@@ -329,7 +329,7 @@ However, it at least provides a clear indication of what went wrong
 and assures that a deployment is only deemed successful if the files were
     actually copied correctly.
 
-Using runtime verification, in lieu of pre-deployment testing,
+Using this runtime verification, in lieu of pre-deployment testing,
 the only part of the whole pipeline that I still could not entirely test was the
     re-provisioning of the configuration between releases.
 The [trigger argument] that causes the configuration to be re-applied if a new
@@ -391,7 +391,7 @@ The simple configuration made it an easy choice for setting up a reverse
 It doesn't take long to realize that storing application logs on the server is
     not a great idea.
 More than anything, it's horribly tedious to access the log files remotely,
-    either by SSH-ing into the host machine or by copying them out manually.
+    either by "SSH-ing" into the host machine or by copying them out manually.
 Exporting logs automatically from the server to a centralized logging service
     makes it much less painful to actively monitor an application.
 Having another copy of the logs (and ideally, yet another backup) is also a very
