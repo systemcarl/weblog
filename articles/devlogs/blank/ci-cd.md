@@ -273,7 +273,7 @@ Using [Terraform] was quite straightforward overall.
 Since Terraform deployments are executed by the command line,
 I could invoke Terraform commands directly from the [pipeline Bash scripts].
 Most of the tests were quite simple to write with Terraform's
-    [testing framework] (if you can call it that).
+    [testing framework] (if you can really call it a framework).
 And since cloud initialization can be done with [a Bash script],
     the provisioned initialization script could be [tested with Bats] as if
     it were part of the pipeline itself.
@@ -326,15 +326,15 @@ Since the verification happens mid-deployment, it doesn't prevent the deployment
     from failing unexpectedly (because, by that point, the deployment is already
     in progress, and an aborted deployment is a failed deployment).
 However, it at least provides a clear indication of what went wrong
-and assures that a deployment is only deemed successful if the files were copied
-    correctly.
+and assures that a deployment is only deemed successful if the files were
+    actually copied correctly.
 
 Using runtime verification, in lieu of pre-deployment testing,
 the only part of the whole pipeline that I still could not entirely test was the
     re-provisioning of the configuration between releases.
 The [trigger argument] that causes the configuration to be re-applied if a new
     server has been provisioned cannot be tested without actually running two
-    full, live deployments.
+    full, live deployments to verify rollover between deployed versions.
 While I understand the reasoning and necessity of this limitation, considering
     Terraform's plan and apply workflow,
 I can't justify using a provisioning strategy I can't thoroughly test for a
