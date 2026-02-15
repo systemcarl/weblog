@@ -103,8 +103,8 @@ without concern for the deployment environment, configuration files, themes,
 ### Following the Script
 To balance portability with convenience, I chose to implement the majority of
     my CI/CD pipeline using [Bash].
-The bulk of the pipeline is [defined using Bash scripts] that can be run on any
-    system with a compatible shell environment
+The bulk of the pipeline is [defined by a collection of Bash scripts] that can
+    be run on any system with a compatible shell environment
 (which is most systems at this point).
 
 Bundling the pipeline logic into a set of Bash scripts clearly defines the
@@ -122,10 +122,10 @@ It took some trial and error (a lot of error) to determine the best way to
     structure and arrange the Bash scripts and breakdown the pipeline tasks.
 This exercise in software design gave me a much deeper appreciation for the
     scope and complexity of CI/CD and [DevOps] in general.
-The final [use-case diagram] illustrates the overall flow of the pipeline,
-    describing the overall functionality provided.
+The final [CI/CD pipeline use-case diagram] illustrates the overall flow of the
+    pipeline, describing the overall functionality provided.
 Documentation for the resulting command line interface (CLI) can be found in
-    the project [README] file.
+    [the project README file].
 
 #### Bash With Bats
 Since the vast majority of the pipeline logic is implemented in Bash scripts,
@@ -676,12 +676,13 @@ came out of a conversation with fellow software developer, [Chris Adkins].
     https://github.com/systemcarl/folio
 [the application source code]: https://github.com/systemcarl/blank
 [Bash]: https://en.wikipedia.org/wiki/Bash_(Unix_shell)
-[defined using Bash scripts]:
+[defined by a collection of Bash scripts]:
     https://github.com/systemcarl/folio/tree/v0.0.1/cli
 [DevOps]: https://en.wikipedia.org/wiki/DevOps
-[use-case diagram]:
+[CI/CD pipeline use-case diagram]:
     https://www.figma.com/board/KlVlC2x59WcyfeWcGDwh5A/Portfolio-Plans?t=VNSCcSgmN5HuSPOm-6
-[README]: https://github.com/systemcarl/folio/tree/v0.0.1#readme
+[the project README file]:
+    https://github.com/systemcarl/folio/tree/v0.0.1#readme
 [Bash Automated Testing System (Bats)]:
     https://bats-core.readthedocs.io/en/stable/
 [its easy Docker execution]:
@@ -698,6 +699,8 @@ came out of a conversation with fellow software developer, [Chris Adkins].
 [venv]: https://docs.python.org/3/library/venv.html
 [Containerization]:
     https://en.wikipedia.org/wiki/Containerization_(virtualization)
+[my CI/CD pipeline]:
+    #continuous-integration-and-continuous-deployment-cicd-pipeline
 [Docker]: https://www.docker.com/
 [Docker image]:
     https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-an-image/
