@@ -29,11 +29,13 @@ On the surface, this is a very simple task, for a web developer of any
 However, my ambitions for this project go beyond just implementing a static web
     design.
 At a minimum, I want to have a system in place to easily update and change the
-    content and appearance of the website without needing to redeploy the entire application.
+    content and appearance of the website without needing to redeploy the entire
+    application.
 I also hope that the system(s) I'm developing for this website can eventually be
     repurposed for broader applications
 — if not as a whole, then at least in parts.
-To achieve this, I needed to implement a sufficiently sophisticated content system with a well-thought-out template design.
+To achieve this, I needed to implement a sufficiently sophisticated content
+    system with a well-thought-out template design.
 
 ## Strong Opinions, Loosely Held
 I had decided early to [abstract all of the page content] (including static
@@ -99,11 +101,11 @@ I could instead post my articles to an established
 But that doesn't really capture [my mission] to create an identity and brand
     that other people in the community can relate to and follow.
 
-As I've mentioned, I also have a goal to reuse my application code for others' websites
-    or blogs.
+As I've mentioned, I also have a goal to reuse my application code for others'
+    websites or blogs.
 To approach this,
-    I found it helpful to determine the purpose of the content design, not just the
-    subject matter (me).
+    I found it helpful to determine the purpose of the content design, not just
+    the subject matter (me).
 It occurred to me that, in the same way I am promoting myself,
     any content driven application is trying to market something.
 So, to generalize the content design of my template effectively,
@@ -122,9 +124,9 @@ the design would still look complete.
 
 Furthermore, reflecting on the purpose of each design element from a marketing
     perspective
-helped to simplify and clarify each element's intended effect towards the overall design
-(e.g., establishing identity, credibility, or
-    connection with the audience).
+helped to simplify and clarify each element's intended effect towards the
+    overall design
+(e.g., establishing identity, credibility, or connection with the audience).
 For example, an avatar image and logo both serve to establish visual identity.
 Therefore, the presentation of the avatar element should emphasize this
     function,
