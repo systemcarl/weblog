@@ -12,7 +12,9 @@ The update now added [a very simple landing page]
 The basic, stylized landing page provided a brief
     personal introduction.
 Working from the design mock-up, I decided to include as little content as
-    possible without having to revisit the design later.
+    possible
+without leaving anything looking incomplete or needing to be otherwise reworked
+    within the planned scope of the design.
 Choosing to only implement [the profile] and [the contact information] sections,
     the goal was just to add some static content elements, including:
 - my name,
@@ -21,6 +23,17 @@ Choosing to only implement [the profile] and [the contact information] sections,
 - an inspirational quote,
 - some personal likes and dislikes,
 - and a list of contact information.
+
+On the surface, this is a very simple task, for a web developer of any
+    experience level.
+However, my ambitions for this project go beyond just implementing a static web
+    design.
+At a minimum, I want to have a system in place to easily update and change the
+    content and appearance of the website without needing to redeploy the entire application.
+I also hope that the system(s) I'm developing for this website can eventually be
+    repurposed for broader applications
+— if not as a whole, then at least in parts.
+To achieve this, I needed to implement a sufficiently sophisticated content system with a well-thought-out template design.
 
 ## Strong Opinions, Loosely Held
 I had decided early to [abstract all of the page content] (including static
