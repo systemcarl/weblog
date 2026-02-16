@@ -149,24 +149,33 @@ I could have just as easily listed what I believe is, or is not, a sandwich.
 
 ## An Agnostic Application
 Despite the strong opinions built into the content design, the resulting
-    application is still completely agnostic to the actual content itself.
-That is, all of the content is
-    [aggregated by the application from static JSON files],
-    as per the original design of the application.
-The difference with this update is the files now include [an addition configuration object] to control the
-    composition of pages, beyond the text and styling definitions.[^assets]
-It was a choice of personal preference to not combine all the configurations
-    into a single file,
-even though there is coupling between the content and its presentation.
-Despite spanning multiple files, I still consider these files to be a single
-    source of truth for the website's content and presentation.
-Breaking it down just makes it easier for me to manage and navigate.
+    application is still agnostic to the content itself
+— unconcerned with the specific content being rendered to the page, and only
+    concerned with how to render it.
+That is, all of the content is still
+    [aggregated by the application from static JSON files] after the application
+    has been built and deployed,
+as per the original design of the application.
+The difference with this update is the files now include
+    [an additional configuration object] to control the composition of pages,
+beyond copy text and HTML style definitions.[^assets]
 
-While some might disagree, I have found that the dynamic nature of the
+> [!NOTE]
+>It was a choice of personal preference to not combine all the configurations
+    into a single file,
+even though the segregated files that comprise the configuration are strictly
+    dependent on one another.
+Despite spanning multiple files, I still consider these files, as a collection,
+    to be a single source of truth for the website's content and presentation.
+Breaking it down just makes it easier to navigate and manage changes.
+
+While some might disagree, I have found that the abstracted nature of the
     application components has made development and testing much easier.
-Abstracting away text and other data into component properties and context
+Removing hardcoded text and other data into component properties and context
     stores
-requires values to be injected into components during testing.
+requires values to be injected into components during testing,
+making the intent of the test more explicit and the expected outcomes more
+clear.
 This prevents changes to the content or style of the final application from
     affecting the setup or expected outcomes of the tests.
 [All of the previously implemented testing strategies] established at the start
@@ -210,7 +219,7 @@ It includes file definitions for all [the websites content configuration],
     https://www.figma.com/design/TJYtbshPU4K0CoXuYKqtwp/Portfolio?m=auto&t=IV2gWGSb6tnTZcel-6
 [my mission]: ../../about-me.md#it-has-great-practical-value
 [aggregated by the application from static JSON files]: ./sveltekit.md#knobs-and-dials
-[an addition configuration object]:
+[an additional configuration object]:
     https://github.com/systemcarl/folio-assets/blob/v0.0.2/config.json
 [All of the previously implemented testing strategies]: ./sveltekit.md#testing-testing-testing
 [The following release]: https://github.com/systemcarl/blank/tree/v0.0.3
