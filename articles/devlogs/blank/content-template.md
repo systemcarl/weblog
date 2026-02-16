@@ -1,10 +1,10 @@
 # DevLog: Designing a Content Template
 Not long after [I set up a SvelteKit application] for [my personal website]
     and blog,
-I released and deployed [the first update]. 
+I released and deployed [the first update].
 [The original version] of the application had no content at all, only
     [a styled error message], which provided [an early proof-of-concept].
-With this, the application's component framework 
+With this, the application's component framework
     and [underlying theming system] was already in place.
 The update now added [a very simple landing page]
     including the implementation of [the website's visual design mock-up].
@@ -39,12 +39,31 @@ To achieve this, I needed to implement a sufficiently sophisticated content syst
 I had decided early to [abstract all of the page content] (including static
     elements)[^assets] away from the application code.
 The idea was to remove any personalized content from the application code,
-allowing for easier updates to both the application and the content,
-making it possible to reuse the same application code for different websites
-    or blogs,
-and fully enabling localization support in the future.
-However, the core problem when designing a content system is balancing structure
-    with flexibility.
+allowing for easier updates to both the application and the content.
+In the context of the application powering my personal website, personalized
+    content is anything not strictly necessary for the application function:
+- text content (including both copy and long-form content),
+- images and graphics,
+- colours and backgrounds,
+- and even layout and navigation configurations.
+
+Abstracting the personal content away from the application code also made it
+    possible to reuse the same application code for different websites or blogs,
+and fully enable localization support in the future.
+The core of my application therefore needed to support this abstraction,
+injecting the content back into the application pages, when rendered.
+
+> [!NOTE]
+> In practice, this means that the design elements (*e.g.*, the page title) are
+    defined in the application code.
+The inclusion and layout of these elements are fixed, or restricted to certain
+    content configurations.
+However, the styled [Hypertext Markup Language (HTML)] elements rendered to the
+    displayed page (*e.g.*, title copy, size, font, and colour)
+are all defined by the injected content.
+
+However, the core problem when designing a such a content system is balancing
+    structure with flexibility.
 Making the content structure too rigid takes the guesswork out of creating
     (and rendering) content,
 but limits the creative possibilities for the composition as a whole.
@@ -56,18 +75,19 @@ Ultimately, responsibility for the design outcome needs to be either given to
     the content creator, or reserved by the content system itself
 — the responsibility cannot simply be shared.
 
-I chose to focus this solution on ease of content creation, creating a very
+I chose to focus this solution on ease of content creation, creating a strongly
     opinionated content design
 — opinionated in the sense that the page structure and content are predetermined
     and the template constraints must be respected.
-However, opinionated does not mean immutable.
-At a minimum, the content needs to be flexible enough to allow for
-    personalization,
-and the opinions built into the design only need to be strong enough to ensure
-    a good design (whatever that may be).
-But so long as the system is intuitive and resilient against unpleasant
-    outcomes,
-there is still some room to explore different content configuration structures
+However, opinionated does not mean inflexible.
+At a minimum, the content definitions
+— the rules and restrictions that define what can and cannot rendered to the
+    page —
+need to be flexible enough to allow the results to feel uniquely personalized.
+Moreover, the content definitions built into the design only need to be
+    restrictive enough to ensure a good design (whatever that may be).
+But so long as the system is intuitive and protects against illogical choices,
+there is still some room to explore broader content configuration structures
 to suit needs other than my own.
 
 ### It Always Comes Back to Marketing
@@ -81,20 +101,20 @@ But that doesn't really capture [my mission] to create an identity and brand
 
 As I've mentioned, I also have a goal to reuse my application code for others' websites
     or blogs.
-To approach this, 
+To approach this,
     I found it helpful to determine the purpose of the content design, not just the
     subject matter (me).
-It occurred to me that, in the same way I am promoting myself, 
+It occurred to me that, in the same way I am promoting myself,
     any content driven application is trying to market something.
 So, to generalize the content design of my template effectively,
     the goal is to make a marketing template that is tailored specifically for
     personal profiles.
-    
+
 ### Personal Preferences
 To make the content design as easy to use as possible,
 all of the content configurations are optional.
 Technically, to set up the application template, you don't even need to provide
-    a title,
+    a page title (the text displayed in the browser tab),
 but it would hardly make sense to have a webpage without one.
 Beyond that simple requirement, I designed the content and theme together so
     that regardless of the amount of configuration provided,
@@ -111,15 +131,15 @@ Therefore, the presentation of the avatar element should emphasize this
 making it prominent and visually distinct from the rest of the content.
 The end result is a cohesive design where my cartooned face could easily be
     swapped out for a brand logo without disrupting the design integrity.
-    
+
 Since the application is primarily concerned with visual presentation
 (there's nothing particularly interactive about a personal website and blog,
     though I hope to add comments and other features in the future),
 the constraints of the design are limited mainly to the layout.
 So, beyond having to dictate where each content element should go on the page,
-the system does not impose any semantic meaning on the content itself.
-For example, the section in [my design mock-up] listing my "likes" and "dislikes" do
-    not need to be used for this purpose at all.
+the application does not impose any semantic meaning on the content itself.
+For example, the section in [my design mock-up] listing my "likes" and
+    "dislikes" do not need to be used for this purpose at all.
 Structurally, this element is simply a pair of lists that can be used to
     represent any kind of comparison
 (if it even really needs to be a comparison).
@@ -184,6 +204,8 @@ It includes file definitions for all [the websites content configuration],
 [the contact information]:
     https://github.com/systemcarl/blank/blob/v0.0.2/src/lib/components/contact.svelte
 [abstract all of the page content]: ./sveltekit.md#knobs-and-dials
+[Hypertext Markup Language (HTML)]:
+    https://developer.mozilla.org/en-US/docs/Web/HTML
 [my design mock-up]:
     https://www.figma.com/design/TJYtbshPU4K0CoXuYKqtwp/Portfolio?m=auto&t=IV2gWGSb6tnTZcel-6
 [my mission]: ../../about-me.md#it-has-great-practical-value
