@@ -181,14 +181,14 @@ This prevents changes to the content or style of the final application from
 [All of the previously implemented testing strategies] established at the start
     of development are still valid and effective.
 
-The next step in the development of this application was to add some actual
-    weblog content.
+The next steps in the development of this application added some actual
+    weblog content (you can read about all of it in my [DevLogs]).
 [The following release] of [this application] provided
     [integration of Markdown content with custom parsing],
 populating article pages from externally hosted Markdown files.
 Incorporating the Markdown content continued to make the application more
     flexible,
-and because of Markdown's simple, well established structure,
+and because of Markdown's simple, well-established structure,
 this could be done without inviting any more complexity into the application
     design.
 
@@ -222,6 +222,7 @@ It includes file definitions for all [the websites content configuration],
 [an additional configuration object]:
     https://github.com/systemcarl/folio-assets/blob/v0.0.2/config.json
 [All of the previously implemented testing strategies]: ./sveltekit.md#testing-testing-testing
+[DevLogs]: https://carledwardlyons.ca/#devlogs
 [The following release]: https://github.com/systemcarl/blank/tree/v0.0.3
 [this application]: https://github.com/systemcarl/blank
 [integration of Markdown content with custom parsing]: ./markdown-parser.md
