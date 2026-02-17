@@ -8,7 +8,7 @@ To achieve this, I've been using [SvelteKit]'s [server-side rendering (SSR)] to
 Unlike a traditional, statically-served website,
 deploying a server-side application requires the application to be
     built, installed, and run (and remain running) on a production server.
-To handle this non-trivial deployment process I decided to implement
+To handle this non-trivial deployment process, I decided to implement
     a [continuous integration and continuous deployment (CI/CD) pipeline],
 automating away the whole ordeal
 (though admittedly, implementing a complete CI/CD pipeline is a whole ordeal in
