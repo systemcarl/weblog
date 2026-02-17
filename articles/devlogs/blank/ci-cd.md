@@ -27,7 +27,7 @@ If I were to develop and maintain my personal website without a CI/CD pipeline, 
 5. Realizing you forgot to uncomment a critical line of production code before
     building the application.
 
-Implementing an automatic process to build, test, and deploy the application
+Instead, implementing an automatic process to build, test, and deploy the application
     means there is no tedious, risky manual work discouraging regular updates.
 Automation also makes it possible to institute more intensive processes, like
     deploying each update to a brand new, freshly updated server instance
