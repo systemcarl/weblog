@@ -167,7 +167,7 @@ For statically-served sites made of pre-baked HTML and stand-alone JavaScript,
 
 However, anything more complex than a simple static site quickly becomes a
     challenge to manage.
-In the past, when I needed to setup a more complex environment, I would rely
+In the past, when I needed to set up a more complex environment, I would rely
     entirely on one-off virtual runtime environments, like [Python]'s [venv].
 Runtime environments help isolate runtime dependencies (like Python packages)
     from other applications using similar dependencies (however, they still interact directly with the host system).
