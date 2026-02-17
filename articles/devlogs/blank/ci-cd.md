@@ -37,7 +37,7 @@ Automation also makes it possible to institute more intensive processes, like
 Aside from the obvious benefits of automation,
     implementing a CI/CD pipeline is also a great way to learn about blessings
     and pitfalls of modern software deployment.
-My humble SvelteKit application, simply for hosting my personal website,
+My humble SvelteKit application, meant simply for hosting my personal website,
     likely doesn't warrant the complexity of a full-fledged CI/CD pipeline.
 However, it is the perfect sandbox to explore and experiment with different
     tools and practices — to satisfy my own curiosity, if nothing else.
