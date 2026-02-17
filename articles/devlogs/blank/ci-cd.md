@@ -83,7 +83,8 @@ the application could be re-used for a host of different purposes
 Every deployment, for each different purpose, would likely require its own
     deployment configuration and CI/CD requirements
 that [the CI/CD pipeline discussed here] would not be able to satisfy.
-This separation proved to be beneficial as both my application and CI/CD
+Besides these potential different purposes, 
+    the separation proved to be beneficial for my own project as both my application and CI/CD
     pipeline evolved.
 Almost all of the operations were specific to the architecture prescribed by the
     CI/CD pipeline, not the application.
