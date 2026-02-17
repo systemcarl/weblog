@@ -187,7 +187,7 @@ It was about time I stopped relying on these fragile, manual processes and
     applications.
 It allows applications to be bundled with all their dependencies in a relatively
     lightweight, portable format
-— that can be run on just about any system with a compatible container engine
+    that can be run on just about any system with a compatible container engine
     installed.
 In [my CI/CD pipeline], I used [Docker] to containerize and deploy my
     SvelteKit application.
