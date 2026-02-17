@@ -237,7 +237,7 @@ copying and pasting artisanal shell commands to craft the perfect machine.
 Again, this manual process discouraged frequent updates;
 scaling was out of the question.
 Terraform instead allows infrastructure to be defined using simple,
-    declarative configuration files that are magically spawn virtual machines
+    declarative configuration files that magically spawn virtual machines
     into existence in exchange for your cloud provider credentials.
 
 There are a few different IaC tools available,
