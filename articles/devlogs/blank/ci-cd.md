@@ -218,7 +218,7 @@ In retrospect, it would be ideal to containerize the entire CI/CD pipeline
     environment).
 However, to achieve this for my specific use-cases, it would require Docker
     executions to themselves run other Docker containers.
-This is possible to run Docker containers within a running Docker container,
+This is possible by running Docker containers within a running Docker container,
 often referred to as *[Docker-in-Docker (DinD)]*,
 or by exposing the host's Docker socket to the container,
 *Docker-out-of-Docker (DooD)*.
