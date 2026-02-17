@@ -147,7 +147,7 @@ There are a few other, very similar testing frameworks for Bash scripts,
 The Bats tests for the pipeline are executed as part of the CI process to verify
     that any changes to the scripts do not break the process as a whole.
 
-Writing most of the tests was easy.
+Writing the tests was easy.
 The only thing that Bats did not handle out-of-the-box was mocking system
     commands or other script calls.
 To handle this,
