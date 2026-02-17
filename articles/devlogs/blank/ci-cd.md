@@ -13,8 +13,8 @@ To handle this non-trivial deployment process, I decided to implement
 automating away the whole ordeal
 (though admittedly, implementing a complete CI/CD pipeline is a whole ordeal in
     itself).
-The goal of implementing [this CI/CD pipeline, to which I'm referring]
-    (and any CI/CD pipeline, I imagine) is to reduce common tasks into single, self-contained actions.
+The goal of implementing [my CI/CD pipeline]
+    (and any CI/CD pipeline, I imagine), is to reduce common tasks into single, self-contained actions.
 
 Developing and maintaining my personal website without a CI/CD pipeline, every
     update to the application code would need to be followed by a tedious series
@@ -664,7 +664,7 @@ came out of a conversation with fellow software developer, [Chris Adkins].
     https://developer.mozilla.org/en-US/docs/Glossary/SSR
 [continuous integration and continuous deployment (CI/CD) pipeline]:
     https://en.wikipedia.org/wiki/CI/CD
-[this CI/CD pipeline, to which I'm referring]:
+[my CI/CD pipeline]:
     https://github.com/systemcarl/folio
 [the CI/CD pipeline solution I implemented]:
     https://github.com/systemcarl/folio
