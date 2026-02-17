@@ -90,8 +90,8 @@ Almost all of the operations were specific to the architecture prescribed by the
     CI/CD pipeline, not the application.
 
 The only step that did not end up being specific to the deployment architecture
-    was building the SvelteKit application from the source code
-— in the end the build step was more independent of customization than I had
+    was building the SvelteKit application from the source code;
+    in the end, the build step was more independent of customization than I had
     expected.
 Any deployment specific configuration is evaluated at runtime
     — by the built application itself, not during the build process —
