@@ -19,11 +19,11 @@ The goal of implementing [my CI/CD pipeline]
 If I were to develop and maintain my personal website without a CI/CD pipeline, every
     update to the application code would need to be followed by a tedious series
     of unreliable, *ad hoc* steps, probably including and surely not limited to:
-1. Executing several commands in a terminal to test and build the application,
-2. Copying the built application to a publicly accessible server,
+1. Executing several commands in a terminal to test and build the application;
+2. Copying the built application to a publicly accessible server;
 3. Fiddling with server configuration to install new dependencies or curate
-    environment variables, 
-4. Manually verifying you didn't somehow mess it all up, and
+    environment variables;
+4. Manually verifying you didn't somehow mess it all up; and
 5. Realizing you forgot to uncomment a critical line of production code before
     building the application.
 
