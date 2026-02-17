@@ -71,7 +71,7 @@ With less tools and services required, there are fewer installation steps and
 
 Most projects choose to include the CI/CD scripts and configuration files
     that make up the pipeline
-directly within a same repository as the main application source code.
+directly within the same repository as the main application source code.
 However, I decided to keep the CI/CD pipeline files separate, in their own
     repository,
 to decouple the application from the specific CI/CD implementation I have been
