@@ -263,7 +263,7 @@ In this case, I used:
     facing proxy;
 - and [Google Cloud Services (GCS)] for persistent storage.
 
-A GCS bucket wasn't necessary for the deployment itself, but to store
+A GCS bucket wasn't necessary for the deployment itself, but rather to store
     [Terraform's state] files in a remote location that could be accessed by
     any pipeline execution.
 There was no real reason for these specific choices beyond the fact that I
