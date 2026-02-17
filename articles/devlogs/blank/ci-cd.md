@@ -208,7 +208,7 @@ On the production server, I also used Docker to install and run other services
     required by the application.
 Docker was also useful for running pipeline dependencies without worrying about
     system installation or compatibility issues
-(*e.g.*, [running Bats tests] in a Docker container, without needing to manually
+(*e.g.*, [I ran Bats tests] in a Docker container, without needing to manually
     install Bats via a package manager or from source).
 
 If anything, I don't think I used containerization enough in this project.
@@ -708,7 +708,7 @@ came out of a conversation with fellow software developer, [Chris Adkins].
     https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-an-image/
 [container]:
     https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-container/
-[running Bats tests]: #bash-with-bats
+[I ran Bats tests]: #bash-with-bats
 [Docker-in-Docker (DinD)]:
     https://www.docker.com/resources/docker-in-docker-containerized-ci-workflows-dockercon-2023/
 [things were already getting too complicated]:
