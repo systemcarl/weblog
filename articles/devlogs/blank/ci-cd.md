@@ -2,7 +2,7 @@
 Over the summer, [I have been working on a new web application] to host my
     [personal portfolio] and weblog.
 [The application I've been developing] dynamically generates pages on demand,
-    [populated and styled using static JSON files].
+    which are [populated and styled using static JSON files].
 To achieve this, I've been using [SvelteKit]'s [server-side rendering (SSR)] to
     produce the HTML pages live.
 Unlike a traditional, statically-served website,
