@@ -16,15 +16,15 @@ automating away the whole ordeal
 The goal of implementing [my CI/CD pipeline]
     (and any CI/CD pipeline, I imagine), is to reduce common tasks into single, self-contained actions.
 
-Developing and maintaining my personal website without a CI/CD pipeline, every
+If I were to develop and maintain my personal website without a CI/CD pipeline, every
     update to the application code would need to be followed by a tedious series
     of unreliable, *ad hoc* steps, probably including and surely not limited to:
-1. Execute several commands in a terminal to test and build the application.
-2. Copy the built application to a publicly accessible server.
-3. Fiddle with server configuration to install new dependencies or curate
-    environment variables.
-4. Manually verify you didn't somehow mess it all up.
-5. Realize you forgot to uncomment a critical line of production code before
+1. Executing several commands in a terminal to test and build the application,
+2. Copying the built application to a publicly accessible server,
+3. Fiddling with server configuration to install new dependencies or curate
+    environment variables, 
+4. Manually verifying you didn't somehow mess it all up, and
+5. Realizing you forgot to uncomment a critical line of production code before
     building the application.
 
 Implementing an automatic process to build, test, and deploy the application
