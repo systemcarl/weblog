@@ -360,7 +360,7 @@ A ready-to-use application image can be
     [downloaded and run with a single command].
 These containerized applications have the benefit of being isolated to prevent
     conflicts with each other,
-but still with the ability to communicate — with each other, the host, or the
+but still have the ability to communicate — with each other, the host, or the
     internet —
 through [Docker's internal networking interface].
 The final steps of the server initialization script starts a container to run
