@@ -318,7 +318,7 @@ During the deployment, this verification step confirms the files are copied
     successfully through [a remote execution].
     The deployment only proceeds if the file verification is successful.
 This meant I also had to add some [checks] to the initialization script, on the
-    cloud side to prevent a race condition between the file transfer
+    cloud side, to prevent a race condition between the file transfer
     verification and the finalization of the server setup;
 it's expected that the files to be copied long before the server setup finalizes
     and starts the application, but a deliberate check is still necessary to
