@@ -260,8 +260,8 @@ So to use Terraform, I had accounts with cloud
 In this case, I used:
 - [DigitalOcean] for hosting the application server;
 - [Cloudflare] to manage [Domain Name System (DNS) records] and provide a public
-    facing proxy;
-- and [Google Cloud Services (GCS)] for persistent storage.
+    facing proxy; and
+- [Google Cloud Services (GCS)] for persistent storage.
 
 A GCS bucket wasn't necessary for the deployment itself, but rather to store
     [Terraform's state] files in a remote location that could be accessed by
@@ -571,13 +571,13 @@ If I were to describe the bare minimum requirements of a CI/CD pipeline, it
     would only need to include:
 - building the application (though [as discussed earlier], this would better
     fall under the concern of the application template itself);
-- running application and pipeline tests;
-- and deploying the application to a publicly accessible host.
+- running application and pipeline tests; and
+- deploying the application to a publicly accessible host.
 
 My [initial iteration] of this project also included:
 - automated code quality checks via GitHub commit statuses;
-- support for concurrent pipeline executions over multiple environments;
-- and log aggregation with monitoring dashboards.
+- support for concurrent pipeline executions over multiple environments; and
+- log aggregation with monitoring dashboards.
 
 Clearly, my ambition to create a fully-featured, modern CI/CD pipeline
     *clouded* my judgment (sorry),
