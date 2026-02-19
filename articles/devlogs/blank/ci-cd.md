@@ -463,7 +463,7 @@ Only public repositories can use Github Actions without restrictions,
 and even then, there are limits on the amount of compute time available
     per month before billing starts.
 And while Github Actions workflows can be run on self-hosted runners, or through
-    an another compatible CI/CD platform,
+    another compatible CI/CD platform,
 these options require more setup and maintenance overhead that are ideally
     avoided.
 Many of the choices I had made earlier in the project were to decouple my CI/CD
