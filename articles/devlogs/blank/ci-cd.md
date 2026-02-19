@@ -439,7 +439,7 @@ Also, having a more centralized CI/CD environment (instead of just running
     project scales to host more content and serve more users.
 
 After some internal deliberation, I decided to use [GitHub Actions] as the CI/CD
-    platform to automate the pipeline execution
+    platform to automate the pipeline execution.
 Since [GitHub] is by far the most popular code hosting platform,
 most developers have at least heard of [GitHub Actions].
 At first I had some concerns about using a platform-specific CI/CD solution,
