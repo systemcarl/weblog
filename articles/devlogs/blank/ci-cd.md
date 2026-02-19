@@ -484,7 +484,7 @@ Some additional structure to the workflows did help simplify them;
 by generalizing the pipeline script workflows, chaining [workflow dispatches]
     made it easy to reuse setup between different [environment deployments].
 
-The automation for my CI/CD pipeline is also completely optional; the pipeline
+The automation for my CI/CD pipeline is also completely optional. The pipeline
     can still be executed locally at any time, or even run concurrently on
     multiple CI/CD platforms.
 Since the Terraform state files are stored remotely in GCS, both local and
