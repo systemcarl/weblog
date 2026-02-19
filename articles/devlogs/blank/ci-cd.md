@@ -409,7 +409,7 @@ It also comes with a [plugin] to export logs to persistent storage (like GCS)
     for long-term archival, or to migrate logs to another service.
 Integrating it was also quite easy using [Grafana Alloy], a lightweight log
     forwarder that I simply ran as another Docker container on the server.
-The only effort was [configuring Alloy to parse and format the logs] to be
+The only sizeable effort was [configuring Alloy to parse and format the logs] to be
     optimized for Loki
 — though most of this might be optional if you're not picky about how your logs
     are labelled and organized.
