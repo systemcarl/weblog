@@ -541,9 +541,9 @@ While my workflows don't produce any meaningful artifacts, I realized that the
 Since all I was concerned about was validating the CLI input and environment,
     I could [dry run] each script with a verbose flag to output a summary of
     the evaluated configuration.
-To make sure secret values were not accidentally exposed in the outputs,
-    the scripts returned truncated hashes of the combined variables.
-[The verification workflow] dry run outputs could then be verified against the
+To make sure secret values aren't accidentally exposed in the outputs,
+    the scripts return truncated hashes of the combined variables.
+[The verification workflow] dry run outputs can then be verified against the
     outputs from the expected CLI invocations.
 As a bonus, this verification workflow also first verifies all the environments
     (including the verification environment itself) are configured correctly,
