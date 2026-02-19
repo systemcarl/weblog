@@ -596,7 +596,7 @@ From there, I could have iteratively added the refined features incrementally,
     as needed.
 
 #### From One Project to the Next
-Despite this oversightm, and all my doubt and reservations while working on the
+Despite this oversight, and all my doubt and reservations while working on the
     [initial iteration] of the project,
 the result has been truly satisfying.
 Continuing to release and deploy [new versions of the application] has been
