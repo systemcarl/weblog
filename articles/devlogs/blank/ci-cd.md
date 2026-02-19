@@ -469,7 +469,8 @@ these options require more setup and maintenance overhead that are ideally
 Many of the choices I had made earlier in the project were to decouple my CI/CD
     pipeline from supporting CI/CD platforms and mitigate these issues.
 
-My primary motivation for [designing a clean CLI interface] was avoiding
+One such choice was [designing a clean CLI interface], in which my 
+    primary motivation was to avoid
     unnecessary dependency on a specific platform.
 With a clean, self-contained CLI, I can run the pipeline anywhere with a
     Bash-compatible shell — a GitHub Actions runner, or really any other modern
