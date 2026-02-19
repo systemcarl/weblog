@@ -442,8 +442,8 @@ After some internal deliberation, I decided to use [GitHub Actions] as the CI/CD
     platform to automate the pipeline execution.
 Since [GitHub] is by far the most popular code hosting platform,
 most developers have at least heard of [GitHub Actions].
-At first I had some concerns about using a platform-specific CI/CD solution,
-    like GitHub Actions, worrying about portability and [vendor lock-in].
+At first I had some concerns about using a platform-specific CI/CD solution
+    (like GitHub Actions), as I worried about portability and [vendor lock-in].
 However, I did find that there are now many open-source solutions (like [Gitea])
     that can be used to run GitHub Actions workflows outside of the GitHub
     platform itself.
