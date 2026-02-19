@@ -650,7 +650,7 @@ I'm sure this solution will save me plenty of time and stress while I continue
 After some more time using the pipeline and better understanding its
     limitations, I will definitely revisit these problems.
 Hopefully, by the time I am ready to begin deploying more applications, with
-    more complex requirements and at a larger scales,
+    more complex requirements and at a larger scale,
 I will be well prepared to try this again.
 
 [^softyy]: Discussion of this projects strict coupling to the application and
