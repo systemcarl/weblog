@@ -53,7 +53,7 @@ Abstracting the personal content away from the application code also made it
     possible to reuse the same application code for different websites or blogs,
 and fully enable localization support in the future.
 The core of my application therefore needed to support this abstraction,
-injecting the content back into the application pages, when rendered.
+wherein the content is injected into the application pages when rendered.
 
 > [!NOTE]
 > In practice, this means that the design elements (*e.g.*, the page title) are
