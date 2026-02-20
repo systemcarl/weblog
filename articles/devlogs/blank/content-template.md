@@ -24,7 +24,7 @@ Choosing to only implement [the profile] and [the contact information] sections,
 - some personal likes and dislikes,
 - and a list of contact information.
 
-On the surface, this is a very simple task for a web developer of any
+This alone is a very simple task for a web developer of any
     experience level.
 However, my ambitions for this project go beyond just implementing a static web
     design.
