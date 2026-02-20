@@ -77,10 +77,10 @@ Ultimately, responsibility for the design outcome needs to be either given to
     the content creator, or reserved by the content system itself;
     the responsibility cannot simply be shared.
 
-I chose to focus this solution on ease of content creation, creating a strongly
+I chose to focus this solution on ease of content creation with a strongly
     opinionated content design
-— opinionated in the sense that the page structure and content are predetermined
-    and the template constraints must be respected.
+(opinionated in the sense that the page structure and content are predetermined
+    and the template constraints must be respected).
 However, opinionated does not mean inflexible.
 At a minimum, the content definitions
 — the rules and restrictions that define what can and cannot rendered to the
