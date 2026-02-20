@@ -181,7 +181,7 @@ making the intent of the test more explicit and the expected outcomes more
 clear.
 This prevents changes to the content or style of the final application from
     affecting the setup or expected outcomes of the tests.
-[All of my previously implemented testing strategies] established at the start
+So, [all of my previously implemented testing strategies] established at the start
     of development are still valid and effective.
 
 The next steps in the development of this application added some actual
@@ -224,7 +224,7 @@ It includes file definitions for all [the websites content configuration],
 [aggregated by the application from static JSON files]: ./sveltekit.md#knobs-and-dials
 [an additional configuration object]:
     https://github.com/systemcarl/folio-assets/blob/v0.0.2/config.json
-[All of my previously implemented testing strategies]: ./sveltekit.md#testing-testing-testing
+[all of my previously implemented testing strategies]: ./sveltekit.md#testing-testing-testing
 [DevLogs]: https://carledwardlyons.ca/#devlogs
 [The following release]: https://github.com/systemcarl/blank/tree/v0.0.3
 [this application]: https://github.com/systemcarl/blank
