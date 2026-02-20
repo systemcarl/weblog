@@ -127,7 +127,7 @@ Furthermore, reflecting on the purpose of each design element from a marketing
     perspective
 helped to simplify and clarify each element's intended effect towards the
     overall design
-(e.g., establishing identity, credibility, or connection with the audience).
+(*e.g.*, establishing identity, credibility, or connection with the audience).
 For example, an avatar image and logo both serve to establish visual identity.
 Therefore, the presentation of the avatar element should emphasize this
     function,
