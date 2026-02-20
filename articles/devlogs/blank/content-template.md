@@ -83,7 +83,7 @@ I chose to focus this solution on ease of content creation with a strongly
     and the template constraints must be respected).
 However, opinionated does not mean inflexible.
 At a minimum, the content definitions
-— the rules and restrictions that define what can and cannot rendered to the
+— the rules and restrictions that define what can and cannot be rendered to the
     page —
 need to be flexible enough to allow the results to feel uniquely personalized.
 Moreover, the content definitions built into the design only need to be
