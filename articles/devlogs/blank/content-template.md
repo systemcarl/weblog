@@ -43,8 +43,8 @@ I had decided early to [abstract all of the page content] (including static
 The idea was to remove any personalized content from the application code,
 allowing for easier updates to both the application and the content.
 In the context of the application powering my personal website, personalized
-    content is anything not strictly necessary for the application function:
-- text content (including both copy and long-form content),
+    content is anything not strictly necessary for the application function, including:
+- text content (both copy and long-form content),
 - images and graphics,
 - colours and backgrounds,
 - and even layout and navigation configurations.
