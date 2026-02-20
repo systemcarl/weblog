@@ -74,8 +74,8 @@ On the other hand, a completely unstructured system allows for anything you can
 but requires much more thought and consideration to create a final product that
     is both aesthetically pleasing and functionally effective.
 Ultimately, responsibility for the design outcome needs to be either given to
-    the content creator, or reserved by the content system itself
-— the responsibility cannot simply be shared.
+    the content creator, or reserved by the content system itself;
+    the responsibility cannot simply be shared.
 
 I chose to focus this solution on ease of content creation, creating a strongly
     opinionated content design
