@@ -66,7 +66,7 @@ are all defined by the injected content.
 
 The core problem when designing such a content system is balancing
     structure with flexibility.
-Making the content structure too rigid takes the guesswork out of creating
+On one hand, making the content structure very rigid takes the guesswork out of creating
     (and rendering) content,
 but limits the creative possibilities for the composition as a whole.
 On the other hand, a completely unstructured system allows for anything you can
