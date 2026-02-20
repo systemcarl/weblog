@@ -64,7 +64,7 @@ However, the styled [Hypertext Markup Language (HTML)] elements rendered to the
     displayed page (*e.g.*, title copy, size, font, and colour)
 are all defined by the injected content.
 
-However, the core problem when designing a such a content system is balancing
+However, the core problem when designing such a content system is balancing
     structure with flexibility.
 Making the content structure too rigid takes the guesswork out of creating
     (and rendering) content,
