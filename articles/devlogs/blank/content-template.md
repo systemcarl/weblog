@@ -77,22 +77,8 @@ Ultimately, responsibility for the design outcome needs to be either given to
     the content creator, or reserved by the content system itself;
     the responsibility cannot simply be shared.
 
-I chose to focus this solution on ease of content creation with a strongly
-    opinionated content design
-(opinionated in the sense that the page structure and content elements are predetermined,
-    and the template constraints must be respected).
-However, opinionated does not mean inflexible.
-At a minimum, the content definitions
-— the rules and restrictions that define what can and cannot be rendered to the
-    page —
-need to be flexible enough to allow the results to feel uniquely personalized.
-Moreover, the content definitions built into the design only need to be
-    restrictive enough to ensure a good design (whatever that may be).
-But so long as the system is intuitive and protects against illogical choices,
-there is still some room to explore broader content configuration structures
-to suit needs other than my own.
-
 ### It Always Comes Back to Marketing
+The solution to this problem came by considering the application's purpose.
 My motivation for building this personal website comes down to (shameless)
     self-promotion.
 I could instead post my articles to an established
@@ -111,6 +97,21 @@ It occurred to me that, in the same way I am promoting myself,
 So, to generalize the content design of my template effectively,
     the goal is to make a marketing template that is tailored specifically for
     personal profiles.
+    
+As such, I focused on ease of content creation (for both myself and others) 
+    with a strongly opinionated content design
+(opinionated in the sense that the page structure and content elements are predetermined,
+    and the template constraints must be respected).
+However, opinionated does not mean inflexible.
+At a minimum, the content definitions
+— the rules and restrictions that define what can and cannot be rendered to the
+    page —
+need to be flexible enough to allow the results to feel uniquely personalized.
+Moreover, the content definitions built into the design only need to be
+    restrictive enough to ensure a good design (whatever that may be).
+But so long as the system is intuitive and protects against illogical choices,
+there is still some room to explore broader content configuration structures
+to suit needs other than my own.
 
 ### Personal Preferences
 To make the content design as easy to use as possible,
