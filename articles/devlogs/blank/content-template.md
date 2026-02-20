@@ -79,7 +79,7 @@ Ultimately, responsibility for the design outcome needs to be either given to
 
 I chose to focus this solution on ease of content creation with a strongly
     opinionated content design
-(opinionated in the sense that the page structure and content are predetermined
+(opinionated in the sense that the page structure and content elements are predetermined
     and the template constraints must be respected).
 However, opinionated does not mean inflexible.
 At a minimum, the content definitions
