@@ -166,7 +166,7 @@ beyond copy text and HTML style definitions.[^assets]
 > [!NOTE]
 >It was a choice of personal preference to not combine all the configurations
     into a single file,
-even though the segregated files that comprise the configuration are strictly
+even though the segregated files comprising the configuration are strictly
     dependent on one another.
 Despite spanning multiple files, I still consider these files, as a collection,
     to be a single source of truth for the website's content and presentation.
