@@ -265,7 +265,8 @@ I decided it was at least worth a try.
 
 #### Pie in the Sky
 Terraform itself doesn't actually create or manage any infrastructure, it
-    generally just converts the configuration files into API calls to your cloud provider.
+    generally just converts the configuration files into API calls to your cloud
+    provider.
 So to use Terraform, I had accounts with cloud
     providers I wanted to use for each element of my infrastructure.
 In this case, I used:
