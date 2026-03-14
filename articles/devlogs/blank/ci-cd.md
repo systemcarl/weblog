@@ -420,7 +420,7 @@ With a free account, you can get a hosted instance of [Loki], an open-source log
 with managed [Grafana] dashboards (also open-source) for easy visualization.
 It also comes with a [plugin] to export logs to persistent storage (like GCS)
     for long-term archival, or to migrate logs to another service.
-Integrating it was also quite easy using [Grafana Alloy], a lightweight log
+Integrating Loki was also quite easy using [Grafana Alloy], a lightweight log
     forwarder that I simply ran as another Docker container on the server.
 The only sizeable effort was [configuring Alloy to parse and format the logs] to be
     optimized for Loki
