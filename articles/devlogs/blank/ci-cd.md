@@ -503,14 +503,14 @@ The automation for my CI/CD pipeline is also completely optional. The pipeline
 Since the Terraform state files are stored remotely in GCS, both local and
     remote executions of the pipeline can share state, synchronizing deployment
     processes.
-Otherwise it would be either very difficult (or stupidly risky) to locally
+Otherwise it would be very difficult (or just stupidly risky) to locally
     execute commands against automated deployment environments
 — resources could easily be duplicated, destroyed, or orphaned.
 But with this shared state, it's easy to follow up automated deployments with
     local commands to troubleshoot issues or manage resources between releases.
 
-One particular benefit of using GitHub Actions is the automatic [commit status]
-    integration:
+One particular benefit of using GitHub Actions that I didn`t want to live
+    without is the automatic [commit status] integration:
 the execution status of GitHub Action runs are automatically stored within the
     repository's commit history.
 To provide this execution status feedback during local executions, I needed to
