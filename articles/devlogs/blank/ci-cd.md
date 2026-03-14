@@ -593,7 +593,7 @@ My [initial iteration] of this project also included:
 - log aggregation with monitoring dashboards.
 
 Clearly, my ambition to create a fully-featured, modern CI/CD pipeline
-    *clouded* my judgment (sorry),
+    *clouded* my judgment (sorry; not sorry),
 distracting me from trying to deliver a simple viable solution quickly.
 Because this was my first serious attempt at designing a CI/CD pipeline
 and I wanted to explore many different tools and techniques,
