@@ -180,7 +180,8 @@ However, anything more complex than a simple static site quickly becomes a
 In the past, when I needed to set up a more complex environment, I would rely
     entirely on one-off virtual runtime environments, like [Python]'s [venv].
 Runtime environments help isolate runtime dependencies (like Python packages)
-    from other applications using similar dependencies (however, they still interact directly with the host system).
+    from other applications using similar dependencies (however, they still
+    interact directly with the host system).
 This worked well-enough at first, but later updates to the deployments became a
     horrific experience filled with unexpected issues, often stemming from
     malformed commands.
@@ -203,8 +204,8 @@ In [my CI/CD pipeline], I used [Docker] to containerize and deploy my
     SvelteKit application.
 By bundling up the application and its dependencies into a single
     [Docker image],
-I no longer have to worry about environment inconsistencies and every
-    installation is the same command on any system with Docker installed.
+I no longer have to worry about inconsistencies within server environments and
+    every installation is the same command on any system with Docker installed.
 Each Docker [container] runs an application (or sometimes multiple applications)
     in isolated environments, preventing conflicts with other applications
     running on the same host.
@@ -225,13 +226,13 @@ If anything, I don't think I used containerization enough in this project.
 In retrospect, it would be ideal to containerize the entire CI/CD pipeline
     itself as an image to simplify setup of the CI/CD environment
 (the environment used to create and manage the testing and production
-    environment).
+    environments).
 However, to achieve this for my specific use-cases, it would require Docker
     executions to themselves run other Docker containers.
-This is possible by running Docker containers within a running Docker container,
+It is possible by running Docker containers within a running Docker container,
 often referred to as *[Docker-in-Docker (DinD)]*,
-or by exposing the host's Docker socket to the container,
-*Docker-out-of-Docker (DooD)*.
+or by exposing the host's Docker engine to the container,
+    *Docker-out-of-Docker (DooD)*.
 Both approaches have their own drawbacks that would require careful
     consideration.
 At this point, it was probably best that I didn't attempt any of this as
