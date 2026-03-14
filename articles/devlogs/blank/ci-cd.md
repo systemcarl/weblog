@@ -13,8 +13,9 @@ To handle this non-trivial deployment process, I decided to implement
 automating away the whole ordeal
 (though admittedly, implementing a complete CI/CD pipeline is a whole ordeal in
     itself).
-The goal of implementing [my CI/CD pipeline]
-    (and any CI/CD pipeline, I imagine), is to reduce common tasks into single, self-contained actions.
+The goal of implementing [this CI/CD pipeline, to which I'm referring]
+    (and any CI/CD pipeline, I imagine) is to reduce common tasks into single,
+    self-contained actions.
 
 If I were to develop and maintain my personal website without a CI/CD pipeline, every
     update to the application code would need to be followed by a tedious series
@@ -35,7 +36,7 @@ Automation also makes it possible to institute more intensive processes, like
     a secure, reliable application.
 
 Aside from the obvious benefits of automation,
-    implementing a CI/CD pipeline is also a great way to learn about blessings
+implementing a CI/CD pipeline is also a great way to learn about the blessings
     and pitfalls of modern software deployment.
 My humble SvelteKit application, meant simply for hosting my personal website,
     likely doesn't warrant the complexity of a full-fledged CI/CD pipeline.
@@ -83,7 +84,7 @@ the application could be re-used for a host of different purposes
 Every deployment, for each different purpose, would likely require its own
     deployment configuration and CI/CD requirements
 that [my CI/CD pipeline discussed here] would not be able to satisfy.
-Besides these potential different purposes, 
+Besides these potential different purposes,
     the separation proved to be beneficial for my own project as both my application and CI/CD
     pipeline evolved.
 Almost all of the operations were specific to the architecture prescribed by the
@@ -469,7 +470,7 @@ these options require more setup and maintenance overhead that are ideally
 Many of the choices I had made earlier in the project were to decouple my CI/CD
     pipeline from supporting CI/CD platforms and mitigate these issues.
 
-One such choice was [designing a clean CLI interface], in which my 
+One such choice was [designing a clean CLI interface], in which my
     primary motivation was to avoid
     unnecessary dependency on a specific platform.
 With a clean, self-contained CLI, I can run the pipeline anywhere with a
