@@ -47,8 +47,8 @@ However, it is the perfect sandbox to explore and experiment with different
 
 ## Putting the Pieces Together
 True to its namesake, a CI/CD pipeline is made up of many smaller pieces that
-    deliver artifacts (*e.g.*, code, configurations files, build outputs)
-from one to the next, end-to-end.
+    deliver artifacts (*e.g.*, code, configuration files, build outputs)
+from one segment to the next, end-to-end.
 Each piece is responsible for a specific task; every step brings the final
     product closer to delivery.
 This project, [the CI/CD pipeline solution I implemented]
@@ -60,9 +60,11 @@ Combining command-line scripting, containerization, infrastructure as code,
 the pipeline provides a tractable means for managing the entire deployment
     lifecycle with a balance between control and convenience.
 
+### Sharing is Caring
 When selecting each tool and service, one of my goals was to make the pipeline
     as self-contained and portable as possible,
-so the pipeline could be easily shared along with the application itself.
+so the pipeline might be useful to other software developers or otherwise
+    easily adapted to other projects.
 Choosing tools that were platform-agnostic and widely supported across operating
     systems was a priority.
 Ideally, each piece of the pipeline could be run on any UNIX-like system
@@ -92,17 +94,21 @@ Besides these potential different purposes,
 Almost all of the operations were specific to the architecture prescribed by the
     CI/CD pipeline, not the application.
 
-The only step that did not end up being specific to the deployment architecture
+The only step that did not end up being specific to the the CI/CD pipeline and
+    deployment customization (*i.e.* content, themes, *etc.*)
     was building the SvelteKit application from the source code;
     in the end, the build step was more independent of customization than I had
     expected.
-Any deployment specific configuration is evaluated at runtime
-    — by the built application itself, not during the build process —
-including template customization which is fetched live from static resources.
+All customization comes from static resources that are fetched live.
 This means that the resulting artifacts from the application build can be
-    versioned with [the application source code],
-without concern for the deployment environment, configuration files, themes,
-    content, or anything else specific to the CI/CD pipeline implementation.
+    versioned with [the application source code]
+without sacrificing any flexibility.
+In the future, I will likely migrate the application build process from the
+    pipeline repository into the application repository.
+Building from the application repository would inherently bind the version of
+    the build artifacts to the corresponding application source version,
+and effectively separate the continuous integration (CI) from the
+    continuous deployment (CD).
 
 ### Following the Script
 To balance portability with convenience, I chose to implement the majority of
@@ -382,8 +388,8 @@ In this case, I needed to handle [Transport Layer Security (TLS) termination]
 SvelteKit applications are also not designed to directly serve static assets.
 It's expected that static files will be bundled with the application during
     the build process,
-and my website's configuration was not something I wanted to include in the
-    application artifacts.
+and my website's configuration
+    [was not something I wanted to include in the application artifacts].
 
 Instead, I explored web server options and discoverd [Caddy], which
     [automatically provisions and renews TLS certificates] using
@@ -764,6 +770,8 @@ came out of a conversation with fellow software developer, [Chris Adkins].
 [Hypertext Transfer Protocol Secure (HTTPS) connections]:
     https://en.wikipedia.org/wiki/HTTPS
 [Caddy]: https://caddyserver.com/
+[was not something I wanted to include in the application artifacts]:
+    #sharing-is-caring
 [automatically provisions and renews TLS certificates]:
     https://caddyserver.com/docs/automatic-https
 [Let's Encrypt]: https://letsencrypt.org/
