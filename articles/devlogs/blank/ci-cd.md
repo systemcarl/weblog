@@ -316,10 +316,10 @@ Another option, subscribing to a third-party secret manager,
 So, I just used the [file] and [remote-exec] provisioners to copy over the
     files anyway.
 
-It's not hard to configure these remote connection provisioners.
+It's not hard to configure these file and remote-exec provisioners.
 The problem is reliability.
 Since these operations depend on the remote server being reachable over [SSH],
-    any network hiccup can cause the provisioning to fail.
+    any network hiccup can cause the provisioner to fail.
 Moreover, since these operations are not seen as first-class citizens in
     Terraform, there isn't official support for testing a connection
     configuration.
@@ -332,19 +332,20 @@ During the deployment, this verification step confirms the files are copied
 This meant I also had to add some [checks] to the initialization script, on the
     cloud side, to prevent a race condition between the file transfer
     verification and the finalization of the server setup;
-it's expected that the files will be copied long before the server setup finalizes
-    and starts the application, but a deliberate check is still necessary to
-    ensure the files are present before proceeding.
-Since the verification happens mid-deployment, it doesn't prevent the deployment
-    from failing unexpectedly (because, by that point, the deployment is already
-    in progress, and an aborted deployment is a failed deployment).
+it's expected that the files will be copied long before the server setup
+    finalizes and starts the application,
+but a deliberate check is still necessary to ensure the files are present before
+    proceeding.
+Since the runtime verification happens mid-deployment, it doesn't prevent the
+    deployment from failing unexpectedly (because, by that point, the deployment
+    is already in progress, and an aborted deployment is a failed deployment).
 However, it at least provides a clear indication of what went wrong
 and assures that a deployment is only deemed successful if the files were
     actually copied correctly.
 
 Using this runtime verification, in lieu of pre-deployment testing,
 the only part of the whole pipeline that I still could not entirely test was the
-    re-provisioning of the configuration between releases.
+    re-provisioning of the configuration files between releases.
 The [trigger argument] that causes the configuration to be re-applied if a new
     server has been provisioned cannot be tested without actually running two
     full, live deployments to verify rollover between deployed versions.
