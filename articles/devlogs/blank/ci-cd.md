@@ -152,7 +152,8 @@ To test the Bash scripts, I used [Bash Automated Testing System (Bats)], a
     testing framework for Bash.
 There are a few other, very similar testing frameworks for Bash scripts,
     but Bats seemed like the easiest to get started with
-— especially with [its easy Docker execution], which [I'll come back to later].
+— especially with [its easy Docker execution], which
+    [I'll come back to in a minute].
 The Bats tests for the pipeline are executed as part of the CI process to verify
     that any changes to the scripts do not break the process as a whole.
 
@@ -699,7 +700,7 @@ came out of a conversation with fellow software developer, [Chris Adkins].
     https://bats-core.readthedocs.io/en/stable/
 [its easy Docker execution]:
     https://bats-core.readthedocs.io/en/stable/installation.html#running-bats-in-docker
-[I'll come back to later]: #i-could-hardly-contain-myself
+[I'll come back to in a minute]: #i-could-hardly-contain-myself
 [my software development career]: ../../about-me.md#i-love-deadlines
 [a simple mocking framework]:
     https://github.com/systemcarl/folio/blob/v0.0.1/cli/tests/mocks
