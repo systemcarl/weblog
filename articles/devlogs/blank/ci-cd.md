@@ -576,8 +576,8 @@ that are tested in their own isolated repositories with controlled triggering
     events.
 
 ## An Ambitious Task From End to End
-Now, even if I were to say that the project only qualifies as a pipeline when it
-    delivers the application from end to end — from code changes to a live
+Now, even if I were to say that this project would only qualify as a pipeline if
+    it delivers the application from end to end — from code changes to a live
     deployment —
 I still grossly overshot the idea of a [minimal viable product (MVP)].
 If I were to describe the bare minimum requirements of a CI/CD pipeline, it
