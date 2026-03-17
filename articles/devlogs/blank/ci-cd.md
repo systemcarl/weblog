@@ -129,7 +129,7 @@ running a single script executes a specific step of the process, without
     requiring the rest of the pipeline to be executed.
 
 It took some trial and error (a lot of error) to determine the best way to
-    structure and arrange the Bash scripts and breakdown the pipeline tasks.
+    structure and arrange the Bash scripts and break down the pipeline tasks.
 This exercise in software design gave me a much deeper appreciation for the
     scope and complexity of CI/CD and [DevOps] in general.
 The final [CI/CD pipeline use-case diagram] illustrates the overall flow of the
