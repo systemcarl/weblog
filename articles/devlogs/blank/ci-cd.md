@@ -94,7 +94,7 @@ Besides these potential different purposes,
 Almost all of the operations were specific to the architecture prescribed by the
     CI/CD pipeline, not the application.
 
-The only step that did not end up being specific to the the CI/CD pipeline and
+The only step that did not end up being specific to the CI/CD pipeline and
     deployment customization (*i.e.* content, themes, *etc.*)
     was building the SvelteKit application from the source code;
     in the end, the build step was more independent of customization than I had
