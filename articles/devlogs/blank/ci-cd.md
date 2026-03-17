@@ -186,7 +186,7 @@ This worked well-enough at first, but later updates to the deployments became a
     horrific experience filled with unexpected issues, often stemming from
     malformed commands.
 On their own, these environments can be time consuming to set up.
-Due to the time required for setup, they would be reused indefinitely,
+Due to the time required for setup, I'd reuse them indefinitely,
 leading to problems over time;
 unexpected dependency conflicts within the runtime environments and stale
     system packages with major security vulnerabilities
