@@ -87,7 +87,7 @@ the application could be re-used for a host of different purposes
     (*e.g.*, personal portfolios, blogs, documentation sites, *etc.*).
 Every deployment, for each different purpose, would likely require its own
     deployment configuration and CI/CD requirements
-that [my CI/CD pipeline discussed here] would not be able to satisfy.
+that my personalized CI/CD pipeline would not be able to satisfy.
 Besides these potential different purposes,
     the separation proved to be beneficial for my own project as both my
     application and CI/CD pipeline evolved.
@@ -688,8 +688,6 @@ came out of a conversation with fellow software developer, [Chris Adkins].
     https://docs.microsoft.com/en-us/windows/wsl/about
 [the application is effectively just a template]:
     ./content-template.md
-[my CI/CD pipeline discussed here]:
-    https://github.com/systemcarl/folio
 [the application source code]: https://github.com/systemcarl/blank
 [Bash]: https://en.wikipedia.org/wiki/Bash_(Unix_shell)
 [defined by a collection of Bash scripts]:
