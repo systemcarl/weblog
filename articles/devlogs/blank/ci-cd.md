@@ -431,7 +431,7 @@ While system errors from the SvelteKit server are included in the aggregated
     application logs sent to Grafana Cloud,
 the real error monitoring is handled by [Sentry].
 I installed Sentry within the application itself,
-so as long the correct Sentry Data Source Name (DSN; the unique identifier for a
+so as long as the correct Sentry Data Source Name (DSN; the unique identifier for a
     Sentry project) is set in the environment variables,
 error reports are automatically sent to Sentry's servers and can be viewed
     through their portal.
