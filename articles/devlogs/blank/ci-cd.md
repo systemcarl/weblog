@@ -679,7 +679,7 @@ came out of a conversation with fellow software developer, [Chris Adkins].
     https://developer.mozilla.org/en-US/docs/Glossary/SSR
 [continuous integration and continuous deployment (CI/CD) pipeline]:
     https://en.wikipedia.org/wiki/CI/CD
-[my CI/CD pipeline]:
+[this CI/CD pipeline, to which I'm referring]:
     https://github.com/systemcarl/folio
 [the CI/CD pipeline solution I implemented]:
     https://github.com/systemcarl/folio
