@@ -13,10 +13,10 @@ To handle this non-trivial deployment process, I decided to implement
 automating away the whole ordeal
 (though admittedly, implementing a complete CI/CD pipeline is a whole ordeal in
     itself).
+
 The goal of implementing [this CI/CD pipeline, to which I'm referring]
     (and any CI/CD pipeline, I imagine) is to reduce common tasks into single,
     self-contained actions.
-
 If I were to develop and maintain my personal website without a CI/CD pipeline,
 every update to the application code would need to be followed by a tedious
     series of unreliable, *ad hoc* steps,
