@@ -509,7 +509,7 @@ Otherwise it would be very difficult (or just stupidly risky) to locally
 But with this shared state, it's easy to follow up automated deployments with
     local commands to troubleshoot issues or manage resources between releases.
 
-One particular benefit of using GitHub Actions that I didn`t want to live
+One particular benefit of using GitHub Actions that I didn't want to live
     without is the automatic [commit status] integration:
 the execution status of GitHub Action runs are automatically stored within the
     repository's commit history.
