@@ -576,10 +576,9 @@ that are tested in their own isolated repositories with controlled triggering
     events.
 
 ## An Ambitious Task From End to End
-Now, even if I were to say that this project would only qualify as a pipeline if
-    it delivers the application from end to end — from code changes to a live
-    deployment —
-I still grossly overshot the idea of a [minimal viable product (MVP)].
+Now, this project would qualify as a pipeline if all it did was
+    deliver the application from end to end — from code changes to a live
+    deployment.
 If I were to describe the bare minimum requirements of a CI/CD pipeline, it
     would only need to include:
 - building the application (though [as discussed earlier], this would better
@@ -587,7 +586,8 @@ If I were to describe the bare minimum requirements of a CI/CD pipeline, it
 - running application and pipeline tests; and
 - deploying the application to a publicly accessible host.
 
-My [initial iteration] of this project also included:
+Yet, I grossly overshot the idea of a [minimal viable product (MVP)] with this project.
+My [initial iteration] also included:
 - automated code quality checks via GitHub commit statuses;
 - support for concurrent pipeline executions over multiple environments; and
 - log aggregation with monitoring dashboards.
