@@ -511,7 +511,7 @@ But with this shared state, it's easy to follow up automated deployments with
 
 One particular benefit of using GitHub Actions that I didn't want to live
     without is the automatic [commit status] integration:
-the execution status of GitHub Action runs are automatically stored within the
+the execution status of GitHub Actions runs are automatically stored within the
     repository's commit history.
 To provide this execution status feedback during local executions, I needed to
     add [an additional GitHub API integration] to manually update commit
