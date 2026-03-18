@@ -561,7 +561,7 @@ To make sure secret values aren't accidentally exposed in the outputs,
 As a bonus, this verification workflow also first verifies all the environments
     (including the verification environment itself) are configured correctly,
 to make troubleshooting variable misconfigurations much easier
-and prevent tests from accidentally acting against production resources.
+and to prevent tests from accidentally acting against production resources.
 
 Similar to testing the Terraform triggers, I still haven't found a way to test
     the GitHub Actions workflows are dispatched correctly based on repository
