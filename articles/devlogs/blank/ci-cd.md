@@ -621,7 +621,7 @@ I have a much better understanding at this point of what makes a good CI/CD
     solution,
 and what core problems need to be considered when deciding on a design.
 
-At this point, I don't have much doubt that the issues still remaining with this
+At this point, I don't have much doubt that most of the issues still remaining with this
     pipeline can be addressed as I continue to iterate on the project.
 I think that instead of continually spinning up virtual machines for each
     deployment — updating and installing dependencies for every release —
