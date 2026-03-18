@@ -521,7 +521,7 @@ While this doesn't provide the same resolution as the GitHub Actions runs
 it standardizes the most important information between execution environments.
 With a consistent way to monitor deployment status, it's easy to diagnose
     deployment issues,
-and other integration with other GitHub features (like pull requests) will be
+and integration with other GitHub features (like pull requests) will be
     more manageable in the future.
 
 #### Testing the Test Runner Tests
