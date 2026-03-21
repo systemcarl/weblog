@@ -28,8 +28,8 @@ Choosing to only implement [the profile] and [the contact information] sections,
 
 This alone is a very simple task for a web developer of any
     experience level.
-However, my ambitions for this project go beyond just implementing a static web
-    design.
+However, my ambitions for this project goes beyond just implementing a static
+    web design.
 At a minimum, I want to have a system in place to easily update and change the
     content and appearance of the website without needing to redeploy the entire
     application.
@@ -53,7 +53,7 @@ In the context of the application powering my personal website, personalized
 
 Abstracting the personal content away from the application code also made it
     possible to reuse the same application code for different websites or blogs,
-and fully enable localization support in the future.
+and fully enables localization support in the future.
 The core of my application therefore needed to support this abstraction,
 wherein the content is injected into the application pages when rendered.
 
