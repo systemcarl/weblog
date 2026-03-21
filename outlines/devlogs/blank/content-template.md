@@ -10,11 +10,11 @@
     - The [first version] of [the application] had no content, only a styled
         [error message].
     - The component framework and underlying [theming system] was in place, but
-        the [visual design] had not been enacted beyond the simplest
+        the planned design had not been enacted beyond the simplest
         [proof-of-concept].
 - The next step was to create a simple [landing page] to give myself a very
     brief personal introduction.
-    - Working off a simple design mock-up the goal was to implement the
+    - Working off [a simple design mock-up] the goal was to implement the
         [profile] and [contact information] sections, adding:
         - my name,
         - a short description,
@@ -90,10 +90,10 @@
 [the application]: https://github.com/systemcarl/blank
 [error message]: https://carledwardlyons.ca/errors/400
 [theming system]: ./sveltekit.md#theming
-[visual design]:
-    https://www.figma.com/design/TJYtbshPU4K0CoXuYKqtwp/Portfolio?m=auto&t=IV2gWGSb6tnTZcel-6
 [proof-of-concept]: ./sveltekit.md#an-empty-application
 [landing page]: https://carledwardlyons.ca
+[a simple design mock-up]:
+    https://www.figma.com/design/TJYtbshPU4K0CoXuYKqtwp/Portfolio?m=auto&t=IV2gWGSb6tnTZcel-6
 [profile]:
     https://github.com/systemcarl/blank/blob/v0.0.2/src/lib/components/profile.svelte
 [contact information]:

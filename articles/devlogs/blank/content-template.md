@@ -6,13 +6,15 @@ I released and deployed [the first update].
     [a styled error message], which provided [an early proof-of-concept].
 With this, the application's component framework
     and [underlying theming system] was already in place.
-The update now added [a very simple landing page]
-    including the implementation of [the website's visual design mock-up].
+The update now added [a very simple landing page],
+testing how well the design could be implemented and extended with the
+    application structure already in place.
 
 The basic, stylized landing page provided a brief
     personal introduction.
-Working from the design mock-up, I decided to include as little content as
+Working from [my design mock-up], I decided to include as little content as
     possible
+(just to establish a workflow for iterating on the application design)
 without leaving anything looking incomplete or needing to be otherwise reworked
     within the planned scope of the design.
 Choosing to only implement [the profile] and [the contact information] sections,
