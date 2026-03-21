@@ -83,7 +83,7 @@ and dove headfirst into a world of [*HTML*], [*CSS*], [*JavaScript*],
 Since then, I have been busy building full-stack web applications and services.
 
 #### I Love Deadlines
-Over the last five years, I have been professionally writing software and
+Over the last six years, I have been professionally writing software and
     building web applications
 concurrently with my MSc studies.
 For most of this time, my task was to rebuild the [*MRKTBOX*]
@@ -100,9 +100,16 @@ Spending countless hours reviewing student code, untangling git commits, and
     lecturing on best practices
 was an enlightening exercise in leadership and project management.
 
-Since finishing my work on the *MRKTBOX* project, I have continued studying,
-    researching, and experimenting,
-which has culminated in the process of building this weblog, here.
+After finishing my work on the *MRKTBOX* project,
+I joined another, software startup, [Rohirrim]
+(yes, as in the [Riders of Rohan]; no, it's not *just* a [Lord of the Rings]
+    fan club).
+There, I have continued to build web applications and services,
+learning new tools and strategies,
+as we redefine bureaucratic workflows using the latest, cutting-edge technology.
+
+I am still dedicated to studying, researching, and experimenting,
+which has culminated in this weblog I built, here.
 My goal is to create a prototype for an open-source, modular, extensible, (maybe
     eventually) federated blogging service.
 I am also writing programming guides, professional tips, and other articles
@@ -266,6 +273,9 @@ Douglas Adams was a brilliant satirist and his philosophy and sense of humour
 [Jerry's business]: https://jerrynoordam.ca
 [*MRKTBOX*]: https://www.mrktbox.com/
 [e-commerce web application]: https://order.mrktbox.com/
+[Rohirrim]: https://rohirrim.ai/
+[Riders of Rohan]: https://en.wikipedia.org/wiki/Riders_of_Rohan
+[Lord of the Rings]: https://en.wikipedia.org/wiki/The_Lord_of_the_Rings
 [*Mastodon*]: https://joinmastodon.org/
 [scrum]: https://en.wikipedia.org/wiki/Scrum_(software_development)
 ["The Digital Divide"]: https://en.wikipedia.org/wiki/Digital_divide
