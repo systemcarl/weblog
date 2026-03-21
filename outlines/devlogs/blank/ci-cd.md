@@ -11,12 +11,12 @@
     weblog.
     - The application is a [SvelteKit] template [server-side rendering (SSR)]
         web application that is [populated using static JSON files].
-- I am also developing a [CI/CD pipeline] to automatically build, test, and
-    deploy the application to a [cloud server].
-    - The goal is to reduce common release and deployment tasks to a single
-        action.
+    - I am also developing a [CI/CD pipeline] to automatically build, test, and
+        deploy the application to a [cloud server].
+- The goal of the CI/CD pipeline is to reduce common release and deployment
+    tasks to a single action.
     - Scripting these tasks reduces personal effort and ensures operational
-        consistency.
+        security and consistency.
 
 ## Putting the Pieces Together
 - Like a physical pipeline, a CI/CD pipeline is made up of many smaller
