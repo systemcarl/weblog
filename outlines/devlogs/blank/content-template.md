@@ -22,14 +22,34 @@
         - an inspirational quote,
         - likes and dislikes,
         - and contact information.
+- This was a simple deliberately simple task.
+    - The intent is to develop the underlying system(s) to evaluate their
+        effectiveness in a real application.
 
 ## Strong Opinions, Loosely Held
+- Initial iteration of the application [abstracted away all content].
+    - Abstracted content makes content and application easier to manage and
+        update.
+    - Content includes:
+        - text,
+        - images,
+        - style,
+        - some layout and navigation structure.
+- Abstracting content also facilitates creating a reusable content template.
 - The core problem when designing a content system is balancing structure with
     flexibility.
     - A rigid structure makes it easy to create content, but limits the scope of
         possible applications.
     - A completely unstructured system allows can be used for anything, but
         requires more effort to create aesthetically pleasing content.
+
+### It Always Comes Back to Marketing
+- Determining the purpose of the content design helps inform open-ended design
+    decisions.
+- Most content driven applications have some marketing aspect.
+    - A personal website is simply a way to market oneself.
+    - Therefore, to generalize the design effectively, the goal is to make a
+        marketing template that works well for personal profiles.
 - This solutions focuses on ease of content creation.
     - The content will only be flexible enough to allow for personalization.
     - Any customization option will be designed to be intuitive and resilient
@@ -39,24 +59,16 @@
 - All of the content configurations are optional.
     - Aside from the bare minimum of a title, the design can be used with any
         combination of content elements.
+- Reflecting on the purpose of each design element has helped to clarify the
+    effect of the overall design.
+    - An avatar image and logo both establish visual identity, and the
+        presentation of the avatar element should emphasize this.
 - For this application, the constraints are limited mainly to the layout.
     - The semantics of the content elements are up to the content creator.
     - For example, the "likes" and "dislikes" sections could be used to
         represent
         - other pros and cons,
         - or any other comparison: what is or is not a sandwich.
-
-### It Always Comes Back to Marketing
-- Determining the purpose of the content design helps inform open-ended design
-    decisions.
-- Most content driven applications have some marketing aspect.
-    - A personal website is simply a way to market oneself.
-    - Therefore, to generalize the design effectively, the goal is to make a
-        marketing template that works well for personal profiles.
-- Reflecting on the purpose of each design element has helped to clarify the
-    effect of the overall design.
-    - An avatar image and logo both establish visual identity, and the
-        presentation of the avatar element should emphasize this.
 
 ## An Agnostic Application
 - Despite the opinions of the content design, the application itself is still
@@ -86,6 +98,7 @@
     https://github.com/systemcarl/blank/blob/v0.0.2/src/lib/components/profile.svelte
 [contact information]:
     https://github.com/systemcarl/blank/blob/v0.0.2/src/lib/components/contact.svelte
+[abstracted away all content]: ./sveltekit.md#knobs-and-dials
 [aggregated from static JSON files]: ./sveltekit.md#knobs-and-dials
 [new file]:
     https://github.com/systemcarl/folio-assets/blob/v0.0.2/config.json
