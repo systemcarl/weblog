@@ -561,7 +561,7 @@ The solution I found was pieced together many examples of the `createRawSnippet`
 And I'm sure the solution I implemented is not officially supported, so I expect
     it may break in future releases.
 Beyond the challenges of mocking components, it was disappointing that SvelteKit
-    does provide an elegant way to isolate state between tests.
+    doesn't provide an elegant way to isolate state between tests.
 
 Overall, though, I do see the appeal of SvelteKit over other popular front-end
     frameworks.
