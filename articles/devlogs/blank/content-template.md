@@ -45,7 +45,8 @@ I had decided early to [abstract all of the page content] (including static
 The idea was to remove any personalized content from the application code,
 allowing for easier updates to both the application and the content.
 In the context of the application powering my personal website, personalized
-    content is anything not strictly necessary for the application function, including:
+    content is anything not strictly necessary for the application function,
+including:
 - text content (both copy and long-form content),
 - images and graphics,
 - colours and backgrounds,
@@ -68,8 +69,8 @@ are all defined by the injected content text and style variables.
 
 The core problem when designing such a content system is balancing
     structure with flexibility.
-On one hand, making the content structure very rigid takes the guesswork out of creating
-    (and rendering) content,
+On one hand, making the content structure very rigid takes the guesswork out of
+    creating (and rendering) content,
 but limits the creative possibilities for the composition as a whole.
 On the other hand, a completely unstructured system allows for anything you can
     imagine,
@@ -99,8 +100,8 @@ It occurred to me that, in the same way I am promoting myself,
 So, to generalize the content design of my template effectively,
     the goal is to make a marketing template that is tailored specifically for
     personal profiles.
-    
-As such, I focused on ease of content creation (for both myself and others) 
+
+As such, I focused on ease of content creation (for both myself and others)
     with a strongly opinionated content design
 (opinionated in the sense that the page structure and content elements are predetermined,
     and the template constraints must be respected).
