@@ -64,7 +64,7 @@ The inclusion and layout of these elements are fixed, or restricted to certain
     content configurations.
 However, the styled [Hypertext Markup Language (HTML)] elements rendered to the
     displayed page (*e.g.*, title copy, size, font, and colour)
-are all defined by the injected content.
+are all defined by the injected content text and style variables.
 
 The core problem when designing such a content system is balancing
     structure with flexibility.
