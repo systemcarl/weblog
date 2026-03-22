@@ -105,16 +105,18 @@ As such, I focused on ease of content creation (for both myself and others)
     with a strongly opinionated content design
 (opinionated in the sense that the page structure and content elements are predetermined,
     and the template constraints must be respected).
-However, opinionated does not mean inflexible.
-At a minimum, the content definitions
-— the rules and restrictions that define what can and cannot be rendered to the
-    page —
-need to be flexible enough to allow the results to feel uniquely personalized.
-Moreover, the content definitions built into the design only need to be
-    restrictive enough to ensure a good design (whatever that may be).
-But so long as the system is intuitive and protects against illogical choices,
-there is still some room to explore broader content configuration structures
-to suit needs other than my own.
+Limiting the degree of freedom in the content design makes it simpler to create
+    content
+— the fewer knobs and dials to worry about, the quicker the presentation can be
+    customized and published.
+Structuring the content design around only a few options and variables also
+    makes it easier to ensure all the configurations play well together.
+
+> [!NOTE] However, opinionated does not mean inflexible.
+With the flexibility built into [the underlying applications theming system],
+that includes theme-specific, palette-colourized SVG graphics,
+there's still plenty of room for personalization and creativity within the
+     design constraints.
 
 ### Personal Preferences
 To make the content design as easy to use as possible,

@@ -52,8 +52,8 @@
         marketing template that works well for personal profiles.
 - This solutions focuses on ease of content creation.
     - The content will only be flexible enough to allow for personalization.
-    - Any customization option will be designed to be intuitive and resilient
-        against unpleasant design outcomes.
+    - Less options means less effort to create content, and more consistency
+        across applications of the template.
 
 ### Personal Preferences
 - All of the content configurations are optional.
