@@ -138,9 +138,7 @@ making it prominent and visually distinct from the rest of the content.
 The end result is a cohesive design where my cartooned face could easily be
     swapped out for a brand logo without disrupting the design integrity.
 
-Since the application is primarily concerned with visual presentation
-(there's nothing particularly interactive about a personal website and blog,
-    though I hope to add comments and other features in the future),
+Since the application is primarily concerned with visual presentation[^comment],
 the constraints of the design are limited mainly to the layout.
 So, beyond having to dictate where each content element should go on the page,
 the application does not impose any semantic meaning on the content itself.
@@ -203,6 +201,11 @@ this could be done without inviting any more complexity into the application
     [version 0.0.2 of the application].
 It includes file definitions for all [the websites content configuration],
     [text definitions], and [theme settings].
+
+[^comment]: These early iterations of the application are primarily concerned
+    with simply displaying weblog articles and other information about me.
+However, I have plenty of ideas for integrating more interactive features,
+like comments and social media integration.
 
 [I set up a SvelteKit application]: ./sveltekit.md
 [my personal website]: https://carledwardlyons.ca
