@@ -17,10 +17,14 @@
     tasks to a single action.
     - Scripting these tasks reduces personal effort and ensures operational
         security and consistency.
+- Implementing a CI/CD pipeline was largely a learning opportunity for me.
+    - My personal website does not require a full CI/CD pipeline.
 
 ## Putting the Pieces Together
 - Like a physical pipeline, a CI/CD pipeline is made up of many smaller
     components that each get the product closer to delivery.
+
+### Sharing is Caring
 - My main goal was to create a self-contained project that could be easily
     shared and customized.
     - I took care to consider the best platform-agnostic tools to use.
@@ -32,11 +36,10 @@
         apply changes to the application code repository.
     - Separating concerns allows the application to only provide the necessary
         APIs for the deployment process.
-- It proved beneficial to keep the two repositories separate.
-    - Most operations were specific to the architecture prescribed by the
-        CI/CD pipeline.
-    - I was not sure if all template customization could be applied post-build,
-        so a build process was included in the pipeline.
+- The only operation that wasn't specific to the architecture prescribed by the
+    CI/CD pipeline was the build process.
+    - All template customization and application configuration is done at
+        runtime.
 
 ### Following the Script
 - The pipeline logic was implement with [Bash] to make the CI/CD pipeline
@@ -66,6 +69,8 @@
 ### I Could Hardly Contain Myself
 - Previously, I had largely deployed applications as static files or within
    runtime virtual environments.
+- Manually configuring the server environment and installing dependencies is
+    tedious and error-prone.
 - [Docker] provides an alternative deployment strategy that packages the
     application and its dependencies into a single filesystem [image].
     - The image can be deployed to a sandbox [container] that runs in isolation
@@ -352,6 +357,7 @@
 [Bash scripts]: #following-the-script
 [Github Actions workflows]:
     https://github.com/systemcarl/folio/tree/v0.0.1/.github/workflows
+[commit status]: https://docs.github.com/en/rest/commits/statuses
 [integration]:
     https://github.com/systemcarl/folio/blob/v0.0.1/cli/status
 [Act]: https://nektosact.com/
@@ -362,3 +368,4 @@
     https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action
 [minimal viable product (MVP)]:
     https://en.wikipedia.org/wiki/Minimum_viable_product
+[first iteration]: https://github.com/systemcarl/folio/tree/v0.0.1
