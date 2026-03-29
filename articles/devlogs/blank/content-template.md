@@ -59,7 +59,8 @@ The core of my application therefore needed to support this abstraction,
 wherein the content is injected into the application pages when rendered.
 
 > [!NOTE]
-> In practice, this means that the design elements (*e.g.*, the page title) are
+> In practice, this means that the design elements (*e.g.*, the page title;
+    the text displayed in the browser tab) are
     defined in the application code.
 The inclusion and layout of these elements are fixed, or restricted to certain
     content configurations.
@@ -123,7 +124,7 @@ there's still plenty of room for personalization and creativity within the
 To make the content design as easy to use as possible,
 all of the content configurations are optional.
 Technically, to set up the application template, you don't even need to provide
-    a page title (the text displayed in the browser tab),
+    a page title,
 but it would hardly make sense to have a webpage without one.
 Beyond that simple requirement, I designed the content and theme together so
     that regardless of the amount of configuration provided,
