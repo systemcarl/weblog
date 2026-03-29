@@ -149,11 +149,11 @@ the application does not impose any semantic meaning on the content itself.
 For example, the section in [my design mock-up] listing my "likes" and
     "dislikes" do not need to be used for this purpose at all.
 Structurally, this element is simply a pair of lists that can be used to
-    represent any kind of comparison
-(if it even really needs to be a comparison).
+    represent any kind of comparison.
 This visual component could also be used to list pros and cons about
     a particular product, service, or philosophy.
 I could have just as easily listed what I believe is, or is not, a sandwich.
+Really, it doesn't need to be a comparision at all — they're just a couple of lists. 
 
 ## An Agnostic Application
 Despite the strong opinions built into the content design, the resulting
