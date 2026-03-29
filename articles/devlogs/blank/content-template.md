@@ -115,7 +115,7 @@ Structuring the content design around only a few options and variables also
 > [!NOTE]
 > However, opinionated does not mean inflexible.
 With the flexibility built into [the underlying application's theming system],
-that includes theme-specific, palette-colourized SVG graphics,
+which includes theme-specific, palette-colourized SVG graphics,
 there's still plenty of room for personalization and creativity within the
      design constraints.
 
