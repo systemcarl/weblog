@@ -112,7 +112,8 @@ Limiting the degree of freedom in the content design makes it simpler to create
 Structuring the content design around only a few options and variables also
     makes it easier to ensure all the configurations play well together.
 
-> [!NOTE] However, opinionated does not mean inflexible.
+> [!NOTE]
+> However, opinionated does not mean inflexible.
 With the flexibility built into [the underlying applications theming system],
 that includes theme-specific, palette-colourized SVG graphics,
 there's still plenty of room for personalization and creativity within the
