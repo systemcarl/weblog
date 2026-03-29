@@ -203,7 +203,7 @@ this could be done without inviting any more complexity into the application
 [^assets]: The static assets [are versioned separately] from the application.
 [Version 0.0.2 of the assets] from [my personal website] released with
     [version 0.0.2 of the application].
-It includes file definitions for all [the websites content configuration],
+It includes file definitions for all [the website's content configuration],
     [text definitions], and [theme settings].
 
 [^comment]: These early iterations of the application are primarily concerned
@@ -245,7 +245,7 @@ like comments and social media integration.
 [my personal website]: https://carledwardlyons.ca
 [version 0.0.2 of the application]:
     https://github.com/systemcarl/blank/tree/v0.0.2
-[the websites content configuration]:
+[the website's content configuration]:
     https://github.com/systemcarl/folio-assets/blob/v0.0.2/config.json
 [text definitions]:
     https://github.com/systemcarl/folio-assets/blob/v0.0.2/locale.json
