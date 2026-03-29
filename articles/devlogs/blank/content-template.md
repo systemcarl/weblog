@@ -28,7 +28,7 @@ Choosing to only implement [the profile] and [the contact information] sections,
 
 This alone is a very simple task for a web developer of any
     experience level.
-However, my ambitions for this project goes beyond just implementing a static
+However, my ambitions for this project go beyond just implementing a static
     web design.
 At a minimum, I want to have a system in place to easily update and change the
     content and appearance of the website without needing to redeploy the entire
