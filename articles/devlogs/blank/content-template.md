@@ -104,8 +104,9 @@ So, to generalize the content design of my template effectively,
 
 As such, I focused on ease of content creation (for both myself and others)
     with a strongly opinionated content design
-(opinionated in the sense that the page structure and content elements are predetermined,
-    and the template constraints must be respected).
+(opinionated in the sense that the page structure and content elements are
+    predetermined,
+and the template constraints must be respected).
 Limiting the degree of freedom in the content design makes it simpler to create
     content
 — the fewer knobs and dials to worry about, the quicker the presentation can be
@@ -186,8 +187,8 @@ making the intent of the test more explicit and the expected outcomes more
 clear.
 This prevents changes to the content or style of the final application from
     affecting the setup or expected outcomes of the tests.
-So, [all of my previously implemented testing strategies] established at the start
-    of development are still valid and effective.
+So, [all of my previously implemented testing strategies] established at the
+    start of development are still valid and effective.
 
 The next steps in the development of this application added some actual
     weblog content (you can read about all of it in my [DevLogs]).
