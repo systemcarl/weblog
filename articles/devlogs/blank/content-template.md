@@ -232,10 +232,13 @@ like comments and social media.
 [my design mock-up]:
     https://www.figma.com/design/TJYtbshPU4K0CoXuYKqtwp/Portfolio?m=auto&t=IV2gWGSb6tnTZcel-6
 [my mission]: ../../about-me.md#it-has-great-practical-value
-[aggregated by the application from static JSON files]: ./sveltekit.md#knobs-and-dials
+[the underlying application's theming system]: ./sveltekit.md#theming
+[aggregated by the application from static JSON files]:
+    ./sveltekit.md#knobs-and-dials
 [an additional configuration object]:
     https://github.com/systemcarl/folio-assets/blob/v0.0.2/config.json
-[all of my previously implemented testing strategies]: ./sveltekit.md#testing-testing-testing
+[all of my previously implemented testing strategies]:
+    ./sveltekit.md#testing-testing-testing
 [DevLogs]: https://carledwardlyons.ca/#devlogs
 [The following release]: https://github.com/systemcarl/blank/tree/v0.0.3
 [this application]: https://github.com/systemcarl/blank
