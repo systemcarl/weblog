@@ -199,6 +199,9 @@ Incorporating the Markdown content continued to make the application more
 and because of Markdown's simple, well-established structure,
 this could be done without inviting any more complexity into the application
     design.
+And for now, this all works well for my own website and articles, but the real
+    test will be applying this template to other applications
+— be it for other portfolios, blogs, or anything else that fits the design.
 
 [^assets]: The static assets [are versioned separately] from the application.
 [Version 0.0.2 of the assets] from [my personal website] released with
