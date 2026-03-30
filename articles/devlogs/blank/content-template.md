@@ -156,8 +156,8 @@ This visual component could also be used to list pros and cons about
 I could have just as easily listed what I believe is, or is not, a sandwich.
 
 ## An Agnostic Application
-Despite the strong opinions built into the content design, the resulting
-    application is still agnostic to the content itself
+Despite the strong opinions (the rules and constraints) built into the content
+    design, the resulting application is still agnostic to the content itself
 — unconcerned with the specific content being rendered to the page, and only
     concerned with how to render it.
 That is, all of the content is still
