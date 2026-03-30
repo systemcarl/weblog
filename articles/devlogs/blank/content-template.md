@@ -65,7 +65,7 @@ wherein the content is injected into the application pages when rendered.
 The inclusion and layout of these elements are fixed, or restricted to certain
     content configurations.
 However, the styled [Hypertext Markup Language (HTML)] elements rendered to the
-    displayed page (*e.g.*, title copy, size, font, and colour)
+    displayed page (*e.g.*, copy, size, font, and colour)
 are all defined by the injected content text and style variables.
 
 The core challenge when designing such a content system is balancing
@@ -166,7 +166,7 @@ That is, all of the content is still
 as per the original design of the application.
 The difference with this update is the files now include
     [an additional configuration object] to control the composition of pages,
-beyond copy text and HTML style definitions.[^assets]
+beyond the copy and HTML style definitions.[^assets]
 
 > [!NOTE]
 >It was a choice of personal preference to not combine all the configurations
