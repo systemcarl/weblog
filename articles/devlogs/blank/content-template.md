@@ -15,8 +15,8 @@ The basic, stylized landing page provided a brief
 Working from [my design mock-up], I decided to include as little content as
     possible
 (just to establish a workflow for iterating on the application design)
-without leaving anything looking incomplete or needing to be otherwise reworked
-    within the planned scope of the design.
+without leaving anything looking incomplete or otherwise needing to be reworked
+    finish the rest of the planned design.
 Choosing to only implement [the profile] and [the contact information] sections,
     the goal was just to add some static content elements, including:
 - my name,
