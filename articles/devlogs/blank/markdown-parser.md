@@ -30,7 +30,7 @@ The parser needed to:
 - and include some support for adding conditional HTML classes for styling.
 
 The most active and popular choice that met these requirements was
-    ["Markdown it!"].
+    [Markdown it!].
 
 In most cases, it's not necessary to add custom [HTML classes] to the parsed
     elements.
@@ -46,7 +46,8 @@ To the best of my knowledge, there currently isn't a runtime protocol for
 }
 ```
 
-In the end, it was easy enough to implement this with "Markdown it!".
+In the end, it was easy enough to implement conditional HTML class application
+    with *Markdown it!*.
 The render interface exposes the tokenized elements during parsing,
     allowing class names to be added as needed.
 The only exception was the [footnote plugin], which required a [small patch] to
@@ -214,7 +215,7 @@ came from feedback provided by fellow software developer, [Chris Adkins].
 [the application's theming]: ./sveltekit#theming
 [Markdown footnotes]:
     https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#footnotes
-["Markdown it!"]: https://github.com/markdown-it/markdown-it
+[Markdown it!]: https://github.com/markdown-it/markdown-it
 [HTML classes]:
     https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/class
 [theme system]: ./sveltekit#theming

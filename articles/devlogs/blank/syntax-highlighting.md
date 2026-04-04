@@ -11,13 +11,13 @@ Today, this is the norm for code presentation in the code editor, and on the
 To keep the development process streamlined, I opted not to implement syntax
     highlighting when I first [integrating a Markdown renderer] on my
     [personal website].
-Up until this point, [the application] simply used the default [Markdown It!]
+Up until this point, [the application] simply used the default [Markdown it!]
     renderer output without any additional processing.
-Fortunately, [Markdown It!] integrates well with [highlight.js], a quaintly
+Fortunately, *Markdown it!* integrates well with [highlight.js], a quaintly
     simple syntax highlighting library.
 
 ## A Token of Appreciation
-The [highlight.js] library can be used as a plugin for [Markdown It!] to extend
+The [highlight.js] library can be used as a plugin for [Markdown it!] to extend
     the HTML tokenization process.
 When code blocks are rendered, [highlight.js] wraps the code elements with
     specific style classes based on symbolic code token types.
@@ -73,7 +73,7 @@ Since the [highlight.js prefix] accepts white space without complaint,
     setting the prefix to `text typography-code-` injects the extra `text` class
     alongside the typography styles for each code scope element.
 Additionally, adding the `code-block` and `typography-code` classes to the
-    wrapping `<code>` element via a custom *Markdown It!* extension applies base
+    wrapping `<code>` element via a custom *Markdown it!* extension applies base
     styles to all code blocks.
 ```html
 <pre>
@@ -128,7 +128,7 @@ and there's always the risk of bloating the generated CSS, reducing overall page
 [integrating a Markdown renderer]: ./markdown-parser.md
 [personal website]: https://carledwardlyons.ca
 [the application]: https://github.com/systemcarl/blank
-[Markdown It!]: https://github.com/markdown-it/markdown-it
+[Markdown it!]: https://github.com/markdown-it/markdown-it
 [highlight.js]: https://github.com/highlightjs/highlight.js
 [list of "scopes"]:
     https://highlightjs.readthedocs.io/en/latest/css-classes-reference.html
