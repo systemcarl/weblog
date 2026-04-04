@@ -89,7 +89,7 @@ While I have [criticized declarative models] in the past, this is a great
     example of how [declarative design] can significantly simplify
     implementation.
 Simply mapping elements to style classes leaves the styling logic to the
-    [CSS engine], allowing us to focus on the composition and structure of the
+    [CSS engine], allowing me to focus on the composition and structure of the
     content.
 And since the CSS classes the application uses are just semantic tokens within
     [the theming system],
