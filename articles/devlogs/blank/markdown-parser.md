@@ -177,9 +177,12 @@ Common HTML elements can be used directly within the Markdown content,
 And since HTML is also just a plain text format,
 it fits well within the design's principles of simplicity and stability.
 However, HTML is not nearly as nice to read and thus requires a more involved
-    HTML renderer to present the content in an acceptable way.
-But if used sparingly within a Markdown document, this solution could still work well as
-    a compromise between readability and functionality.
+    HTML renderer to present the content in an accessible way.
+But if used sparingly within a Markdown document, this solution could still work
+    well as a compromise between readability and functionality
+— the odd HTML tag appearing in a text document would not present a polished
+    experience, but the average reader would likely understand the intent and
+    carry on unfazed.
 
 ### A Common Content Concern
 Since the [start of my project], content formatting has been a common concern for me.
