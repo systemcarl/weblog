@@ -1,7 +1,7 @@
 # DevLog: Implementing a Weblog Markdown Parser
 Over the past couple weeks, I've been [building a personal website] to showcase
     my projects and whatever else I want to share.
-"Whatever else" includes hosting a weblog on the site, 
+"Whatever else" includes hosting a weblog on the site,
     to which I can incrementally add content
     over time that's both easy to manage and browse.
 To keep the content management simple, I've chosen to store my articles in a
@@ -34,7 +34,7 @@ The most active and popular choice that met these requirements was
 
 In most cases, it's not necessary to add custom [HTML classes] to the parsed
     elements.
-Typically one could simply use tag names for styling: e.g., `.article h1`.
+Typically one could simply use tag names for styling: *e.g.*, `.article h1`.
 But, since my dynamic [theme system] needs to apply different styles based on
     additional context, this approach wouldn't work.
 To the best of my knowledge, there currently isn't a runtime protocol for
@@ -72,9 +72,9 @@ and the abstract Markdown file can also be rendered to provide a simple preview 
 There wasn't much else to it, really.
 Since the [theme styles are globally available as plain CSS], there was no
     need to implement any theme-specific logic in the parser.
-Had I used scoped styles (e.g., [CSS Modules], Svelte
+Had I used scoped styles (*e.g.*, [CSS Modules], Svelte
     [component style definitions])
-    or CSS in Javascript (e.g., [styled-components], [emotion]),
+    or CSS in Javascript (*e.g.*, [styled-components], [emotion]),
 this wouldn't have been as simple.
 The article component would have needed to be aware of the current theme and
     dynamically apply the correct styles to match the current theme.
