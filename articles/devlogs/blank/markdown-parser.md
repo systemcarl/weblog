@@ -108,22 +108,22 @@ If that format changes with new features, all existing content may need to be
     updated to match
 — which can be challenging to manage, even if it's just emptying the browser
     cache of a few users.
-Your data structure is always coupled with the software that consumes it like
-    this, in some way.[^softyy]
+Your data structure is always coupled with the software that consumes, one way
+    or another.[^softyy]
 And since I chose to store my articles outside the application repository,
     I needed to really think about how I structured the content.
 
 So, the idea was to keep things as simple as possible,
 and there's nothing simpler than plain text.
-Markdown isn't much more than plain text, and the added syntax is as close to
+Markdown isn't much more than plain text, and Markdown's syntax is as close to
    plain text styling as you can get.
 At a glance, a Markdown document just looks like an old text file from before
     rich text editors were commonplace
-and documents were broken up with dashes and pound signs.
+and documents were broken up with dashes, slashes and pound signs.
 This means that my content will remain quite stable and accessible, regardless
     of how Markdown specifications change over time.
-And with some added validation in the application, it shouldn't be too difficult
-    to ensure that the content meets the expected structure,
+Since I'm relying on an off-the-shelf parser to handle the Markdown validation,
+    it shouldn't be too difficult to ensure that the content meets the expected structure,
 as long as it's easily decoded text (which is really anything transferred over
     HTTP).
 
