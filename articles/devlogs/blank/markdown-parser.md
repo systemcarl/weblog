@@ -7,11 +7,11 @@ Over the past couple weeks, I've been [building a personal website] to showcase
 To keep the content management simple, I've chosen to store my articles in a
     [Git repository] separate from the website code.
 This means my weblog catalog is independent of the website [application]
-    (which is actually [just a template]),
+    (which actually ends up [just being a template]),
 making it easy to manage with the deployed [configuration].
 
 Since the article files are meant to be human-readable, easy to edit, and
-    universally compatible,
+    universally compatible across common renders,
 I wrote the content in [Markdown].
 The simplest option would have been to just link to the source Markdown files,
 which GitHub can render naively.
@@ -209,7 +209,7 @@ came from feedback provided by fellow software developer, [Chris Adkins].
 [building a personal website]: ./sveltekit.md
 [Git repository]: https://github.com/systemcarl/weblog
 [application]: https://github.com/systemcarl/blank
-[just a template]: ./sveltekit
+[just being a template]: ./sveltekit
 [configuration]: ./sveltekit#knobs-and-dials
 [Markdown]: https://en.wikipedia.org/wiki/Markdown
 [the application's theming]: ./sveltekit#theming
