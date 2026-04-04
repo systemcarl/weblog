@@ -185,7 +185,8 @@ But if used sparingly within a Markdown document, this solution could still work
     carry on unfazed.
 
 ### A Common Content Concern
-Since the [start of my project], content formatting has been a common concern for me.
+Since the [start of my project], content format (how the content is both stored
+    and presented) has been a common concern for me.
 This simple but critical element of the design is a key decision that will
     impact the overall structure and experience of the application.
 The [structure of your data shapes the outcome] of a project, well beyond the
@@ -196,6 +197,9 @@ Deciding how to [structure the theming system] also required carefully
 In the same way, [building out the content template] required thinking about how
     the content might be structured to handle different use cases beyond just
     my own [personal website].
+Each of these problems required thinking abstractly about how the underlying
+    data (be it the article content, the theme definitions, or other application
+    configuration) is transformed into the final user experience.
 
 I expect this will continue to be a theme (philosophical, not visual) as this
     project continues.
