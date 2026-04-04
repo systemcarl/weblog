@@ -65,14 +65,14 @@ One additional thing I needed to consider when rendering an article page was
     displaying pages or links.
 Basic [search engine optimization (SEO)] requires a page [title] and a
     summary [description] to be included in the HTML document.
-To handle this, I created a separate directory of article abstracts that mirrors
-    the article directory structure.
+To handle this, I created a separate directory of article abstracts within the
+    git repository that mirrors the article directory structure.
 Each [abstract file] includes the title and description for the corresponding
     [article file].
-Pulling this optional data into a separate file keeps the article content to the
-    article itself,
-and the abstract Markdown file can also be rendered to provide a simple preview of
-    the article content.
+Putting the optional article abstract information into a separate file keeps the
+    article content to the article itself,
+and the abstract Markdown file can also be rendered to provide a simple preview
+    of the article content.
 
 ### I Do Declare
 There wasn't much else to it, really.
