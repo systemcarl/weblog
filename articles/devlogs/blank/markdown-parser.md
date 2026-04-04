@@ -96,7 +96,8 @@ And since the CSS classes the application uses are just semantic tokens within
 the [theme CSS generator] takes care of the rest naturally.
 
 ## Not-So-Hyper Text
-In terms of code, [this update] was quite trivial.
+In terms of code, [this update to render articles within the application] was
+    quite trivial.
 However, a lot had to be considered beyond simply choosing the right parser
     library.
 When designing a content system, one of the core questions that must be
@@ -250,7 +251,8 @@ came from feedback provided by fellow software developer, [Chris Adkins].
 [the theming system]: ./sveltekit.md#theming
 [theme CSS generator]:
     https://github.com/systemcarl/blank/blob/v0.0.3/src/lib/utils/styles.ts
-[this update]: https://github.com/systemcarl/blank/tree/v0.0.3
+[this update to render articles within the application]:
+    https://github.com/systemcarl/blank/tree/v0.0.3
 [previewing the content on GitHub]:
     https://github.com/systemcarl/weblog/blob/main/articles/devlogs/blank/markdown-parser.md#text-is-plain
 [start of my project]: ./sveltekit.md
