@@ -154,8 +154,9 @@ However, this only works if you're viewing the content in an environment that un
 Any other parser would just leave the directives as-is in the output HTML as
     unintelligible text.
 This is not ideal, but there could be ways to mitigate this problem with
-    cleverly designed link types or code blocks that would still fall back
-    to something reasonable if the new features were not supported.
+    cleverly designed link types or code blocks
+that would still fall back to a standard element if the new features were not
+    supported.
 ```markdown
 Including a query parameter could signal that the link should be embedded:
 [Example](https://github.com/systemcarl/weblog/blob/2bd7694f413c43640033e09db42eca7aad80b58d/articles/hello-world.md?embed=1&plain=1#L2)
