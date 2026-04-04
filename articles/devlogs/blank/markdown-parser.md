@@ -32,11 +32,12 @@ The parser needed to:
 The most active and popular choice that met these requirements was
     [Markdown it!].
 
-In most cases, it's not necessary to add custom [HTML classes] to the parsed
-    elements.
+In most other cases, it's not necessary to add custom [HTML classes] to the
+    parsed elements.
 Typically one could simply use tag names for styling: *e.g.*, `.article h1`.
 But, since my dynamic [theme system] needs to apply different styles based on
-    additional context, this approach wouldn't work.
+    additional context (not just the element being styled),
+styling by tag name wouldn't work.
 To the best of my knowledge, there currently isn't a runtime protocol for
     applying the [cascading style sheets (CSS)] definitions of one selector to
     another — something like [Sass]'s `@extend` directive.
@@ -45,6 +46,10 @@ To the best of my knowledge, there currently isn't a runtime protocol for
     @extend .typography-heading-1;
 }
 ```
+If there were, tags could be mapped to the appropriate theme classes in the CSS,
+    without needing to modify the HTML output of the parser.
+Alas, this is not the case, and the HTML output of the parser needs to include
+    the classes matching those defined in by the theme.
 
 In the end, it was easy enough to implement conditional HTML class application
     with *Markdown it!*.
