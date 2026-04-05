@@ -1,8 +1,8 @@
 # DevLog: Integrating Themed Alert Blocks
 If you've ever read a programming guide or any online technical documentation,
 you're probably familiar with "quote blocks", or [block quotations].
-These are paragraphs of text, often indented, to indicate a special section, often a
-    quote from another source.
+These are paragraphs of text, often indented, to indicate a special section,
+    often a quote from another source.
 In Markdown, quote blocks are created by prefixing lines with the `>` character.
 ```markdown
 > This is a regular old quote block.
@@ -66,8 +66,8 @@ I already had to [add custom theme classes] to:
 - integrate the [application theming system]
     to be able to apply text fonts and other styles
     (especially to get footnotes looking right), and
-- [integrate syntax highlighting], which required some additional parsing logic as
-    well.
+- [integrate syntax highlighting], which required some additional parsing logic
+    as well.
 
 However, implementing alert block parsing was a bit trickier.
 Since *Markdown it!* divides Markdown content during parsing
