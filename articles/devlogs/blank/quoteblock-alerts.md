@@ -70,12 +70,14 @@ I already had to [add custom theme classes] to:
     well.
 
 However, implementing alert block parsing was a bit trickier.
-Since *Markdown it!* divides the content during parsing
-by treating opening and closing tags as their own tokens,
-it was difficult to link the content to the style of the wrapping quote block.
+Since *Markdown it!* divides Markdown content during parsing
+by treating generated opening and closing tags as their own tokens,
+it was difficult to link the contents of the quote block to the style of the
+    wrapping quote block.
 After some close inspection of the token structure,
-I was able to crawl the tokens to apply the necessary theme classes and
-    rewrite the label's HTML structure.
+I was able to crawl the tokens
+    (iterating over the whole quote block, one element at a time)
+to apply the necessary theme classes and rewrite the label's HTML structure.
 
 ### Staying on Theme
 While finding a way to parse the alert blocks was difficult,
