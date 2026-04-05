@@ -82,19 +82,25 @@ to apply the necessary theme classes and rewrite the label's HTML structure.
 ### Staying on Theme
 While finding a way to parse the alert blocks was difficult,
 the real challenge was deciding how to structure the HTML to take full advantage
-    of the [application theming system].
-Because alerts typically have an outer accentuating style
+    of [the web application's theming system]
+    and the [Cascading Style Sheets (CSS)] it generates.
+Alert blocks typically have an outer accentuating style
 — highlighting the label and boundaries —
-and an inner content area that needs to be consistent and legible,
-I had to find a way to intuitively separate these two areas despite there being
-    no hierarchical division between the label and content.
+and an inner content area that needs to be consistent and legible.
+To implement this style via CSS,
+I had to find a way to intuitively separate and label these two areas
+despite there being no hierarchical division between the label and content.
 
-By aggressively applying theme classes to all of the quote block elements,
-I could apply the alert-specific styles to the outer container and first
-    paragraph element — the label.
-The base alert typography styles could then be applied directly to the remaining
-    content paragraph(s), assuming the rest of the quote block plain text
-    (we'll see if that assumption holds up later).
+By aggressively applying theme classes to all of the quote block elements during
+    parsing,
+I could apply the alert-specific styles
+    (the styles unique to each alert type; `typography-alert-note`)
+to the outer container and first paragraph element — the label.
+The base alert typography styles (the styles common to all alert types)
+could then be applied directly to the remaining inner content paragraph(s),
+assuming the rest of the quote block inner content is simply plain text
+(no headings, lists, code blocks, *etc.*;
+    we'll see if that assumption holds up later).
 ```html
 <blockquote class="text typography-note typography-alert-note">
   <p class="text alert typography-alert">Note</p>
@@ -148,6 +154,9 @@ If you want to see an example, I also just wrote a short tutorial on
 [add custom theme classes]: ./markdown-parser.md#parsing-the-options
 [application theming system]: ./sveltekit.md#theming
 [integrate syntax highlighting]: ./syntax-highlighting.md#the-perfect-prefix
+[the web application's theming system]: ./sveltekit.md#theming
+[Cascading Style Sheets (CSS)]:
+    https://en.wikipedia.org/wiki/Cascading_Style_Sheets
 [theme configuration]:
     https://github.com/systemcarl/folio-assets/blob/v0.0.5/theme.json#L241-L271
 [code syntax highlighting]: ./syntax-highlighting.md
