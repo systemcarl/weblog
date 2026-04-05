@@ -71,15 +71,17 @@ the code scopes are automatically mapped to the corresponding theme-generated
 And just like that, the theme-defined typography styles are applied to the
     applicable code tokens.
 
-The rest of the implementation is just to address the base styles for code
-    blocks, and text elements in general.
+The rest of the syntax highlighting implementation is just to address the base
+    styles for code blocks, and text elements in general.
 All text elements throughout the application are also given the base `text`
     class for resolving the theme CSS variables into finalized style properties
 (this allows classes to provide context without necessarily applying styles
     directly).
 Since the highlight.js prefix accepts white space without complaint,
-    setting the prefix to `text typography-code-` injects the extra `text` class
-    alongside the typography styles for each code scope element.
+setting the prefix to `text typography-code-` injects the extra `text` class
+    alongside the typography styles for each code scope element,
+and prefixes the theme context segment of the class name with `code-` to avoid
+    conflicts between future theme contexts and unexpected highlight.js scopes.
 Additionally, adding the `code-block` and `typography-code` classes to the
     wrapping `<code>` element via a custom *Markdown it!* extension applies base
     styles to all code blocks.
