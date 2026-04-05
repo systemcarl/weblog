@@ -77,7 +77,7 @@ All text elements throughout the application are also given the base `text`
     class for resolving the theme CSS variables into finalized style properties
 (this allows classes to provide context without necessarily applying styles
     directly).
-Since the [highlight.js prefix] accepts white space without complaint,
+Since the highlight.js prefix accepts white space without complaint,
     setting the prefix to `text typography-code-` injects the extra `text` class
     alongside the typography styles for each code scope element.
 Additionally, adding the `code-block` and `typography-code` classes to the
