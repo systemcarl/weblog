@@ -109,7 +109,7 @@ assuming the rest of the quote block inner content is simply plain text
 ```
 > [!NOTE]
 The `typography-note` class applies the base styles to all note elements via
-    inheritance from the outer blockquote
+    inheritance from the outer blockquote element
 and is reapplied to the inner content to revert any alert-specific styles.
 You can see an example of this structure in the [theme configuration] used for
     this weblog.
