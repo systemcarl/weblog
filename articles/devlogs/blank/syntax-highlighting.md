@@ -15,8 +15,8 @@ Today, syntax highlighting is the norm for code presentation in the code editor,
 To keep the development process of [my personal website] streamlined,
 I opted not to implement syntax highlighting when
     [I first integrated a Markdown renderer].
-Initially, [this web application] simply used the default [Markdown it!]
-    renderer output without any additional processing.
+Initially, [the web application rendering my website] simply used the default
+    [Markdown it!] renderer output without any additional processing.
 Fortunately, *Markdown it!* integrates well with [highlight.js], a quaintly
     simple syntax highlighting library, which I eventually opted to use.
 
@@ -60,8 +60,8 @@ where the default prefix is `hljs-`
 
 This naming pattern is very similar to
     [the pattern I used to apply theme styles] throughout my personal website.
-For example, to specifically target text elements on my website,
-    the application automatically generates
+To specifically target text elements on my website,
+    the application's theming system automatically generates
     typography style classes with the format `typography-<context>`,
 where `<context>` is the semantic usage of the typography style
 (*e.g.*, `typography-body`, `typography-title`, etc.).
@@ -114,7 +114,7 @@ because the base `typography-code` style has already taken care of that.
 It also means that every scope is optional; the theme only needs to define the
     typography of the scopes that need to be highlighted.
 
-I've already added this syntax highlighting support to [my personal website]
+I've since added this syntax highlighting support to [my personal website]
 (and this blog, as you've probably noticed).
 You can see [an example of the theme configuration] on GitHub. This file defines
     the typography styles for the code you see here.
@@ -139,7 +139,7 @@ So, in the future, I may need to revisit how themes are defined to better manage
 ["syntax highlighting,"]: https://en.wikipedia.org/wiki/Syntax_highlighting
 [I first integrated a Markdown renderer]: ./markdown-parser.md
 [my personal website]: https://carledwardlyons.ca
-[this web application]: https://github.com/systemcarl/blank
+[the web application rendering my website]: https://github.com/systemcarl/blank
 [Markdown it!]: https://github.com/markdown-it/markdown-it
 [highlight.js]: https://github.com/highlightjs/highlight.js
 [list of "scopes"]:
