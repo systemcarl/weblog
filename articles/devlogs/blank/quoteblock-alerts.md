@@ -24,14 +24,17 @@ Common Markdown renders
     [personal website] —
 do not support alert blocks, only basic quote blocks.
 So, to get the benefits of alert blocks in my weblog articles,
-I had to implement custom *Markdown it!* parsing rules to add this additional
-    information to the rendered HTML.
+I implemented custom *Markdown it!* parsing rules to add the additional
+    information to the rendered HTML
+necessary to render alert blocks on my website and integrate them with
+    [the underlying application's theming system].
 
 ## If It's Not Broken, Don't File a New Issue
 While [implementing Markdown parsing] and also integrating
     [code syntax highlighting],
 I've thought a lot about [how I might extend Markdown parsing] in ways that
-    don't compromise the portability of the Markdown files themselves.
+    don't compromise the portability of the Markdown files themselves
+(the readability and compatibility of the Markdown files across renderers)
 Normally, I would prefer to avoid adding any special decorators or syntax to the
     Markdown files that would not render well with parsers that don't support
     them.
@@ -107,12 +110,12 @@ The one obvious limitation of this structure is that all alert-specific styles
 If the quote block content is dark text, every alert background must be
     sufficiently light, or vice versa.
 It is possible to work around this by not defining a base style,
-but that would only work if regular quote blocks (without an alert declaration) 
+but that would only work if regular quote blocks (without an alert declaration)
     have similar styles to the article body text.
 
 ## [!SUCCESS]
-I may still consider adding alternative syntax for my alert blocks, 
-    with the goal of making the Markdown files more portable, 
+I may still consider adding alternative syntax for my alert blocks,
+    with the goal of making the Markdown files more portable,
     and render better with generic parsers.
 There's no reason my applications renderer can't support multiple syntax
     options for the same feature,
@@ -132,6 +135,7 @@ If you want to see an example, I also just wrote a short tutorial on
 [Markdown it!]: https://github.com/markdown-it/markdown-it
 [render Markdown files]: ./markdown-parser.md
 [personal website]: https://carledwardlyons.ca
+[the underlying application's theming system]: ./sveltekit.md#theming
 [implementing Markdown parsing]: ./markdown-parser.md
 [how I might extend Markdown parsing]: ./markdown-parser.md#text-is-plain
 [application]: https://github.com/systemcarl/blank
