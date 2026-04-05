@@ -55,16 +55,16 @@ Conveniently, [highlight.js] applies syntax highlighting styles to the code
 The class name for each code scope follows a predictable pattern of
     `<prefix><scope>`,
 where the default prefix is `hljs-`
-(e.g., `hljs-keyword`, `hljs-string`, etc.).
+(*e.g.*, `hljs-keyword`, `hljs-string`, etc.).
 
 
-This naming pattern is very similar to [the pattern I used to apply theme styles]
-    throughout my personal website.
-For example, to specifically target text elements on my website, 
+This naming pattern is very similar to
+    [the pattern I used to apply theme styles] throughout my personal website.
+For example, to specifically target text elements on my website,
     the application automatically generates
     typography style classes with the format `typography-<context>`,
 where `<context>` is the semantic usage of the typography style
-(e.g., `typography-body`, `typography-title`, etc.).
+(*e.g.*, `typography-body`, `typography-title`, etc.).
 By setting the [highlight.js prefix] to `typography-`,
 the code scopes are automatically mapped to the corresponding theme-generated
     typography styles, using the highlight.js scope as the theme context.
@@ -100,8 +100,8 @@ Now these code blocks can be styled by simply defining the right typography
 ## Keeping Options Open
 Over and over, the fundamental questions concerning my application's design
     come back to [balancing the complexity of features with ease of use].
-To fully enable the syntax highlighting feature, I had to add several new typography
-    definitions to
+To fully enable the syntax highlighting feature, I had to add several new
+    typography definitions to
     [the theme configuration used to style this website].
 Each code scope requires its own typography style definition, even if the
     typography styles are shared across multiple scopes.
@@ -123,7 +123,7 @@ Once the logic was in place, it was a lot of fun to experiment with different
     color schemes and typographic styles for the various code scopes.
 I haven't yet decided on additional font options for the theme, but it would
    be interesting to use alternative monospace fonts for certain tokens
-— like using cursive fonts for comments, 
+— like using cursive fonts for comments,
     as many developers do in their code editors.
 But with [this new application version] and some quick adjustments to the theme
     configuration file,
