@@ -34,7 +34,7 @@ While [implementing Markdown parsing] and also integrating
     [code syntax highlighting],
 I've thought a lot about [how I might extend Markdown parsing] in ways that
     don't compromise the portability of the Markdown files themselves
-(the readability and compatibility of the Markdown files across renderers)
+(the readability and compatibility of the Markdown files across renderers).
 Normally, I would prefer to avoid adding any special decorators or syntax to the
     Markdown files that would not render well with parsers that don't support
     them.
