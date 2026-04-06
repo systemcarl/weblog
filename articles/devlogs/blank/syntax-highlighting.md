@@ -122,7 +122,7 @@ You can see [an example of the theme configuration] on GitHub. This file defines
     the typography styles for the code you see here.
 
 Once the logic was in place, it was a lot of fun to experiment with different
-    color schemes and typographic styles for the various code scopes.
+    colour schemes and typographic styles for the various code scopes.
 I haven't yet decided on additional font options for the theme, but it would
    be interesting to use alternative monospace fonts for certain tokens
 — like using cursive fonts for comments,
