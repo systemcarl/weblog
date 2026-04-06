@@ -131,6 +131,8 @@ But with [this new application version] and some quick adjustments to the theme
     configuration file,
 the code blocks are already much easier to read and look much more consistent
     with the overall visual style of the website.
+
+    
 However, the theme file is already much larger than I had originally
     anticipated,
 and there's always the risk of bloating the generated CSS, reducing overall page
