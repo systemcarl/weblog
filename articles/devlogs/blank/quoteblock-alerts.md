@@ -24,9 +24,9 @@ Common Markdown renders
     [personal website] —
 do not support alert blocks, only basic quote blocks.
 So, to get the benefits of alert blocks in my weblog articles,
-I implemented custom *Markdown it!* parsing rules to add the additional
-    information to the rendered HTML
-necessary to render alert blocks on my website and integrate them with
+I implemented custom *Markdown it!* parsing rules to add additional
+    information to the rendered HTML, which allowed me to
+    render alert blocks on my website and integrate them with
     [the underlying application's theming system].
 
 ## If It's Not Broken, Don't File a New Issue
