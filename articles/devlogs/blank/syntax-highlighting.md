@@ -5,7 +5,7 @@ When this just involves rendering the odd line of code,
     a simple monospaced font can be enough.
 But when the code blocks get longer and the language context is important,
 formatting matters.
-Often referred to as ["syntax highlighting,"]
+Often referred to as ["syntax highlighting"],
 language-specific keywords, tokens, and variables are visually differentiated
     using various typographic styles,
 like colour, weight, and emphasis.
@@ -138,7 +138,7 @@ and there's always the risk of bloating the generated CSS, reducing overall page
 So, in the future, I may need to revisit how themes are defined to better manage
     the increasing complexity of the typography styles.
 
-["syntax highlighting,"]: https://en.wikipedia.org/wiki/Syntax_highlighting
+["syntax highlighting"]: https://en.wikipedia.org/wiki/Syntax_highlighting
 [I first integrated a Markdown renderer]: ./markdown-parser.md
 [my personal website]: https://carledwardlyons.ca
 [the web application rendering my website]: https://github.com/systemcarl/blank
