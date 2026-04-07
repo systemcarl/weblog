@@ -66,7 +66,7 @@ One additional thing I needed to consider when rendering an article page was
 Basic [search engine optimization (SEO)] requires a page [title] and a
     summary [description] to be included in the HTML document.
 To handle this, I created a separate directory of article abstracts within the
-    git repository that mirrors the article directory structure.
+    Git repository that mirrors the article directory structure.
 Each [abstract file] includes the title and description for the corresponding
     [article file].
 Putting the optional article abstract information into a separate file keeps the
