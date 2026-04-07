@@ -146,8 +146,8 @@ The end result is a cohesive design where my cartooned face could easily be
 
 Since the application is primarily concerned with visual presentation[^comment],
 the constraints of the design are limited mainly to the layout.
-So, beyond having to dictate where each content element should go on the page,
-the application does not impose any semantic meaning on the content itself.
+So, while the application dictates where each content element goes on the page,
+it does not impose any semantic meaning on the content itself.
 For example, the section in [my design mock-up] listing my "likes" and
     "dislikes" do not need to be used for this purpose at all.
 Structurally, this element is simply a pair of lists that can be used to
