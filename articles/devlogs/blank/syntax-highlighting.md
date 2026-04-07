@@ -72,12 +72,13 @@ using the highlight.js code scope name as the theme context.
 And just like that, the theme-defined typography styles are applied to the
     applicable code tokens.
 
-The rest of the syntax highlighting implementation is just to address the base
+The rest of the syntax highlighting implementation was just to address the base
     styles for code blocks, and text elements in general.
 All text elements throughout the application are also given the base `text`
-    class for resolving the theme CSS variables into finalized style properties
-(this allows classes to provide context without necessarily applying styles
-    directly).
+    class
+required for resolving the theme CSS variables into finalized style properties
+(without this class, typography classes only provide context without necessarily
+    applying the derived styles to the target element).
 Since the highlight.js prefix accepts white space without complaint,
 setting the prefix to `text typography-code-` injects the extra `text` class
     alongside the typography styles for each code scope element,
@@ -97,9 +98,10 @@ Additionally, adding the `code-block` and `typography-code` classes to the
     </code>
 </pre>
 ```
-Now these code blocks can be styled by simply defining the right typography
-    definitions for each theme, or even for each theme section to allow for
-    light and dark variations, depending on the background.
+Now these code blocks can be styled by simply defining the right code scope
+    typography definitions for each theme,
+or even for each theme section to allow for light and dark variations,
+    depending on the background.
 
 ## Keeping Options Open
 Over and over, the fundamental questions concerning my application's design
