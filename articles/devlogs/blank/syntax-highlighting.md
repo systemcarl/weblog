@@ -29,7 +29,7 @@ When code blocks are rendered, highlight.js wraps the code elements with
 
 These tokens are defined in the highlight.js [list of "scopes"], which outlines
     the common semantic code elements shared across programming languages.
-The syntax highlighter automatically assigns the common scopes based on the
+The syntax highlighter automatically assigns the common code scopes based on the
     grammar of the specified programming language
 (so long as it [is supported]).
 ```typescript
@@ -66,8 +66,9 @@ To specifically target text elements on my website,
 where `<context>` is the semantic usage of the typography style
 (*e.g.*, `typography-body`, `typography-title`, etc.).
 By setting the [highlight.js prefix] to `typography-`,
-the code scopes are automatically mapped to the corresponding theme-generated
-    typography styles, using the highlight.js scope as the theme context.
+the code scopes classes are automatically mapped to the corresponding
+    theme-generated typography styles,
+using the highlight.js code scope name as the theme context.
 And just like that, the theme-defined typography styles are applied to the
     applicable code tokens.
 
@@ -80,8 +81,9 @@ All text elements throughout the application are also given the base `text`
 Since the highlight.js prefix accepts white space without complaint,
 setting the prefix to `text typography-code-` injects the extra `text` class
     alongside the typography styles for each code scope element,
-and prefixes the theme context segment of the class name with `code-` to avoid
-    conflicts between future theme contexts and unexpected highlight.js scopes.
+and prefixes the theme context segment of the class name with `code-`
+to avoid conflicts between future theme contexts and unexpected highlight.js
+    code scope names.
 Additionally, adding the `code-block` and `typography-code` classes to the
     wrapping `<code>` element via a custom *Markdown it!* extension applies base
     styles to all code blocks.
@@ -105,16 +107,17 @@ Over and over, the fundamental questions concerning my application's design
 To fully enable the syntax highlighting feature, I had to add several new
     typography definitions to
     [the theme configuration used to style this website].
-Each code scope requires its own typography style definition, even if the
-    typography styles are shared across multiple scopes.
+Each styled code scope requires its own typography style definition, even if the
+    typography styles are shared across multiple code scopes.
 Fortunately, I had already designed the typography styles to set properties to
     `inherit` by default, allowing new styles to only apply to a subset of
     properties, as needed.
-This means that every code scope does not need to define the font family to the
-    same monospace font
+This means that every code scope theme definition does not need to define the
+    font family to the same monospace font
 because the base `typography-code` style has already taken care of that.
-It also means that every scope is optional; the theme only needs to define the
-    typography of the scopes that need to be highlighted.
+It also means that theme definitions for each code scope is optional;
+the theme only needs to define the typography of the code scopes that need to be
+    highlighted.
 
 I've since added this syntax highlighting support to [my personal website]
 (and this blog, as you've probably noticed).
