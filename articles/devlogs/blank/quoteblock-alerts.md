@@ -39,7 +39,7 @@ Normally, I would prefer to avoid adding any special decorators or syntax to the
     them.
 When using the GitHub alert block declarations, if the parser doesn't support
     the special syntax, an unappealing brackets and bang of the `[!NOTE]` label
-    appears at the start of the quote block unstyled.
+    appears at the start of the quote block, unstyled.
 ```
 > [!NOTE]
 This is a note alert block.
