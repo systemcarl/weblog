@@ -117,7 +117,7 @@ Fortunately, I had already designed the typography styles to set properties to
 This means that every code scope theme definition does not need to define the
     font family to the same monospace font
 because the base `typography-code` style has already taken care of that.
-It also means that theme definitions for each code scope is optional;
+It also means that theme definitions for code scopes are optional;
 the theme only needs to define the typography of the code scopes that need to be
     highlighted.
 
