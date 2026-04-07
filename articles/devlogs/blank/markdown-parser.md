@@ -51,10 +51,10 @@ If there were, tags could be mapped to the appropriate theme classes in the CSS,
 Alas, this is not the case, and the HTML output of the parser needs to include
     the classes matching those defined by the theme.
 
+Thankfully, the render interface exposes the tokenized elements during parsing,
+    allowing class names to be added as needed.
 In the end, it was easy enough to implement conditional HTML class application
     with *Markdown it!*.
-The render interface exposes the tokenized elements during parsing,
-    allowing class names to be added as needed.
 The only exception was the [footnote plugin], which required a [small patch] to
     apply styling correctly to the footnote references
     (the superscript numbers inline with the text).[^footnote]
