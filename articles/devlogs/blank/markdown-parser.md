@@ -199,7 +199,7 @@ In the same way, [building out the content template] required thinking about how
     my own [personal website].
 Each of these problems required thinking abstractly about how the underlying
     data (be it the article content, the theme definitions, or other application
-    configuration) is transformed into the final user experience.
+    configurations) is transformed into the final user experience.
 
 I expect this will continue to be a theme (philosophical, not visual) as this
     project continues.
