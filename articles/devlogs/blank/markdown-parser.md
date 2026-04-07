@@ -49,7 +49,7 @@ To the best of my knowledge, there currently isn't a runtime protocol for
 If there were, tags could be mapped to the appropriate theme classes in the CSS,
     without needing to modify the HTML output of the parser.
 Alas, this is not the case, and the HTML output of the parser needs to include
-    the classes matching those defined in by the theme.
+    the classes matching those defined by the theme.
 
 In the end, it was easy enough to implement conditional HTML class application
     with *Markdown it!*.
