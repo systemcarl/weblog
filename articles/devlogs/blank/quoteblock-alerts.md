@@ -30,8 +30,7 @@ I implemented custom *Markdown it!* parsing rules to add additional
     [the underlying application's theming system].
 
 ## If It's Not Broken, Don't File a New Issue
-While [implementing Markdown parsing] and also integrating
-    [code syntax highlighting],
+While [implementing Markdown parsing] and also [integrating code syntax highlighting],
 I've thought a lot about [how I might extend Markdown parsing] in ways that
     don't compromise the portability of the Markdown files themselves
 (the readability and compatibility of the Markdown files across renderers).
@@ -170,6 +169,7 @@ If you want to see an example, I also just wrote a short tutorial on
     https://en.wikipedia.org/wiki/Cascading_Style_Sheets
 [theme configuration]:
     https://github.com/systemcarl/folio-assets/blob/v0.0.5/theme.json#L241-L271
+[integrating code syntax highlighting]: ./syntax-highlighting.md
 [code syntax highlighting]: ./syntax-highlighting.md
 [application theme]: ./sveltekit.md#theming
 [mocking Svelte 5 components]: ../../tips/svelte/svelte-5-mocks.md
