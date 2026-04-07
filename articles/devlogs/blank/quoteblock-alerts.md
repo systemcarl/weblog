@@ -50,7 +50,7 @@ This is a note alert block.
 
 However, given the ubiquity of this GitHub syntax for alert blocks,
 and the fact that the source Markdown files are hosted on GitHub anyway,
-I decided to implement the same syntax despite this drawback.
+I decided to implement the same syntax as GitHub, despite this drawback.
 Worst case, the alert block is still legible, and the intent is clear,
 even if the presentation is not ideal.
 
@@ -126,8 +126,7 @@ but that would only work if regular quote blocks (without an alert declaration)
     just inherit the article body text styles).
 
 ## [!SUCCESS]
-I may still consider adding an alternative to the GitHub alert block syntax for
-    my alert blocks,
+I may still consider adding an alternative alert syntax,
 with the goal of making the Markdown files more portable,
 and render better with generic parsers.
 There's no reason my application's renderer can't support multiple syntax
