@@ -128,7 +128,7 @@ as long as it's easily decoded text (which is really anything transferred over
     HTTP).
 
 ### Text is Plain
-But this does raise another question: how will more features be added in the
+But this does raise another question: how will I add more features in the
     future?
 For example, one of my goals is to allow embedding images and other media files
     directly in the articles.
