@@ -139,8 +139,8 @@ Since this would require merging content from multiple sources, and likely
 this wouldn't be appropriate to handle with a Markdown parser alone.
 
 The simplest solution to consider would be to extend the Markdown syntax with
-    custom directives that the parser could interpret
-and then pass back the appropriate command to the application to embed the
+    custom directives that the parser could interpret,
+    then pass back the appropriate command to the application and embed the
     content correctly.
 ```markdown
 On GitHub, you can just include a link to raw files directly, like so:
