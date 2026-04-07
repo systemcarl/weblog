@@ -55,6 +55,7 @@ including:
 Abstracting the personal content away from the application code also makes it
     possible to reuse the same application code for different websites or blogs,
 and fully enables localization support in the future.
+
 The core of my application therefore needed to support this abstraction,
 wherein the content is injected into the application pages when rendered.
 
