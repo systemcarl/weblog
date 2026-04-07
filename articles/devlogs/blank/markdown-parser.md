@@ -11,7 +11,7 @@ This means my weblog catalog is independent of the website [application]
 making it easy to manage with the deployed [configuration].
 
 Since the article files are meant to be human-readable, easy to edit, and
-    universally compatible across common renders,
+    universally compatible across common renderers,
 I wrote the content in [Markdown].
 The simplest option would have been to just link to the source Markdown files,
 which GitHub can render naively.
