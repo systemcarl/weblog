@@ -52,7 +52,7 @@ including:
 - colours and backgrounds,
 - and even layout and navigation configurations.
 
-Abstracting the personal content away from the application code also made it
+Abstracting the personal content away from the application code also makes it
     possible to reuse the same application code for different websites or blogs,
 and fully enables localization support in the future.
 The core of my application therefore needed to support this abstraction,
