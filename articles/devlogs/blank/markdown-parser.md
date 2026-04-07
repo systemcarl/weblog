@@ -175,7 +175,7 @@ This is generally supported by most Markdown parsers.
 Common HTML elements can be used directly within the Markdown content,
     allowing for more complex structures to be included in the document.
 And since HTML is also just a plain text format,
-it fits well within the design's principles of simplicity and stability.
+it fits well within my design's principles of simplicity and stability.
 However, HTML is not nearly as nice to read and thus requires a more involved
     HTML renderer to present the content in an accessible way.
 But if used sparingly within a Markdown document, this solution could still work
