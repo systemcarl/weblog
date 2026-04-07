@@ -132,7 +132,7 @@ But this does raise another question: how will I add more features in the
     future?
 For example, one of my goals is to allow embedding images and other media files
     directly in the articles.
-It would be really great to feed in code files and design documents directly
+Also, it would be really great to feed in code files and design documents directly
     from the source files.
 Since this would require merging content from multiple sources, and likely
     different formats,
