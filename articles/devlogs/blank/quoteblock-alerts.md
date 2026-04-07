@@ -19,7 +19,7 @@ Alert blocks often include a label to indicate a semantic
 > [!TIP]
 This is an example of an alert block.
 
-Common Markdown renders
+Common Markdown renderers
 — like [Markdown it!], which I'm using to [render Markdown files] on my
     [personal website] —
 do not support alert blocks, only basic quote blocks.
