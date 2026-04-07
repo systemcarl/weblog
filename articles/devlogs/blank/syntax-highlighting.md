@@ -66,7 +66,7 @@ To specifically target text elements on my website,
 where `<context>` is the semantic usage of the typography style
 (*e.g.*, `typography-body`, `typography-title`, etc.).
 By setting the [highlight.js prefix] to `typography-`,
-the code scopes classes are automatically mapped to the corresponding
+the code scope classes are automatically mapped to the corresponding
     theme-generated typography styles,
 using the highlight.js code scope name as the theme context.
 And just like that, the theme-defined typography styles are applied to the
