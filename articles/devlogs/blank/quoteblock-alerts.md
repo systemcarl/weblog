@@ -98,9 +98,10 @@ I could apply the alert-specific styles
 to the outer container and first paragraph element — the label.
 The base alert typography styles (the styles common to all alert types)
 could then be applied directly to the remaining inner content paragraph(s),
-assuming the rest of the quote block inner content is simply plain text
+assuming the rest of the quote block inner content are paragraphs
 (no headings, lists, code blocks, *etc.*;
-    we'll see if that assumption holds up later).
+    we'll see if that assumption holds up later,
+    after I've authored a few more articles).
 ```html
 <blockquote class="text typography-note typography-alert-note">
   <p class="text alert typography-alert">Note</p>
@@ -113,6 +114,14 @@ The `typography-note` class applies the base styles to all note elements via
 and is reapplied to the inner content to revert any alert-specific styles.
 You can see an example of this structure in the [theme configuration] used for
     this weblog.
+>
+> The `typography-note` should not be confused with the `typography-alert-note`
+    class,
+which applies the alert-specific styles to the label of type `[!NOTE]`.
+I chose to call these "notes" instead of "alerts" the code
+because "note" is the most common alert type,
+and alerts in code also commonly refer to notifications.
+In retrospect, this is bad semantics; I know.
 
 The one obvious limitation of this structure is that all alert-specific styles
     must provide specific visual contrast to the base quote block inner content
