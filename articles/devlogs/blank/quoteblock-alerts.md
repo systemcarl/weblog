@@ -96,8 +96,8 @@ I could apply the alert-specific styles
     (the styles unique to each alert type; `typography-alert-note`)
 to the outer container and first paragraph element — the label.
 The base alert typography styles (the styles common to all alert types)
-could then be applied directly to the remaining inner content paragraph(s),
-assuming the rest of the quote block inner content are paragraphs
+could then be applied directly to the remaining inner content,
+assuming it follows a paragraph structure
 (no headings, lists, code blocks, *etc.*;
     we'll see if that assumption holds up later,
     after I've authored a few more articles).
