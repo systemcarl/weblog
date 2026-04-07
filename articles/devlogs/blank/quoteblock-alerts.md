@@ -108,19 +108,19 @@ assuming it follows a paragraph structure
 </blockquote>
 ```
 > [!NOTE]
-The `typography-note` class applies the base styles to all note elements via
+The `typography-alert-note` class
+ applies the alert-specific styles to the label of alert type `[!NOTE]`.
+    I chose to call these "notes" instead of "alerts" because "note" is the most common alert type,
+    and alerts in code also commonly refer to notifications.
+>
+> The `typography-alert-note` should not be confused with
+    the `typography-note` class, which applies the base styles to all note elements via
     inheritance from the outer quote block element
 and is reapplied to the inner content to revert any alert-specific styles.
 You can see an example of this structure in the [theme configuration] used for
     this weblog.
 >
-> The `typography-note` should not be confused with the `typography-alert-note`
-    class,
-which applies the alert-specific styles to the label of type `[!NOTE]`.
-I chose to call these "notes" instead of "alerts" the code
-because "note" is the most common alert type,
-and alerts in code also commonly refer to notifications.
-In retrospect, this is bad semantics; I know.
+> In retrospect, this is bad semantics; I know.
 
 The one obvious limitation of this structure is that all alert-specific styles
     must provide specific visual contrast to the base quote block inner content
