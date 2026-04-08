@@ -126,9 +126,10 @@ there's still plenty of room for personalization and creativity within the
 To make the content design as easy to use as possible,
 all of the content configurations are optional.
 Technically, to set up the application template, you don't even need to provide
-    a page title,
-but it would hardly make sense to have a webpage without one.
-Beyond that simple requirement, I designed the content and theme together so
+    a page title
+(though it would hardly make sense to use the placeholder title for a real
+    webpage).
+Beyond that innate requirement, I designed the content and theme together so
     that regardless of the amount of configuration provided,
 the design would still look complete.
 
