@@ -23,6 +23,9 @@ I also plan to add more features in the future that would require integrating
 ## Parsing the Options
 There was no need to reinvent the wheel here; there are many established
     Markdown parsers out there.
+These parsers [transpile] Markdown syntax into HTML,
+wrapping segments of content in the appropriate HTML tags to structure the
+    content and apply styling in a web browser.
 The problem was simply finding one that met the requirements I had in mind.
 The parser needed to:
 - convert common Markdown syntax to HTML,
@@ -227,6 +230,7 @@ came from feedback provided by fellow software developer, [Chris Adkins].
 [configuration]: ./sveltekit#knobs-and-dials
 [Markdown]: https://en.wikipedia.org/wiki/Markdown
 [the application's theming]: ./sveltekit#theming
+[transpile]: https://en.wikipedia.org/wiki/Transpiler
 [Markdown footnotes]:
     https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#footnotes
 [Markdown it!]: https://github.com/markdown-it/markdown-it
