@@ -24,7 +24,7 @@ Fortunately, *Markdown it!* integrates well with [highlight.js], a quaintly
 The [highlight.js] library can be used as a plugin for [Markdown it!] to extend
     the HTML tokenization process.
 When code blocks are rendered, highlight.js wraps the code elements with
-    specific style classes based on symbolic code token types.
+    specific HTML classes based on symbolic code token types.
 
 
 These tokens are defined in the highlight.js [list of "scopes"], which outlines
@@ -51,7 +51,7 @@ function helloWorld() {
 
 ### The Perfect Prefix
 Conveniently, [highlight.js] applies syntax highlighting styles to the code
-    tokens via predictable CSS class names.
+    tokens via predictable [HTML class names].
 The class name for each code scope follows a predictable pattern of
     `<prefix><scope>`,
 where the default prefix is `hljs-`
@@ -62,30 +62,34 @@ This naming pattern is very similar to
     [the pattern I used to apply theme styles] throughout my personal website.
 To specifically target text elements on my website,
     the application's theming system automatically generates
-    typography style classes with the format `typography-<context>`,
-where `<context>` is the semantic usage of the typography style
+    typography HTML classes with the format `typography-<context>`,
+where `<context>` is the theme context key mapping to the semantic usage of the
+    typography style
 (*e.g.*, `typography-body`, `typography-title`, etc.).
 By setting the [highlight.js prefix] to `typography-`,
-the code scope's classes are automatically mapped to the corresponding
+the code scope's HTML classes are automatically mapped to the corresponding
     theme-generated typography styles,
-using the highlight.js code scope name as the theme context.
+using the highlight.js code scope name as the theme context key.
 And just like that, the theme-defined typography styles are applied to the
     applicable code tokens.
 
 The rest of the syntax highlighting implementation was just to address the base
     styles for code blocks, and text elements in general.
 All text elements throughout the application are also given the base `text`
-    class
-required for resolving the theme CSS variables into finalized style properties
-(without this class, typography classes only provide context without necessarily
-    applying the derived styles to the target element).
+    HTML class
+required for resolving the theme [Cascading Style Sheets (CSS)] variables into
+    finalized style properties
+(without this `text` HTML class, typography [CSS selectors] only provide
+    contextual [CSS variables]
+without necessarily applying the derived [CSS properties] to the target
+    element).
 Since the highlight.js prefix accepts white space without complaint,
-setting the prefix to `text typography-code-` injects the extra `text` class
-    alongside the typography styles for each code scope element,
-and prefixes the theme context segment of the class name with `code-`
-to avoid conflicts between future theme contexts and unexpected highlight.js
+setting the prefix to `text typography-code-` injects the extra `text` HTML
+    class alongside the typography styles for each code scope element,
+and prefixes the theme context key segment of the HTML class name with `code-`
+to avoid conflicts between future theme context keys and unexpected highlight.js
     code scope names.
-Additionally, adding the `code-block` and `typography-code` classes to the
+Additionally, adding the `code-block` and `typography-code` HTML classes to the
     wrapping `<code>` element via a custom *Markdown it!* extension applies base
     styles to all code blocks.
 ```html
@@ -137,7 +141,7 @@ But with [this new application version] and some quick adjustments to the theme
 the code blocks are already much easier to read and look much more consistent
     with the overall visual style of the website.
 
-    
+
 However, the theme file is already much larger than I had originally
     anticipated,
 and there's always the risk of bloating the generated CSS, reducing overall page
@@ -155,9 +159,16 @@ So, in the future, I may need to revisit how themes are defined to better manage
     https://highlightjs.readthedocs.io/en/latest/css-classes-reference.html
 [is supported]:
     https://highlightjs.readthedocs.io/en/latest/supported-languages.html
+[HTML class names]: https://highlightjs.readthedocs.io/en/latest/css-classes-reference.html
 [the pattern I used to apply theme styles]: ./sveltekit.md#theming
 [highlight.js prefix]:
     https://highlightjs.readthedocs.io/en/latest/api.html#configure
+[Cascading Style Sheets (CSS)]: https://en.wikipedia.org/wiki/CSS
+[CSS selectors]: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Selectors
+[CSS variables]:
+    https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties
+[CSS properties]:
+    https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties
 [balancing the complexity of features with ease of use]:
     ./content-template.md#strong-opinions-loosely-held
 [the theme configuration used to style this website]: ./sveltekit.md#theming
