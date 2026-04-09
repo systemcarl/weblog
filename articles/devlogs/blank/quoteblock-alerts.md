@@ -135,8 +135,8 @@ If the quote block inner content is dark text, every alert background must be
 It is possible to work around this by not defining a base style,
 but that would only work if regular quote blocks (without an alert declaration)
     are intended to look similar to the article body text.
-This is because, without a base style or an alert-specific style, the quote block would
-    just inherit the article body text styles.
+This is because, without a base style or an alert-specific style, the quote
+    block would just inherit the article body text styles.
 
 ## [!SUCCESS]
 I may still consider adding an alternative alert syntax,
