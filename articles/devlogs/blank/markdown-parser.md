@@ -217,12 +217,25 @@ But at this point, keeping the system simple and flexible was the best way to
     prevent the destiny of the application from being determined by today's
     assumptions.
 
+As for the article content, the Markdown format is simple and stable.
+I haven't had any issues working with Markdown files.
+I've since [added themed syntax highlighting]
+and [extended the parsing to handle GitHub syntax alert quote blocks].
+It has also been easy to update and edit (thanks, Ren[^ren]) articles, since the
+    Markdown files are just plain text [hosted on GitHub].
+Worst case, if I decide to scrap the whole website and application,
+I still have a neat and tidy collection articles collection of Markdown files
+    that anyone can still read.
+
 [^footnote]: This is a footnote, here!
 This definition links back to the text where it was referenced.
 
 [^softyy]: Discussion of the content files coupling to the applications
     implementation
 came from feedback provided by fellow software developer, [Chris Adkins].
+
+[^ren]: Another huge thanks to my partner, Ren, for their editorial assistance
+    and the unrelenting emotional support.
 
 [building a personal website]: ./sveltekit.md
 [Git repository]: https://github.com/systemcarl/weblog
@@ -275,4 +288,8 @@ came from feedback provided by fellow software developer, [Chris Adkins].
 [building out the content template]:
     ./content-template.md#an-agnostic-application
 [personal website]: https://carledwardlyons.ca
+[added themed syntax highlighting]: ./syntax-highlighting.md
+[extended the parsing to handle GitHub syntax alert quote blocks]:
+    ./quoteblock-alerts.md
+[hosted on GitHub]: https://github.com/systemcarl/weblog
 [Chris Adkins]: https://www.cjadkins.com/
