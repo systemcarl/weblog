@@ -112,8 +112,8 @@ If that format changes with new features, all existing content may need to be
     updated to match
 — which can be challenging to manage, even if it's just emptying the browser
     cache of a few users.
-Your data structure is always coupled with the software that consumes, one way
-    or another.[^softyy]
+Your data structure is always coupled with the software that consumes it,
+    one way or another.[^softyy]
 And since I chose to store my articles outside the application repository,
     I needed to really think about how I structured the content.
 
