@@ -128,7 +128,7 @@ the theme only needs to define the typography of the code scopes that need to be
 
 Since I've added this syntax highlighting support to [my personal website]
 (and this blog, as you've probably noticed),
-you can see [an example of the theme configuration] on GitHub.
+you can now see [an example of the theme configuration] on GitHub.
 This file defines all the typography styles for the code you see on my website.
 
 Once the logic was in place, it was a lot of fun to experiment with different
