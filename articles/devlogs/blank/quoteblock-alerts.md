@@ -30,16 +30,20 @@ I implemented custom *Markdown it!* parsing rules to add additional
     [the underlying application's theming system].
 
 ## If It's Not Broken, Don't File a New Issue
-While [implementing Markdown parsing] and also [integrating code syntax highlighting],
+While [implementing Markdown parsing] and also
+    [integrating code syntax highlighting],
 I've thought a lot about [how I might extend Markdown parsing] in ways that
     don't compromise the portability of the Markdown files themselves
 (the readability and compatibility of the Markdown files across renderers).
 Normally, I would prefer to avoid adding any special decorators or syntax to the
     Markdown files that would not render well with parsers that don't support
     them.
-When using the GitHub alert block declarations, if the parser doesn't support
-    the special syntax, an unappealing brackets and bang of the `[!NOTE]` label
-    appears at the start of the quote block, unstyled.
+GitHub alert block declarations prefix the quote block content with a
+    `[!NOTE]` tag, where `NOTE` is the alert type.
+If the parser doesn't support the special syntax,
+`[!NOTE]` is treated like any other text,
+and the unappealing brackets and bang of the `[!NOTE]` label appears at the
+    start of the quote block, unstyled.
 ```
 > [!NOTE]
 This is a note alert block.
@@ -108,19 +112,20 @@ assuming it follows a paragraph structure
 </blockquote>
 ```
 > [!NOTE]
-The `typography-alert-note` class
- applies the alert-specific styles to the label of alert type `[!NOTE]`.
-    I chose to call these "notes" instead of "alerts" because "note" is the most common alert type,
-    and alerts in code also commonly refer to notifications.
+> The `typography-alert-note` should not be confused with the `typography-note`
+    class.
+The `typography-note` class applies the base styles to all note elements via
+    inheritance from the outer quote block element.
+The base `typography-note` styles are also reapplied to the inner content to
+    revert any alert-specific styles that would otherwise be inherited by the
+    inner content.
+You can see an example of this theme structure in the [theme configuration] used
+    for this weblog.
 >
-> The `typography-alert-note` should not be confused with
-    the `typography-note` class, which applies the base styles to all note elements via
-    inheritance from the outer quote block element
-and is reapplied to the inner content to revert any alert-specific styles.
-You can see an example of this structure in the [theme configuration] used for
-    this weblog.
->
-> In retrospect, this is bad semantics; I know.
+> I chose to call these stylized quote blocks "notes" instead of "alerts" in the
+code because "note" is the most common alert type,
+and "alerts" in code also commonly refer to notifications.
+In retrospect, this is bad semantics; I know.
 
 The one obvious limitation of this structure is that all alert-specific styles
     must provide specific visual contrast to the base quote block inner content
@@ -129,7 +134,7 @@ If the quote block inner content is dark text, every alert background must be
     sufficiently light, or vice versa.
 It is possible to work around this by not defining a base style,
 but that would only work if regular quote blocks (without an alert declaration)
-    are intended to have similar styles to the article body text.
+    are intended to look similar to the article body text.
 This is because, without a base style or an alert-specific style, the quote block would
     just inherit the article body text styles.
 
