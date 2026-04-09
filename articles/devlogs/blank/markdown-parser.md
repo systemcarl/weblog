@@ -35,8 +35,9 @@ The parser needed to:
 The most active and popular choice that met these requirements was
     [Markdown it!].
 
-In most other cases, it's not necessary to add custom [HTML classes] to the
-    parsed elements.
+In most other cases, it's not necessary to add custom [HTML classes]
+(tags used to target specific elements for styling or scripting)
+to the parsed elements.
 Typically one could simply use tag names for styling: *e.g.*, `.article h1`.
 But, since my dynamic [theme system] needs to apply different styles based on
     additional context (not just the element being styled),
@@ -72,10 +73,10 @@ To handle this, I created a separate directory of article abstracts within the
     Git repository that mirrors the article directory structure.
 Each [abstract file] includes the title and description for the corresponding
     [article file].
-Putting the optional article abstract information into a separate file keeps the
-    article content to the article itself,
-and the abstract Markdown file can also be rendered to provide a simple preview
-    of the article content.
+Putting the optional article abstract into its own Markdown file keeps the
+    article content to its own dedicated file.
+Both the abstract and article files can each be rendered to provide either a
+    simple article preview or the full article, respectively.
 
 ### I Do Declare
 There wasn't much else to it, really.
@@ -94,8 +95,8 @@ While I have [criticized declarative models] in the past, this is a great
 Simply mapping elements to style classes leaves the styling logic to the
     [CSS engine], allowing me to focus on the composition and structure of the
     content.
-And because the CSS classes used by the application are just semantic tokens within
-    [the theming system],
+And because the HTML classes used by the application are just semantic tokens
+    within [the theming system],
 the [theme CSS generator] takes care of the rest naturally.
 
 ## Not-So-Hyper Text
