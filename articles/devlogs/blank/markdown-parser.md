@@ -251,8 +251,7 @@ came from feedback provided by fellow software developer, [Chris Adkins].
 [HTML classes]:
     https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/class
 [theme system]: ./sveltekit#theming
-[cascading style sheets (CSS)]:
-    https://en.wikipedia.org/wiki/Cascading_Style_Sheets
+[cascading style sheets (CSS)]: https://en.wikipedia.org/wiki/CSS
 [Sass]: https://sass-lang.com/
 [footnote plugin]: https://github.com/markdown-it/markdown-it-footnote
 [small patch]:
