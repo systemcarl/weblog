@@ -5,12 +5,15 @@
 
 # DevLog: Listing Articles Using a Simple Index
 - Every weblog needs a way to list articles.
+- My [personal website] had no list of articles until [this update].
 - I wanted to avoid implementing a database to store article metadata within
     the web service.
-    - The web server is currently stateless.
-    - All the articles have been stored as markdown files in a public
-        git repository.
-- I decided to add a simple index file to the article repository.
+    - The web server was still stateless as of [the last update].
+    - All the articles [have been stored as markdown files] in
+        [a public git repository].
+
+## If You Want Something Done Quick
+- I decided to add [a simple index file] to the article repository.
     - The index file
         - lists all the articles to be displayed,
         - groups articles into categories, and
@@ -38,20 +41,20 @@
         - or *vice versa*.
 
 ### That Page at the Back of a Book
-- Simple indexes are often included in books to help readers locate topics.
+- Simple [indexes are often included in books] to help readers locate topics.
 - The index only needs to map a token to an article reference.
-    - Mapping category tags to article identifiers (paths/slugs) is sufficient
+    - Mapping category tags to article identifiers (paths/[slugs]) is sufficient
         to display article categories.
-    - Creating a simple `.json` file made it easy to created structured data to
-        represent the index.
-- A full-text search index could be created this way as well.
+    - Creating a simple [`.json file`] made it easy to created structured data
+        to represent the index.
+- A [full-text search index] could be created this way as well.
     - Each word in the query becomes a token in the index.
     - Different strategies can be used to account for incomplete or partial
         matches.
     - This is not feasible to maintain manually for any article repository.
 
 ## Playing the Meta
-- Metadata can be relevant to either the index or the article depending on the
+- [Metadata] can be relevant to either the index or the article depending on the
     use case.
     - Article metadata may be displayed either in the article listing or within
         the article itself:
@@ -61,10 +64,11 @@
         - summary.
     - Duplicating metadata in both the index and the article files can lead to
         inconsistencies.
-- Displaying metadata in the index listing and the article itself cause
+- Including metadata in the index listing and the article itself cause
     redundancy.
-    - The data must be available via multiple sources (url endpoints).
-    - Duplicating metadata avoid querying the entire index for a single article.
+    - The data must be available via multiple sources ([url endpoints]).
+    - Duplicating metadata avoids querying the entire index for a single
+        article.
     - Storing the metadata in the index alone ensures consistency.
 
 ## Capping the Requests
@@ -73,9 +77,26 @@
     - User behaviour must be considered to optimize performance and avoid
         issues.
         - A good solution should also consider potential bad actors.
-- After implementing the article index I immediately faced availability
-    problems.
+- After implementing the article index
+    [I immediately faced availability problems].
     - All requests to the server required the index file.
     - Malicious spam requests caused the article repository to reach its rate
         limit.
     - I resolved the issue by caching the index file on the web server.
+
+[personal website]: https://carledwardlyons.ca
+[this update]: https://github.com/systemcarl/blank/tree/v0.0.6
+[the last update]: ./quoteblock-alerts
+[have been stored as markdown files]:
+    ./markdown-parser#devlog-implementing-a-weblog-markdown-parser
+[a public git repository]: https://github.com/systemcarl/weblog
+[a simple index file]:
+    https://github.com/systemcarl/weblog/blob/5f32eb2e75f50bac7649be9744c55e75be0bae70/index.json
+[indexes are often included in books]: https://en.wikipedia.org/wiki/Index_(publishing)
+[slugs]: https://en.wikipedia.org/wiki/Clean_URL#Slug
+[`.json file`]: https://en.wikipedia.org/wiki/JSON
+[full-text search index]: https://en.wikipedia.org/wiki/Full-text_search#Indexing
+[Metadata]: https://en.wikipedia.org/wiki/Metadata
+[url endpoints]: https://en.wikipedia.org/wiki/Web_API#Endpoints
+[I immediately faced availability problems]:
+    ./svelte-stores#devlog-managing-state--memory-in-a-sveltekit-application

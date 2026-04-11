@@ -35,6 +35,10 @@
     "devlogs/blank/quoteblock-alerts": {
       "title": "Integrating Themed Alert Blocks",
       "abstract": "Now that I'm writing programming tips & guides, my weblog applications need to highlight important information. And what is a technical article without alert blocks? So, I implemented custom Markdown it! rules to convert GitHub-style alert blocks into embedded, theme-aware HTML."
+    },
+    "devlogs/blank/article-indexing": {
+      "title": "Listing Articles with a Simple Index",
+      "abstract": "A weblog needs an index — a way to view articles, chronologically or grouped by category. To avoid implementing persistent storage or burdening my application with indexing logic, I implemented a simple index by adding a structured data file to my article files."
     }
   },
   "tags": {
@@ -54,7 +58,8 @@
         "devlogs/blank/content-template",
         "devlogs/blank/markdown-parser",
         "devlogs/blank/syntax-highlighting",
-        "devlogs/blank/quoteblock-alerts"
+        "devlogs/blank/quoteblock-alerts",
+        "devlogs/blank/article-indexing"
       ]
     }
   }
