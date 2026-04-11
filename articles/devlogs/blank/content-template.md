@@ -150,7 +150,7 @@ the constraints of the design are limited mainly to the layout.
 So, while the application dictates where each content element goes on the page,
 it does not impose any semantic meaning on the content itself.
 For example, the section in [my design mock-up] listing my "likes" and
-    "dislikes" do not need to be used for this purpose at all.
+    "dislikes" does not need to be used for this purpose at all.
 Structurally, this element is simply a pair of lists that can be used to
     represent any kind of contrast, comparison, or any arbitrary dichotomy.
 This visual component could also be used to list pros and cons about
@@ -214,7 +214,7 @@ It includes file definitions for all [the website's content configuration],
 [^comment]: These early iterations of the application are primarily concerned
     with simply displaying weblog articles and other information about me.
 However, I have plenty of ideas for integrating more interactive features,
-like comments and social media.
+like comments and social media integration.
 
 [I set up a SvelteKit application]: ./sveltekit.md
 [my personal website]: https://carledwardlyons.ca
