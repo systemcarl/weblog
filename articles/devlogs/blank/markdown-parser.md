@@ -4,9 +4,9 @@ Over the past couple weeks, I've been [building a personal website] to showcase
 "Whatever else" includes hosting a weblog on the site,
     to which I can incrementally add content
     over time that's both easy to manage and browse.
-To keep the content management simple, I've chosen to store my articles in a
-    [Git repository] separate from the website code.
-This means my weblog catalog is independent of the website [application]
+To keep the content management simple, I've chosen to store my articles
+    [in their own Git repository] separate from the website code.
+This means my weblog catalog is independent of [the website application]
     (which actually ends up [just being a template]),
 making it easy to manage with the deployed [configuration].
 
@@ -82,8 +82,8 @@ Both the abstract and article files can each be rendered to provide either a
 There wasn't much else to it, really.
 Since the [theme styles are globally available as plain CSS], there was no
     need to implement any theme-specific logic in the parser.
-Had I used scoped styles (*e.g.*, [CSS Modules], Svelte
-    [component style definitions])
+Had I used scoped styles
+    (*e.g.*, [CSS Modules], [Svelte component style definitions])
     or CSS in Javascript (*e.g.*, [styled-components], [emotion]),
 this wouldn't have been as simple.
 The article component would have needed to be aware of the current theme and
@@ -97,7 +97,7 @@ Simply mapping elements to style classes leaves the styling logic to the
     content.
 And because the HTML classes used by the application are just semantic tokens
     within [the theming system],
-the [theme CSS generator] takes care of the rest naturally.
+[the theme CSS generator] takes care of the rest naturally.
 
 ## Not-So-Hyper Text
 In terms of code, [this update to render articles within the application] was
@@ -189,7 +189,7 @@ But if used sparingly within a Markdown document, this solution could still work
     carry on unfazed.
 
 ### A Common Content Concern
-Since the [start of my project], content format (how the content is both stored
+Since [the start of my project], content format (how the content is both stored
     and presented) has been a common concern for me.
 This simple but critical element of the design is a key decision that will
     impact the overall structure and experience of the application.
@@ -200,7 +200,7 @@ Deciding how to [structure the theming system] also required carefully
     over time, with more features and different themes.
 In the same way, [building out the content template] required thinking about how
     the content might be structured to handle different use cases beyond just
-    my own [personal website].
+    [my own personal website].
 Each of these problems required thinking abstractly about how the underlying
     data (be it the article content, the theme definitions, or other application
     configurations) is transformed into the final user experience.
@@ -238,8 +238,8 @@ came from feedback provided by fellow software developer, [Chris Adkins].
     and the unrelenting emotional support.
 
 [building a personal website]: ./sveltekit.md
-[Git repository]: https://github.com/systemcarl/weblog
-[application]: https://github.com/systemcarl/blank
+[in their own Git repository]: https://github.com/systemcarl/weblog
+[the website application]: https://github.com/systemcarl/blank
 [just being a template]: ./sveltekit
 [configuration]: ./sveltekit#knobs-and-dials
 [Markdown]: https://en.wikipedia.org/wiki/Markdown
@@ -267,26 +267,26 @@ came from feedback provided by fellow software developer, [Chris Adkins].
     https://github.com/systemcarl/weblog/blob/2bd7694f413c43640033e09db42eca7aad80b58d/articles/hello-world.md
 [theme styles are globally available as plain CSS]: ./sveltekit.md#theming
 [CSS Modules]: https://github.com/css-modules/css-modules
-[component style definitions]: https://svelte.dev/docs/svelte/svelte-files#style
+[Svelte component style definitions]: https://svelte.dev/docs/svelte/svelte-files#style
 [styled-components]: https://styled-components.com/
 [emotion]: https://emotion.sh/docs/introduction
 [criticized declarative models]: ./ci-cd#too-good-to-be-simple
 [declarative design]: https://en.wikipedia.org/wiki/Declarative_programming
 [CSS engine]: https://developer.mozilla.org/en-US/docs/Glossary/Engine/Rendering
 [the theming system]: ./sveltekit.md#theming
-[theme CSS generator]:
+[the theme CSS generator]:
     https://github.com/systemcarl/blank/blob/v0.0.3/src/lib/utils/styles.ts
 [this update to render articles within the application]:
     https://github.com/systemcarl/blank/tree/v0.0.3
 [previewing the content on GitHub]:
     https://github.com/systemcarl/weblog/blob/main/articles/devlogs/blank/markdown-parser.md#text-is-plain
-[start of my project]: ./sveltekit.md
+[the start of my project]: ./sveltekit.md
 [structure of your data shapes the outcome]:
     https://notes.mtb.xyz/p/your-data-model-is-your-destiny
 [structure the theming system]: ./sveltekit.md#theming
 [building out the content template]:
     ./content-template.md#an-agnostic-application
-[personal website]: https://carledwardlyons.ca
+[my own personal website]: https://carledwardlyons.ca
 [added themed syntax highlighting]: ./syntax-highlighting.md
 [extended the parsing to handle GitHub syntax alert quote blocks]:
     ./quoteblock-alerts.md
