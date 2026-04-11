@@ -83,8 +83,8 @@ Ultimately, responsibility for the design outcome needs to be either given to
     the responsibility cannot simply be shared.
 
 ### It Always Comes Back to Marketing
-The solution to this problem came by considering the application's purpose.
-My motivation for building this personal website comes down to (shameless)
+My solution to this problem came by considering the application's purpose.
+The motivation behind building my personal website comes down to (shameless)
     self-promotion.
 I could instead post my articles to an established
     platform, simply to put the core information (the matter-of-fact tips
