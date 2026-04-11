@@ -129,8 +129,8 @@ Technically, to set up the application template, you don't even need to provide
     a page title
 (though it would hardly make sense to use the placeholder title for a real
     webpage).
-Beyond that innate requirement, I designed the content and theme together so
-    that regardless of the amount of configuration provided,
+I designed the content and theme together so that regardless of the amount of
+    configuration provided,
 the design would still look complete.
 
 Furthermore, reflecting on the purpose of each design element from a marketing
