@@ -157,7 +157,8 @@ If you want to see an example, I also just wrote a short tutorial on
     [mocking Svelte 5 components] that puts all this into action.
 
 [block quotations]: https://en.wikipedia.org/wiki/Block_quotation
-[used by GitHub]: https://en.wikipedia.org/wiki/Block_quotation
+[used by GitHub]:
+    https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts
 [Markdown it!]: https://github.com/markdown-it/markdown-it
 [render Markdown files]: ./markdown-parser.md
 [personal website]: https://carledwardlyons.ca
