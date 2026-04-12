@@ -26,7 +26,7 @@ There was no need to reinvent the wheel here; there are many established
 These parsers [transpile] Markdown syntax into HTML,
 wrapping segments of content in the appropriate HTML tags to structure the
     content and apply styling in a web browser.
-The problem was simply finding one that met the requirements I had in mind.
+The challenge was simply finding one that met the requirements I had in mind.
 The parser needed to:
 - convert common Markdown syntax to HTML,
 - render [Markdown footnotes],
