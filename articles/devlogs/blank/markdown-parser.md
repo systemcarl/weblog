@@ -224,8 +224,8 @@ and [extended the parsing to handle GitHub syntax alert quote blocks].
 It has also been easy to update and edit (thanks, Ren[^ren]) articles, since the
     Markdown files are just plain text [hosted on GitHub].
 Worst case, if I decide to scrap the whole website and application,
-I still have a neat and tidy collection articles collection of Markdown files
-    that anyone can still read.
+I still have a neat and tidy collection of Markdown file articles
+    that anyone can read.
 
 [^footnote]: This is a footnote, here!
 This definition links back to the text where it was referenced.
