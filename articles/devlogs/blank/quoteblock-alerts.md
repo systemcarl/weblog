@@ -2,7 +2,7 @@
 If you've ever read a programming guide or any online technical documentation,
 you're probably familiar with "quote blocks", or [block quotations].
 These are paragraphs of text, often indented, to indicate a special section,
-    often a quote from another source.
+    typically a quote from another source.
 In Markdown, quote blocks are created by prefixing lines with the `>` character.
 ```markdown
 > This is a regular old quote block.
