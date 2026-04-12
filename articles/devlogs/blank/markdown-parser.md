@@ -169,7 +169,7 @@ Including a query parameter could signal that the link should be embedded:
 > [Example](https://github.com/systemcarl/weblog/blob/2bd7694f413c43640033e09db42eca7aad80b58d/articles/hello-world.md?embed=1&plain=1#L2)
 
 When parsed with any standard Markdown parser, this would just render as a
-    normal link, that directs to the file on GitHub
+    normal link that directs to the file on GitHub
 (so long as the `embed` parameter is irrelevant to GitHub).
 The downside is that when [previewing the content on GitHub], you no longer see
     embedded content.
