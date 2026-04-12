@@ -85,10 +85,10 @@ without necessarily applying the derived [CSS properties] to the target
     element).
 Since the highlight.js prefix accepts white space without complaint,
 setting the prefix to `text typography-code-` injects the extra `text` HTML
-    class alongside the typography styles for each code scope element,
-and prefixes the theme context key segment of the HTML class name with `code-`
-to avoid conflicts between future theme context keys and unexpected highlight.js
-    code scope names.
+    class alongside the typography styles for each code scope element.
+Prefixing the theme context key segment of the HTML class name with `code-`
+    avoids conflicts between future theme context keys and unexpected
+    highlight.js code scope names.
 Additionally, adding the `code-block` and `typography-code` HTML classes to the
     wrapping `<code>` element via a custom *Markdown it!* extension applies base
     styles to all code blocks.
