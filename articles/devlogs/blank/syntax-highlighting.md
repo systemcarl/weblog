@@ -160,7 +160,7 @@ So, in the future, I may need to revisit how themes are defined to better manage
     https://highlightjs.readthedocs.io/en/latest/css-classes-reference.html
 [is supported]:
     https://highlightjs.readthedocs.io/en/latest/supported-languages.html
-[HTML class names]: https://highlightjs.readthedocs.io/en/latest/css-classes-reference.html
+[HTML class names]: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/class
 [the pattern I used to apply theme styles]: ./sveltekit.md#theming
 [highlight.js prefix]:
     https://highlightjs.readthedocs.io/en/latest/api.html#configure
