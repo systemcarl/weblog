@@ -125,7 +125,8 @@ You can see an example of this theme structure in the [theme configuration] used
 > I chose to call these stylized quote blocks "notes" instead of "alerts" in the
 code because "note" is the most common alert type,
 and "alerts" in code also commonly refer to notifications.
-In retrospect, this is bad semantics; I know.
+In retrospect, this is still bad semantics despite my best efforts;
+    I know.
 
 The one obvious limitation of this structure is that all alert-specific styles
     must provide specific visual contrast to the base quote block inner content
