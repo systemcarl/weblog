@@ -36,7 +36,7 @@ The most active and popular choice that met these requirements was
     [Markdown it!].
 
 In most other cases, it's not necessary to add custom [HTML classes]
-(tags used to target specific elements for styling or scripting)
+(identifying tags used to target specific elements for styling or scripting)
 to the parsed elements.
 Typically one could simply use tag names for styling: *e.g.*, `.article h1`.
 But, since my dynamic [theme system] needs to apply different styles based on
