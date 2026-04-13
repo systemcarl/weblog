@@ -75,7 +75,7 @@ And just like that, the theme-defined typography styles are applied to the
 
 Beyond this, the rest of the syntax highlighting implementation addressed the base
     styles for code blocks, and text elements in general.
-All text elements throughout the application are also given the base `text`
+All text elements throughout my application are also given the base `text`
     HTML class
 required for resolving the theme [Cascading Style Sheets (CSS)] variables into
     finalized style properties
