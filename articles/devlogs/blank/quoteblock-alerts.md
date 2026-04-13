@@ -122,7 +122,8 @@ The base `typography-note` styles are also reapplied to the inner content to
 You can see an example of this theme structure in the [theme configuration] used
     for this weblog.
 >
-> I chose to call these stylized quote blocks "notes" instead of "alerts" in the
+> I chose to call these stylized quote blocks `typography-alert-note`s,
+using "notes" instead of "alerts" in the
 code because "note" is the most common alert type,
 and "alerts" in code also commonly refer to notifications.
 In retrospect, this is still bad semantics despite my best efforts;
