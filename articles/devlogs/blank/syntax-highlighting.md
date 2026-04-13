@@ -78,11 +78,11 @@ Beyond this, the rest of the syntax highlighting implementation addressed the ba
 All text elements throughout my application are also given the base `text`
     HTML class
 required for resolving the theme [Cascading Style Sheets (CSS)] variables into
-    finalized style properties
-(without this `text` HTML class, typography [CSS selectors] only provide
+    finalized style properties.
+Without this `text` HTML class, typography [CSS selectors] only provide
     contextual [CSS variables]
 without necessarily applying the derived [CSS properties] to the target
-    element).
+    element.
 Since the highlight.js prefix accepts white space without complaint,
 setting the prefix to `text typography-code-` injects the extra `text` HTML
     class alongside the typography styles for each code scope element.
