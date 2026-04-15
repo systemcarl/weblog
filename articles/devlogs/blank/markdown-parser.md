@@ -90,8 +90,8 @@ this wouldn't have been as simple.
 The article component would have needed to be aware of the current theme and
     dynamically apply the correct styles to match the current theme.
 
-While I have [criticized declarative models] in the past, this is a great
-    example of how [declarative design] can significantly simplify
+While I have [criticized declarative models] in the past, this solution is a
+    great example of how [declarative design] can significantly simplify
     implementation.
 Simply mapping HTML elements to theme classes leaves the styling logic to the
     [CSS engine], allowing me to focus on the composition and structure of the
