@@ -213,8 +213,8 @@ It includes file definitions for all [the website's content configuration],
 
 [^comment]: These early iterations of the application are primarily concerned
     with simply displaying weblog articles and other information about me.
-However, I have plenty of ideas for integrating more interactive features,
-like comments and social media integration.
+However, I have plenty of ideas for including more interactive features,
+like reader comments and other social media integration.
 
 [I set up a SvelteKit application]: ./sveltekit.md
 [my personal website]: https://carledwardlyons.ca
