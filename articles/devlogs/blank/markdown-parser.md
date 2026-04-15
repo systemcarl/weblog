@@ -58,8 +58,8 @@ Alas, this is not the case, and the HTML output of the parser needs to include
 
 Thankfully, the render interface exposes the tokenized elements during parsing,
     allowing HTML classes to be added as needed.
-In the end, it was easy enough to implement conditional HTML class application
-    with *Markdown it!*.
+In the end, it was easy enough to implement the conditional application of HTML
+    classes with *Markdown it!*.
 The only exception was the [footnote plugin], which required a [small patch] to
     apply styling correctly to the footnote references
     (the superscript numbers inline with the text).[^footnote]
