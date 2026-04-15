@@ -98,8 +98,8 @@ Abstracting any common application logic into light wrappers and utility
 
 ### Keeping Tabs on Things
 After the initial setup,
-    my first priority was establishing good observability — the ability to monitor
-    the application and track errors from the outside.
+    my first priority was establishing good observability
+— the ability to monitor the application and track errors from the outside.
 Debugging can often be challenging at the beginning of a project while the code
     settles into the framework and runtime;
 often times new dependencies and configurations can introduce unexpected issues
@@ -129,8 +129,8 @@ Using the [Pino-Pretty] plugin, I could also format the logs nicely during
     development to save me from squinting at compressed JSON strings all day.
 
 ### Testing, Testing, Testing
-Ask any developer and they'll tell you how important testing is (at least while their
-    boss is listening).
+Ask any developer and they'll tell you how important testing is (at least while
+    their boss is listening).
 I believe most developers understand the value of testing, but every developer
     knows how time-consuming and thankless writing tests can be.
 So, in practice, there's often compromise between comprehensive testing and
@@ -481,8 +481,8 @@ console.log(section.typography.body);
 // }
 ```
 The contextual theming by section, typography, or graphic is established with
-    a custom helper that conditionally synchronizes the CSS class context with the
-    [SvelteKit context].
+    a custom helper that conditionally synchronizes the CSS class context with
+    the [SvelteKit context].
 ```typescript
 <script lang="ts">
   import useThemes from '$lib/hooks/useThemes';
@@ -526,8 +526,9 @@ If the server does not render the page with the user's requested theme and the
 ## An Empty Application
 With all the necessary tools in place, it was time to create a simple
     proof-of-concept.
-To avoid getting bogged down in content creation, I wanted to create a
-    simple page the could render and verify that everything was working correctly.
+To avoid getting bogged down in content creation,
+I wanted to create a simple page that could be rendered to verify that
+    everything was working correctly.
 Instead of a meaningless "Hello, World!" notice, I decided to implement some
     simple error handling, and add a route that would intentionally trigger an
     error.
@@ -554,7 +555,7 @@ It was frustrating at times to work around limitations of the framework,
 especially when the documentation was vague or just incomplete.
 For example, mocking SvelteKit-specific modules for testing was not obvious from
     the documentation.
-The solution I found was pieced together from Stack Overflow answers 
+The solution I found was pieced together from Stack Overflow answers
     and many examples of the `createRawSnippet`
     function from various issues ([like this one]).
 And I'm sure the solution I implemented is not officially supported, so I expect
