@@ -81,14 +81,15 @@ required for resolving the theme [Cascading Style Sheets (CSS)] variables into
     finalized style properties.
 Without this `text` HTML class, typography [CSS selectors] only provide
     contextual [CSS variables]
-without necessarily applying the derived [CSS properties] to the target
-    element.
+without applying the derived [CSS properties] to the target element,
+leaving the targeted code indistinguishable from the surrounding text.
 Since the highlight.js prefix accepts white space without complaint,
-setting the prefix to `text typography-code-` injects the extra `text` HTML
+I set the prefix to `text typography-code-` to inject the extra `text` HTML
     class alongside the typography styles for each code scope element.
-Prefixing the theme context key segment of the HTML class name with `code-`
-    avoids conflicts between future theme context keys and unexpected
-    highlight.js code scope names.
+By also prefixing the theme context key segment of the HTML class name with
+    `code-`
+I will be less likely to encounter conflicts between future theme context keys
+    and unexpected highlight.js code scope names.
 Additionally, adding the `code-block` and `typography-code` HTML classes to the
     wrapping `<code>` element via a custom *Markdown it!* extension applies base
     styles to all code blocks.
