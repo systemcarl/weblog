@@ -73,8 +73,8 @@ using the highlight.js code scope name as the theme context key.
 And just like that, the theme-defined typography styles are applied to the
     applicable code tokens.
 
-Beyond this, the rest of the syntax highlighting implementation addressed the base
-    styles for code blocks, and text elements in general.
+Beyond this, the rest of the syntax highlighting implementation addressed the
+    base styles for code blocks, and text elements in general.
 All text elements throughout my application are also given the base `text`
     HTML class
 required for resolving the theme [Cascading Style Sheets (CSS)] variables into
