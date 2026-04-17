@@ -1,6 +1,6 @@
 # Abstract
 - My personal weblog now highlights code snippet syntax.
-- *highlight.js* integrates nicely with *Markdown It!* and the applications
+- *highlight.js* integrates nicely with *Markdown it!* and the applications
   theming system.
 
 # DevLog: Integrating Themed Syntax Highlighting
@@ -10,10 +10,10 @@
     [integrating a Markdown renderer] within my [personal website]
     [application].
     - Incremental improvements are preferred to avoid unnecessary complexity.
-    - [Markdown It!] integrates well with [highlight.js].
+    - [Markdown it!] integrates well with [highlight.js].
 
 ## A Token of Appreciation
-- [highlight.js] extends the HTML tokenization provided by [Markdown It!] to
+- [highlight.js] extends the HTML tokenization provided by [Markdown it!] to
     wrap code elements with style classes.
     - The [list of "scopes"] defines the common token types shared across
         programming languages.
@@ -48,7 +48,7 @@
     - [highlight.js prefix] accepts white space, so setting the prefix to
         `text typography-code-` applies both classes to each code scope element.
     - Adding the `code-block` and `typography-code` classes to the `<code>` via
-        a custom *Markdown It!* extension applies base styles to all code
+        a custom [Markdown it!] extension applies base styles to all code
         blocks.
     ```html
     <pre>
@@ -77,7 +77,7 @@
 [integrating a Markdown renderer]: ./markdown-parser.md
 [personal website]: https://carledwardlyons.ca
 [application]: https://github.com/systemcarl/blank
-[Markdown It!]: https://github.com/markdown-it/markdown-it
+[Markdown it!]: https://github.com/markdown-it/markdown-it
 [highlight.js]: https://github.com/highlightjs/highlight.js
 [the application theming system]: ./sveltekit.md#theming
 [list of "scopes"]:

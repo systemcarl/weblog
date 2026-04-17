@@ -21,11 +21,11 @@ Alert blocks, on the other hand, often include a label to indicate a semantic
     alert types [used by GitHub].
 
 Common Markdown renders
-— like [Markdown It!], which I'm using to [render Markdown files] on my
+— like [Markdown it!], which I'm using to [render Markdown files] on my
     [personal website] —
 do not support alert blocks, only basic quote blocks.
 So, to get the benefits of alert blocks in my weblog articles,
-I had to implement custom *Markdown It!* parsing rules to add this additional
+I had to implement custom *Markdown it!* parsing rules to add this additional
     information to the rendered HTML.
 
 ## If It's Not Broken, Don't File a New Issue
@@ -53,7 +53,7 @@ Worst case, the alert block is still legible, and the intent is clear,
 even if the presentation is not ideal.
 
 ## Don't Quote Me
-Unfortunately, there aren't any existing *Markdown It!* plugins
+Unfortunately, there aren't any existing *Markdown it!* plugins
     (none that I could find, at least)
     that implement alert block parsing.
 So, it was up to me to implement the [necessary logic] to parse the quote block
@@ -65,7 +65,7 @@ I had to [add custom theme classes] to integrate the
 and [integrate syntax highlighting] required some additional parsing logic as
     well.
 However, it was a bit trickier this time.
-Since *Markdown It!* divides the content during parsing,
+Since *Markdown it!* divides the content during parsing,
 treating opening and closing tags as their own tokens,
 it was difficult to link the content to the style of the wrapping quote block.
 After some close inspection of the token structure,
@@ -128,7 +128,7 @@ If you want to see an example, I also just wrote a short tutorial on
 
 [block quotations]: https://en.wikipedia.org/wiki/Block_quotation
 [used by GitHub]: https://en.wikipedia.org/wiki/Block_quotation
-[Markdown It!]: https://github.com/markdown-it/markdown-it
+[Markdown it!]: https://github.com/markdown-it/markdown-it
 [render Markdown files]: ./markdown-parser.md
 [personal website]: https://carledwardlyons.ca
 [implementing Markdown parsing]: ./markdown-parser.md

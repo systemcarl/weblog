@@ -92,6 +92,11 @@
     the weblog application.
     - The application still does not provide an index for sorting and listing
         articles.
+- The Markdown content has worked well so far.
+    - I've continued to extend the Markdown parser with new features:
+        - [DevLog: Integrating Themed Syntax Highlighting]
+        - [DevLog: Integrating Themed Alert Blocks]
+    - Updating and editing the content is straightforward.
 
 [Markdown]: https://en.wikipedia.org/wiki/Markdown
 [Git repository]: https://github.com/systemcarl/weblog
@@ -124,3 +129,7 @@
 [structure the theming system]: ./sveltekit.md#theming
 [building out the content template]:
     ./content-template.md#an-agnostic-application
+[DevLog: Integrating Themed Syntax Highlighting]:
+    ./syntax-highlighting.md
+[DevLog: Integrating Themed Alert Blocks]:
+    ./quoteblock-alerts.md

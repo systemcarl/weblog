@@ -9,8 +9,8 @@
     - This is also supported some Markdown renders,
         - *e.g.*, GitHub.
     - I added support for alert block support to my personal weblog.
-- My personal weblog uses [Markdown It!] to [parse Markdown files].
-    - [Markdown It!] supports quote blocks via the `>` character.
+- My personal weblog uses *Markdown it!* to [parse Markdown files].
+    - *Markdown it!* supports quote blocks via the `>` character.
     - I implemented custom rules to parse quote blocks and convert them into
         alert blocks.
 
@@ -29,10 +29,10 @@
     This is a note alert block.
 
 ## Don't Quote Me
-- The base [Markdown It!] parser and official plugins only support basic quote
+- The base [Markdown it!] parser and official plugins only support basic quote
     blocks.
     - It took some work to implement the necessary [logic].
-    - [Markdown It!] divides the content into tokens during parsing.
+    - *Markdown it!* divides the content into tokens during parsing.
         - The content of the quote block is not a child of the opening or
             closing quote block tokens.
 
@@ -71,7 +71,7 @@
     - Code block [syntax highlighting] is already implemented.
     - I recently published a tutorial for [mocking Svelte 5 components].
 
-[Markdown It!]: https://github.com/markdown-it/markdown-it
+[Markdown it!]: https://github.com/markdown-it/markdown-it
 [parsing Markdown files]: ./markdown-parser.md
 [how I might extend Markdown parsing]: ./markdown-parser.md#text-is-plain
 [personal website]: https://carledwardlyons.ca
