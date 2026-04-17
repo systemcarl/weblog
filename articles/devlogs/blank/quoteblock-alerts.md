@@ -55,7 +55,7 @@ This is a note alert block.
 However, given the ubiquity of this GitHub syntax for alert blocks,
 and the fact that my source Markdown files are hosted on GitHub anyway,
 I decided to implement the same syntax as GitHub, despite this drawback.
-Worst case, the alert block is still legible, and the intent is clear,
+Worst case, the alert block is still legible enough, and the intent is clear,
 even if the presentation is not ideal.
 
 ## Don't Quote Me
@@ -63,8 +63,9 @@ Unfortunately, there aren't any existing *Markdown it!* plugins
     (none that I could find, at least)
     that implement alert block parsing.
 So, it was up to me to implement the [necessary logic] to parse the quote block
-    alert type declarations (*e.g., `[!TIP]`*) and convert them into something
-    more legible.
+    alert type declarations (*e.g., `[!TIP]`*)
+and convert them into something stylized and free of syntactic punctuation
+    that might be a distraction to the reader.
 This isn't the first parser rule I added to format my weblog articles.
 I already had to [add custom theme classes] to:
 - integrate the [application theming system]
