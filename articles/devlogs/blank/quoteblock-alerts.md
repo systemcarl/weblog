@@ -38,8 +38,9 @@ I've thought a lot about [how I might extend Markdown parsing] in ways that
 Normally, I would prefer to avoid adding any special decorators or syntax to the
     Markdown files that would not render well with parsers that don't support
     them.
-GitHub alert block declarations prefix the quote block content with a
-    `[!NOTE]` tag, where `NOTE` is the alert type.
+I would ideally not implement something like the GitHub syntax for alert block
+    declarations that prefix the quote block content with a `[!NOTE]` tag,
+    where `NOTE` is the alert type.
 If the parser doesn't support the special syntax,
 `[!NOTE]` is treated like any other text,
 and the unappealing brackets and bang of the `[!NOTE]` label appears at the
