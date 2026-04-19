@@ -70,6 +70,14 @@
     - Duplicating metadata avoids querying the entire index for a single
         article.
     - Storing the metadata in the index alone ensures consistency.
+- I decided to duplicate the metadata in both the index and the article files.
+    - The article repository is small and the redundancy is not currently a
+        problem.
+- A more robust solution will eventually be needed.
+    - A [GitHub Actions] workflow could be used to synchronize metadata.
+    - A dedicated weblog service would be preferable.
+        - Interactivity will require a more sophisticated service than a static
+            file repository.
 
 ## Capping the Requests
 - An efficient system requires understanding the use cases.
@@ -98,5 +106,6 @@
 [full-text search index]: https://en.wikipedia.org/wiki/Full-text_search#Indexing
 [Metadata]: https://en.wikipedia.org/wiki/Metadata
 [url endpoints]: https://en.wikipedia.org/wiki/Web_API#Endpoints
+[GitHub Actions]: https://docs.github.com/en/actions
 [I immediately faced availability problems]:
     ./svelte-stores#devlog-managing-state--memory-in-a-sveltekit-application
