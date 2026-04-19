@@ -447,6 +447,14 @@ The application also supports SVG images that can be styled using the colour
 The `colourMap` property is compiled to CSS class definitions that apply a
     fill colour to the corresponding [SVG elements].
 
+> [!IMPORTANT]
+Not too long after implementing this theming system,
+    [I redesigned the theme interface] interface to fix some memory management issues
+and align the interface with Svelte best practices.
+The following examples reflect the original implementation.
+The implementation details have since changed, but the general concepts still
+    apply.
+
 The theme definition is compiled from the JSON data to a predictable JavaScript
     object structure and a set of class-scoped CSS variables.
 I chose to expose both interfaces to provide flexibility in how styles are
@@ -655,7 +663,7 @@ utilities are organized into their own respective directories within
     https://github.com/systemcarl/blank/blob/v0.0.1/src/routes/+layout.server.ts
 [via SvelteKit data stores]:
     https://github.com/systemcarl/blank/tree/v0.0.1/src/lib/stores
-[This led to some performance issues] that I had to addresses later:
+[This led to some performance issues]:
     ./svelte-stores.md
 [I found abstracting the application content]:
     ./content-template.md#an-agnostic-application
@@ -671,6 +679,8 @@ utilities are organized into their own respective directories within
     https://github.com/systemcarl/folio-assets/blob/v0.0.1/theme.json
 [SVG elements]:
     https://github.com/systemcarl/folio-assets/blob/v0.0.1/chevron.svg?short_path=a0e7720
+[I redesigned the theme interface]:
+    ./svelte-stores.md#getting-hooked-on-svelte-stores
 [sveltekit context]:
     https://svelte.dev/docs/kit/state-management#Using-state-and-stores-with-context
 [an intuitive system for resolving missing properties]:
