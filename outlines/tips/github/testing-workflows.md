@@ -1,19 +1,21 @@
 # Abstract
 - Testing CI/CD automation ensures reliable software delivery.
 - Github Actions does not provide tools for testing workflows.
-- Output and artifact validation against CLI executions can be used to test
-    workflows.
+- Workflow output and generated artifact validation against CLI executions can
+    be used to test workflows.
 
 # Testing Github Workflows
-- Workflows define GitHub Actions tasks for CI/CD automation.
-    - They are defined in YAML files stored in the `.github/workflows` folder.
+- [Workflows] define [GitHub Actions] tasks for
+    [continuous integration and deployment (CI/CD)].
+    - They are defined in YAML files stored in the `.github/workflows` folder
+        of a repository.
 - Testing is often disregarded when implementing a CI/CD pipeline.
     - There are some valid reasons:
         - Deployment needs change rapidly.
         - There's little return on investment.
     - There is often little support for testing automation directly.
 - Unfortunately, there are no options to test workflows directly in GitHub.
-    - Act is a popular tool for running GitHub Actions locally.
+    - [Act] is a popular tool for running GitHub Actions locally.
         - Act doesn't have any tools for testing either.
 
 ## Deployment Testing
@@ -34,7 +36,7 @@
 - Deployment workflows with side effects can still be tested safely.
     - Using "dry-run" and "verbose" options allow testing intent without
         executing CI/CD tasks.
-    - There are examples in my personal website CI/CD pipeline.
+    - There are [examples in my personal website CI/CD pipeline].
 
 ### Simplifying Workflows
 - Testing workflows is not quick or easy.
@@ -42,8 +44,8 @@
     - It is easier to test logic outside of GitHub Actions workflows.
 - Ideally, workflows should only define the minimum setup required to run tasks.
     - The workflow should:
-        - Set up the environment.
-        - Execute a single script or command.
+        - set up the environment,
+        - execute a single script or command.
     - This makes it possible to implement dry-run testing for dependency
         commands that do not not support it on their own.
 ```yaml
@@ -68,7 +70,7 @@ jobs:
 ```
 
 ### Re-Using Workflows
-- Re-usable workflows can be called from other workflows.
+- [Re-usable workflows] can be called from other workflows.
     - This allows a workflow to be tested using another workflow.
 - Defining an `workflow_call` trigger allows a workflow to be called from
     another workflow.
@@ -102,7 +104,7 @@ jobs:
           INPUT_MESSAGE: ${{ inputs.message }}
           ENVIRONMENT: ${{ inputs.environment }}
 ```
-- Data can be passed back to the calling workflow via the workflow outputs.
+- Data can be passed back to the calling workflow via the [workflow outputs].
     - The script output can be recorded to a workflow output variable.
 ```yaml
 name: Run Script
@@ -174,7 +176,7 @@ jobs:
         run: chmod +x ./script
 
       - name: Compare Output
-        # compare expected output to an actual execution
+        # compare expected output to an explicit execution
         run: |
           EXPECTED="${{ needs.run-workflow.outputs.script_output }}"
           ACTUAL="$(./script --message "Test Message")"
@@ -193,7 +195,7 @@ jobs:
     - The test provides redundancy and prevents regression.
 
 ### Overriding Behavior
-- Allowing additional arguments to be passed to the script can all for more
+- Allowing additional arguments to be passed to the script can allow for more
     flexible testing.
     - Passing test dry-run or verbose flags can allow testing without side
         effects.
@@ -266,7 +268,7 @@ jobs:
 ```
 
 ## Validating Generated Artifacts
-- Artifacts can also be used to validate workflow outputs instead of direct
+- [Artifacts] can also be used to validate workflow outputs instead of direct
     output comparison.
     - Requires persisting artifacts between jobs and workflows.
     - Artifacts can be downloaded and inspected after workflow execution.
@@ -349,11 +351,29 @@ jobs:
 ```
 
 ## More Examples
-- More examples of testing GitHub workflows can be found in my personal
+- [More examples] of testing GitHub workflows can be found in my personal
     website repository.
-- I also use a testing workflow to validate the GitHub Actions environment
-    variables and runner configuration.
+- I also use
+    [a testing workflow to validate the GitHub Actions environment variables]
+    and runner configuration.
     - This helps troubleshoot configuration issues when setting up new
         environments.
-    - Verifying the "verification" environments ensures test workflow runs do
+    - Verifying the "verification" environment ensures test workflow runs do
         not have access to production credentials.
+
+[Workflows]: https://docs.github.com/en/actions/how-tos/write-workflows
+[GitHub Actions]: https://docs.github.com/en/actions
+[continuous integration and deployment (CI/CD)]: https://en.wikipedia.org/wiki/CI/CD
+[Act]: https://github.com/nektos/act
+[examples in my personal website CI/CD pipeline]:
+    https://github.com/systemcarl/folio/blob/v0.0.5/.github/workflows/verify.yaml
+[Re-usable workflows]:
+    https://docs.github.com/en/actions/how-tos/reuse-automations/reuse-workflows
+[workflow outputs]:
+    https://docs.github.com/en/actions/how-tos/reuse-automations/reuse-workflows#using-outputs-from-a-reusable-workflow
+[Artifacts]:
+    https://docs.github.com/en/actions/concepts/workflows-and-actions/workflow-artifacts
+[More examples]:
+    https://github.com/systemcarl/folio/blob/v0.0.5/.github/workflows/verify.yaml
+[a testing workflow to validate the GitHub Actions environment variables]:
+    https://github.com/systemcarl/folio/blob/v0.0.5/.github/workflows/verify.yaml#L20-L158
