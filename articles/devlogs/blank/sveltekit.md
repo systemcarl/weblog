@@ -290,6 +290,12 @@ Bundling these settings into utility modules provided a simple interface to
 Abstracting all the visual theming and text content (including localization)
     also meant that this application could be easily re-branded for any other
     long-form content site.
+> [!NOTE]
+When originally implementing these global configuration stores,
+I didn't quite understand how SvelteKit module scope persisted between requests.
+[This led to some performance issues] that I had to addresses later,
+partly by caching fetched resources in memory to avoid redundant network
+    requests.
 
 The implementation of the configuration management system was quite simple.
 But as development progressed, [I found abstracting the application content]
@@ -440,6 +446,14 @@ The application also supports SVG images that can be styled using the colour
 ```
 The `colourMap` property is compiled to CSS class definitions that apply a
     fill colour to the corresponding [SVG elements].
+
+> [!IMPORTANT]
+Not too long after implementing this theming system,
+    [I redesigned the theme interface] interface to fix some memory management issues
+and align the interface with Svelte best practices.
+The following examples reflect the original implementation.
+The implementation details have since changed, but the general concepts still
+    apply.
 
 The theme definition is compiled from the JSON data to a predictable JavaScript
     object structure and a set of class-scoped CSS variables.
@@ -649,6 +663,8 @@ utilities are organized into their own respective directories within
     https://github.com/systemcarl/blank/blob/v0.0.1/src/routes/+layout.server.ts
 [via SvelteKit data stores]:
     https://github.com/systemcarl/blank/tree/v0.0.1/src/lib/stores
+[This led to some performance issues]:
+    ./svelte-stores.md
 [I found abstracting the application content]:
     ./content-template.md#an-agnostic-application
 [localization]:
@@ -663,6 +679,8 @@ utilities are organized into their own respective directories within
     https://github.com/systemcarl/folio-assets/blob/v0.0.1/theme.json
 [SVG elements]:
     https://github.com/systemcarl/folio-assets/blob/v0.0.1/chevron.svg?short_path=a0e7720
+[I redesigned the theme interface]:
+    ./svelte-stores.md#getting-hooked-on-svelte-stores
 [sveltekit context]:
     https://svelte.dev/docs/kit/state-management#Using-state-and-stores-with-context
 [an intuitive system for resolving missing properties]:

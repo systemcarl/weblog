@@ -39,6 +39,10 @@
     "devlogs/blank/article-indexing": {
       "title": "Listing Articles with a Simple Index",
       "abstract": "A weblog needs an index — a way to view articles, chronologically or grouped by category. To avoid implementing persistent storage or burdening my application with indexing logic, I implemented a simple index by adding a structured data file to my article files."
+    },
+    "devlogs/blank/svelte-stores.md": {
+      "title": "Managing State & Memory in a SvelteKit Application",
+      "abstract": "The difference between a website and a web application is state and reactivity. Svelte is known for its simplicity, but building a performant and reliable application still requires understanding how to properly manage memory — which I've learned the hard way."
     }
   },
   "tags": {
@@ -59,7 +63,8 @@
         "devlogs/blank/markdown-parser",
         "devlogs/blank/syntax-highlighting",
         "devlogs/blank/quoteblock-alerts",
-        "devlogs/blank/article-indexing"
+        "devlogs/blank/article-indexing",
+        "devlogs/blank/svelte-stores.md"
       ]
     }
   }
