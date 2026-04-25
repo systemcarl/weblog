@@ -123,8 +123,8 @@ To anticipate incomplete terms or input typos, these search indexes often employ
 These techniques can be quite effective, but they greatly increase the size and
     complexity of the index.
 Maintaining a comprehensive full-text search would require some sort of
-    tokenization algorithm to generate an effective index
-— it would be nearly impossible to maintain such an index manually for even a
+    tokenization algorithm to generate an effective index;
+    it would be nearly impossible to maintain such an index manually for even a
     small article repository.
 
 ### Playing the Meta
