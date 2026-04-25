@@ -6,7 +6,7 @@ browsing requires there to be an up-to-date list of articles living somewhere,
 that can be used to display article list entries to the user upon request.
 A list of articles can easily be implemented with a database to store and map
     article metadata.
-But unless all the articles are all in a database on the user's device
+But unless all the articles are in a database on the user's device
 (which is possible with something like [IndexedDB], but not always practical),
 an abbreviated list of articles must be compiled to an [index] of some sort and
     served to the user's browser (or other client)
