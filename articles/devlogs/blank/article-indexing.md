@@ -75,9 +75,9 @@ to provide consistent indexing and metadata across clients.
 ## A Couple of Considerations
 Knowing where (and when) the article index would be created was only half the
     problem.
-To make the index useful and effective, forethought needed to be given to how
-    the index should be structured
-— especially if the index is being maintained manually for now.
+To make the index useful and effective, I needed to give forethought to how
+    the index should be structured,
+    especially if I'm maintaining the index manually for now.
 
 Since the index is also being maintained externally, outside of the application,
 this becomes a [tight coupling] between the application and the content data.
