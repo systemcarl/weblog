@@ -16,7 +16,7 @@ an abbreviated list of articles must be compiled to an [index] of some sort and
 Up until [this update], my personal website had no list of articles at all.
 The only way to find an article was through direct links from other places I
     had left them: [GitHub], [Mastodon], [BlueSky], *etc.*
-This was fine to get started, since the a list would look pretty sad with only a
+This was fine to get started, since the list would look pretty sad with only a
     few articles.
 However, if I ever wanted anyone to read my articles
 or use [the open source web application] I was building to serve it,
