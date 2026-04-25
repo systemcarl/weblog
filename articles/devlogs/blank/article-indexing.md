@@ -26,7 +26,7 @@ I needed to add a means to list the available articles in a meaningful way
 I wanted to keep the indexing solution for my application as simple as possible.
 The application is effectively stateless
 — there is no database or other server-side storage.
-All of the articles and their associated content are instead stored as markdown
+All of the articles and their associated content are instead stored as Markdown
     files in [my public weblog git repository].
 These files are all [rendered on-demand with SvelteKit] into HTML
     [via an integrated Markdown parser].
