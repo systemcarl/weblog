@@ -18,7 +18,7 @@ The only way to find an article was through direct links from other places I
     had left them: [GitHub], [Mastodon], [BlueSky], *etc.*
 This was fine to get started, since the list would look pretty sad with only a
     few articles.
-However, if I ever wanted anyone to read my articles
+However, if I ever wanted anyone to read my increasing number of articles,
 or use [the open source web application] I was building to serve it,
 I needed to add a means to list the available articles in a meaningful way
     — sorted and curated into categories.
