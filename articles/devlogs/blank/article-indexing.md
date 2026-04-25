@@ -175,7 +175,7 @@ The ultimate conclusion I reached is that a solution for synchronizing the
     metadata across the article repository will be necessary — eventually.
 Assuming I keep writing and publishing articles to this weblog, at some point it
     will become too cumbersome to maintain all the metadata myself.
-The simplest solution would to add some simple scripts to regularly check for
+The simplest solution would to add some scripts to regularly check for
     inconsistencies between the index and the article files, and resolve
     any discrepancies.
 Since the article repository is hosted on GitHub, this could be easily
