@@ -57,7 +57,7 @@ The index could then be temporarily stored in-memory in the application, to
     long-running aggregation processes.
 
 While it would have been nice to not have to maintain the index file manually,
-    there were some good reasons not to implement this approach.
+    there were some good reasons I didn't implement this approach.
 Obviously, it would have added unnecessary complexity to the application,
 requiring significantly more logic for traversing the article repository while
     scanning for articles and their metadata.
