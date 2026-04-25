@@ -118,7 +118,7 @@ Interestingly, many full-text search engines also use similar indexing
     techniques to map every word in the document corpus to the documents that
     contain them.
 Naturally, these indexes are much longer and more complex.
-To anticipate incomplete terms or input typos, search indexes often employ
+To anticipate incomplete terms or input typos, these search indexes often employ
     techniques, like stemming or prefix matching, to improve search results.
 These techniques can be quite effective, but they greatly increase the size and
     complexity of the index.
