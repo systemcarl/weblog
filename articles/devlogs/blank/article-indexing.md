@@ -163,7 +163,7 @@ possibly preventing the page from rendering if the query becomes slow or fails
 Since reliability and performance of the application are currently more of a
     concern for me than the inconvenience of managing redundant metadata,
 I reluctantly decided to simply duplicate the common metadata.
-The article title and summery (*i.e.*, the abstract) are both included in the
+The article title and summary (*i.e.*, the abstract) are both included in the
     article index but also are included in the article and abstract files,
     respectively.
 While the article repository is still quite small and I have no audience,
