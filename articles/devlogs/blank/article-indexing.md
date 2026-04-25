@@ -143,7 +143,7 @@ Displaying the article metadata in both the article list entry and the article
     page might be necessary,
 but duplicating this metadata in both the index and the article files is far
     from ideal.
-Without processes keep them both aligned, duplicating the metadata can easily
+Without processes keeping them both aligned, duplicating the metadata can easily
     lead to inconsistencies.
 Maintaining the metadata myself, I wanted to avoid duplication as much as
     possible — but that didn't really work out.
