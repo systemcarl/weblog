@@ -95,7 +95,7 @@ and the less likely there will be an issue.
 
 ### The Page at the End of a Book
 The idea of an [index] is nothing new.
-Many books include an publishing index at the back to help readers locate
+Many books include a publishing index at the back to help readers locate
     topics of interest.
 Traditionally, this style of index maps keywords
     (*e.g.*, names, places, or abstract concepts)
