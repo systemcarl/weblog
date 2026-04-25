@@ -160,8 +160,8 @@ Requiring this additional query to retrieve the index on every page request is
 possibly preventing the page from rendering if the query becomes slow or fails
     altogether.
 
-Since reliability and performance of the application is currently more of a
-    concern than the inconvenience of managing redundant metadata,
+Since reliability and performance of the application are currently more of a
+    concern for me than the inconvenience of managing redundant metadata,
 I reluctantly decided to simply duplicate the common metadata.
 The article title and summery (*i.e.*, the abstract) are both included in the
     article index but also are included in the article and abstract files,
