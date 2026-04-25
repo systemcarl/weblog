@@ -27,7 +27,7 @@ I wanted to keep the indexing solution for my application as simple as possible.
 The application is effectively stateless
 — there is no database or other server-side storage.
 All of the articles and their associated content are instead stored as Markdown
-    files in [my public weblog git repository].
+    files in [my public weblog Git repository].
 These files are all [rendered on-demand with SvelteKit] into HTML
     [via an integrated Markdown parser].
 Ideally, indexing the articles would not require deploying and maintaining a
@@ -247,7 +247,7 @@ That said, the index data provided is more than enough to keep writing and
 [Mastodon]: https://techhub.social/@carledwardlyons
 [BlueSky]: https://bsky.app/profile/carledwardlyons.ca
 [the open source web application]: https://github.com/systemcarl/blank
-[my public weblog git repository]:
+[my public weblog Git repository]:
     https://github.com/systemcarl/weblog
 [rendered on-demand with SvelteKit]: ./sveltekit.md
 [via an integrated Markdown parser]: ./markdown-parser.md
