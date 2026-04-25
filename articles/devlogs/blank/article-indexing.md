@@ -128,9 +128,10 @@ Maintaining a comprehensive full-text search would require some sort of
     small article repository.
 
 ### Playing the Meta
-Exactly what [metadata] should be included in the article index and what
-    metadata should instead remain only in the article files was also a detail
-    I spent some time considering.
+Another detail
+    I spent some time considering was 
+    what [metadata] should be included in the article index and what
+    metadata should instead remain only in the article files.
 Generally, any element of the metadata
 (the article title, author, publication date, meta tags, or descriptive summary)
 may or may not be needed to render either the article page or its entry in a
