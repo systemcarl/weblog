@@ -229,8 +229,8 @@ regardless of scale.
 
 Despite that initial hiccup, the article index has otherwise served
     (sorry; not sorry) well.
-There's still a lot to add.
-The articles list are only displayed on the homepage.
+But, there's still a lot to add.
+The article list is only displayed on the homepage.
 I would like to add dedicated article list pages for each category, eventually
     with the ability to filter, search, and sort articles.
 There's also a lot of metadata that could be added to timestamp articles and
