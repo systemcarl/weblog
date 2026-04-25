@@ -1,5 +1,5 @@
 # DevLog: Listing Articles With a Simple Index
-It doesn't really make much sense to have a weblog without any way to actually
+It doesn't really make sense to have a weblog without any way to actually
     browse articles.
 Unless links to each and every article are hard coded into the website,
 browsing requires there to be an up-to-date list of articles living somewhere,
