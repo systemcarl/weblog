@@ -11,7 +11,7 @@ After deploying the update, I quickly realized that the application was fetching
 — including invalid requests made by bots and spammers.
 This caused requests to [the article repository] to exceed
     [GitHub's rate limits].
-With the rate limits exceeded, none my articles could be retrieved
+With the rate limits exceeded, none of my articles could be retrieved
 and the landing page highlights were suddenly empty.
 
 I was hoping to avoid any [premature optimization] during the early stages of
