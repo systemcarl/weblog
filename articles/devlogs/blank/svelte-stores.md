@@ -225,8 +225,7 @@ but it's easy to miss important details and apply patterns from previous
     experience that don't quite fit.
 Eventually, to create something that is truly inline with the framework's design
     and best practices,
-it takes a deeper understanding of the framework that can only come from not
-    just getting something to work, but understanding why and how it works.
+    you can't just get it to work, you have to understand why and how it does.
 Searching out satisfying resolutions to these issues was exactly the kind of
     learning experience I needed to level up (as they say) my Svelte and
     SvelteKit skills.
