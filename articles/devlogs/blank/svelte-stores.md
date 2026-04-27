@@ -33,7 +33,7 @@ Solving both these issues required understanding the nuances of [Svelte] and
     [SvelteKit] application state management
 — an understanding I didn't have [at the start of this project].
 Experimenting with [Svelte stores], [context], and module [scoped variables]
-    eventually led to a much more reliable system form managing application
+    eventually led to a much more reliable system for managing application
     state.
 
 ## If Memory Serves
