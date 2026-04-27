@@ -90,7 +90,7 @@ However, I realized that regardless of the reason for fetching the data,
     repeating requests for the same resource was unnecessary, and generally problematic.
 These resources rarely change, and requesting them often wastes my server's
     bandwidth and risks hitting rate limits.
-Any time a specific resource (identified by it's [URL]) was required, the code
+Any time a specific resource (identified by its [URL]) was required, the code
     responsible for sending the request could cache the responses.
 If the cached response was still recent enough to assume no change had occurred,
     the cached response could be returned instead of making a new request.
