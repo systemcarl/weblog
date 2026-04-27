@@ -196,7 +196,7 @@ I rewrote [the theme interface] to follow these Svelte store conventions.
 This allowed me to use [the Svelte `$` syntax] directly against the theme
     interface to remove any need to explicitly subscribe from theme styles.
 This [simplified theme-aware component code] significantly,
-    delivering an immediate return on the time invested both refactoring the
+    delivering an immediate return on my time invested both refactoring the
     theme interface and fixing the memory leak.
 
 ## A Sound Conclusion
