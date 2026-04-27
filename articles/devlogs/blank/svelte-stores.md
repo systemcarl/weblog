@@ -71,8 +71,8 @@ possibly using excessive amounts of memory or leaking sensitive information
 
 ### In Memory of Past Requests
 Not playing much attention to this [when I first created the application],
-    every request would fetch required resources,
-    ([mostly for configuration data]),
+    I had every request fetch required resources
+    ([mostly for configuration data])
 and expose it to the Svelte components via a module-scoped Svelte store.
 I didn't realize that this store would persist between requests,
 and each request would just overwrite the same store with fresh data that was
