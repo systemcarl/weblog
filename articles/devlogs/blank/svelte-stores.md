@@ -95,7 +95,7 @@ Any time a specific resource (identified by its [URL]) was required, the code
 If the cached response was still recent enough to assume no change had occurred,
     the cached response could be returned instead of making a new request.
 
-Another Svelte store could have been used to manage this cache,
+I could have used another Svelte store to manage this cache,
 but there was no need for the reactivity that stores provide.
 The main benefit of using a Svelte store is that elements of the application
     can subscribe to the store to receive updates about the store in real-time
