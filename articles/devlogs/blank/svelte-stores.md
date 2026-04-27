@@ -102,7 +102,7 @@ The main benefit of using a Svelte store is that elements of the application
 (as opposed to [polling], actively reading the data to check for changes).
 Since cache reads and updates are only needed during specific server request
     lifecycle events (*e.g.*, when receiving and routing a request)
-there's no need provide subscription-based updates.
+there's no need to provide subscription-based updates.
 Instead, [I simply defined a simple key-value structure] that maps resource URLs
     to their last fetched response and the time it was fetched.
 Every server request still loads the resource
