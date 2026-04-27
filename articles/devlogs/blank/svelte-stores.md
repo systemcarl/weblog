@@ -115,7 +115,7 @@ I could add additional logic to avoid redundant store updates,
     small and inconsequential to the overall performance of the application.
 The important point is that the cache I implemented strictly limits the number
     of requests made to external APIs, per URL.
-Theoretically the number of requests is capped at one request for each cache
+Theoretically, the number of requests is capped at one request for each cache
     duration interval.
 
 ## This Requires Some Context
