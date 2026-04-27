@@ -11,7 +11,7 @@ After deploying the update, I quickly realized that the application was fetching
 — including invalid requests made by bots and spammers.
 This caused requests to [the article repository] to exceed
     [GitHub's rate limits].
-With the rate limits exceeded, none my articles could be retrieved
+With the rate limits exceeded, none of my articles could be retrieved
 and the landing page highlights were suddenly empty.
 
 I was hoping to avoid any [premature optimization] during the early stages of
@@ -31,9 +31,9 @@ this was a good opportunity to address some state-related [memory leaks]
     (request-specific state persisting indefinitely).
 Solving both these issues required understanding the nuances of [Svelte] and
     [SvelteKit] application state management
-— which I didn't have [at the start of this project].
+— an understanding I didn't have [at the start of this project].
 Experimenting with [Svelte stores], [context], and module [scoped variables]
-    eventually led to a much more reliable system form managing application
+    eventually led to a much more reliable system for managing application
     state.
 
 ## If Memory Serves
@@ -71,8 +71,8 @@ possibly using excessive amounts of memory or leaking sensitive information
 
 ### In Memory of Past Requests
 Not playing much attention to this [when I first created the application],
-    every request would fetch required resources,
-    ([mostly for configuration data]),
+    I had every request fetch required resources
+    ([mostly for configuration data])
 and expose it to the Svelte components via a module-scoped Svelte store.
 I didn't realize that this store would persist between requests,
 and each request would just overwrite the same store with fresh data that was
@@ -80,40 +80,42 @@ and each request would just overwrite the same store with fresh data that was
 While this didn't lead to any sensitive data leaks,
 it did lead to an excessive number of requests to external APIs that largely
 just stored the same data over and over again.
-Realizing now that the store was already being reused across requests,
-it is obvious that these requests only really needed to be made periodically to
+Realizing that the store was already being reused across requests,
+it became obvious that these requests only really needed to be made periodically to
     check for updates.
 
 The most direct solution would have been to explicitly manage the store updates,
 only updating the store after the current data reached a certain age.
-However, I realized that regardless the reason for fetching the data,
+However, I realized that regardless of the reason for fetching the data,
     repeating requests for the same resource was unnecessary, and generally problematic.
 These resources rarely change, and requesting them often wastes my server's
     bandwidth and risks hitting rate limits.
-Any time a specific resource (identified by it's [URL]) was required, the code
+Any time a specific resource (identified by its [URL]) was required, the code
     responsible for sending the request could cache the responses.
 If the cached response was still recent enough to assume no change had occurred,
     the cached response could be returned instead of making a new request.
 
-Another Svelte store could have been used to manage this cache,
+I could have used another Svelte store to manage this cache,
 but there was no need for the reactivity that stores provide.
 The main benefit of using a Svelte store is that elements of the application
     can subscribe to the store to receive updates about the store in real-time
 (as opposed to [polling], actively reading the data to check for changes).
 Since cache reads and updates are only needed during specific server request
     lifecycle events (*e.g.*, when receiving and routing a request)
-there's no need provide subscription-based updates.
+there's no need to provide subscription-based updates.
 Instead, [I simply defined a simple key-value structure] that maps resource URLs
     to their last fetched response and the time it was fetched.
-Every server request still loads the resource
+
+
+With this solution, each server request still loads the resource
     (either for the cache or a request) and applies the result to the store,
 resulting in unnecessary updates sent to the store subscribers.
-Additional logic could be added to avoid redundant store updates,
-    but the processing resources being wasted rewriting the store is relatively
+I could add additional logic to avoid redundant store updates,
+    but the processing resources being wasted rewriting the store are relatively
     small and inconsequential to the overall performance of the application.
 The important point is that the cache I implemented strictly limits the number
     of requests made to external APIs, per URL.
-Theoretically the number of requests is capped at one request for each cache
+Theoretically, the number of requests is capped at one request for each cache
     duration interval.
 
 ## This Requires Some Context
@@ -124,9 +126,9 @@ My inexperience with [Svelte] and [SvelteKit] had also led me to create a
 that was exhausting available memory and causing the server to crash.
 [The interface for retrieving contextual theming information] for component
     rendering was holding references to temporary style data across requests.
-Each component rendered (potentially dozens per request) has its own local
+Each rendered component (potentially dozens per request) has its own local
     [Svelte store] containing style properties specific to component instance
-(*e.i*, every text element keeps its own independent set of style properties,
+(*i.e.* every text element keeps its own independent set of style properties,
     despite many having the same visual appearance).
 These component stores subscribe to a theme store provided by the theme
     interface
@@ -180,8 +182,8 @@ After diving into the [Svelte store API], I discovered a helpful mechanism
     subscribing with guaranteed cleanup logic.
 [By chaining global and local store subscriptions with unsubscribe callbacks],
 references are no longer retained after the request is completed.
-After the request is completed, the component is unmounted.
-When the component is unmounted, the component's local store is stopped,
+Instead, after the request is completed, the component is unmounted and
+the component's local store is stopped,
    triggering subscription from the global store.
 Once unsubscribed, the component's local store and its data are eligible for
    garbage collection and will be automatically disposed of to free up memory.
@@ -194,7 +196,7 @@ I rewrote [the theme interface] to follow these Svelte store conventions.
 This allowed me to use [the Svelte `$` syntax] directly against the theme
     interface to remove any need to explicitly subscribe from theme styles.
 This [simplified theme-aware component code] significantly,
-    delivering an immediate return on the time invested both refactoring the
+    delivering an immediate return on my time invested both refactoring the
     theme interface and fixing the memory leak.
 
 ## A Sound Conclusion
@@ -223,8 +225,7 @@ but it's easy to miss important details and apply patterns from previous
     experience that don't quite fit.
 Eventually, to create something that is truly inline with the framework's design
     and best practices,
-it takes a deeper understanding of the framework that can only come from not
-    just getting something to work, but understanding why and how it works.
+    you can't just get it to work, you have to understand why and how it does.
 Searching out satisfying resolutions to these issues was exactly the kind of
     learning experience I needed to level up (as they say) my Svelte and
     SvelteKit skills.
