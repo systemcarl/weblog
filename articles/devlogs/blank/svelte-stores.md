@@ -105,11 +105,13 @@ Since cache reads and updates are only needed during specific server request
 there's no need to provide subscription-based updates.
 Instead, [I simply defined a simple key-value structure] that maps resource URLs
     to their last fetched response and the time it was fetched.
-Every server request still loads the resource
+
+
+With this solution, each server request still loads the resource
     (either for the cache or a request) and applies the result to the store,
 resulting in unnecessary updates sent to the store subscribers.
-Additional logic could be added to avoid redundant store updates,
-    but the processing resources being wasted rewriting the store is relatively
+I could add additional logic to avoid redundant store updates,
+    but the processing resources being wasted rewriting the store are relatively
     small and inconsequential to the overall performance of the application.
 The important point is that the cache I implemented strictly limits the number
     of requests made to external APIs, per URL.
