@@ -182,8 +182,8 @@ After diving into the [Svelte store API], I discovered a helpful mechanism
     subscribing with guaranteed cleanup logic.
 [By chaining global and local store subscriptions with unsubscribe callbacks],
 references are no longer retained after the request is completed.
-Instead, after the request is completed, the component is unmounted.
-When the component is unmounted, the component's local store is stopped,
+Instead, after the request is completed, the component is unmounted and
+the component's local store is stopped,
    triggering subscription from the global store.
 Once unsubscribed, the component's local store and its data are eligible for
    garbage collection and will be automatically disposed of to free up memory.
