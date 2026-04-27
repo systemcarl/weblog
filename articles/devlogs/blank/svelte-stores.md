@@ -86,7 +86,7 @@ it became obvious that these requests only really needed to be made periodically
 
 The most direct solution would have been to explicitly manage the store updates,
 only updating the store after the current data reached a certain age.
-However, I realized that regardless the reason for fetching the data,
+However, I realized that regardless of the reason for fetching the data,
     repeating requests for the same resource was unnecessary, and generally problematic.
 These resources rarely change, and requesting them often wastes my server's
     bandwidth and risks hitting rate limits.
