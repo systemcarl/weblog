@@ -128,7 +128,7 @@ that was exhausting available memory and causing the server to crash.
     rendering was holding references to temporary style data across requests.
 Each component rendered (potentially dozens per request) has its own local
     [Svelte store] containing style properties specific to component instance
-(*e.i*, every text element keeps its own independent set of style properties,
+(*i.e.* every text element keeps its own independent set of style properties,
     despite many having the same visual appearance).
 These component stores subscribe to a theme store provided by the theme
     interface
