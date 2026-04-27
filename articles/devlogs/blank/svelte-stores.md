@@ -126,7 +126,7 @@ My inexperience with [Svelte] and [SvelteKit] had also led me to create a
 that was exhausting available memory and causing the server to crash.
 [The interface for retrieving contextual theming information] for component
     rendering was holding references to temporary style data across requests.
-Each component rendered (potentially dozens per request) has its own local
+Each rendered component (potentially dozens per request) has its own local
     [Svelte store] containing style properties specific to component instance
 (*i.e.* every text element keeps its own independent set of style properties,
     despite many having the same visual appearance).
