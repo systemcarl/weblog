@@ -80,8 +80,8 @@ and each request would just overwrite the same store with fresh data that was
 While this didn't lead to any sensitive data leaks,
 it did lead to an excessive number of requests to external APIs that largely
 just stored the same data over and over again.
-Realizing now that the store was already being reused across requests,
-it is obvious that these requests only really needed to be made periodically to
+Realizing that the store was already being reused across requests,
+it became obvious that these requests only really needed to be made periodically to
     check for updates.
 
 The most direct solution would have been to explicitly manage the store updates,
