@@ -1,40 +1,76 @@
 {
+  "contributors": {
+    "carl": {
+      "name": "Carl Edward Lyons",
+      "href": "https://carledwardlyons.ca"
+    },
+    "ren": {
+      "name": "Renata Soljmosi",
+      "href": "https://www.linkedin.com/in/renata-soljmosi-90324b217/"
+    }
+  },
+  "contributions": {
+    "author": {
+      "byline": "Written by"
+    },
+    "editor": {
+      "byline": "Edited by"
+    }
+  },
   "articles": {
     "hello-world": {
       "title": "Hello, World!",
-      "abstract": "Welcome!\n\nExplore my collection of professional tips, technology guides, and ongoing development logs (DevLogs), dwelling on topics of technology, science, and philosophy. Relax; stay a while. Grab a coffee and maybe learn something new."
+      "abstract": "Welcome!\n\nExplore my collection of professional tips, technology guides, and ongoing development logs (DevLogs), dwelling on topics of technology, science, and philosophy. Relax; stay a while. Grab a coffee and maybe learn something new.",
+      "datePublished": "2025-09-19",
+      "contributions": { "author": ["carl"] }
     },
     "about-me": {
       "title": "On the Grounds That I Don't Know the Answer",
-      "abstract": "Who am I?\n\nI'm a technologist, scientist, and educator. I love exploring enigmatic topics, learning new skills, and teaching others. Ignited by my experiences building web applications and conducting scientific research, I'm here to drive technological innovation for a better future."
+      "abstract": "Who am I?\n\nI'm a technologist, scientist, and educator. I love exploring enigmatic topics, learning new skills, and teaching others. Ignited by my experiences building web applications and conducting scientific research, I'm here to drive technological innovation for a better future.",
+      "datePublished": "2025-09-22",
+      "contributions": { "author": ["carl"], "editor": ["ren"] }
     },
     "devlogs/blank/sveltekit": {
       "title": "Setting Up SvelteKit for a Personal Weblog",
-      "abstract": "I recently started building a personal website to host my weblog. To get started, I setup logging, error monitoring, testing, and configuration — including theming and customization. It took some finesse, but wasn't too hard to get my SvelteKit weblog project off the ground."
+      "abstract": "I recently started building a personal website to host my weblog. To get started, I setup logging, error monitoring, testing, and configuration — including theming and customization. It took some finesse, but wasn't too hard to get my SvelteKit weblog project off the ground.",
+      "datePublished": "2025-10-09",
+      "contributions": { "author": ["carl"], "editor": ["ren"] }
     },
     "devlogs/blank/ci-cd": {
       "title": "Exploring CI/CD for a Modern (SvelteKit) Web Application",
-      "abstract": "I'm building a new SvelteKit web app to host my weblog. To make it easier, I built a CI/CD pipeline (for the first time). During research and development, I explored containerization, IaC, testing, and observability solutions to learn how to best deliver a modern web app."
+      "abstract": "I'm building a new SvelteKit web app to host my weblog. To make it easier, I built a CI/CD pipeline (for the first time). During research and development, I explored containerization, IaC, testing, and observability solutions to learn how to best deliver a modern web app.",
+      "datePublished": "2025-10-24",
+      "contributions": { "author": ["carl"], "editor": ["ren"] }
     },
     "devlogs/blank/content-template": {
       "title": "Designing a Content Template",
-      "abstract": "To build out my personal website, I've been creating a reusable SvelteKit app that I can tailor to showcase my projects and interests. Lately I've been spending time refining both the visual design and content data structures to ensure a cohesive but flexible template."
+      "abstract": "To build out my personal website, I've been creating a reusable SvelteKit app that I can tailor to showcase my projects and interests. Lately I've been spending time refining both the visual design and content data structures to ensure a cohesive but flexible template.",
+      "datePublished": "2025-11-03",
+      "contributions": { "author": ["carl"], "editor": ["ren"] }
     },
     "devlogs/blank/markdown-parser": {
       "title": "Implementing a Weblog Markdown Parser",
-      "abstract": "My website is now a blog. A key part of developing this first weblog renderer was converting my weblog articles — stored as static Markdown files — into themed HTML pages. The implementation was simple, but making the right decisions required thinking abstractly about websites design."
+      "abstract": "My website is now a blog. A key part of developing this first weblog renderer was converting my weblog articles — stored as static Markdown files — into themed HTML pages. The implementation was simple, but making the right decisions required thinking abstractly about websites design.",
+      "datePublished": "2025-11-06",
+      "contributions": { "author": ["carl"], "editor": ["ren"] }
     },
     "devlogs/blank/syntax-highlighting": {
       "title": "Integrating Themed Syntax Highlighting",
-      "abstract": "Writing these DevLogs and other technical articles often involves including code examples. To make these examples render nicely on my website, I integrated highlight.js to highlight code snippet syntax using the fonts and colours defined by the pages' themes."
+      "abstract": "Writing these DevLogs and other technical articles often involves including code examples. To make these examples render nicely on my website, I integrated highlight.js to highlight code snippet syntax using the fonts and colours defined by the pages' themes.",
+      "datePublished": "2025-11-16",
+      "contributions": { "author": ["carl"], "editor": ["ren"] }
     },
     "tips/svelte/svelte-5-mocks": {
       "title": "Mocking Svelte 5 Components",
-      "abstract": "If you've tried to write tests in Svelte 5, you may have found it frustrating to setup test cases. Svelte is very rigid in terms of component definition and there's little API documentation. I found some ways to compose and mock Svelte 5 components to make testing simpler."
+      "abstract": "If you've tried to write tests in Svelte 5, you may have found it frustrating to setup test cases. Svelte is very rigid in terms of component definition and there's little API documentation. I found some ways to compose and mock Svelte 5 components to make testing simpler.",
+      "datePublished": "2025-11-09",
+      "contributions": { "author": ["carl"] }
     },
     "devlogs/blank/quoteblock-alerts": {
       "title": "Integrating Themed Alert Blocks",
-      "abstract": "Now that I'm writing programming tips & guides, my weblog applications need to highlight important information. And what is a technical article without alert blocks? So, I implemented custom Markdown it! rules to convert GitHub-style alert blocks into embedded, theme-aware HTML."
+      "abstract": "Now that I'm writing programming tips & guides, my weblog applications need to highlight important information. And what is a technical article without alert blocks? So, I implemented custom Markdown it! rules to convert GitHub-style alert blocks into embedded, theme-aware HTML.",
+      "datePublished": "2025-11-20",
+      "contributions": { "author": ["carl"], "editor": ["ren"] }
     }
   },
   "tags": {
@@ -55,6 +91,20 @@
         "devlogs/blank/markdown-parser",
         "devlogs/blank/syntax-highlighting",
         "devlogs/blank/quoteblock-alerts"
+      ]
+    },
+    "tips": {
+      "name": "Tips",
+      "articles": [
+        "tips/svelte/svelte-5-mocks"
+      ]
+    },
+    "svelte": {
+      "name": "Svelte",
+      "articles": [
+        "tips/svelte/svelte-5-mocks",
+        "devlogs/blank/sveltekit",
+        "devlogs/blank/svelte-stores.md"
       ]
     }
   }
